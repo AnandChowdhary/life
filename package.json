@@ -8,11 +8,11 @@
   ],
   "scripts": {
     "build": "tsc",
-    "summary": "node lib/summary.js",
     "daily": "node lib/daily.js",
-    "weekly": "node lib/weekly.js",
+    "summary": "node lib/summary.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update-template": "npx update-template https://github.com/AnandChowdhary/life"
+    "update-template": "npx update-template https://github.com/stethoscope-js/stethoscope",
+    "weekly": "node lib/weekly.js"
   },
   "repository": {
     "type": "git",
