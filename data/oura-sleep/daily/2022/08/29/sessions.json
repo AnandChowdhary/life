@@ -2,11 +2,14 @@
   {
     "summary_date": "2022-08-29",
     "period_id": 0,
+    "timestamp": "2022-08-30T00:00:00.000Z",
     "is_longest": 1,
     "timezone": 330,
     "bedtime_end": "2022-08-30T10:43:02+05:30",
     "bedtime_start": "2022-08-30T00:21:02+05:30",
+    "type": "long_sleep",
     "breath_average": 13.875,
+    "average_breath_variation": 3.625,
     "duration": 37320,
     "total": 29820,
     "awake": 7500,
@@ -15,8 +18,10 @@
     "light": 17580,
     "midpoint_time": 18930,
     "efficiency": 80,
-    "restless": 33,
+    "restless": 310,
     "onset_latency": 2370,
+    "got_up_count": 0,
+    "wake_up_count": 13,
     "hr_5min": [
       0,
       0,
@@ -144,8 +149,9 @@
       53,
       55
     ],
-    "hr_average": 52.7,
+    "hr_average": 55,
     "hr_lowest": 46,
+    "lowest_heart_rate_time_offset": 8100,
     "hypnogram_5min": "44444124111111122221221422242211122222224412222211111111222442221142223333422223334422222244423332211122222233344222242224444",
     "rmssd": 160,
     "rmssd_5min": [
