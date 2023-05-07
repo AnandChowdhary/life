@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 8,
-      "total_seconds": 14935.766961,
-      "digital": "4:08",
-      "decimal": "4.13",
-      "text": "4 hrs 8 mins"
-    },
-    "range": {
-      "start": "2023-05-04T22:00:00Z",
-      "end": "2023-05-05T21:59:59Z",
-      "date": "2023-05-05",
-      "text": "Fri May 5th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 13444.094084,
-        "color": null,
-        "digital": "3:44:04",
-        "decimal": "3.73",
-        "text": "3 hrs 44 mins",
-        "hours": 3,
-        "minutes": 44,
-        "seconds": 4,
-        "percent": 90.01
-      },
-      {
-        "name": "docs",
-        "total_seconds": 1491.672877,
-        "color": null,
-        "digital": "0:24:51",
-        "decimal": "0.40",
-        "text": "24 mins",
-        "hours": 0,
-        "minutes": 24,
-        "seconds": 51,
-        "percent": 9.99
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 0,
-        "color": null,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -108,6 +55,64 @@
         "minutes": 1,
         "seconds": 7,
         "percent": 0.45
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 8,
+      "total_seconds": 14935.766961,
+      "digital": "4:08",
+      "decimal": "4.13",
+      "text": "4 hrs 8 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 14935.766961,
+        "digital": "4:08:55",
+        "decimal": "4.13",
+        "text": "4 hrs 8 mins",
+        "hours": 4,
+        "minutes": 8,
+        "seconds": 55,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Linux",
+        "total_seconds": 13444.094084,
+        "digital": "3:44:04",
+        "decimal": "3.73",
+        "text": "3 hrs 44 mins",
+        "hours": 3,
+        "minutes": 44,
+        "seconds": 4,
+        "percent": 90.01
+      },
+      {
+        "name": "Mac",
+        "total_seconds": 1491.672877,
+        "digital": "0:24:51",
+        "decimal": "0.40",
+        "text": "24 mins",
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 51,
+        "percent": 9.99
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 14935.766961,
+        "digital": "4:08:55",
+        "decimal": "4.13",
+        "text": "4 hrs 8 mins",
+        "hours": 4,
+        "minutes": 8,
+        "seconds": 55,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1106,23 +1111,11 @@
         "percent": 9.99
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 14935.766961,
-        "digital": "4:08:55",
-        "decimal": "4.13",
-        "text": "4 hrs 8 mins",
-        "hours": 4,
-        "minutes": 8,
-        "seconds": 55,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Linux",
+        "name": "firstquadrant.ai",
         "total_seconds": 13444.094084,
+        "color": null,
         "digital": "3:44:04",
         "decimal": "3.73",
         "text": "3 hrs 44 mins",
@@ -1132,8 +1125,9 @@
         "percent": 90.01
       },
       {
-        "name": "Mac",
+        "name": "docs",
         "total_seconds": 1491.672877,
+        "color": null,
         "digital": "0:24:51",
         "decimal": "0.40",
         "text": "24 mins",
@@ -1141,20 +1135,26 @@
         "minutes": 24,
         "seconds": 51,
         "percent": 9.99
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
       }
     ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 14935.766961,
-        "digital": "4:08:55",
-        "decimal": "4.13",
-        "text": "4 hrs 8 mins",
-        "hours": 4,
-        "minutes": 8,
-        "seconds": 55,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-05-04T22:00:00Z",
+      "end": "2023-05-05T21:59:59Z",
+      "date": "2023-05-05",
+      "text": "Fri May 5th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
