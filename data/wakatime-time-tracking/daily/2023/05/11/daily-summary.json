@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 27,
-      "total_seconds": 12450.108826,
-      "digital": "3:27",
-      "decimal": "3.45",
-      "text": "3 hrs 27 mins"
-    },
-    "range": {
-      "start": "2023-05-11T22:00:00Z",
-      "end": "2023-05-12T21:59:59Z",
-      "date": "2023-05-12",
-      "text": "Fri May 12th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 9077.636757,
-        "color": null,
-        "digital": "2:31:17",
-        "decimal": "2.52",
-        "text": "2 hrs 31 mins",
-        "hours": 2,
-        "minutes": 31,
-        "seconds": 17,
-        "percent": 72.91
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 3372.472069,
-        "color": null,
-        "digital": "0:56:12",
-        "decimal": "0.93",
-        "text": "56 mins",
-        "hours": 0,
-        "minutes": 56,
-        "seconds": 12,
-        "percent": 27.09
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -76,33 +35,14 @@
         "percent": 6.5
       }
     ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anand's+MacBook+Pro",
-        "total_seconds": 9077.636757,
-        "machine_name_id": "e323cc59-e0e5-4794-8c7a-f70cb6ac0339",
-        "digital": "2:31:17",
-        "decimal": "2.52",
-        "text": "2 hrs 31 mins",
-        "hours": 2,
-        "minutes": 31,
-        "seconds": 17,
-        "percent": 72.91
-      },
-      {
-        "name": "codespaces-c8fc92",
-        "total_seconds": 3372.472069,
-        "machine_name_id": "af51587a-41b3-425d-bfcf-68ce657486c5",
-        "digital": "0:56:12",
-        "decimal": "0.93",
-        "text": "56 mins",
-        "hours": 0,
-        "minutes": 56,
-        "seconds": 12,
-        "percent": 27.09
-      }
-    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 27,
+      "total_seconds": 12450.108826,
+      "digital": "3:27",
+      "decimal": "3.45",
+      "text": "3 hrs 27 mins"
+    },
     "editors": [
       {
         "name": "VS Code",
@@ -152,6 +92,66 @@
         "seconds": 30,
         "percent": 100
       }
-    ]
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 9077.636757,
+        "machine_name_id": "e323cc59-e0e5-4794-8c7a-f70cb6ac0339",
+        "digital": "2:31:17",
+        "decimal": "2.52",
+        "text": "2 hrs 31 mins",
+        "hours": 2,
+        "minutes": 31,
+        "seconds": 17,
+        "percent": 72.91
+      },
+      {
+        "name": "codespaces-c8fc92",
+        "total_seconds": 3372.472069,
+        "machine_name_id": "af51587a-41b3-425d-bfcf-68ce657486c5",
+        "digital": "0:56:12",
+        "decimal": "0.93",
+        "text": "56 mins",
+        "hours": 0,
+        "minutes": 56,
+        "seconds": 12,
+        "percent": 27.09
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q",
+        "total_seconds": 9077.636757,
+        "color": null,
+        "digital": "2:31:17",
+        "decimal": "2.52",
+        "text": "2 hrs 31 mins",
+        "hours": 2,
+        "minutes": 31,
+        "seconds": 17,
+        "percent": 72.91
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 3372.472069,
+        "color": null,
+        "digital": "0:56:12",
+        "decimal": "0.93",
+        "text": "56 mins",
+        "hours": 0,
+        "minutes": 56,
+        "seconds": 12,
+        "percent": 27.09
+      }
+    ],
+    "range": {
+      "start": "2023-05-11T22:00:00Z",
+      "end": "2023-05-12T21:59:59Z",
+      "date": "2023-05-12",
+      "text": "Fri May 12th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
