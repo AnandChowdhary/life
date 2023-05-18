@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 10,
-      "total_seconds": 4235.674135,
-      "digital": "1:10",
-      "decimal": "1.17",
-      "text": "1 hr 10 mins"
-    },
-    "range": {
-      "start": "2023-05-15T22:00:00Z",
-      "end": "2023-05-16T21:59:59Z",
-      "date": "2023-05-16",
-      "text": "Tue May 16th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 4223.868578,
-        "color": null,
-        "digital": "1:10:23",
-        "decimal": "1.17",
-        "text": "1 hr 10 mins",
-        "hours": 1,
-        "minutes": 10,
-        "seconds": 23,
-        "percent": 99.72
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 11.805557,
-        "color": null,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.28
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 0,
-        "color": null,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -77,45 +24,14 @@
         "percent": 2.54
       }
     ],
-    "dependencies": [
-      {
-        "name": "library",
-        "total_seconds": 5.714148,
-        "digital": "0:00:05",
-        "decimal": "0.00",
-        "text": "5 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 5,
-        "percent": 100
-      }
-    ],
-    "machines": [
-      {
-        "name": "Anand's+MacBook+Pro",
-        "total_seconds": 4223.868578,
-        "machine_name_id": "3c35e1a4-1e65-4844-92d8-e48d31f42a9e",
-        "digital": "1:10:23",
-        "decimal": "1.17",
-        "text": "1 hr 10 mins",
-        "hours": 1,
-        "minutes": 10,
-        "seconds": 23,
-        "percent": 99.72
-      },
-      {
-        "name": "codespaces-c8fc92",
-        "total_seconds": 11.805557,
-        "machine_name_id": "d503cb9b-d5e8-46c0-bf35-63b8eefe331d",
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.28
-      }
-    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 10,
+      "total_seconds": 4235.674135,
+      "digital": "1:10",
+      "decimal": "1.17",
+      "text": "1 hr 10 mins"
+    },
     "editors": [
       {
         "name": "VS Code",
@@ -165,6 +81,90 @@
         "seconds": 35,
         "percent": 100
       }
-    ]
+    ],
+    "dependencies": [
+      {
+        "name": "library",
+        "total_seconds": 5.714148,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 4223.868578,
+        "machine_name_id": "3c35e1a4-1e65-4844-92d8-e48d31f42a9e",
+        "digital": "1:10:23",
+        "decimal": "1.17",
+        "text": "1 hr 10 mins",
+        "hours": 1,
+        "minutes": 10,
+        "seconds": 23,
+        "percent": 99.72
+      },
+      {
+        "name": "codespaces-c8fc92",
+        "total_seconds": 11.805557,
+        "machine_name_id": "d503cb9b-d5e8-46c0-bf35-63b8eefe331d",
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.28
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q",
+        "total_seconds": 4223.868578,
+        "color": null,
+        "digital": "1:10:23",
+        "decimal": "1.17",
+        "text": "1 hr 10 mins",
+        "hours": 1,
+        "minutes": 10,
+        "seconds": 23,
+        "percent": 99.72
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 11.805557,
+        "color": null,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.28
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
+    "range": {
+      "start": "2023-05-15T22:00:00Z",
+      "end": "2023-05-16T21:59:59Z",
+      "date": "2023-05-16",
+      "text": "Tue May 16th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
