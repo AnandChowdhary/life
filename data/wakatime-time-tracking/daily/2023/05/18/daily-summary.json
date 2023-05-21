@@ -1,82 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 6,
-      "minutes": 35,
-      "total_seconds": 23730.56977,
-      "digital": "6:35",
-      "decimal": "6.58",
-      "text": "6 hrs 35 mins"
-    },
-    "range": {
-      "start": "2023-05-18T22:00:00Z",
-      "end": "2023-05-19T21:59:59Z",
-      "date": "2023-05-19",
-      "text": "Fri May 19th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 12349.827182,
-        "color": null,
-        "digital": "3:25:49",
-        "decimal": "3.42",
-        "text": "3 hrs 25 mins",
-        "hours": 3,
-        "minutes": 25,
-        "seconds": 49,
-        "percent": 52.04
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 6847.578722,
-        "color": null,
-        "digital": "1:54:07",
-        "decimal": "1.90",
-        "text": "1 hr 54 mins",
-        "hours": 1,
-        "minutes": 54,
-        "seconds": 7,
-        "percent": 28.86
-      },
-      {
-        "name": "nord.js",
-        "total_seconds": 3951.881639,
-        "color": null,
-        "digital": "1:05:51",
-        "decimal": "1.08",
-        "text": "1 hr 5 mins",
-        "hours": 1,
-        "minutes": 5,
-        "seconds": 51,
-        "percent": 16.65
-      },
-      {
-        "name": "full-stack-next-turbo",
-        "total_seconds": 466.374574,
-        "color": null,
-        "digital": "0:07:46",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 46,
-        "percent": 1.97
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 114.907653,
-        "color": null,
-        "digital": "0:01:54",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 54,
-        "percent": 0.48
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -209,6 +132,64 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 6,
+      "minutes": 35,
+      "total_seconds": 23730.56977,
+      "digital": "6:35",
+      "decimal": "6.58",
+      "text": "6 hrs 35 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 23730.56977,
+        "digital": "6:35:30",
+        "decimal": "6.58",
+        "text": "6 hrs 35 mins",
+        "hours": 6,
+        "minutes": 35,
+        "seconds": 30,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 18220.699416,
+        "digital": "5:03:40",
+        "decimal": "5.05",
+        "text": "5 hrs 3 mins",
+        "hours": 5,
+        "minutes": 3,
+        "seconds": 40,
+        "percent": 76.78
+      },
+      {
+        "name": "Linux",
+        "total_seconds": 5509.870354,
+        "digital": "1:31:49",
+        "decimal": "1.52",
+        "text": "1 hr 31 mins",
+        "hours": 1,
+        "minutes": 31,
+        "seconds": 49,
+        "percent": 23.22
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 23730.56977,
+        "digital": "6:35:30",
+        "decimal": "6.58",
+        "text": "6 hrs 35 mins",
+        "hours": 6,
+        "minutes": 35,
+        "seconds": 30,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -504,55 +485,74 @@
         "percent": 5.64
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 23730.56977,
-        "digital": "6:35:30",
-        "decimal": "6.58",
-        "text": "6 hrs 35 mins",
-        "hours": 6,
-        "minutes": 35,
-        "seconds": 30,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 18220.699416,
-        "digital": "5:03:40",
-        "decimal": "5.05",
-        "text": "5 hrs 3 mins",
-        "hours": 5,
-        "minutes": 3,
-        "seconds": 40,
-        "percent": 76.78
+        "name": "1q",
+        "total_seconds": 12349.827182,
+        "color": null,
+        "digital": "3:25:49",
+        "decimal": "3.42",
+        "text": "3 hrs 25 mins",
+        "hours": 3,
+        "minutes": 25,
+        "seconds": 49,
+        "percent": 52.04
       },
       {
-        "name": "Linux",
-        "total_seconds": 5509.870354,
-        "digital": "1:31:49",
-        "decimal": "1.52",
-        "text": "1 hr 31 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 6847.578722,
+        "color": null,
+        "digital": "1:54:07",
+        "decimal": "1.90",
+        "text": "1 hr 54 mins",
         "hours": 1,
-        "minutes": 31,
-        "seconds": 49,
-        "percent": 23.22
+        "minutes": 54,
+        "seconds": 7,
+        "percent": 28.86
+      },
+      {
+        "name": "nord.js",
+        "total_seconds": 3951.881639,
+        "color": null,
+        "digital": "1:05:51",
+        "decimal": "1.08",
+        "text": "1 hr 5 mins",
+        "hours": 1,
+        "minutes": 5,
+        "seconds": 51,
+        "percent": 16.65
+      },
+      {
+        "name": "full-stack-next-turbo",
+        "total_seconds": 466.374574,
+        "color": null,
+        "digital": "0:07:46",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 46,
+        "percent": 1.97
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 114.907653,
+        "color": null,
+        "digital": "0:01:54",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 54,
+        "percent": 0.48
       }
     ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 23730.56977,
-        "digital": "6:35:30",
-        "decimal": "6.58",
-        "text": "6 hrs 35 mins",
-        "hours": 6,
-        "minutes": 35,
-        "seconds": 30,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-05-18T22:00:00Z",
+      "end": "2023-05-19T21:59:59Z",
+      "date": "2023-05-19",
+      "text": "Fri May 19th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
