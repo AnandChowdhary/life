@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 33,
-      "total_seconds": 5589.045078,
-      "digital": "1:33",
-      "decimal": "1.55",
-      "text": "1 hr 33 mins"
-    },
-    "range": {
-      "start": "2023-05-19T22:00:00Z",
-      "end": "2023-05-20T21:59:59Z",
-      "date": "2023-05-20",
-      "text": "Sat May 20th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "nord.js",
-        "total_seconds": 5589.045078,
-        "color": null,
-        "digital": "1:33:09",
-        "decimal": "1.55",
-        "text": "1 hr 33 mins",
-        "hours": 1,
-        "minutes": 33,
-        "seconds": 9,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -84,6 +55,53 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.08
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 33,
+      "total_seconds": 5589.045078,
+      "digital": "1:33",
+      "decimal": "1.55",
+      "text": "1 hr 33 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 5589.045078,
+        "digital": "1:33:09",
+        "decimal": "1.55",
+        "text": "1 hr 33 mins",
+        "hours": 1,
+        "minutes": 33,
+        "seconds": 9,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5589.045078,
+        "digital": "1:33:09",
+        "decimal": "1.55",
+        "text": "1 hr 33 mins",
+        "hours": 1,
+        "minutes": 33,
+        "seconds": 9,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5589.045078,
+        "digital": "1:33:09",
+        "decimal": "1.55",
+        "text": "1 hr 33 mins",
+        "hours": 1,
+        "minutes": 33,
+        "seconds": 9,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -399,10 +417,11 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "nord.js",
         "total_seconds": 5589.045078,
+        "color": null,
         "digital": "1:33:09",
         "decimal": "1.55",
         "text": "1 hr 33 mins",
@@ -412,31 +431,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5589.045078,
-        "digital": "1:33:09",
-        "decimal": "1.55",
-        "text": "1 hr 33 mins",
-        "hours": 1,
-        "minutes": 33,
-        "seconds": 9,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5589.045078,
-        "digital": "1:33:09",
-        "decimal": "1.55",
-        "text": "1 hr 33 mins",
-        "hours": 1,
-        "minutes": 33,
-        "seconds": 9,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-05-19T22:00:00Z",
+      "end": "2023-05-20T21:59:59Z",
+      "date": "2023-05-20",
+      "text": "Sat May 20th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
