@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 44,
-      "total_seconds": 20657.827602,
-      "digital": "5:44",
-      "decimal": "5.73",
-      "text": "5 hrs 44 mins"
-    },
-    "range": {
-      "start": "2023-06-11T22:00:00Z",
-      "end": "2023-06-12T21:59:59Z",
-      "date": "2023-06-12",
-      "text": "Mon Jun 12th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "gpt-search",
-        "total_seconds": 11506.129256,
-        "color": null,
-        "digital": "3:11:46",
-        "decimal": "3.18",
-        "text": "3 hrs 11 mins",
-        "hours": 3,
-        "minutes": 11,
-        "seconds": 46,
-        "percent": 55.7
-      },
-      {
-        "name": "1q",
-        "total_seconds": 9151.698346,
-        "color": null,
-        "digital": "2:32:31",
-        "decimal": "2.53",
-        "text": "2 hrs 32 mins",
-        "hours": 2,
-        "minutes": 32,
-        "seconds": 31,
-        "percent": 44.3
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -118,6 +77,53 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 44,
+      "total_seconds": 20657.827602,
+      "digital": "5:44",
+      "decimal": "5.73",
+      "text": "5 hrs 44 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 20657.827602,
+        "digital": "5:44:17",
+        "decimal": "5.73",
+        "text": "5 hrs 44 mins",
+        "hours": 5,
+        "minutes": 44,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 20657.827602,
+        "digital": "5:44:17",
+        "decimal": "5.73",
+        "text": "5 hrs 44 mins",
+        "hours": 5,
+        "minutes": 44,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 20657.827602,
+        "digital": "5:44:17",
+        "decimal": "5.73",
+        "text": "5 hrs 44 mins",
+        "hours": 5,
+        "minutes": 44,
+        "seconds": 17,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -345,44 +351,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 20657.827602,
-        "digital": "5:44:17",
-        "decimal": "5.73",
-        "text": "5 hrs 44 mins",
-        "hours": 5,
-        "minutes": 44,
-        "seconds": 17,
-        "percent": 100
+        "name": "gpt-search",
+        "total_seconds": 11506.129256,
+        "color": null,
+        "digital": "3:11:46",
+        "decimal": "3.18",
+        "text": "3 hrs 11 mins",
+        "hours": 3,
+        "minutes": 11,
+        "seconds": 46,
+        "percent": 55.7
+      },
+      {
+        "name": "1q",
+        "total_seconds": 9151.698346,
+        "color": null,
+        "digital": "2:32:31",
+        "decimal": "2.53",
+        "text": "2 hrs 32 mins",
+        "hours": 2,
+        "minutes": 32,
+        "seconds": 31,
+        "percent": 44.3
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 20657.827602,
-        "digital": "5:44:17",
-        "decimal": "5.73",
-        "text": "5 hrs 44 mins",
-        "hours": 5,
-        "minutes": 44,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 20657.827602,
-        "digital": "5:44:17",
-        "decimal": "5.73",
-        "text": "5 hrs 44 mins",
-        "hours": 5,
-        "minutes": 44,
-        "seconds": 17,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-06-11T22:00:00Z",
+      "end": "2023-06-12T21:59:59Z",
+      "date": "2023-06-12",
+      "text": "Mon Jun 12th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
