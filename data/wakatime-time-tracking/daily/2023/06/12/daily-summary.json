@@ -1,82 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 39,
-      "total_seconds": 2354.501421,
-      "digital": "0:39",
-      "decimal": "0.65",
-      "text": "39 mins"
-    },
-    "range": {
-      "start": "2023-06-12T22:00:00Z",
-      "end": "2023-06-13T21:59:59Z",
-      "date": "2023-06-13",
-      "text": "Tue Jun 13th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 873.357087,
-        "color": null,
-        "digital": "0:14:33",
-        "decimal": "0.23",
-        "text": "14 mins",
-        "hours": 0,
-        "minutes": 14,
-        "seconds": 33,
-        "percent": 37.09
-      },
-      {
-        "name": "everything",
-        "total_seconds": 661.586679,
-        "color": null,
-        "digital": "0:11:01",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 1,
-        "percent": 28.1
-      },
-      {
-        "name": "gpt-search",
-        "total_seconds": 534.965373,
-        "color": null,
-        "digital": "0:08:54",
-        "decimal": "0.13",
-        "text": "8 mins",
-        "hours": 0,
-        "minutes": 8,
-        "seconds": 54,
-        "percent": 22.72
-      },
-      {
-        "name": "location",
-        "total_seconds": 190.312667,
-        "color": null,
-        "digital": "0:03:10",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 10,
-        "percent": 8.08
-      },
-      {
-        "name": "anandchowdhary.com",
-        "total_seconds": 94.279615,
-        "color": null,
-        "digital": "0:01:34",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 34,
-        "percent": 4
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -132,6 +55,53 @@
         "minutes": 0,
         "seconds": 12,
         "percent": 0.53
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 39,
+      "total_seconds": 2354.501421,
+      "digital": "0:39",
+      "decimal": "0.65",
+      "text": "39 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 2354.501421,
+        "digital": "0:39:14",
+        "decimal": "0.65",
+        "text": "39 mins",
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 14,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 2354.501421,
+        "digital": "0:39:14",
+        "decimal": "0.65",
+        "text": "39 mins",
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 14,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 2354.501421,
+        "digital": "0:39:14",
+        "decimal": "0.65",
+        "text": "39 mins",
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 14,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1680,44 +1650,74 @@
         "percent": 3.88
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 2354.501421,
-        "digital": "0:39:14",
-        "decimal": "0.65",
-        "text": "39 mins",
+        "name": "1q",
+        "total_seconds": 873.357087,
+        "color": null,
+        "digital": "0:14:33",
+        "decimal": "0.23",
+        "text": "14 mins",
         "hours": 0,
-        "minutes": 39,
-        "seconds": 14,
-        "percent": 100
+        "minutes": 14,
+        "seconds": 33,
+        "percent": 37.09
+      },
+      {
+        "name": "everything",
+        "total_seconds": 661.586679,
+        "color": null,
+        "digital": "0:11:01",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 1,
+        "percent": 28.1
+      },
+      {
+        "name": "gpt-search",
+        "total_seconds": 534.965373,
+        "color": null,
+        "digital": "0:08:54",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 54,
+        "percent": 22.72
+      },
+      {
+        "name": "location",
+        "total_seconds": 190.312667,
+        "color": null,
+        "digital": "0:03:10",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 10,
+        "percent": 8.08
+      },
+      {
+        "name": "anandchowdhary.com",
+        "total_seconds": 94.279615,
+        "color": null,
+        "digital": "0:01:34",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 34,
+        "percent": 4
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 2354.501421,
-        "digital": "0:39:14",
-        "decimal": "0.65",
-        "text": "39 mins",
-        "hours": 0,
-        "minutes": 39,
-        "seconds": 14,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2354.501421,
-        "digital": "0:39:14",
-        "decimal": "0.65",
-        "text": "39 mins",
-        "hours": 0,
-        "minutes": 39,
-        "seconds": 14,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-06-12T22:00:00Z",
+      "end": "2023-06-13T21:59:59Z",
+      "date": "2023-06-13",
+      "text": "Tue Jun 13th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
