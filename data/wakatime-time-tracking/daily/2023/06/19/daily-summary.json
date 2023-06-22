@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 50,
-      "total_seconds": 13845.648658,
-      "digital": "3:50",
-      "decimal": "3.83",
-      "text": "3 hrs 50 mins"
-    },
-    "range": {
-      "start": "2023-06-19T22:00:00Z",
-      "end": "2023-06-20T21:59:59Z",
-      "date": "2023-06-20",
-      "text": "Tue Jun 20th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 13337.267823,
-        "color": null,
-        "digital": "3:42:17",
-        "decimal": "3.70",
-        "text": "3 hrs 42 mins",
-        "hours": 3,
-        "minutes": 42,
-        "seconds": 17,
-        "percent": 96.33
-      },
-      {
-        "name": "next-app-saas",
-        "total_seconds": 508.380835,
-        "color": null,
-        "digital": "0:08:28",
-        "decimal": "0.13",
-        "text": "8 mins",
-        "hours": 0,
-        "minutes": 8,
-        "seconds": 28,
-        "percent": 3.67
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -129,6 +88,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 50,
+      "total_seconds": 13845.648658,
+      "digital": "3:50",
+      "decimal": "3.83",
+      "text": "3 hrs 50 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 13845.648658,
+        "digital": "3:50:45",
+        "decimal": "3.83",
+        "text": "3 hrs 50 mins",
+        "hours": 3,
+        "minutes": 50,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 13845.648658,
+        "digital": "3:50:45",
+        "decimal": "3.83",
+        "text": "3 hrs 50 mins",
+        "hours": 3,
+        "minutes": 50,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 13845.648658,
+        "digital": "3:50:45",
+        "decimal": "3.83",
+        "text": "3 hrs 50 mins",
+        "hours": 3,
+        "minutes": 50,
+        "seconds": 45,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1665,44 +1671,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 13845.648658,
-        "digital": "3:50:45",
-        "decimal": "3.83",
-        "text": "3 hrs 50 mins",
+        "name": "1q",
+        "total_seconds": 13337.267823,
+        "color": null,
+        "digital": "3:42:17",
+        "decimal": "3.70",
+        "text": "3 hrs 42 mins",
         "hours": 3,
-        "minutes": 50,
-        "seconds": 45,
-        "percent": 100
+        "minutes": 42,
+        "seconds": 17,
+        "percent": 96.33
+      },
+      {
+        "name": "next-app-saas",
+        "total_seconds": 508.380835,
+        "color": null,
+        "digital": "0:08:28",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 28,
+        "percent": 3.67
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 13845.648658,
-        "digital": "3:50:45",
-        "decimal": "3.83",
-        "text": "3 hrs 50 mins",
-        "hours": 3,
-        "minutes": 50,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 13845.648658,
-        "digital": "3:50:45",
-        "decimal": "3.83",
-        "text": "3 hrs 50 mins",
-        "hours": 3,
-        "minutes": 50,
-        "seconds": 45,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-06-19T22:00:00Z",
+      "end": "2023-06-20T21:59:59Z",
+      "date": "2023-06-20",
+      "text": "Tue Jun 20th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
