@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 7,
-      "minutes": 0,
-      "total_seconds": 25218.550733,
-      "digital": "7:00",
-      "decimal": "7.00",
-      "text": "7 hrs"
-    },
-    "range": {
-      "start": "2023-07-11T22:00:00Z",
-      "end": "2023-07-12T21:59:59Z",
-      "date": "2023-07-12",
-      "text": "Wed Jul 12th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 23915.825648,
-        "color": null,
-        "digital": "6:38:35",
-        "decimal": "6.63",
-        "text": "6 hrs 38 mins",
-        "hours": 6,
-        "minutes": 38,
-        "seconds": 35,
-        "percent": 94.83
-      },
-      {
-        "name": "calendar-link",
-        "total_seconds": 1302.725085,
-        "color": null,
-        "digital": "0:21:42",
-        "decimal": "0.35",
-        "text": "21 mins",
-        "hours": 0,
-        "minutes": 21,
-        "seconds": 42,
-        "percent": 5.17
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -118,6 +77,53 @@
         "minutes": 0,
         "seconds": 2,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 7,
+      "minutes": 0,
+      "total_seconds": 25218.550733,
+      "digital": "7:00",
+      "decimal": "7.00",
+      "text": "7 hrs"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 25218.550733,
+        "digital": "7:00:18",
+        "decimal": "7.00",
+        "text": "7 hrs",
+        "hours": 7,
+        "minutes": 0,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 25218.550733,
+        "digital": "7:00:18",
+        "decimal": "7.00",
+        "text": "7 hrs",
+        "hours": 7,
+        "minutes": 0,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 25218.550733,
+        "digital": "7:00:18",
+        "decimal": "7.00",
+        "text": "7 hrs",
+        "hours": 7,
+        "minutes": 0,
+        "seconds": 18,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -356,44 +362,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 25218.550733,
-        "digital": "7:00:18",
-        "decimal": "7.00",
-        "text": "7 hrs",
-        "hours": 7,
-        "minutes": 0,
-        "seconds": 18,
-        "percent": 100
+        "name": "1q",
+        "total_seconds": 23915.825648,
+        "color": null,
+        "digital": "6:38:35",
+        "decimal": "6.63",
+        "text": "6 hrs 38 mins",
+        "hours": 6,
+        "minutes": 38,
+        "seconds": 35,
+        "percent": 94.83
+      },
+      {
+        "name": "calendar-link",
+        "total_seconds": 1302.725085,
+        "color": null,
+        "digital": "0:21:42",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 42,
+        "percent": 5.17
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 25218.550733,
-        "digital": "7:00:18",
-        "decimal": "7.00",
-        "text": "7 hrs",
-        "hours": 7,
-        "minutes": 0,
-        "seconds": 18,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 25218.550733,
-        "digital": "7:00:18",
-        "decimal": "7.00",
-        "text": "7 hrs",
-        "hours": 7,
-        "minutes": 0,
-        "seconds": 18,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-07-11T22:00:00Z",
+      "end": "2023-07-12T21:59:59Z",
+      "date": "2023-07-12",
+      "text": "Wed Jul 12th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
