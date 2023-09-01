@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 0,
-      "total_seconds": 10809.499523,
-      "digital": "3:00",
-      "decimal": "3.00",
-      "text": "3 hrs"
-    },
-    "range": {
-      "start": "2023-08-29T22:00:00Z",
-      "end": "2023-08-30T21:59:59Z",
-      "date": "2023-08-30",
-      "text": "Wed Aug 30th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 10809.499523,
-        "color": null,
-        "digital": "3:00:09",
-        "decimal": "3.00",
-        "text": "3 hrs",
-        "hours": 3,
-        "minutes": 0,
-        "seconds": 9,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -86,33 +57,14 @@
         "percent": 0.02
       }
     ],
-    "dependencies": [
-      {
-        "name": "library",
-        "total_seconds": 2.095848,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 100
-      }
-    ],
-    "machines": [
-      {
-        "name": "Anand's+MacBook+Pro",
-        "total_seconds": 10809.499523,
-        "machine_name_id": "4c655c2f-d157-406d-ae0a-9bfbfb200d85",
-        "digital": "3:00:09",
-        "decimal": "3.00",
-        "text": "3 hrs",
-        "hours": 3,
-        "minutes": 0,
-        "seconds": 9,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 0,
+      "total_seconds": 10809.499523,
+      "digital": "3:00",
+      "decimal": "3.00",
+      "text": "3 hrs"
+    },
     "editors": [
       {
         "name": "VS Code",
@@ -151,6 +103,54 @@
         "seconds": 9,
         "percent": 100
       }
-    ]
+    ],
+    "dependencies": [
+      {
+        "name": "library",
+        "total_seconds": 2.095848,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 10809.499523,
+        "machine_name_id": "4c655c2f-d157-406d-ae0a-9bfbfb200d85",
+        "digital": "3:00:09",
+        "decimal": "3.00",
+        "text": "3 hrs",
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "1q",
+        "total_seconds": 10809.499523,
+        "color": null,
+        "digital": "3:00:09",
+        "decimal": "3.00",
+        "text": "3 hrs",
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 100
+      }
+    ],
+    "range": {
+      "start": "2023-08-29T22:00:00Z",
+      "end": "2023-08-30T21:59:59Z",
+      "date": "2023-08-30",
+      "text": "Wed Aug 30th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
