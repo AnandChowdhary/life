@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 40,
-      "total_seconds": 9624.574318,
-      "digital": "2:40",
-      "decimal": "2.67",
-      "text": "2 hrs 40 mins"
-    },
-    "range": {
-      "start": "2023-08-30T22:00:00Z",
-      "end": "2023-08-31T21:59:59Z",
-      "date": "2023-08-31",
-      "text": "Thu Aug 31st 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q",
-        "total_seconds": 4892.826399,
-        "color": null,
-        "digital": "1:21:32",
-        "decimal": "1.35",
-        "text": "1 hr 21 mins",
-        "hours": 1,
-        "minutes": 21,
-        "seconds": 32,
-        "percent": 50.84
-      },
-      {
-        "name": "email-deliverability-checklist",
-        "total_seconds": 4537.777719,
-        "color": null,
-        "digital": "1:15:37",
-        "decimal": "1.25",
-        "text": "1 hr 15 mins",
-        "hours": 1,
-        "minutes": 15,
-        "seconds": 37,
-        "percent": 47.15
-      },
-      {
-        "name": "uptime-monitor",
-        "total_seconds": 193.9702,
-        "color": null,
-        "digital": "0:03:13",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 13,
-        "percent": 2.02
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -163,6 +110,53 @@
         "minutes": 0,
         "seconds": 10,
         "percent": 0.11
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 40,
+      "total_seconds": 9624.574318,
+      "digital": "2:40",
+      "decimal": "2.67",
+      "text": "2 hrs 40 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 9624.574318,
+        "digital": "2:40:24",
+        "decimal": "2.67",
+        "text": "2 hrs 40 mins",
+        "hours": 2,
+        "minutes": 40,
+        "seconds": 24,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9624.574318,
+        "digital": "2:40:24",
+        "decimal": "2.67",
+        "text": "2 hrs 40 mins",
+        "hours": 2,
+        "minutes": 40,
+        "seconds": 24,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 9624.574318,
+        "digital": "2:40:24",
+        "decimal": "2.67",
+        "text": "2 hrs 40 mins",
+        "hours": 2,
+        "minutes": 40,
+        "seconds": 24,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1479,44 +1473,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 9624.574318,
-        "digital": "2:40:24",
-        "decimal": "2.67",
-        "text": "2 hrs 40 mins",
-        "hours": 2,
-        "minutes": 40,
-        "seconds": 24,
-        "percent": 100
+        "name": "1q",
+        "total_seconds": 4892.826399,
+        "color": null,
+        "digital": "1:21:32",
+        "decimal": "1.35",
+        "text": "1 hr 21 mins",
+        "hours": 1,
+        "minutes": 21,
+        "seconds": 32,
+        "percent": 50.84
+      },
+      {
+        "name": "email-deliverability-checklist",
+        "total_seconds": 4537.777719,
+        "color": null,
+        "digital": "1:15:37",
+        "decimal": "1.25",
+        "text": "1 hr 15 mins",
+        "hours": 1,
+        "minutes": 15,
+        "seconds": 37,
+        "percent": 47.15
+      },
+      {
+        "name": "uptime-monitor",
+        "total_seconds": 193.9702,
+        "color": null,
+        "digital": "0:03:13",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 13,
+        "percent": 2.02
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9624.574318,
-        "digital": "2:40:24",
-        "decimal": "2.67",
-        "text": "2 hrs 40 mins",
-        "hours": 2,
-        "minutes": 40,
-        "seconds": 24,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 9624.574318,
-        "digital": "2:40:24",
-        "decimal": "2.67",
-        "text": "2 hrs 40 mins",
-        "hours": 2,
-        "minutes": 40,
-        "seconds": 24,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-08-30T22:00:00Z",
+      "end": "2023-08-31T21:59:59Z",
+      "date": "2023-08-31",
+      "text": "Thu Aug 31st 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
