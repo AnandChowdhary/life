@@ -1,25 +1,9 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 12,
-      "total_seconds": 731.345948,
-      "digital": "0:12",
-      "decimal": "0.20",
-      "text": "12 mins"
-    },
-    "range": {
-      "start": "2023-09-11T22:00:00Z",
-      "end": "2023-09-12T21:59:59Z",
-      "date": "2023-09-12",
-      "text": "Tue Sep 12th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
+    "languages": [
       {
-        "name": "bookshelf-action",
+        "name": "TypeScript",
         "total_seconds": 731.345948,
-        "color": null,
         "digital": "0:12:11",
         "decimal": "0.20",
         "text": "12 mins",
@@ -29,9 +13,43 @@
         "percent": 100
       }
     ],
-    "languages": [
+    "grand_total": {
+      "hours": 0,
+      "minutes": 12,
+      "total_seconds": 731.345948,
+      "digital": "0:12",
+      "decimal": "0.20",
+      "text": "12 mins"
+    },
+    "editors": [
       {
-        "name": "TypeScript",
+        "name": "VS Code",
+        "total_seconds": 731.345948,
+        "digital": "0:12:11",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 731.345948,
+        "digital": "0:12:11",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
         "total_seconds": 731.345948,
         "digital": "0:12:11",
         "decimal": "0.20",
@@ -234,10 +252,11 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "bookshelf-action",
         "total_seconds": 731.345948,
+        "color": null,
         "digital": "0:12:11",
         "decimal": "0.20",
         "text": "12 mins",
@@ -247,31 +266,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 731.345948,
-        "digital": "0:12:11",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 11,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 731.345948,
-        "digital": "0:12:11",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 11,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-09-11T22:00:00Z",
+      "end": "2023-09-12T21:59:59Z",
+      "date": "2023-09-12",
+      "text": "Tue Sep 12th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
