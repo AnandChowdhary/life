@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 56,
-      "total_seconds": 3364.157578,
-      "digital": "0:56",
-      "decimal": "0.93",
-      "text": "56 mins"
-    },
-    "range": {
-      "start": "2023-10-21T22:00:00Z",
-      "end": "2023-10-22T21:59:59Z",
-      "date": "2023-10-22",
-      "text": "Sun Oct 22nd 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 3313.234204,
-        "color": null,
-        "digital": "0:55:13",
-        "decimal": "0.92",
-        "text": "55 mins",
-        "hours": 0,
-        "minutes": 55,
-        "seconds": 13,
-        "percent": 98.49
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 43.944049,
-        "color": null,
-        "digital": "0:00:43",
-        "decimal": "0.00",
-        "text": "43 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 43,
-        "percent": 1.31
-      },
-      {
-        "name": "1q3",
-        "total_seconds": 6.979325,
-        "color": null,
-        "digital": "0:00:06",
-        "decimal": "0.00",
-        "text": "6 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 6,
-        "percent": 0.21
-      }
-    ],
     "languages": [
       {
         "name": "Ezhil",
@@ -97,6 +44,53 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.1
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 56,
+      "total_seconds": 3364.157578,
+      "digital": "0:56",
+      "decimal": "0.93",
+      "text": "56 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 3364.157578,
+        "digital": "0:56:04",
+        "decimal": "0.93",
+        "text": "56 mins",
+        "hours": 0,
+        "minutes": 56,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3364.157578,
+        "digital": "0:56:04",
+        "decimal": "0.93",
+        "text": "56 mins",
+        "hours": 0,
+        "minutes": 56,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3364.157578,
+        "digital": "0:56:04",
+        "decimal": "0.93",
+        "text": "56 mins",
+        "hours": 0,
+        "minutes": 56,
+        "seconds": 4,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -247,44 +241,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 3364.157578,
-        "digital": "0:56:04",
-        "decimal": "0.93",
-        "text": "56 mins",
+        "name": "1q4",
+        "total_seconds": 3313.234204,
+        "color": null,
+        "digital": "0:55:13",
+        "decimal": "0.92",
+        "text": "55 mins",
         "hours": 0,
-        "minutes": 56,
-        "seconds": 4,
-        "percent": 100
+        "minutes": 55,
+        "seconds": 13,
+        "percent": 98.49
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 43.944049,
+        "color": null,
+        "digital": "0:00:43",
+        "decimal": "0.00",
+        "text": "43 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 43,
+        "percent": 1.31
+      },
+      {
+        "name": "1q3",
+        "total_seconds": 6.979325,
+        "color": null,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.21
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 3364.157578,
-        "digital": "0:56:04",
-        "decimal": "0.93",
-        "text": "56 mins",
-        "hours": 0,
-        "minutes": 56,
-        "seconds": 4,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 3364.157578,
-        "digital": "0:56:04",
-        "decimal": "0.93",
-        "text": "56 mins",
-        "hours": 0,
-        "minutes": 56,
-        "seconds": 4,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-10-21T22:00:00Z",
+      "end": "2023-10-22T21:59:59Z",
+      "date": "2023-10-22",
+      "text": "Sun Oct 22nd 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
