@@ -1,0 +1,494 @@
+[
+  {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 19,
+      "total_seconds": 1142.531102,
+      "digital": "0:19",
+      "decimal": "0.32",
+      "text": "19 mins"
+    },
+    "range": {
+      "start": "2023-11-09T23:00:00Z",
+      "end": "2023-11-10T22:59:59Z",
+      "date": "2023-11-10",
+      "text": "Fri Nov 10th 2023",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "1q4",
+        "total_seconds": 1142.531102,
+        "color": null,
+        "digital": "0:19:02",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "TypeScript",
+        "total_seconds": 1072.682488,
+        "digital": "0:17:52",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 52,
+        "percent": 93.89
+      },
+      {
+        "name": "Other",
+        "total_seconds": 37.269137,
+        "digital": "0:00:37",
+        "decimal": "0.00",
+        "text": "37 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 37,
+        "percent": 3.26
+      },
+      {
+        "name": "Markdown",
+        "total_seconds": 32.579477,
+        "digital": "0:00:32",
+        "decimal": "0.00",
+        "text": "32 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 32,
+        "percent": 2.85
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "client",
+        "total_seconds": 1043.361216,
+        "digital": "0:17:23",
+        "decimal": "0.28",
+        "text": "17 mins",
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 23,
+        "percent": 19.23
+      },
+      {
+        "name": "prisma",
+        "total_seconds": 949.797606,
+        "digital": "0:15:49",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 49,
+        "percent": 17.51
+      },
+      {
+        "name": "id",
+        "total_seconds": 661.46371,
+        "digital": "0:11:01",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 1,
+        "percent": 12.19
+      },
+      {
+        "name": "apollo.client",
+        "total_seconds": 659.225,
+        "digital": "0:10:59",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 59,
+        "percent": 12.15
+      },
+      {
+        "name": "teams-$teamId-companies-helpers",
+        "total_seconds": 658.454503,
+        "digital": "0:10:58",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 58,
+        "percent": 12.14
+      },
+      {
+        "name": "teams-$teamId-contacts-helpers",
+        "total_seconds": 658.454503,
+        "digital": "0:10:58",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 58,
+        "percent": 12.14
+      },
+      {
+        "name": "people-match",
+        "total_seconds": 658.454503,
+        "digital": "0:10:58",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 58,
+        "percent": 12.14
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 26.312065,
+        "digital": "0:00:26",
+        "decimal": "0.00",
+        "text": "26 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 26,
+        "percent": 0.48
+      },
+      {
+        "name": "zod",
+        "total_seconds": 20.597634,
+        "digital": "0:00:20",
+        "decimal": "0.00",
+        "text": "20 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 20,
+        "percent": 0.38
+      },
+      {
+        "name": "update-campaign-audience-prospect-metadata-counts",
+        "total_seconds": 11.222698,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.21
+      },
+      {
+        "name": "send-failed-function-events-to-sentry",
+        "total_seconds": 11.222698,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.21
+      },
+      {
+        "name": "create-campaign-contact-from-audience-prospect-row",
+        "total_seconds": 11.222698,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.21
+      },
+      {
+        "name": "next",
+        "total_seconds": 11.222698,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.21
+      },
+      {
+        "name": "create-campaign-audience-prospect-rows",
+        "total_seconds": 11.222698,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.21
+      },
+      {
+        "name": "events",
+        "total_seconds": 6.484928,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.12
+      },
+      {
+        "name": "create-campaign-contact-moments-for-outbound",
+        "total_seconds": 4.76177,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.09
+      },
+      {
+        "name": "teams-$teamId-helpers",
+        "total_seconds": 3.009207,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.06
+      },
+      {
+        "name": "auth-helpers",
+        "total_seconds": 3.009207,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.06
+      },
+      {
+        "name": "hono",
+        "total_seconds": 3.009207,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.06
+      },
+      {
+        "name": "search",
+        "total_seconds": 3.009207,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.06
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-contacts-$contactId-helpers",
+        "total_seconds": 3.009207,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.06
+      },
+      {
+        "name": "audit",
+        "total_seconds": 3.009207,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.06
+      },
+      {
+        "name": "create-campaign-contact-moments",
+        "total_seconds": 2.223305,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.04
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-audience-prospect-helpers",
+        "total_seconds": 0.770497,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      },
+      {
+        "name": "mixed-people-search",
+        "total_seconds": 0.770497,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anand%2525252525252525252525252525252525252525252525252525252527s%2525252525252525252525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252525252525252525252BPro",
+        "total_seconds": 193.297228,
+        "machine_name_id": "018bb68b-87cb-489d-8be3-8e905727515f",
+        "digital": "0:03:13",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 13,
+        "percent": 16.92
+      },
+      {
+        "name": "Anand%252525252525252525252525252525252525252525252525252527s%252525252525252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252525252525252BPro",
+        "total_seconds": 181.510313,
+        "machine_name_id": "018bb68b-86d1-43df-a303-64a3087f3d65",
+        "digital": "0:03:01",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 1,
+        "percent": 15.89
+      },
+      {
+        "name": "Anand%25252525252525252525252525252525252525252525252525252527s%25252525252525252525252525252525252525252525252525252BMacBook%25252525252525252525252525252525252525252525252525252BPro",
+        "total_seconds": 176.846372,
+        "machine_name_id": "018bb68b-874d-4c37-b561-4b85e0a4d6ae",
+        "digital": "0:02:56",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 56,
+        "percent": 15.48
+      },
+      {
+        "name": "Anand%25252525252525252525252525252525252525252525252527s%25252525252525252525252525252525252525252525252BMacBook%25252525252525252525252525252525252525252525252BPro",
+        "total_seconds": 174.080569,
+        "machine_name_id": "018bb68b-85bf-4f61-9308-ef635311a9b2",
+        "digital": "0:02:54",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 54,
+        "percent": 15.24
+      },
+      {
+        "name": "Anand%2525252525252525252525252525252525252525252525252527s%2525252525252525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252525252525252BPro",
+        "total_seconds": 164.124114,
+        "machine_name_id": "018bb68b-865c-4c9d-b337-a21f67418f58",
+        "digital": "0:02:44",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 44,
+        "percent": 14.36
+      },
+      {
+        "name": "Anand%252525252525252525252525252525252525252525252525252525252527s%252525252525252525252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252525252525252525252BPro",
+        "total_seconds": 115.484042,
+        "machine_name_id": "018bb68b-8849-40c9-9560-038e874704dd",
+        "digital": "0:01:55",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 55,
+        "percent": 10.11
+      },
+      {
+        "name": "Anand%252525252525252525252525252525252525252525252527s%252525252525252525252525252525252525252525252BMacBook%252525252525252525252525252525252525252525252BPro",
+        "total_seconds": 101.683178,
+        "machine_name_id": "018bb68b-8546-4363-b113-7254ed0da553",
+        "digital": "0:01:41",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 41,
+        "percent": 8.9
+      },
+      {
+        "name": "Anand%2525252525252525252525252525252525252525252527s%2525252525252525252525252525252525252525252BMacBook%2525252525252525252525252525252525252525252BPro",
+        "total_seconds": 35.505286,
+        "machine_name_id": "018bb68b-84bd-4d65-a3cc-46dde3d2120b",
+        "digital": "0:00:35",
+        "decimal": "0.00",
+        "text": "35 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 35,
+        "percent": 3.11
+      },
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 0,
+        "machine_name_id": "018bb68b-794e-4ca1-9bb7-b4d1b1be9b8a",
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1142.531102,
+        "digital": "0:19:02",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1142.531102,
+        "digital": "0:19:02",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1142.531102,
+        "digital": "0:19:02",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 2,
+        "percent": 100
+      }
+    ]
+  }
+]
