@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 45,
-      "total_seconds": 17125.148146,
-      "digital": "4:45",
-      "decimal": "4.75",
-      "text": "4 hrs 45 mins"
-    },
-    "range": {
-      "start": "2023-11-20T23:00:00Z",
-      "end": "2023-11-21T22:59:59Z",
-      "date": "2023-11-21",
-      "text": "Tue Nov 21st 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 15906.057172,
-        "color": null,
-        "digital": "4:25:06",
-        "decimal": "4.42",
-        "text": "4 hrs 25 mins",
-        "hours": 4,
-        "minutes": 25,
-        "seconds": 6,
-        "percent": 92.88
-      },
-      {
-        "name": "pabio",
-        "total_seconds": 1219.090974,
-        "color": null,
-        "digital": "0:20:19",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 19,
-        "percent": 7.12
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -118,6 +77,53 @@
         "minutes": 0,
         "seconds": 20,
         "percent": 0.12
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 45,
+      "total_seconds": 17125.148146,
+      "digital": "4:45",
+      "decimal": "4.75",
+      "text": "4 hrs 45 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 17125.148146,
+        "digital": "4:45:25",
+        "decimal": "4.75",
+        "text": "4 hrs 45 mins",
+        "hours": 4,
+        "minutes": 45,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 17125.148146,
+        "digital": "4:45:25",
+        "decimal": "4.75",
+        "text": "4 hrs 45 mins",
+        "hours": 4,
+        "minutes": 45,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 17125.148146,
+        "digital": "4:45:25",
+        "decimal": "4.75",
+        "text": "4 hrs 45 mins",
+        "hours": 4,
+        "minutes": 45,
+        "seconds": 25,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -4493,44 +4499,38 @@
         "percent": 0.29
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 17125.148146,
-        "digital": "4:45:25",
-        "decimal": "4.75",
-        "text": "4 hrs 45 mins",
+        "name": "1q4",
+        "total_seconds": 15906.057172,
+        "color": null,
+        "digital": "4:25:06",
+        "decimal": "4.42",
+        "text": "4 hrs 25 mins",
         "hours": 4,
-        "minutes": 45,
-        "seconds": 25,
-        "percent": 100
+        "minutes": 25,
+        "seconds": 6,
+        "percent": 92.88
+      },
+      {
+        "name": "pabio",
+        "total_seconds": 1219.090974,
+        "color": null,
+        "digital": "0:20:19",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 19,
+        "percent": 7.12
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 17125.148146,
-        "digital": "4:45:25",
-        "decimal": "4.75",
-        "text": "4 hrs 45 mins",
-        "hours": 4,
-        "minutes": 45,
-        "seconds": 25,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 17125.148146,
-        "digital": "4:45:25",
-        "decimal": "4.75",
-        "text": "4 hrs 45 mins",
-        "hours": 4,
-        "minutes": 45,
-        "seconds": 25,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-11-20T23:00:00Z",
+      "end": "2023-11-21T22:59:59Z",
+      "date": "2023-11-21",
+      "text": "Tue Nov 21st 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
