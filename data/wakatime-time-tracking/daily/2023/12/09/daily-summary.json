@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 22,
-      "total_seconds": 1326.185271,
-      "digital": "0:22",
-      "decimal": "0.37",
-      "text": "22 mins"
-    },
-    "range": {
-      "start": "2023-12-09T23:00:00Z",
-      "end": "2023-12-10T22:59:59Z",
-      "date": "2023-12-10",
-      "text": "Sun Dec 10th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "paisa",
-        "total_seconds": 741.954833,
-        "color": null,
-        "digital": "0:12:21",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 21,
-        "percent": 55.95
-      },
-      {
-        "name": "1q4",
-        "total_seconds": 584.230438,
-        "color": null,
-        "digital": "0:09:44",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 44,
-        "percent": 44.05
-      }
-    ],
     "languages": [
       {
         "name": "Other",
@@ -74,6 +33,53 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.14
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 22,
+      "total_seconds": 1326.185271,
+      "digital": "0:22",
+      "decimal": "0.37",
+      "text": "22 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1326.185271,
+        "digital": "0:22:06",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1326.185271,
+        "digital": "0:22:06",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1326.185271,
+        "digital": "0:22:06",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 6,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -499,44 +505,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 1326.185271,
-        "digital": "0:22:06",
-        "decimal": "0.37",
-        "text": "22 mins",
+        "name": "paisa",
+        "total_seconds": 741.954833,
+        "color": null,
+        "digital": "0:12:21",
+        "decimal": "0.20",
+        "text": "12 mins",
         "hours": 0,
-        "minutes": 22,
-        "seconds": 6,
-        "percent": 100
+        "minutes": 12,
+        "seconds": 21,
+        "percent": 55.95
+      },
+      {
+        "name": "1q4",
+        "total_seconds": 584.230438,
+        "color": null,
+        "digital": "0:09:44",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 44,
+        "percent": 44.05
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1326.185271,
-        "digital": "0:22:06",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 6,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1326.185271,
-        "digital": "0:22:06",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 6,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-12-09T23:00:00Z",
+      "end": "2023-12-10T22:59:59Z",
+      "date": "2023-12-10",
+      "text": "Sun Dec 10th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
