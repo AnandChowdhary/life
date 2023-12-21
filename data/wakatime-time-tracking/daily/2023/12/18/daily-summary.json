@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 20,
-      "total_seconds": 1217.518823,
-      "digital": "0:20",
-      "decimal": "0.33",
-      "text": "20 mins"
-    },
-    "range": {
-      "start": "2023-12-18T23:00:00Z",
-      "end": "2023-12-19T22:59:59Z",
-      "date": "2023-12-19",
-      "text": "Tue Dec 19th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 803.160521,
-        "color": null,
-        "digital": "0:13:23",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 23,
-        "percent": 65.97
-      },
-      {
-        "name": "uptime-monitor",
-        "total_seconds": 414.358302,
-        "color": null,
-        "digital": "0:06:54",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 54,
-        "percent": 34.03
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -63,6 +22,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 20,
+      "total_seconds": 1217.518823,
+      "digital": "0:20",
+      "decimal": "0.33",
+      "text": "20 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1217.518823,
+        "digital": "0:20:17",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1217.518823,
+        "digital": "0:20:17",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1217.518823,
+        "digital": "0:20:17",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 17,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -532,44 +538,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 1217.518823,
-        "digital": "0:20:17",
-        "decimal": "0.33",
-        "text": "20 mins",
+        "name": "1q4",
+        "total_seconds": 803.160521,
+        "color": null,
+        "digital": "0:13:23",
+        "decimal": "0.22",
+        "text": "13 mins",
         "hours": 0,
-        "minutes": 20,
-        "seconds": 17,
-        "percent": 100
+        "minutes": 13,
+        "seconds": 23,
+        "percent": 65.97
+      },
+      {
+        "name": "uptime-monitor",
+        "total_seconds": 414.358302,
+        "color": null,
+        "digital": "0:06:54",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 54,
+        "percent": 34.03
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1217.518823,
-        "digital": "0:20:17",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1217.518823,
-        "digital": "0:20:17",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 17,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-12-18T23:00:00Z",
+      "end": "2023-12-19T22:59:59Z",
+      "date": "2023-12-19",
+      "text": "Tue Dec 19th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
