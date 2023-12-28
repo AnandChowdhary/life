@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 40,
-      "total_seconds": 2405.002001,
-      "digital": "0:40",
-      "decimal": "0.67",
-      "text": "40 mins"
-    },
-    "range": {
-      "start": "2023-12-25T23:00:00Z",
-      "end": "2023-12-26T22:59:59Z",
-      "date": "2023-12-26",
-      "text": "Tue Dec 26th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 2405.002001,
-        "color": null,
-        "digital": "0:40:05",
-        "decimal": "0.67",
-        "text": "40 mins",
-        "hours": 0,
-        "minutes": 40,
-        "seconds": 5,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Bash",
@@ -73,6 +44,53 @@
         "minutes": 0,
         "seconds": 7,
         "percent": 0.32
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 40,
+      "total_seconds": 2405.002001,
+      "digital": "0:40",
+      "decimal": "0.67",
+      "text": "40 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 2405.002001,
+        "digital": "0:40:05",
+        "decimal": "0.67",
+        "text": "40 mins",
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 2405.002001,
+        "digital": "0:40:05",
+        "decimal": "0.67",
+        "text": "40 mins",
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 2405.002001,
+        "digital": "0:40:05",
+        "decimal": "0.67",
+        "text": "40 mins",
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 5,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1521,10 +1539,11 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "1q4",
         "total_seconds": 2405.002001,
+        "color": null,
         "digital": "0:40:05",
         "decimal": "0.67",
         "text": "40 mins",
@@ -1534,31 +1553,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 2405.002001,
-        "digital": "0:40:05",
-        "decimal": "0.67",
-        "text": "40 mins",
-        "hours": 0,
-        "minutes": 40,
-        "seconds": 5,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2405.002001,
-        "digital": "0:40:05",
-        "decimal": "0.67",
-        "text": "40 mins",
-        "hours": 0,
-        "minutes": 40,
-        "seconds": 5,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-12-25T23:00:00Z",
+      "end": "2023-12-26T22:59:59Z",
+      "date": "2023-12-26",
+      "text": "Tue Dec 26th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
