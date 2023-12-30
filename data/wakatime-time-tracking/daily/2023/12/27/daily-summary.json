@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 19,
-      "total_seconds": 1166.510092,
-      "digital": "0:19",
-      "decimal": "0.32",
-      "text": "19 mins"
-    },
-    "range": {
-      "start": "2023-12-27T23:00:00Z",
-      "end": "2023-12-28T22:59:59Z",
-      "date": "2023-12-28",
-      "text": "Thu Dec 28th 2023",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 1166.510092,
-        "color": null,
-        "digital": "0:19:26",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 26,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -51,6 +22,53 @@
         "minutes": 0,
         "seconds": 28,
         "percent": 2.46
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 19,
+      "total_seconds": 1166.510092,
+      "digital": "0:19",
+      "decimal": "0.32",
+      "text": "19 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1166.510092,
+        "digital": "0:19:26",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1166.510092,
+        "digital": "0:19:26",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 26,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1166.510092,
+        "digital": "0:19:26",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 26,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -132,7 +150,7 @@
         "percent": 6.46
       },
       {
-        "name": "id",
+        "name": "hono",
         "total_seconds": 393.615664,
         "digital": "0:06:33",
         "decimal": "0.10",
@@ -143,7 +161,7 @@
         "percent": 6.46
       },
       {
-        "name": "hono",
+        "name": "id",
         "total_seconds": 393.615664,
         "digital": "0:06:33",
         "decimal": "0.10",
@@ -176,17 +194,6 @@
         "percent": 0.39
       },
       {
-        "name": "html-to-text",
-        "total_seconds": 3.178177,
-        "digital": "0:00:03",
-        "decimal": "0.00",
-        "text": "3 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 3,
-        "percent": 0.05
-      },
-      {
         "name": "remove-email-quote",
         "total_seconds": 3.178177,
         "digital": "0:00:03",
@@ -198,29 +205,18 @@
         "percent": 0.05
       },
       {
-        "name": "react",
-        "total_seconds": 1.621052,
-        "digital": "0:00:01",
+        "name": "html-to-text",
+        "total_seconds": 3.178177,
+        "digital": "0:00:03",
         "decimal": "0.00",
-        "text": "1 sec",
+        "text": "3 secs",
         "hours": 0,
         "minutes": 0,
-        "seconds": 1,
-        "percent": 0.03
+        "seconds": 3,
+        "percent": 0.05
       },
       {
-        "name": "moment",
-        "total_seconds": 1.621052,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0.03
-      },
-      {
-        "name": "dialog",
+        "name": "form",
         "total_seconds": 1.621052,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -253,18 +249,7 @@
         "percent": 0.03
       },
       {
-        "name": "query",
-        "total_seconds": 1.621052,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0.03
-      },
-      {
-        "name": "form",
+        "name": "loadable-button",
         "total_seconds": 1.621052,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -297,7 +282,40 @@
         "percent": 0.03
       },
       {
+        "name": "dialog",
+        "total_seconds": 1.621052,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "query",
+        "total_seconds": 1.621052,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
         "name": "zod",
+        "total_seconds": 1.621052,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0.03
+      },
+      {
+        "name": "moment",
         "total_seconds": 1.621052,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -319,7 +337,7 @@
         "percent": 0.03
       },
       {
-        "name": "loadable-button",
+        "name": "react",
         "total_seconds": 1.621052,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -355,9 +373,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "1q4",
         "total_seconds": 1166.510092,
         "digital": "0:19:26",
         "decimal": "0.32",
@@ -368,31 +386,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1166.510092,
-        "digital": "0:19:26",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 26,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1166.510092,
-        "digital": "0:19:26",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 26,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2023-12-27T23:00:00Z",
+      "end": "2023-12-28T22:59:59Z",
+      "date": "2023-12-28",
+      "text": "Thu Dec 28th 2023",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
