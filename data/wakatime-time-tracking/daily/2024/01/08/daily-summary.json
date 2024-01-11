@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 40,
-      "total_seconds": 16850.166256,
-      "digital": "4:40",
-      "decimal": "4.67",
-      "text": "4 hrs 40 mins"
-    },
-    "range": {
-      "start": "2024-01-08T23:00:00Z",
-      "end": "2024-01-09T22:59:59Z",
-      "date": "2024-01-09",
-      "text": "Tue Jan 9th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "chowdhary.org",
-        "total_seconds": 9319.804549,
-        "color": null,
-        "digital": "2:35:19",
-        "decimal": "2.58",
-        "text": "2 hrs 35 mins",
-        "hours": 2,
-        "minutes": 35,
-        "seconds": 19,
-        "percent": 55.31
-      },
-      {
-        "name": "1q4",
-        "total_seconds": 7490.671203,
-        "color": null,
-        "digital": "2:04:50",
-        "decimal": "2.07",
-        "text": "2 hrs 4 mins",
-        "hours": 2,
-        "minutes": 4,
-        "seconds": 50,
-        "percent": 44.45
-      },
-      {
-        "name": "uptime-monitor",
-        "total_seconds": 39.690504,
-        "color": null,
-        "digital": "0:00:39",
-        "decimal": "0.00",
-        "text": "39 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 39,
-        "percent": 0.24
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -185,6 +132,53 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.03
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 40,
+      "total_seconds": 16850.166256,
+      "digital": "4:40",
+      "decimal": "4.67",
+      "text": "4 hrs 40 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 16850.166256,
+        "digital": "4:40:50",
+        "decimal": "4.67",
+        "text": "4 hrs 40 mins",
+        "hours": 4,
+        "minutes": 40,
+        "seconds": 50,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 16850.166256,
+        "digital": "4:40:50",
+        "decimal": "4.67",
+        "text": "4 hrs 40 mins",
+        "hours": 4,
+        "minutes": 40,
+        "seconds": 50,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 16850.166256,
+        "digital": "4:40:50",
+        "decimal": "4.67",
+        "text": "4 hrs 40 mins",
+        "hours": 4,
+        "minutes": 40,
+        "seconds": 50,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2612,44 +2606,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 16850.166256,
-        "digital": "4:40:50",
-        "decimal": "4.67",
-        "text": "4 hrs 40 mins",
-        "hours": 4,
-        "minutes": 40,
+        "name": "chowdhary.org",
+        "total_seconds": 9319.804549,
+        "color": null,
+        "digital": "2:35:19",
+        "decimal": "2.58",
+        "text": "2 hrs 35 mins",
+        "hours": 2,
+        "minutes": 35,
+        "seconds": 19,
+        "percent": 55.31
+      },
+      {
+        "name": "1q4",
+        "total_seconds": 7490.671203,
+        "color": null,
+        "digital": "2:04:50",
+        "decimal": "2.07",
+        "text": "2 hrs 4 mins",
+        "hours": 2,
+        "minutes": 4,
         "seconds": 50,
-        "percent": 100
+        "percent": 44.45
+      },
+      {
+        "name": "uptime-monitor",
+        "total_seconds": 39.690504,
+        "color": null,
+        "digital": "0:00:39",
+        "decimal": "0.00",
+        "text": "39 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 39,
+        "percent": 0.24
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 16850.166256,
-        "digital": "4:40:50",
-        "decimal": "4.67",
-        "text": "4 hrs 40 mins",
-        "hours": 4,
-        "minutes": 40,
-        "seconds": 50,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 16850.166256,
-        "digital": "4:40:50",
-        "decimal": "4.67",
-        "text": "4 hrs 40 mins",
-        "hours": 4,
-        "minutes": 40,
-        "seconds": 50,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-01-08T23:00:00Z",
+      "end": "2024-01-09T22:59:59Z",
+      "date": "2024-01-09",
+      "text": "Tue Jan 9th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
