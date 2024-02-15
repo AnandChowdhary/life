@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 34,
-      "total_seconds": 5653.681659,
-      "digital": "1:34",
-      "decimal": "1.57",
-      "text": "1 hr 34 mins"
-    },
-    "range": {
-      "start": "2024-02-12T23:00:00Z",
-      "end": "2024-02-13T22:59:59Z",
-      "date": "2024-02-13",
-      "text": "Tue Feb 13th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 5653.681659,
-        "color": null,
-        "digital": "1:34:13",
-        "decimal": "1.57",
-        "text": "1 hr 34 mins",
-        "hours": 1,
-        "minutes": 34,
-        "seconds": 13,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -84,6 +55,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0.02
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 34,
+      "total_seconds": 5653.681659,
+      "digital": "1:34",
+      "decimal": "1.57",
+      "text": "1 hr 34 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 5653.681659,
+        "digital": "1:34:13",
+        "decimal": "1.57",
+        "text": "1 hr 34 mins",
+        "hours": 1,
+        "minutes": 34,
+        "seconds": 13,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5653.681659,
+        "digital": "1:34:13",
+        "decimal": "1.57",
+        "text": "1 hr 34 mins",
+        "hours": 1,
+        "minutes": 34,
+        "seconds": 13,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5653.681659,
+        "digital": "1:34:13",
+        "decimal": "1.57",
+        "text": "1 hr 34 mins",
+        "hours": 1,
+        "minutes": 34,
+        "seconds": 13,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -341,7 +359,7 @@
         "percent": 1.25
       },
       {
-        "name": "generations-modal",
+        "name": "create-training-button",
         "total_seconds": 523.155117,
         "digital": "0:08:43",
         "decimal": "0.13",
@@ -352,7 +370,7 @@
         "percent": 1.24
       },
       {
-        "name": "create-training-button",
+        "name": "dropdown-menu",
         "total_seconds": 523.155117,
         "digital": "0:08:43",
         "decimal": "0.13",
@@ -374,7 +392,7 @@
         "percent": 1.24
       },
       {
-        "name": "dropdown-menu",
+        "name": "generations-modal",
         "total_seconds": 523.155117,
         "digital": "0:08:43",
         "decimal": "0.13",
@@ -473,62 +491,7 @@
         "percent": 0.92
       },
       {
-        "name": "users-route",
-        "total_seconds": 383.355565,
-        "digital": "0:06:23",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 23,
-        "percent": 0.91
-      },
-      {
-        "name": "admin-route",
-        "total_seconds": 383.355565,
-        "digital": "0:06:23",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 23,
-        "percent": 0.91
-      },
-      {
         "name": "teams-route",
-        "total_seconds": 383.355565,
-        "digital": "0:06:23",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 23,
-        "percent": 0.91
-      },
-      {
-        "name": "sentry",
-        "total_seconds": 383.355565,
-        "digital": "0:06:23",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 23,
-        "percent": 0.91
-      },
-      {
-        "name": "tracking-router",
-        "total_seconds": 383.355565,
-        "digital": "0:06:23",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 23,
-        "percent": 0.91
-      },
-      {
-        "name": "jsonwebtoken",
         "total_seconds": 383.355565,
         "digital": "0:06:23",
         "decimal": "0.10",
@@ -550,7 +513,29 @@
         "percent": 0.91
       },
       {
-        "name": "logger",
+        "name": "webhooks-route",
+        "total_seconds": 383.355565,
+        "digital": "0:06:23",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 23,
+        "percent": 0.91
+      },
+      {
+        "name": "sentry",
+        "total_seconds": 383.355565,
+        "digital": "0:06:23",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 23,
+        "percent": 0.91
+      },
+      {
+        "name": "jsonwebtoken",
         "total_seconds": 383.355565,
         "digital": "0:06:23",
         "decimal": "0.10",
@@ -572,18 +557,7 @@
         "percent": 0.91
       },
       {
-        "name": "zod-validation-error",
-        "total_seconds": 383.355565,
-        "digital": "0:06:23",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 23,
-        "percent": 0.91
-      },
-      {
-        "name": "webhooks-route",
+        "name": "vercel",
         "total_seconds": 383.355565,
         "digital": "0:06:23",
         "decimal": "0.10",
@@ -605,7 +579,51 @@
         "percent": 0.91
       },
       {
-        "name": "vercel",
+        "name": "users-route",
+        "total_seconds": 383.355565,
+        "digital": "0:06:23",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 23,
+        "percent": 0.91
+      },
+      {
+        "name": "tracking-router",
+        "total_seconds": 383.355565,
+        "digital": "0:06:23",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 23,
+        "percent": 0.91
+      },
+      {
+        "name": "logger",
+        "total_seconds": 383.355565,
+        "digital": "0:06:23",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 23,
+        "percent": 0.91
+      },
+      {
+        "name": "zod-validation-error",
+        "total_seconds": 383.355565,
+        "digital": "0:06:23",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 23,
+        "percent": 0.91
+      },
+      {
+        "name": "admin-route",
         "total_seconds": 383.355565,
         "digital": "0:06:23",
         "decimal": "0.10",
@@ -792,127 +810,6 @@
         "percent": 0.28
       },
       {
-        "name": "2023-04-24-import-csv-audiences",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-03-20-calendly-integration",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2024-01-24-new-firstquadrant",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-02-20-snooze-messages",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-03-06-reopen-lost-conversations-on-reply",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-07-31-analytics",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "header",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-05-01-dark-theme",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-02-13-website-summaries",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-08-21-linkedin-work-history",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-05-08-goal-link-per-team-member",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
         "name": "2023-09-04-improvements",
         "total_seconds": 108.509192,
         "digital": "0:01:48",
@@ -924,172 +821,7 @@
         "percent": 0.26
       },
       {
-        "name": "2023-05-22-enriched-fields-preview",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-04-03-new-interface-for-creating-campaigns",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-08-07-filters",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-08-28-enriched-fields-are-available",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-07-03-import-csv-metadata",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-03-13-automated-responses",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-08-14-smart-scheduling",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-03-27-manually-mark-conversations-as-won-or-lost",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-07-17-exclude-lists",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-06-05-draft-campaigns",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-09-11-improvements",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-06-26-sync-cal-calendly",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-07-24-autopilot-is-available",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-07-10-custom-domain-tracking",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
         "name": "2024-02-05-forwarded-referrals",
-        "total_seconds": 108.509192,
-        "digital": "0:01:48",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 48,
-        "percent": 0.26
-      },
-      {
-        "name": "2023-05-15-single-training-step",
         "total_seconds": 108.509192,
         "digital": "0:01:48",
         "decimal": "0.02",
@@ -1122,7 +854,40 @@
         "percent": 0.26
       },
       {
-        "name": "2023-04-10-follow-ups-for-unresponded-replies",
+        "name": "2023-03-27-manually-mark-conversations-as-won-or-lost",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-05-22-enriched-fields-preview",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-03-20-calendly-integration",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-04-24-import-csv-audiences",
         "total_seconds": 108.509192,
         "digital": "0:01:48",
         "decimal": "0.02",
@@ -1144,7 +909,51 @@
         "percent": 0.26
       },
       {
-        "name": "2023-02-27-email-tracking",
+        "name": "2023-06-26-sync-cal-calendly",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-04-03-new-interface-for-creating-campaigns",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-04-10-follow-ups-for-unresponded-replies",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-05-08-goal-link-per-team-member",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-06-12-autopilot-preview",
         "total_seconds": 108.509192,
         "digital": "0:01:48",
         "decimal": "0.02",
@@ -1166,7 +975,216 @@
         "percent": 0.26
       },
       {
-        "name": "2023-06-12-autopilot-preview",
+        "name": "2023-08-14-smart-scheduling",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-03-06-reopen-lost-conversations-on-reply",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-07-31-analytics",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-06-05-draft-campaigns",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-02-27-email-tracking",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-09-11-improvements",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-08-21-linkedin-work-history",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-08-07-filters",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-02-13-website-summaries",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-03-13-automated-responses",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-07-24-autopilot-is-available",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-08-28-enriched-fields-are-available",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2024-01-24-new-firstquadrant",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-05-01-dark-theme",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-05-15-single-training-step",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "header",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-07-17-exclude-lists",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-07-10-custom-domain-tracking",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-02-20-snooze-messages",
+        "total_seconds": 108.509192,
+        "digital": "0:01:48",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 48,
+        "percent": 0.26
+      },
+      {
+        "name": "2023-07-03-import-csv-metadata",
         "total_seconds": 108.509192,
         "digital": "0:01:48",
         "decimal": "0.02",
@@ -1463,7 +1481,7 @@
         "percent": 0.03
       },
       {
-        "name": "use-wait-until",
+        "name": "create-campaign-button",
         "total_seconds": 10.922842,
         "digital": "0:00:10",
         "decimal": "0.00",
@@ -1474,7 +1492,7 @@
         "percent": 0.03
       },
       {
-        "name": "create-campaign-button",
+        "name": "use-wait-until",
         "total_seconds": 10.922842,
         "digital": "0:00:10",
         "decimal": "0.00",
@@ -1540,7 +1558,7 @@
         "percent": 0.01
       },
       {
-        "name": "google-maps",
+        "name": "zerobound",
         "total_seconds": 4.457222,
         "digital": "0:00:04",
         "decimal": "0.00",
@@ -1551,7 +1569,7 @@
         "percent": 0.01
       },
       {
-        "name": "zerobound",
+        "name": "google-maps",
         "total_seconds": 4.457222,
         "digital": "0:00:04",
         "decimal": "0.00",
@@ -1606,6 +1624,17 @@
         "percent": 0.01
       },
       {
+        "name": "popover",
+        "total_seconds": 2.416669,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      },
+      {
         "name": "radio-group",
         "total_seconds": 2.416669,
         "digital": "0:00:02",
@@ -1618,17 +1647,6 @@
       },
       {
         "name": "react-hook-form",
-        "total_seconds": 2.416669,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0.01
-      },
-      {
-        "name": "popover",
         "total_seconds": 2.416669,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1683,7 +1701,7 @@
         "percent": 0
       },
       {
-        "name": "screenshot-animate",
+        "name": "usehooks-ts",
         "total_seconds": 2.045714,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1694,7 +1712,7 @@
         "percent": 0
       },
       {
-        "name": "usehooks-ts",
+        "name": "screenshot-animate",
         "total_seconds": 2.045714,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -1727,17 +1745,6 @@
         "percent": 0
       },
       {
-        "name": "logo",
-        "total_seconds": 0.826353,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
         "name": "use-user",
         "total_seconds": 0.826353,
         "digital": "0:00:00",
@@ -1749,8 +1756,8 @@
         "percent": 0
       },
       {
-        "name": "campaign-variables",
-        "total_seconds": 0.770393,
+        "name": "logo",
+        "total_seconds": 0.826353,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
@@ -1760,18 +1767,7 @@
         "percent": 0
       },
       {
-        "name": "campaign-enriched-fields",
-        "total_seconds": 0.770393,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "email-subject",
+        "name": "save-training-button",
         "total_seconds": 0.770393,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1804,7 +1800,29 @@
         "percent": 0
       },
       {
+        "name": "moment-avatar",
+        "total_seconds": 0.770393,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
         "name": "use-infinite-list",
+        "total_seconds": 0.770393,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "campaign-enriched-fields",
         "total_seconds": 0.770393,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1826,29 +1844,7 @@
         "percent": 0
       },
       {
-        "name": "save-training-button",
-        "total_seconds": 0.770393,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "skeleton",
-        "total_seconds": 0.770393,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "moment-avatar",
+        "name": "email-subject",
         "total_seconds": 0.770393,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1860,6 +1856,28 @@
       },
       {
         "name": "email-editor",
+        "total_seconds": 0.770393,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "campaign-variables",
+        "total_seconds": 0.770393,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "skeleton",
         "total_seconds": 0.770393,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1895,9 +1913,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "1q4",
         "total_seconds": 5653.681659,
         "digital": "1:34:13",
         "decimal": "1.57",
@@ -1908,31 +1926,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5653.681659,
-        "digital": "1:34:13",
-        "decimal": "1.57",
-        "text": "1 hr 34 mins",
-        "hours": 1,
-        "minutes": 34,
-        "seconds": 13,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5653.681659,
-        "digital": "1:34:13",
-        "decimal": "1.57",
-        "text": "1 hr 34 mins",
-        "hours": 1,
-        "minutes": 34,
-        "seconds": 13,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-02-12T23:00:00Z",
+      "end": "2024-02-13T22:59:59Z",
+      "date": "2024-02-13",
+      "text": "Tue Feb 13th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
