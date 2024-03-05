@@ -1,25 +1,9 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 37,
-      "total_seconds": 2236.601252,
-      "digital": "0:37",
-      "decimal": "0.62",
-      "text": "37 mins"
-    },
-    "range": {
-      "start": "2024-03-02T23:00:00Z",
-      "end": "2024-03-03T22:59:59Z",
-      "date": "2024-03-03",
-      "text": "Sun Mar 3rd 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
+    "languages": [
       {
-        "name": "1q4",
+        "name": "TypeScript",
         "total_seconds": 2236.601252,
-        "color": null,
         "digital": "0:37:16",
         "decimal": "0.62",
         "text": "37 mins",
@@ -29,9 +13,43 @@
         "percent": 100
       }
     ],
-    "languages": [
+    "grand_total": {
+      "hours": 0,
+      "minutes": 37,
+      "total_seconds": 2236.601252,
+      "digital": "0:37",
+      "decimal": "0.62",
+      "text": "37 mins"
+    },
+    "editors": [
       {
-        "name": "TypeScript",
+        "name": "VS Code",
+        "total_seconds": 2236.601252,
+        "digital": "0:37:16",
+        "decimal": "0.62",
+        "text": "37 mins",
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 16,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 2236.601252,
+        "digital": "0:37:16",
+        "decimal": "0.62",
+        "text": "37 mins",
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 16,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
         "total_seconds": 2236.601252,
         "digital": "0:37:16",
         "decimal": "0.62",
@@ -187,7 +205,7 @@
         "percent": 3.13
       },
       {
-        "name": "string",
+        "name": "nylas",
         "total_seconds": 847.916146,
         "digital": "0:14:07",
         "decimal": "0.23",
@@ -198,7 +216,7 @@
         "percent": 3.11
       },
       {
-        "name": "nylas",
+        "name": "string",
         "total_seconds": 847.916146,
         "digital": "0:14:07",
         "decimal": "0.23",
@@ -352,7 +370,7 @@
         "percent": 0.86
       },
       {
-        "name": "switch",
+        "name": "label",
         "total_seconds": 225.300377,
         "digital": "0:03:45",
         "decimal": "0.05",
@@ -363,7 +381,7 @@
         "percent": 0.83
       },
       {
-        "name": "label",
+        "name": "switch",
         "total_seconds": 225.300377,
         "digital": "0:03:45",
         "decimal": "0.05",
@@ -429,7 +447,7 @@
         "percent": 0.46
       },
       {
-        "name": "zod-validation-error",
+        "name": "admin-route",
         "total_seconds": 124.912624,
         "digital": "0:02:04",
         "decimal": "0.03",
@@ -451,73 +469,7 @@
         "percent": 0.46
       },
       {
-        "name": "tracking-router",
-        "total_seconds": 124.912624,
-        "digital": "0:02:04",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 4,
-        "percent": 0.46
-      },
-      {
-        "name": "jsonwebtoken",
-        "total_seconds": 124.912624,
-        "digital": "0:02:04",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 4,
-        "percent": 0.46
-      },
-      {
-        "name": "sentry",
-        "total_seconds": 124.912624,
-        "digital": "0:02:04",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 4,
-        "percent": 0.46
-      },
-      {
         "name": "vercel",
-        "total_seconds": 124.912624,
-        "digital": "0:02:04",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 4,
-        "percent": 0.46
-      },
-      {
-        "name": "auth-route",
-        "total_seconds": 124.912624,
-        "digital": "0:02:04",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 4,
-        "percent": 0.46
-      },
-      {
-        "name": "users-route",
-        "total_seconds": 124.912624,
-        "digital": "0:02:04",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 4,
-        "percent": 0.46
-      },
-      {
-        "name": "admin-route",
         "total_seconds": 124.912624,
         "digital": "0:02:04",
         "decimal": "0.03",
@@ -539,6 +491,72 @@
         "percent": 0.46
       },
       {
+        "name": "sentry",
+        "total_seconds": 124.912624,
+        "digital": "0:02:04",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 4,
+        "percent": 0.46
+      },
+      {
+        "name": "tracking-router",
+        "total_seconds": 124.912624,
+        "digital": "0:02:04",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 4,
+        "percent": 0.46
+      },
+      {
+        "name": "auth-route",
+        "total_seconds": 124.912624,
+        "digital": "0:02:04",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 4,
+        "percent": 0.46
+      },
+      {
+        "name": "zod-validation-error",
+        "total_seconds": 124.912624,
+        "digital": "0:02:04",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 4,
+        "percent": 0.46
+      },
+      {
+        "name": "users-route",
+        "total_seconds": 124.912624,
+        "digital": "0:02:04",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 4,
+        "percent": 0.46
+      },
+      {
+        "name": "jsonwebtoken",
+        "total_seconds": 124.912624,
+        "digital": "0:02:04",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 4,
+        "percent": 0.46
+      },
+      {
         "name": "outbound-domains-router",
         "total_seconds": 124.912624,
         "digital": "0:02:04",
@@ -548,6 +566,17 @@
         "minutes": 2,
         "seconds": 4,
         "percent": 0.46
+      },
+      {
+        "name": "use-user-identify",
+        "total_seconds": 107.751716,
+        "digital": "0:01:47",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 47,
+        "percent": 0.39
       },
       {
         "name": "auth-input",
@@ -562,17 +591,6 @@
       },
       {
         "name": "auth-button",
-        "total_seconds": 107.751716,
-        "digital": "0:01:47",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 47,
-        "percent": 0.39
-      },
-      {
-        "name": "use-user-identify",
         "total_seconds": 107.751716,
         "digital": "0:01:47",
         "decimal": "0.02",
@@ -605,7 +623,7 @@
         "percent": 0.38
       },
       {
-        "name": "create-campaign-form-classes",
+        "name": "tooltip",
         "total_seconds": 103.638311,
         "digital": "0:01:43",
         "decimal": "0.02",
@@ -616,7 +634,7 @@
         "percent": 0.38
       },
       {
-        "name": "tooltip",
+        "name": "create-campaign-form-classes",
         "total_seconds": 103.638311,
         "digital": "0:01:43",
         "decimal": "0.02",
@@ -781,17 +799,6 @@
         "percent": 0.01
       },
       {
-        "name": "skeleton",
-        "total_seconds": 2.742504,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0.01
-      },
-      {
         "name": "textarea",
         "total_seconds": 2.742504,
         "digital": "0:00:02",
@@ -804,6 +811,17 @@
       },
       {
         "name": "popover",
+        "total_seconds": 2.742504,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
+      },
+      {
+        "name": "skeleton",
         "total_seconds": 2.742504,
         "digital": "0:00:02",
         "decimal": "0.00",
@@ -894,9 +912,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "1q4",
         "total_seconds": 2236.601252,
         "digital": "0:37:16",
         "decimal": "0.62",
@@ -907,31 +925,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 2236.601252,
-        "digital": "0:37:16",
-        "decimal": "0.62",
-        "text": "37 mins",
-        "hours": 0,
-        "minutes": 37,
-        "seconds": 16,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2236.601252,
-        "digital": "0:37:16",
-        "decimal": "0.62",
-        "text": "37 mins",
-        "hours": 0,
-        "minutes": 37,
-        "seconds": 16,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-03-02T23:00:00Z",
+      "end": "2024-03-03T22:59:59Z",
+      "date": "2024-03-03",
+      "text": "Sun Mar 3rd 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
