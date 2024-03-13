@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 20,
-      "total_seconds": 12004.895975,
-      "digital": "3:20",
-      "decimal": "3.33",
-      "text": "3 hrs 20 mins"
-    },
-    "range": {
-      "start": "2024-03-10T23:00:00Z",
-      "end": "2024-03-11T22:59:59Z",
-      "date": "2024-03-11",
-      "text": "Mon Mar 11th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "expenses",
-        "total_seconds": 7449.339528,
-        "color": null,
-        "digital": "2:04:09",
-        "decimal": "2.07",
-        "text": "2 hrs 4 mins",
-        "hours": 2,
-        "minutes": 4,
-        "seconds": 9,
-        "percent": 62.05
-      },
-      {
-        "name": "1q4",
-        "total_seconds": 3198.837164,
-        "color": null,
-        "digital": "0:53:18",
-        "decimal": "0.88",
-        "text": "53 mins",
-        "hours": 0,
-        "minutes": 53,
-        "seconds": 18,
-        "percent": 26.65
-      },
-      {
-        "name": "app",
-        "total_seconds": 1356.719283,
-        "color": null,
-        "digital": "0:22:36",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 36,
-        "percent": 11.3
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -119,6 +66,53 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 20,
+      "total_seconds": 12004.895975,
+      "digital": "3:20",
+      "decimal": "3.33",
+      "text": "3 hrs 20 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 12004.895975,
+        "digital": "3:20:04",
+        "decimal": "3.33",
+        "text": "3 hrs 20 mins",
+        "hours": 3,
+        "minutes": 20,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 12004.895975,
+        "digital": "3:20:04",
+        "decimal": "3.33",
+        "text": "3 hrs 20 mins",
+        "hours": 3,
+        "minutes": 20,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 12004.895975,
+        "digital": "3:20:04",
+        "decimal": "3.33",
+        "text": "3 hrs 20 mins",
+        "hours": 3,
+        "minutes": 20,
+        "seconds": 4,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1391,44 +1385,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 12004.895975,
-        "digital": "3:20:04",
-        "decimal": "3.33",
-        "text": "3 hrs 20 mins",
-        "hours": 3,
-        "minutes": 20,
-        "seconds": 4,
-        "percent": 100
+        "name": "expenses",
+        "total_seconds": 7449.339528,
+        "color": null,
+        "digital": "2:04:09",
+        "decimal": "2.07",
+        "text": "2 hrs 4 mins",
+        "hours": 2,
+        "minutes": 4,
+        "seconds": 9,
+        "percent": 62.05
+      },
+      {
+        "name": "1q4",
+        "total_seconds": 3198.837164,
+        "color": null,
+        "digital": "0:53:18",
+        "decimal": "0.88",
+        "text": "53 mins",
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 18,
+        "percent": 26.65
+      },
+      {
+        "name": "app",
+        "total_seconds": 1356.719283,
+        "color": null,
+        "digital": "0:22:36",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 36,
+        "percent": 11.3
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 12004.895975,
-        "digital": "3:20:04",
-        "decimal": "3.33",
-        "text": "3 hrs 20 mins",
-        "hours": 3,
-        "minutes": 20,
-        "seconds": 4,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 12004.895975,
-        "digital": "3:20:04",
-        "decimal": "3.33",
-        "text": "3 hrs 20 mins",
-        "hours": 3,
-        "minutes": 20,
-        "seconds": 4,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-03-10T23:00:00Z",
+      "end": "2024-03-11T22:59:59Z",
+      "date": "2024-03-11",
+      "text": "Mon Mar 11th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
