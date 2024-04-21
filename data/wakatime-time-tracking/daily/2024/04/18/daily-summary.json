@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 54,
-      "total_seconds": 3285.275571,
-      "digital": "0:54",
-      "decimal": "0.90",
-      "text": "54 mins"
-    },
-    "range": {
-      "start": "2024-04-18T22:00:00Z",
-      "end": "2024-04-19T21:59:59Z",
-      "date": "2024-04-19",
-      "text": "Fri Apr 19th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "1q4",
-        "total_seconds": 3285.275571,
-        "color": null,
-        "digital": "0:54:45",
-        "decimal": "0.90",
-        "text": "54 mins",
-        "hours": 0,
-        "minutes": 54,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -62,6 +33,53 @@
         "minutes": 0,
         "seconds": 15,
         "percent": 0.46
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 54,
+      "total_seconds": 3285.275571,
+      "digital": "0:54",
+      "decimal": "0.90",
+      "text": "54 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 3285.275571,
+        "digital": "0:54:45",
+        "decimal": "0.90",
+        "text": "54 mins",
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3285.275571,
+        "digital": "0:54:45",
+        "decimal": "0.90",
+        "text": "54 mins",
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3285.275571,
+        "digital": "0:54:45",
+        "decimal": "0.90",
+        "text": "54 mins",
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 45,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -242,17 +260,6 @@
         "percent": 1.37
       },
       {
-        "name": "teams-$teamId-campaigns-$campaignId-audience-integrate-helpers",
-        "total_seconds": 261.514259,
-        "digital": "0:04:21",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 21,
-        "percent": 1.37
-      },
-      {
         "name": "teams-$teamId-companies-helpers",
         "total_seconds": 261.514259,
         "digital": "0:04:21",
@@ -276,6 +283,17 @@
       },
       {
         "name": "zod-validation-error",
+        "total_seconds": 261.514259,
+        "digital": "0:04:21",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 21,
+        "percent": 1.37
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-audience-integrate-helpers",
         "total_seconds": 261.514259,
         "digital": "0:04:21",
         "decimal": "0.07",
@@ -341,7 +359,7 @@
         "percent": 0.7
       },
       {
-        "name": "auth-helpers",
+        "name": "hono",
         "total_seconds": 123.092289,
         "digital": "0:02:03",
         "decimal": "0.03",
@@ -352,7 +370,7 @@
         "percent": 0.65
       },
       {
-        "name": "hono",
+        "name": "auth-helpers",
         "total_seconds": 123.092289,
         "digital": "0:02:03",
         "decimal": "0.03",
@@ -550,7 +568,7 @@
         "percent": 0.06
       },
       {
-        "name": "determine-asked-questions",
+        "name": "luxon",
         "total_seconds": 11.148579,
         "digital": "0:00:11",
         "decimal": "0.00",
@@ -572,29 +590,7 @@
         "percent": 0.06
       },
       {
-        "name": "draft",
-        "total_seconds": 11.148579,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.06
-      },
-      {
-        "name": "inngest",
-        "total_seconds": 11.148579,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.06
-      },
-      {
-        "name": "generate-email-outreach-mentioned-person",
+        "name": "teams-$teamId-actions-helpers",
         "total_seconds": 11.148579,
         "digital": "0:00:11",
         "decimal": "0.00",
@@ -616,40 +612,7 @@
         "percent": 0.06
       },
       {
-        "name": "generate-contact-metadata",
-        "total_seconds": 11.148579,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.06
-      },
-      {
-        "name": "teams-$teamId-contacts-$contactId-moments-$momentId-helpers",
-        "total_seconds": 11.148579,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.06
-      },
-      {
-        "name": "luxon",
-        "total_seconds": 11.148579,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 0.06
-      },
-      {
-        "name": "teams-$teamId-actions-helpers",
+        "name": "determine-asked-questions",
         "total_seconds": 11.148579,
         "digital": "0:00:11",
         "decimal": "0.00",
@@ -671,6 +634,61 @@
         "percent": 0.06
       },
       {
+        "name": "generate-contact-metadata",
+        "total_seconds": 11.148579,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.06
+      },
+      {
+        "name": "generate-email-outreach-mentioned-person",
+        "total_seconds": 11.148579,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.06
+      },
+      {
+        "name": "draft",
+        "total_seconds": 11.148579,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.06
+      },
+      {
+        "name": "teams-$teamId-contacts-$contactId-moments-$momentId-helpers",
+        "total_seconds": 11.148579,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.06
+      },
+      {
+        "name": "inngest",
+        "total_seconds": 11.148579,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 0.06
+      },
+      {
         "name": "api-key-generator",
         "total_seconds": 11.088618,
         "digital": "0:00:11",
@@ -682,7 +700,7 @@
         "percent": 0.06
       },
       {
-        "name": "csv-string",
+        "name": "http-exception",
         "total_seconds": 4.044202,
         "digital": "0:00:04",
         "decimal": "0.00",
@@ -693,7 +711,7 @@
         "percent": 0.02
       },
       {
-        "name": "http-exception",
+        "name": "csv-string",
         "total_seconds": 4.044202,
         "digital": "0:00:04",
         "decimal": "0.00",
@@ -737,40 +755,7 @@
         "percent": 0
       },
       {
-        "name": "teams-$teamId-mailboxes-helpers",
-        "total_seconds": 0.869462,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
         "name": "markdown-to-txt",
-        "total_seconds": 0.869462,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "slugify",
-        "total_seconds": 0.869462,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "url-regex-safe",
         "total_seconds": 0.869462,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -792,7 +777,40 @@
         "percent": 0
       },
       {
+        "name": "url-regex-safe",
+        "total_seconds": 0.869462,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
         "name": "mail-composer",
+        "total_seconds": 0.869462,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "teams-$teamId-mailboxes-helpers",
+        "total_seconds": 0.869462,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "slugify",
         "total_seconds": 0.869462,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -829,9 +847,9 @@
         "percent": 0.02
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "1q4",
         "total_seconds": 3285.275571,
         "digital": "0:54:45",
         "decimal": "0.90",
@@ -842,31 +860,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 3285.275571,
-        "digital": "0:54:45",
-        "decimal": "0.90",
-        "text": "54 mins",
-        "hours": 0,
-        "minutes": 54,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 3285.275571,
-        "digital": "0:54:45",
-        "decimal": "0.90",
-        "text": "54 mins",
-        "hours": 0,
-        "minutes": 54,
-        "seconds": 45,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-04-18T22:00:00Z",
+      "end": "2024-04-19T21:59:59Z",
+      "date": "2024-04-19",
+      "text": "Fri Apr 19th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
