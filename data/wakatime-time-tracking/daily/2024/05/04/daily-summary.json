@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 0,
-      "total_seconds": 14.448,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs"
-    },
-    "range": {
-      "start": "2024-05-04T22:00:00Z",
-      "end": "2024-05-05T21:59:59Z",
-      "date": "2024-05-05",
-      "text": "Sun May 5th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "uptime-monitor",
-        "total_seconds": 14.448,
-        "color": null,
-        "digital": "0:00:14",
-        "decimal": "0.00",
-        "text": "14 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 14,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -42,21 +13,14 @@
         "percent": 100
       }
     ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "github.dev",
-        "total_seconds": 14.448,
-        "machine_name_id": "018d9d5e-2c26-4290-88c5-7fe3b77e501f",
-        "digital": "0:00:14",
-        "decimal": "0.00",
-        "text": "14 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 14,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 0,
+      "total_seconds": 14.448,
+      "digital": "0:00",
+      "decimal": "0.00",
+      "text": "0 secs"
+    },
     "editors": [
       {
         "name": "VS Code",
@@ -95,6 +59,41 @@
         "seconds": 14,
         "percent": 100
       }
-    ]
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "github.dev",
+        "total_seconds": 14.448,
+        "machine_name_id": "018d9d5e-2c26-4290-88c5-7fe3b77e501f",
+        "digital": "0:00:14",
+        "decimal": "0.00",
+        "text": "14 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 14,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "uptime-monitor",
+        "total_seconds": 14.448,
+        "digital": "0:00:14",
+        "decimal": "0.00",
+        "text": "14 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 14,
+        "percent": 100
+      }
+    ],
+    "range": {
+      "start": "2024-05-04T22:00:00Z",
+      "end": "2024-05-05T21:59:59Z",
+      "date": "2024-05-05",
+      "text": "Sun May 5th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
