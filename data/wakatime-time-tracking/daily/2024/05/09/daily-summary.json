@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 27,
-      "total_seconds": 1637.986669,
-      "digital": "0:27",
-      "decimal": "0.45",
-      "text": "27 mins"
-    },
-    "range": {
-      "start": "2024-05-09T22:00:00Z",
-      "end": "2024-05-10T21:59:59Z",
-      "date": "2024-05-10",
-      "text": "Fri May 10th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 1637.986669,
-        "color": null,
-        "digital": "0:27:17",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -75,6 +46,53 @@
         "percent": 3.49
       }
     ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 27,
+      "total_seconds": 1637.986669,
+      "digital": "0:27",
+      "decimal": "0.45",
+      "text": "27 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1637.986669,
+        "digital": "0:27:17",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1637.986669,
+        "digital": "0:27:17",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1637.986669,
+        "digital": "0:27:17",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
     "dependencies": [
       {
         "name": "client",
@@ -99,29 +117,7 @@
         "percent": 9.09
       },
       {
-        "name": "zod",
-        "total_seconds": 1296.417541,
-        "digital": "0:21:36",
-        "decimal": "0.35",
-        "text": "21 mins",
-        "hours": 0,
-        "minutes": 21,
-        "seconds": 36,
-        "percent": 9.04
-      },
-      {
         "name": "id",
-        "total_seconds": 1296.417541,
-        "digital": "0:21:36",
-        "decimal": "0.35",
-        "text": "21 mins",
-        "hours": 0,
-        "minutes": 21,
-        "seconds": 36,
-        "percent": 9.04
-      },
-      {
-        "name": "hono",
         "total_seconds": 1296.417541,
         "digital": "0:21:36",
         "decimal": "0.35",
@@ -143,7 +139,29 @@
         "percent": 9.04
       },
       {
-        "name": "root-contact-helpers",
+        "name": "hono",
+        "total_seconds": 1296.417541,
+        "digital": "0:21:36",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 36,
+        "percent": 9.04
+      },
+      {
+        "name": "zod",
+        "total_seconds": 1296.417541,
+        "digital": "0:21:36",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 36,
+        "percent": 9.04
+      },
+      {
+        "name": "root-company-helpers",
         "total_seconds": 1280.61205,
         "digital": "0:21:20",
         "decimal": "0.35",
@@ -165,17 +183,6 @@
         "percent": 8.93
       },
       {
-        "name": "string",
-        "total_seconds": 1280.61205,
-        "digital": "0:21:20",
-        "decimal": "0.35",
-        "text": "21 mins",
-        "hours": 0,
-        "minutes": 21,
-        "seconds": 20,
-        "percent": 8.93
-      },
-      {
         "name": "crypto",
         "total_seconds": 1280.61205,
         "digital": "0:21:20",
@@ -187,7 +194,18 @@
         "percent": 8.93
       },
       {
-        "name": "root-company-helpers",
+        "name": "string",
+        "total_seconds": 1280.61205,
+        "digital": "0:21:20",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 20,
+        "percent": 8.93
+      },
+      {
+        "name": "root-contact-helpers",
         "total_seconds": 1280.61205,
         "digital": "0:21:20",
         "decimal": "0.35",
@@ -209,29 +227,18 @@
         "percent": 0.16
       },
       {
-        "name": "api-key-generator",
-        "total_seconds": 15.805491,
-        "digital": "0:00:15",
-        "decimal": "0.00",
-        "text": "15 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 15,
-        "percent": 0.11
-      },
-      {
-        "name": "minimatch",
-        "total_seconds": 15.805491,
-        "digital": "0:00:15",
-        "decimal": "0.00",
-        "text": "15 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 15,
-        "percent": 0.11
-      },
-      {
         "name": "tokens",
+        "total_seconds": 15.805491,
+        "digital": "0:00:15",
+        "decimal": "0.00",
+        "text": "15 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 15,
+        "percent": 0.11
+      },
+      {
+        "name": "api-key-generator",
         "total_seconds": 15.805491,
         "digital": "0:00:15",
         "decimal": "0.00",
@@ -253,40 +260,18 @@
         "percent": 0.11
       },
       {
-        "name": "concurrency",
-        "total_seconds": 6.97963,
-        "digital": "0:00:06",
+        "name": "minimatch",
+        "total_seconds": 15.805491,
+        "digital": "0:00:15",
         "decimal": "0.00",
-        "text": "6 secs",
+        "text": "15 secs",
         "hours": 0,
         "minutes": 0,
-        "seconds": 6,
-        "percent": 0.05
+        "seconds": 15,
+        "percent": 0.11
       },
       {
         "name": "teams-$teamId-contacts-$contactId-moments-$momentId-helpers",
-        "total_seconds": 6.97963,
-        "digital": "0:00:06",
-        "decimal": "0.00",
-        "text": "6 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 6,
-        "percent": 0.05
-      },
-      {
-        "name": "teams-$teamId-campaigns-$campaignId-outbound-steps-helpers",
-        "total_seconds": 6.97963,
-        "digital": "0:00:06",
-        "decimal": "0.00",
-        "text": "6 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 6,
-        "percent": 0.05
-      },
-      {
-        "name": "teams-$teamId-campaigns-$campaignId-contacts-helpers",
         "total_seconds": 6.97963,
         "digital": "0:00:06",
         "decimal": "0.00",
@@ -308,7 +293,29 @@
         "percent": 0.05
       },
       {
-        "name": "logger",
+        "name": "teams-$teamId-campaigns-$campaignId-outbound-steps-helpers",
+        "total_seconds": 6.97963,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.05
+      },
+      {
+        "name": "concurrency",
+        "total_seconds": 6.97963,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.05
+      },
+      {
+        "name": "teams-$teamId-campaigns-$campaignId-contacts-helpers",
         "total_seconds": 6.97963,
         "digital": "0:00:06",
         "decimal": "0.00",
@@ -320,6 +327,17 @@
       },
       {
         "name": "svix",
+        "total_seconds": 6.97963,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.05
+      },
+      {
+        "name": "logger",
         "total_seconds": 6.97963,
         "digital": "0:00:06",
         "decimal": "0.00",
@@ -377,9 +395,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "firstquadrant",
         "total_seconds": 1637.986669,
         "digital": "0:27:17",
         "decimal": "0.45",
@@ -390,31 +408,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1637.986669,
-        "digital": "0:27:17",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1637.986669,
-        "digital": "0:27:17",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 17,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-05-09T22:00:00Z",
+      "end": "2024-05-10T21:59:59Z",
+      "date": "2024-05-10",
+      "text": "Fri May 10th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
