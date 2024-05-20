@@ -1,25 +1,9 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 24,
-      "total_seconds": 1461.289566,
-      "digital": "0:24",
-      "decimal": "0.40",
-      "text": "24 mins"
-    },
-    "range": {
-      "start": "2024-05-17T22:00:00Z",
-      "end": "2024-05-18T21:59:59Z",
-      "date": "2024-05-18",
-      "text": "Sat May 18th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
+    "languages": [
       {
-        "name": "firstquadrant",
+        "name": "TypeScript",
         "total_seconds": 1461.289566,
-        "color": null,
         "digital": "0:24:21",
         "decimal": "0.40",
         "text": "24 mins",
@@ -29,9 +13,43 @@
         "percent": 100
       }
     ],
-    "languages": [
+    "grand_total": {
+      "hours": 0,
+      "minutes": 24,
+      "total_seconds": 1461.289566,
+      "digital": "0:24",
+      "decimal": "0.40",
+      "text": "24 mins"
+    },
+    "editors": [
       {
-        "name": "TypeScript",
+        "name": "VS Code",
+        "total_seconds": 1461.289566,
+        "digital": "0:24:21",
+        "decimal": "0.40",
+        "text": "24 mins",
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 21,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1461.289566,
+        "digital": "0:24:21",
+        "decimal": "0.40",
+        "text": "24 mins",
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 21,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
         "total_seconds": 1461.289566,
         "digital": "0:24:21",
         "decimal": "0.40",
@@ -143,7 +161,29 @@
         "percent": 4.62
       },
       {
+        "name": "teams-$teamId-contacts-helpers",
+        "total_seconds": 822.954558,
+        "digital": "0:13:42",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 42,
+        "percent": 4.58
+      },
+      {
         "name": "teams-$teamId-campaigns-$campaignId-outbound-trainings-helpers",
+        "total_seconds": 822.954558,
+        "digital": "0:13:42",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 42,
+        "percent": 4.58
+      },
+      {
+        "name": "get-contact-id-from-audience-row",
         "total_seconds": 822.954558,
         "digital": "0:13:42",
         "decimal": "0.22",
@@ -165,51 +205,7 @@
         "percent": 4.58
       },
       {
-        "name": "nango",
-        "total_seconds": 822.954558,
-        "digital": "0:13:42",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 42,
-        "percent": 4.58
-      },
-      {
-        "name": "teams-$teamId-companies-helpers",
-        "total_seconds": 822.954558,
-        "digital": "0:13:42",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 42,
-        "percent": 4.58
-      },
-      {
-        "name": "teams-$teamId-contacts-helpers",
-        "total_seconds": 822.954558,
-        "digital": "0:13:42",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 42,
-        "percent": 4.58
-      },
-      {
         "name": "teams-$teamId-campaigns-$campaignId-audience-import-helpers",
-        "total_seconds": 822.954558,
-        "digital": "0:13:42",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 42,
-        "percent": 4.58
-      },
-      {
-        "name": "import",
         "total_seconds": 822.954558,
         "digital": "0:13:42",
         "decimal": "0.22",
@@ -242,7 +238,29 @@
         "percent": 4.58
       },
       {
-        "name": "get-contact-id-from-audience-row",
+        "name": "teams-$teamId-companies-helpers",
+        "total_seconds": 822.954558,
+        "digital": "0:13:42",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 42,
+        "percent": 4.58
+      },
+      {
+        "name": "nango",
+        "total_seconds": 822.954558,
+        "digital": "0:13:42",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 42,
+        "percent": 4.58
+      },
+      {
+        "name": "import",
         "total_seconds": 822.954558,
         "digital": "0:13:42",
         "decimal": "0.22",
@@ -352,17 +370,6 @@
         "percent": 0.3
       },
       {
-        "name": "auth-helpers",
-        "total_seconds": 19.042678,
-        "digital": "0:00:19",
-        "decimal": "0.00",
-        "text": "19 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 19,
-        "percent": 0.11
-      },
-      {
         "name": "hono",
         "total_seconds": 19.042678,
         "digital": "0:00:19",
@@ -374,7 +381,7 @@
         "percent": 0.11
       },
       {
-        "name": "search",
+        "name": "teams-$teamId-helpers",
         "total_seconds": 19.042678,
         "digital": "0:00:19",
         "decimal": "0.00",
@@ -385,7 +392,18 @@
         "percent": 0.11
       },
       {
-        "name": "teams-$teamId-helpers",
+        "name": "auth-helpers",
+        "total_seconds": 19.042678,
+        "digital": "0:00:19",
+        "decimal": "0.00",
+        "text": "19 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 19,
+        "percent": 0.11
+      },
+      {
+        "name": "search",
         "total_seconds": 19.042678,
         "digital": "0:00:19",
         "decimal": "0.00",
@@ -465,9 +483,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "firstquadrant",
         "total_seconds": 1461.289566,
         "digital": "0:24:21",
         "decimal": "0.40",
@@ -478,31 +496,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1461.289566,
-        "digital": "0:24:21",
-        "decimal": "0.40",
-        "text": "24 mins",
-        "hours": 0,
-        "minutes": 24,
-        "seconds": 21,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1461.289566,
-        "digital": "0:24:21",
-        "decimal": "0.40",
-        "text": "24 mins",
-        "hours": 0,
-        "minutes": 24,
-        "seconds": 21,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-05-17T22:00:00Z",
+      "end": "2024-05-18T21:59:59Z",
+      "date": "2024-05-18",
+      "text": "Sat May 18th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
