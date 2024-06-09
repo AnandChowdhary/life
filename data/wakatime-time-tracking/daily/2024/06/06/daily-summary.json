@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 1,
-      "total_seconds": 107.818927,
-      "digital": "0:01",
-      "decimal": "0.02",
-      "text": "1 min"
-    },
-    "range": {
-      "start": "2024-06-06T22:00:00Z",
-      "end": "2024-06-07T21:59:59Z",
-      "date": "2024-06-07",
-      "text": "Fri Jun 7th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "nord.js",
-        "total_seconds": 66.122768,
-        "color": null,
-        "digital": "0:01:06",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 6,
-        "percent": 61.33
-      },
-      {
-        "name": "firstquadrant",
-        "total_seconds": 41.696159,
-        "color": null,
-        "digital": "0:00:41",
-        "decimal": "0.00",
-        "text": "41 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 41,
-        "percent": 38.67
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -85,6 +44,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0.6
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 1,
+      "total_seconds": 107.818927,
+      "digital": "0:01",
+      "decimal": "0.02",
+      "text": "1 min"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 107.818927,
+        "digital": "0:01:47",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 107.818927,
+        "digital": "0:01:47",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 107.818927,
+        "digital": "0:01:47",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 47,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -279,44 +285,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 107.818927,
-        "digital": "0:01:47",
+        "name": "nord.js",
+        "total_seconds": 66.122768,
+        "color": null,
+        "digital": "0:01:06",
         "decimal": "0.02",
         "text": "1 min",
         "hours": 0,
         "minutes": 1,
-        "seconds": 47,
-        "percent": 100
+        "seconds": 6,
+        "percent": 61.33
+      },
+      {
+        "name": "firstquadrant",
+        "total_seconds": 41.696159,
+        "color": null,
+        "digital": "0:00:41",
+        "decimal": "0.00",
+        "text": "41 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 41,
+        "percent": 38.67
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 107.818927,
-        "digital": "0:01:47",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 47,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 107.818927,
-        "digital": "0:01:47",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 47,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-06-06T22:00:00Z",
+      "end": "2024-06-07T21:59:59Z",
+      "date": "2024-06-07",
+      "text": "Fri Jun 7th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
