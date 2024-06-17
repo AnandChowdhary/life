@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 42,
-      "total_seconds": 13321.475198,
-      "digital": "3:42",
-      "decimal": "3.70",
-      "text": "3 hrs 42 mins"
-    },
-    "range": {
-      "start": "2024-06-12T22:00:00Z",
-      "end": "2024-06-13T21:59:59Z",
-      "date": "2024-06-13",
-      "text": "Thu Jun 13th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 12999.245112,
-        "color": null,
-        "digital": "3:36:39",
-        "decimal": "3.60",
-        "text": "3 hrs 36 mins",
-        "hours": 3,
-        "minutes": 36,
-        "seconds": 39,
-        "percent": 97.58
-      },
-      {
-        "name": "flike.app",
-        "total_seconds": 312.667815,
-        "color": null,
-        "digital": "0:05:12",
-        "decimal": "0.08",
-        "text": "5 mins",
-        "hours": 0,
-        "minutes": 5,
-        "seconds": 12,
-        "percent": 2.35
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 9.562271,
-        "color": null,
-        "digital": "0:00:09",
-        "decimal": "0.00",
-        "text": "9 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 9,
-        "percent": 0.07
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -141,6 +88,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 42,
+      "total_seconds": 13321.475198,
+      "digital": "3:42",
+      "decimal": "3.70",
+      "text": "3 hrs 42 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 13321.475198,
+        "digital": "3:42:01",
+        "decimal": "3.70",
+        "text": "3 hrs 42 mins",
+        "hours": 3,
+        "minutes": 42,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 13321.475198,
+        "digital": "3:42:01",
+        "decimal": "3.70",
+        "text": "3 hrs 42 mins",
+        "hours": 3,
+        "minutes": 42,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 13321.475198,
+        "digital": "3:42:01",
+        "decimal": "3.70",
+        "text": "3 hrs 42 mins",
+        "hours": 3,
+        "minutes": 42,
+        "seconds": 1,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2975,44 +2969,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 13321.475198,
-        "digital": "3:42:01",
-        "decimal": "3.70",
-        "text": "3 hrs 42 mins",
+        "name": "firstquadrant",
+        "total_seconds": 12999.245112,
+        "color": null,
+        "digital": "3:36:39",
+        "decimal": "3.60",
+        "text": "3 hrs 36 mins",
         "hours": 3,
-        "minutes": 42,
-        "seconds": 1,
-        "percent": 100
+        "minutes": 36,
+        "seconds": 39,
+        "percent": 97.58
+      },
+      {
+        "name": "flike.app",
+        "total_seconds": 312.667815,
+        "color": null,
+        "digital": "0:05:12",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 12,
+        "percent": 2.35
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 9.562271,
+        "color": null,
+        "digital": "0:00:09",
+        "decimal": "0.00",
+        "text": "9 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 0.07
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 13321.475198,
-        "digital": "3:42:01",
-        "decimal": "3.70",
-        "text": "3 hrs 42 mins",
-        "hours": 3,
-        "minutes": 42,
-        "seconds": 1,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 13321.475198,
-        "digital": "3:42:01",
-        "decimal": "3.70",
-        "text": "3 hrs 42 mins",
-        "hours": 3,
-        "minutes": 42,
-        "seconds": 1,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-06-12T22:00:00Z",
+      "end": "2024-06-13T21:59:59Z",
+      "date": "2024-06-13",
+      "text": "Thu Jun 13th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
