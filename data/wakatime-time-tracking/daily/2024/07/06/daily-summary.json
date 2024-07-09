@@ -1,70 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 30,
-      "total_seconds": 1803.236553,
-      "digital": "0:30",
-      "decimal": "0.50",
-      "text": "30 mins"
-    },
-    "range": {
-      "start": "2024-07-06T22:00:00Z",
-      "end": "2024-07-07T21:59:59Z",
-      "date": "2024-07-07",
-      "text": "Sun Jul 7th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "expenses",
-        "total_seconds": 1648.834539,
-        "color": null,
-        "digital": "0:27:28",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 28,
-        "percent": 91.44
-      },
-      {
-        "name": "firstquadrant",
-        "total_seconds": 63.77209,
-        "color": null,
-        "digital": "0:01:03",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 3,
-        "percent": 3.54
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 59.605748,
-        "color": null,
-        "digital": "0:00:59",
-        "decimal": "0.00",
-        "text": "59 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 59,
-        "percent": 3.31
-      },
-      {
-        "name": "paisa-companion",
-        "total_seconds": 31.024176,
-        "color": null,
-        "digital": "0:00:31",
-        "decimal": "0.00",
-        "text": "31 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 31,
-        "percent": 1.72
-      }
-    ],
     "languages": [
       {
         "name": "Other",
@@ -98,6 +33,53 @@
         "minutes": 0,
         "seconds": 59,
         "percent": 3.31
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 30,
+      "total_seconds": 1803.236553,
+      "digital": "0:30",
+      "decimal": "0.50",
+      "text": "30 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 1803.236553,
+        "digital": "0:30:03",
+        "decimal": "0.50",
+        "text": "30 mins",
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 3,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1803.236553,
+        "digital": "0:30:03",
+        "decimal": "0.50",
+        "text": "30 mins",
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 3,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1803.236553,
+        "digital": "0:30:03",
+        "decimal": "0.50",
+        "text": "30 mins",
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 3,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -336,44 +318,62 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 1803.236553,
-        "digital": "0:30:03",
-        "decimal": "0.50",
-        "text": "30 mins",
+        "name": "expenses",
+        "total_seconds": 1648.834539,
+        "color": null,
+        "digital": "0:27:28",
+        "decimal": "0.45",
+        "text": "27 mins",
         "hours": 0,
-        "minutes": 30,
+        "minutes": 27,
+        "seconds": 28,
+        "percent": 91.44
+      },
+      {
+        "name": "firstquadrant",
+        "total_seconds": 63.77209,
+        "color": null,
+        "digital": "0:01:03",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
         "seconds": 3,
-        "percent": 100
+        "percent": 3.54
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 59.605748,
+        "color": null,
+        "digital": "0:00:59",
+        "decimal": "0.00",
+        "text": "59 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 59,
+        "percent": 3.31
+      },
+      {
+        "name": "paisa-companion",
+        "total_seconds": 31.024176,
+        "color": null,
+        "digital": "0:00:31",
+        "decimal": "0.00",
+        "text": "31 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 31,
+        "percent": 1.72
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1803.236553,
-        "digital": "0:30:03",
-        "decimal": "0.50",
-        "text": "30 mins",
-        "hours": 0,
-        "minutes": 30,
-        "seconds": 3,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1803.236553,
-        "digital": "0:30:03",
-        "decimal": "0.50",
-        "text": "30 mins",
-        "hours": 0,
-        "minutes": 30,
-        "seconds": 3,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-07-06T22:00:00Z",
+      "end": "2024-07-07T21:59:59Z",
+      "date": "2024-07-07",
+      "text": "Sun Jul 7th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
