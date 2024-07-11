@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 26,
-      "total_seconds": 5209.651178,
-      "digital": "1:26",
-      "decimal": "1.43",
-      "text": "1 hr 26 mins"
-    },
-    "range": {
-      "start": "2024-07-08T22:00:00Z",
-      "end": "2024-07-09T21:59:59Z",
-      "date": "2024-07-09",
-      "text": "Tue Jul 9th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 5209.651178,
-        "color": null,
-        "digital": "1:26:49",
-        "decimal": "1.43",
-        "text": "1 hr 26 mins",
-        "hours": 1,
-        "minutes": 26,
-        "seconds": 49,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -73,6 +44,53 @@
         "minutes": 0,
         "seconds": 9,
         "percent": 0.17
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 26,
+      "total_seconds": 5209.651178,
+      "digital": "1:26",
+      "decimal": "1.43",
+      "text": "1 hr 26 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 5209.651178,
+        "digital": "1:26:49",
+        "decimal": "1.43",
+        "text": "1 hr 26 mins",
+        "hours": 1,
+        "minutes": 26,
+        "seconds": 49,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5209.651178,
+        "digital": "1:26:49",
+        "decimal": "1.43",
+        "text": "1 hr 26 mins",
+        "hours": 1,
+        "minutes": 26,
+        "seconds": 49,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5209.651178,
+        "digital": "1:26:49",
+        "decimal": "1.43",
+        "text": "1 hr 26 mins",
+        "hours": 1,
+        "minutes": 26,
+        "seconds": 49,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -176,29 +194,7 @@
         "percent": 4.15
       },
       {
-        "name": "confirm-dialog",
-        "total_seconds": 2325.759599,
-        "digital": "0:38:45",
-        "decimal": "0.63",
-        "text": "38 mins",
-        "hours": 0,
-        "minutes": 38,
-        "seconds": 45,
-        "percent": 4.14
-      },
-      {
         "name": "use-toast",
-        "total_seconds": 2325.759599,
-        "digital": "0:38:45",
-        "decimal": "0.63",
-        "text": "38 mins",
-        "hours": 0,
-        "minutes": 38,
-        "seconds": 45,
-        "percent": 4.14
-      },
-      {
-        "name": "company-header",
         "total_seconds": 2325.759599,
         "digital": "0:38:45",
         "decimal": "0.63",
@@ -220,7 +216,29 @@
         "percent": 4.14
       },
       {
+        "name": "company-header",
+        "total_seconds": 2325.759599,
+        "digital": "0:38:45",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 45,
+        "percent": 4.14
+      },
+      {
         "name": "link",
+        "total_seconds": 2325.759599,
+        "digital": "0:38:45",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 45,
+        "percent": 4.14
+      },
+      {
+        "name": "confirm-dialog",
         "total_seconds": 2325.759599,
         "digital": "0:38:45",
         "decimal": "0.63",
@@ -264,6 +282,17 @@
         "percent": 1.76
       },
       {
+        "name": "view-link",
+        "total_seconds": 952.356756,
+        "digital": "0:15:52",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 52,
+        "percent": 1.7
+      },
+      {
         "name": "image",
         "total_seconds": 952.356756,
         "digital": "0:15:52",
@@ -276,17 +305,6 @@
       },
       {
         "name": "avatar",
-        "total_seconds": 952.356756,
-        "digital": "0:15:52",
-        "decimal": "0.25",
-        "text": "15 mins",
-        "hours": 0,
-        "minutes": 15,
-        "seconds": 52,
-        "percent": 1.7
-      },
-      {
-        "name": "view-link",
         "total_seconds": 952.356756,
         "digital": "0:15:52",
         "decimal": "0.25",
@@ -396,17 +414,6 @@
         "percent": 1.03
       },
       {
-        "name": "tooltip",
-        "total_seconds": 568.875094,
-        "digital": "0:09:28",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 28,
-        "percent": 1.01
-      },
-      {
         "name": "page",
         "total_seconds": 568.875094,
         "digital": "0:09:28",
@@ -419,6 +426,17 @@
       },
       {
         "name": "compare-previous",
+        "total_seconds": 568.875094,
+        "digital": "0:09:28",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 28,
+        "percent": 1.01
+      },
+      {
+        "name": "tooltip",
         "total_seconds": 568.875094,
         "digital": "0:09:28",
         "decimal": "0.15",
@@ -550,29 +568,7 @@
         "percent": 0.18
       },
       {
-        "name": "sentry",
-        "total_seconds": 94.306664,
-        "digital": "0:01:34",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 34,
-        "percent": 0.17
-      },
-      {
-        "name": "admin-route",
-        "total_seconds": 94.306664,
-        "digital": "0:01:34",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 34,
-        "percent": 0.17
-      },
-      {
-        "name": "outbound-domains-router",
+        "name": "webhooks-route",
         "total_seconds": 94.306664,
         "digital": "0:01:34",
         "decimal": "0.02",
@@ -605,28 +601,6 @@
         "percent": 0.17
       },
       {
-        "name": "common",
-        "total_seconds": 94.306664,
-        "digital": "0:01:34",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 34,
-        "percent": 0.17
-      },
-      {
-        "name": "webhooks-route",
-        "total_seconds": 94.306664,
-        "digital": "0:01:34",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 34,
-        "percent": 0.17
-      },
-      {
         "name": "tracking-router",
         "total_seconds": 94.306664,
         "digital": "0:01:34",
@@ -649,7 +623,7 @@
         "percent": 0.17
       },
       {
-        "name": "jsonwebtoken",
+        "name": "vercel",
         "total_seconds": 94.306664,
         "digital": "0:01:34",
         "decimal": "0.02",
@@ -682,7 +656,51 @@
         "percent": 0.17
       },
       {
-        "name": "vercel",
+        "name": "common",
+        "total_seconds": 94.306664,
+        "digital": "0:01:34",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 34,
+        "percent": 0.17
+      },
+      {
+        "name": "admin-route",
+        "total_seconds": 94.306664,
+        "digital": "0:01:34",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 34,
+        "percent": 0.17
+      },
+      {
+        "name": "sentry",
+        "total_seconds": 94.306664,
+        "digital": "0:01:34",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 34,
+        "percent": 0.17
+      },
+      {
+        "name": "jsonwebtoken",
+        "total_seconds": 94.306664,
+        "digital": "0:01:34",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 34,
+        "percent": 0.17
+      },
+      {
+        "name": "outbound-domains-router",
         "total_seconds": 94.306664,
         "digital": "0:01:34",
         "decimal": "0.02",
@@ -704,7 +722,7 @@
         "percent": 0.02
       },
       {
-        "name": "preferences-store",
+        "name": "view-data-table",
         "total_seconds": 6.923934,
         "digital": "0:00:06",
         "decimal": "0.00",
@@ -716,6 +734,39 @@
       },
       {
         "name": "use-infinite-list",
+        "total_seconds": 6.923934,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.01
+      },
+      {
+        "name": "view-container",
+        "total_seconds": 6.923934,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.01
+      },
+      {
+        "name": "preferences-store",
+        "total_seconds": 6.923934,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.01
+      },
+      {
+        "name": "tabs",
         "total_seconds": 6.923934,
         "digital": "0:00:06",
         "decimal": "0.00",
@@ -759,40 +810,7 @@
         "percent": 0.01
       },
       {
-        "name": "view-container",
-        "total_seconds": 6.923934,
-        "digital": "0:00:06",
-        "decimal": "0.00",
-        "text": "6 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 6,
-        "percent": 0.01
-      },
-      {
-        "name": "view-data-table",
-        "total_seconds": 6.923934,
-        "digital": "0:00:06",
-        "decimal": "0.00",
-        "text": "6 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 6,
-        "percent": 0.01
-      },
-      {
-        "name": "tabs",
-        "total_seconds": 6.923934,
-        "digital": "0:00:06",
-        "decimal": "0.00",
-        "text": "6 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 6,
-        "percent": 0.01
-      },
-      {
-        "name": "react-hook-form",
+        "name": "view-modal",
         "total_seconds": 5.444284,
         "digital": "0:00:05",
         "decimal": "0.00",
@@ -814,7 +832,7 @@
         "percent": 0.01
       },
       {
-        "name": "form",
+        "name": "react-hook-form",
         "total_seconds": 5.444284,
         "digital": "0:00:05",
         "decimal": "0.00",
@@ -825,7 +843,7 @@
         "percent": 0.01
       },
       {
-        "name": "view-modal",
+        "name": "form",
         "total_seconds": 5.444284,
         "digital": "0:00:05",
         "decimal": "0.00",
@@ -847,7 +865,18 @@
         "percent": 0.01
       },
       {
-        "name": "teams-$teamId-campaigns-helpers",
+        "name": "seedrandom",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "slack",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -869,29 +898,18 @@
         "percent": 0
       },
       {
+        "name": "teams-$teamId-campaigns-helpers",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
         "name": "send-slack-message",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "seedrandom",
-        "total_seconds": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "slack",
         "total_seconds": 0,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -916,9 +934,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "firstquadrant",
         "total_seconds": 5209.651178,
         "digital": "1:26:49",
         "decimal": "1.43",
@@ -929,31 +947,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5209.651178,
-        "digital": "1:26:49",
-        "decimal": "1.43",
-        "text": "1 hr 26 mins",
-        "hours": 1,
-        "minutes": 26,
-        "seconds": 49,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5209.651178,
-        "digital": "1:26:49",
-        "decimal": "1.43",
-        "text": "1 hr 26 mins",
-        "hours": 1,
-        "minutes": 26,
-        "seconds": 49,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-07-08T22:00:00Z",
+      "end": "2024-07-09T21:59:59Z",
+      "date": "2024-07-09",
+      "text": "Tue Jul 9th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
