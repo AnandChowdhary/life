@@ -1,5 +1,34 @@
 [
   {
+    "grand_total": {
+      "hours": 1,
+      "minutes": 20,
+      "total_seconds": 4845.968181,
+      "digital": "1:20",
+      "decimal": "1.33",
+      "text": "1 hr 20 mins"
+    },
+    "range": {
+      "start": "2024-07-20T22:00:00Z",
+      "end": "2024-07-21T21:59:59Z",
+      "date": "2024-07-21",
+      "text": "Sun Jul 21st 2024",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "firstquadrant",
+        "total_seconds": 4845.968181,
+        "color": null,
+        "digital": "1:20:45",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
     "languages": [
       {
         "name": "Prisma",
@@ -24,14 +53,21 @@
         "percent": 0.39
       }
     ],
-    "grand_total": {
-      "hours": 1,
-      "minutes": 20,
-      "total_seconds": 4845.968181,
-      "digital": "1:20",
-      "decimal": "1.33",
-      "text": "1 hr 20 mins"
-    },
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anand's+MacBook+Pro",
+        "total_seconds": 4845.968181,
+        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
+        "digital": "1:20:45",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
     "editors": [
       {
         "name": "VS Code",
@@ -70,42 +106,6 @@
         "seconds": 45,
         "percent": 100
       }
-    ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anand's+MacBook+Pro",
-        "total_seconds": 4845.968181,
-        "machine_name_id": "018d2788-708d-4f43-a7cf-8c3020a4b466",
-        "digital": "1:20:45",
-        "decimal": "1.33",
-        "text": "1 hr 20 mins",
-        "hours": 1,
-        "minutes": 20,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 4845.968181,
-        "color": null,
-        "digital": "1:20:45",
-        "decimal": "1.33",
-        "text": "1 hr 20 mins",
-        "hours": 1,
-        "minutes": 20,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "range": {
-      "start": "2024-07-20T22:00:00Z",
-      "end": "2024-07-21T21:59:59Z",
-      "date": "2024-07-21",
-      "text": "Sun Jul 21st 2024",
-      "timezone": "Europe/Amsterdam"
-    }
+    ]
   }
 ]
