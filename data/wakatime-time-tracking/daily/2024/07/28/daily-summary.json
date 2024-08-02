@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 43,
-      "total_seconds": 17001.766222,
-      "digital": "4:43",
-      "decimal": "4.72",
-      "text": "4 hrs 43 mins"
-    },
-    "range": {
-      "start": "2024-07-28T22:00:00Z",
-      "end": "2024-07-29T21:59:59Z",
-      "date": "2024-07-29",
-      "text": "Mon Jul 29th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 14080.051818,
-        "color": null,
-        "digital": "3:54:40",
-        "decimal": "3.90",
-        "text": "3 hrs 54 mins",
-        "hours": 3,
-        "minutes": 54,
-        "seconds": 40,
-        "percent": 82.82
-      },
-      {
-        "name": "docs",
-        "total_seconds": 2921.714404,
-        "color": null,
-        "digital": "0:48:41",
-        "decimal": "0.80",
-        "text": "48 mins",
-        "hours": 0,
-        "minutes": 48,
-        "seconds": 41,
-        "percent": 17.18
-      }
-    ],
     "languages": [
       {
         "name": "Prisma",
@@ -96,6 +55,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 43,
+      "total_seconds": 17001.766222,
+      "digital": "4:43",
+      "decimal": "4.72",
+      "text": "4 hrs 43 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 17001.766222,
+        "digital": "4:43:21",
+        "decimal": "4.72",
+        "text": "4 hrs 43 mins",
+        "hours": 4,
+        "minutes": 43,
+        "seconds": 21,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 17001.766222,
+        "digital": "4:43:21",
+        "decimal": "4.72",
+        "text": "4 hrs 43 mins",
+        "hours": 4,
+        "minutes": 43,
+        "seconds": 21,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 17001.766222,
+        "digital": "4:43:21",
+        "decimal": "4.72",
+        "text": "4 hrs 43 mins",
+        "hours": 4,
+        "minutes": 43,
+        "seconds": 21,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -12820,44 +12826,38 @@
         "percent": 1.32
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 17001.766222,
-        "digital": "4:43:21",
-        "decimal": "4.72",
-        "text": "4 hrs 43 mins",
-        "hours": 4,
-        "minutes": 43,
-        "seconds": 21,
-        "percent": 100
+        "name": "firstquadrant",
+        "total_seconds": 14080.051818,
+        "color": null,
+        "digital": "3:54:40",
+        "decimal": "3.90",
+        "text": "3 hrs 54 mins",
+        "hours": 3,
+        "minutes": 54,
+        "seconds": 40,
+        "percent": 82.82
+      },
+      {
+        "name": "docs",
+        "total_seconds": 2921.714404,
+        "color": null,
+        "digital": "0:48:41",
+        "decimal": "0.80",
+        "text": "48 mins",
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 41,
+        "percent": 17.18
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 17001.766222,
-        "digital": "4:43:21",
-        "decimal": "4.72",
-        "text": "4 hrs 43 mins",
-        "hours": 4,
-        "minutes": 43,
-        "seconds": 21,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 17001.766222,
-        "digital": "4:43:21",
-        "decimal": "4.72",
-        "text": "4 hrs 43 mins",
-        "hours": 4,
-        "minutes": 43,
-        "seconds": 21,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-07-28T22:00:00Z",
+      "end": "2024-07-29T21:59:59Z",
+      "date": "2024-07-29",
+      "text": "Mon Jul 29th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
