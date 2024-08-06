@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 8,
-      "total_seconds": 11291.595381,
-      "digital": "3:08",
-      "decimal": "3.13",
-      "text": "3 hrs 8 mins"
-    },
-    "range": {
-      "start": "2024-08-01T22:00:00Z",
-      "end": "2024-08-02T21:59:59Z",
-      "date": "2024-08-02",
-      "text": "Fri Aug 2nd 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 6917.875421,
-        "color": null,
-        "digital": "1:55:17",
-        "decimal": "1.92",
-        "text": "1 hr 55 mins",
-        "hours": 1,
-        "minutes": 55,
-        "seconds": 17,
-        "percent": 61.27
-      },
-      {
-        "name": "test",
-        "total_seconds": 4038.849656,
-        "color": null,
-        "digital": "1:07:18",
-        "decimal": "1.12",
-        "text": "1 hr 7 mins",
-        "hours": 1,
-        "minutes": 7,
-        "seconds": 18,
-        "percent": 35.77
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 334.870304,
-        "color": null,
-        "digital": "0:05:34",
-        "decimal": "0.08",
-        "text": "5 mins",
-        "hours": 0,
-        "minutes": 5,
-        "seconds": 34,
-        "percent": 2.97
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -86,6 +33,53 @@
         "minutes": 6,
         "seconds": 21,
         "percent": 3.38
+      }
+    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 8,
+      "total_seconds": 11291.595381,
+      "digital": "3:08",
+      "decimal": "3.13",
+      "text": "3 hrs 8 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 11291.595381,
+        "digital": "3:08:11",
+        "decimal": "3.13",
+        "text": "3 hrs 8 mins",
+        "hours": 3,
+        "minutes": 8,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 11291.595381,
+        "digital": "3:08:11",
+        "decimal": "3.13",
+        "text": "3 hrs 8 mins",
+        "hours": 3,
+        "minutes": 8,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 11291.595381,
+        "digital": "3:08:11",
+        "decimal": "3.13",
+        "text": "3 hrs 8 mins",
+        "hours": 3,
+        "minutes": 8,
+        "seconds": 11,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2174,44 +2168,50 @@
         "percent": 0.05
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 11291.595381,
-        "digital": "3:08:11",
-        "decimal": "3.13",
-        "text": "3 hrs 8 mins",
-        "hours": 3,
-        "minutes": 8,
-        "seconds": 11,
-        "percent": 100
+        "name": "firstquadrant",
+        "total_seconds": 6917.875421,
+        "color": null,
+        "digital": "1:55:17",
+        "decimal": "1.92",
+        "text": "1 hr 55 mins",
+        "hours": 1,
+        "minutes": 55,
+        "seconds": 17,
+        "percent": 61.27
+      },
+      {
+        "name": "test",
+        "total_seconds": 4038.849656,
+        "color": null,
+        "digital": "1:07:18",
+        "decimal": "1.12",
+        "text": "1 hr 7 mins",
+        "hours": 1,
+        "minutes": 7,
+        "seconds": 18,
+        "percent": 35.77
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 334.870304,
+        "color": null,
+        "digital": "0:05:34",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 34,
+        "percent": 2.97
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 11291.595381,
-        "digital": "3:08:11",
-        "decimal": "3.13",
-        "text": "3 hrs 8 mins",
-        "hours": 3,
-        "minutes": 8,
-        "seconds": 11,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 11291.595381,
-        "digital": "3:08:11",
-        "decimal": "3.13",
-        "text": "3 hrs 8 mins",
-        "hours": 3,
-        "minutes": 8,
-        "seconds": 11,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-08-01T22:00:00Z",
+      "end": "2024-08-02T21:59:59Z",
+      "date": "2024-08-02",
+      "text": "Fri Aug 2nd 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
