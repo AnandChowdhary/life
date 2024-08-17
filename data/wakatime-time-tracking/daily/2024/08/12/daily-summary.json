@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 28,
-      "total_seconds": 19688.746425,
-      "digital": "5:28",
-      "decimal": "5.47",
-      "text": "5 hrs 28 mins"
-    },
-    "range": {
-      "start": "2024-08-12T22:00:00Z",
-      "end": "2024-08-13T21:59:59Z",
-      "date": "2024-08-13",
-      "text": "Tue Aug 13th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "test",
-        "total_seconds": 12885.151033,
-        "color": null,
-        "digital": "3:34:45",
-        "decimal": "3.57",
-        "text": "3 hrs 34 mins",
-        "hours": 3,
-        "minutes": 34,
-        "seconds": 45,
-        "percent": 65.44
-      },
-      {
-        "name": "firstquadrant",
-        "total_seconds": 6803.595392,
-        "color": null,
-        "digital": "1:53:23",
-        "decimal": "1.88",
-        "text": "1 hr 53 mins",
-        "hours": 1,
-        "minutes": 53,
-        "seconds": 23,
-        "percent": 34.56
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -96,6 +55,53 @@
         "minutes": 0,
         "seconds": 33,
         "percent": 0.17
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 28,
+      "total_seconds": 19688.746425,
+      "digital": "5:28",
+      "decimal": "5.47",
+      "text": "5 hrs 28 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 19688.746425,
+        "digital": "5:28:08",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 19688.746425,
+        "digital": "5:28:08",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 19688.746425,
+        "digital": "5:28:08",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 8,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2184,44 +2190,38 @@
         "percent": 0.04
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 19688.746425,
-        "digital": "5:28:08",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
-        "hours": 5,
-        "minutes": 28,
-        "seconds": 8,
-        "percent": 100
+        "name": "test",
+        "total_seconds": 12885.151033,
+        "color": null,
+        "digital": "3:34:45",
+        "decimal": "3.57",
+        "text": "3 hrs 34 mins",
+        "hours": 3,
+        "minutes": 34,
+        "seconds": 45,
+        "percent": 65.44
+      },
+      {
+        "name": "firstquadrant",
+        "total_seconds": 6803.595392,
+        "color": null,
+        "digital": "1:53:23",
+        "decimal": "1.88",
+        "text": "1 hr 53 mins",
+        "hours": 1,
+        "minutes": 53,
+        "seconds": 23,
+        "percent": 34.56
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 19688.746425,
-        "digital": "5:28:08",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
-        "hours": 5,
-        "minutes": 28,
-        "seconds": 8,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 19688.746425,
-        "digital": "5:28:08",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
-        "hours": 5,
-        "minutes": 28,
-        "seconds": 8,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-08-12T22:00:00Z",
+      "end": "2024-08-13T21:59:59Z",
+      "date": "2024-08-13",
+      "text": "Tue Aug 13th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
