@@ -1,82 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 25,
-      "total_seconds": 8732.208534,
-      "digital": "2:25",
-      "decimal": "2.42",
-      "text": "2 hrs 25 mins"
-    },
-    "range": {
-      "start": "2024-08-18T22:00:00Z",
-      "end": "2024-08-19T21:59:59Z",
-      "date": "2024-08-19",
-      "text": "Mon Aug 19th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 5167.390861,
-        "color": null,
-        "digital": "1:26:07",
-        "decimal": "1.43",
-        "text": "1 hr 26 mins",
-        "hours": 1,
-        "minutes": 26,
-        "seconds": 7,
-        "percent": 59.18
-      },
-      {
-        "name": "expenses",
-        "total_seconds": 1607.756161,
-        "color": null,
-        "digital": "0:26:47",
-        "decimal": "0.43",
-        "text": "26 mins",
-        "hours": 0,
-        "minutes": 26,
-        "seconds": 47,
-        "percent": 18.41
-      },
-      {
-        "name": "test",
-        "total_seconds": 1374.044707,
-        "color": null,
-        "digital": "0:22:54",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 54,
-        "percent": 15.74
-      },
-      {
-        "name": "docs",
-        "total_seconds": 537.071847,
-        "color": null,
-        "digital": "0:08:57",
-        "decimal": "0.13",
-        "text": "8 mins",
-        "hours": 0,
-        "minutes": 8,
-        "seconds": 57,
-        "percent": 6.15
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 45.944958,
-        "color": null,
-        "digital": "0:00:45",
-        "decimal": "0.00",
-        "text": "45 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 45,
-        "percent": 0.53
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -132,6 +55,53 @@
         "minutes": 2,
         "seconds": 38,
         "percent": 1.82
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 25,
+      "total_seconds": 8732.208534,
+      "digital": "2:25",
+      "decimal": "2.42",
+      "text": "2 hrs 25 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 8732.208534,
+        "digital": "2:25:32",
+        "decimal": "2.42",
+        "text": "2 hrs 25 mins",
+        "hours": 2,
+        "minutes": 25,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8732.208534,
+        "digital": "2:25:32",
+        "decimal": "2.42",
+        "text": "2 hrs 25 mins",
+        "hours": 2,
+        "minutes": 25,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 8732.208534,
+        "digital": "2:25:32",
+        "decimal": "2.42",
+        "text": "2 hrs 25 mins",
+        "hours": 2,
+        "minutes": 25,
+        "seconds": 32,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -3143,44 +3113,74 @@
         "percent": 0.63
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 8732.208534,
-        "digital": "2:25:32",
-        "decimal": "2.42",
-        "text": "2 hrs 25 mins",
-        "hours": 2,
-        "minutes": 25,
-        "seconds": 32,
-        "percent": 100
+        "name": "firstquadrant",
+        "total_seconds": 5167.390861,
+        "color": null,
+        "digital": "1:26:07",
+        "decimal": "1.43",
+        "text": "1 hr 26 mins",
+        "hours": 1,
+        "minutes": 26,
+        "seconds": 7,
+        "percent": 59.18
+      },
+      {
+        "name": "expenses",
+        "total_seconds": 1607.756161,
+        "color": null,
+        "digital": "0:26:47",
+        "decimal": "0.43",
+        "text": "26 mins",
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 47,
+        "percent": 18.41
+      },
+      {
+        "name": "test",
+        "total_seconds": 1374.044707,
+        "color": null,
+        "digital": "0:22:54",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 54,
+        "percent": 15.74
+      },
+      {
+        "name": "docs",
+        "total_seconds": 537.071847,
+        "color": null,
+        "digital": "0:08:57",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 57,
+        "percent": 6.15
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 45.944958,
+        "color": null,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 0.53
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8732.208534,
-        "digital": "2:25:32",
-        "decimal": "2.42",
-        "text": "2 hrs 25 mins",
-        "hours": 2,
-        "minutes": 25,
-        "seconds": 32,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 8732.208534,
-        "digital": "2:25:32",
-        "decimal": "2.42",
-        "text": "2 hrs 25 mins",
-        "hours": 2,
-        "minutes": 25,
-        "seconds": 32,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-08-18T22:00:00Z",
+      "end": "2024-08-19T21:59:59Z",
+      "date": "2024-08-19",
+      "text": "Mon Aug 19th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
