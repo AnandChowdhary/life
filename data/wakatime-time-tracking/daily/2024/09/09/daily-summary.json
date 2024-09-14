@@ -1,70 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 18,
-      "total_seconds": 4726.62842,
-      "digital": "1:18",
-      "decimal": "1.30",
-      "text": "1 hr 18 mins"
-    },
-    "range": {
-      "start": "2024-09-09T22:00:00Z",
-      "end": "2024-09-10T21:59:59Z",
-      "date": "2024-09-10",
-      "text": "Tue Sep 10th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 2402.239624,
-        "color": null,
-        "digital": "0:40:02",
-        "decimal": "0.67",
-        "text": "40 mins",
-        "hours": 0,
-        "minutes": 40,
-        "seconds": 2,
-        "percent": 50.82
-      },
-      {
-        "name": "expenses",
-        "total_seconds": 2051.954941,
-        "color": null,
-        "digital": "0:34:11",
-        "decimal": "0.57",
-        "text": "34 mins",
-        "hours": 0,
-        "minutes": 34,
-        "seconds": 11,
-        "percent": 43.41
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 166.945194,
-        "color": null,
-        "digital": "0:02:46",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 46,
-        "percent": 3.53
-      },
-      {
-        "name": "finance-automations",
-        "total_seconds": 105.488661,
-        "color": null,
-        "digital": "0:01:45",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 45,
-        "percent": 2.23
-      }
-    ],
     "languages": [
       {
         "name": "Other",
@@ -98,6 +33,53 @@
         "minutes": 0,
         "seconds": 19,
         "percent": 0.41
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 18,
+      "total_seconds": 4726.62842,
+      "digital": "1:18",
+      "decimal": "1.30",
+      "text": "1 hr 18 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 4726.62842,
+        "digital": "1:18:46",
+        "decimal": "1.30",
+        "text": "1 hr 18 mins",
+        "hours": 1,
+        "minutes": 18,
+        "seconds": 46,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4726.62842,
+        "digital": "1:18:46",
+        "decimal": "1.30",
+        "text": "1 hr 18 mins",
+        "hours": 1,
+        "minutes": 18,
+        "seconds": 46,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4726.62842,
+        "digital": "1:18:46",
+        "decimal": "1.30",
+        "text": "1 hr 18 mins",
+        "hours": 1,
+        "minutes": 18,
+        "seconds": 46,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -493,44 +475,62 @@
         "percent": 0.31
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 4726.62842,
-        "digital": "1:18:46",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
+        "name": "firstquadrant",
+        "total_seconds": 2402.239624,
+        "color": null,
+        "digital": "0:40:02",
+        "decimal": "0.67",
+        "text": "40 mins",
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 2,
+        "percent": 50.82
+      },
+      {
+        "name": "expenses",
+        "total_seconds": 2051.954941,
+        "color": null,
+        "digital": "0:34:11",
+        "decimal": "0.57",
+        "text": "34 mins",
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 11,
+        "percent": 43.41
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 166.945194,
+        "color": null,
+        "digital": "0:02:46",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
         "seconds": 46,
-        "percent": 100
+        "percent": 3.53
+      },
+      {
+        "name": "finance-automations",
+        "total_seconds": 105.488661,
+        "color": null,
+        "digital": "0:01:45",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 45,
+        "percent": 2.23
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 4726.62842,
-        "digital": "1:18:46",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
-        "seconds": 46,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 4726.62842,
-        "digital": "1:18:46",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
-        "seconds": 46,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-09-09T22:00:00Z",
+      "end": "2024-09-10T21:59:59Z",
+      "date": "2024-09-10",
+      "text": "Tue Sep 10th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
