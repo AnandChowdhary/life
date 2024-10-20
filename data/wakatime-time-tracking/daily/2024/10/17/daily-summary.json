@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 10,
-      "total_seconds": 636.477509,
-      "digital": "0:10",
-      "decimal": "0.17",
-      "text": "10 mins"
-    },
-    "range": {
-      "start": "2024-10-17T22:00:00Z",
-      "end": "2024-10-18T21:59:59Z",
-      "date": "2024-10-18",
-      "text": "Fri Oct 18th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant",
-        "total_seconds": 636.477509,
-        "color": null,
-        "digital": "0:10:36",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 36,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -51,6 +22,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 10,
+      "total_seconds": 636.477509,
+      "digital": "0:10",
+      "decimal": "0.17",
+      "text": "10 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 636.477509,
+        "digital": "0:10:36",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 36,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 636.477509,
+        "digital": "0:10:36",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 36,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 636.477509,
+        "digital": "0:10:36",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 36,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -278,10 +296,11 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "firstquadrant",
         "total_seconds": 636.477509,
+        "color": null,
         "digital": "0:10:36",
         "decimal": "0.17",
         "text": "10 mins",
@@ -291,31 +310,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 636.477509,
-        "digital": "0:10:36",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 36,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 636.477509,
-        "digital": "0:10:36",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 36,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-10-17T22:00:00Z",
+      "end": "2024-10-18T21:59:59Z",
+      "date": "2024-10-18",
+      "text": "Fri Oct 18th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
