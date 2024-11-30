@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 54,
-      "total_seconds": 17697.035646,
-      "digital": "4:54",
-      "decimal": "4.90",
-      "text": "4 hrs 54 mins"
-    },
-    "range": {
-      "start": "2024-11-25T23:00:00Z",
-      "end": "2024-11-26T22:59:59Z",
-      "date": "2024-11-26",
-      "text": "Tue Nov 26th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "2024-11",
-        "total_seconds": 17688.8176,
-        "color": null,
-        "digital": "4:54:48",
-        "decimal": "4.90",
-        "text": "4 hrs 54 mins",
-        "hours": 4,
-        "minutes": 54,
-        "seconds": 48,
-        "percent": 99.95
-      },
-      {
-        "name": "2024-09",
-        "total_seconds": 8.218046,
-        "color": null,
-        "digital": "0:00:08",
-        "decimal": "0.00",
-        "text": "8 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 8,
-        "percent": 0.05
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -96,6 +55,64 @@
         "minutes": 0,
         "seconds": 12,
         "percent": 0.07
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 54,
+      "total_seconds": 17697.035646,
+      "digital": "4:54",
+      "decimal": "4.90",
+      "text": "4 hrs 54 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 17688.8176,
+        "digital": "4:54:48",
+        "decimal": "4.90",
+        "text": "4 hrs 54 mins",
+        "hours": 4,
+        "minutes": 54,
+        "seconds": 48,
+        "percent": 99.95
+      },
+      {
+        "name": "VS Code",
+        "total_seconds": 8.218046,
+        "digital": "0:00:08",
+        "decimal": "0.00",
+        "text": "8 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 0.05
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 17697.035646,
+        "digital": "4:54:57",
+        "decimal": "4.90",
+        "text": "4 hrs 54 mins",
+        "hours": 4,
+        "minutes": 54,
+        "seconds": 57,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 17697.035646,
+        "digital": "4:54:57",
+        "decimal": "4.90",
+        "text": "4 hrs 54 mins",
+        "hours": 4,
+        "minutes": 54,
+        "seconds": 57,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -3240,10 +3257,11 @@
         "percent": 0.18
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "2024-11",
         "total_seconds": 17688.8176,
+        "color": null,
         "digital": "4:54:48",
         "decimal": "4.90",
         "text": "4 hrs 54 mins",
@@ -3253,8 +3271,9 @@
         "percent": 99.95
       },
       {
-        "name": "VS Code",
+        "name": "2024-09",
         "total_seconds": 8.218046,
+        "color": null,
         "digital": "0:00:08",
         "decimal": "0.00",
         "text": "8 secs",
@@ -3264,31 +3283,12 @@
         "percent": 0.05
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 17697.035646,
-        "digital": "4:54:57",
-        "decimal": "4.90",
-        "text": "4 hrs 54 mins",
-        "hours": 4,
-        "minutes": 54,
-        "seconds": 57,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 17697.035646,
-        "digital": "4:54:57",
-        "decimal": "4.90",
-        "text": "4 hrs 54 mins",
-        "hours": 4,
-        "minutes": 54,
-        "seconds": 57,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-11-25T23:00:00Z",
+      "end": "2024-11-26T22:59:59Z",
+      "date": "2024-11-26",
+      "text": "Tue Nov 26th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
