@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 19,
-      "total_seconds": 8341.213857,
-      "digital": "2:19",
-      "decimal": "2.32",
-      "text": "2 hrs 19 mins"
-    },
-    "range": {
-      "start": "2024-12-14T23:00:00Z",
-      "end": "2024-12-15T22:59:59Z",
-      "date": "2024-12-15",
-      "text": "Sun Dec 15th 2024",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "2024-11",
-        "total_seconds": 8341.213857,
-        "color": null,
-        "digital": "2:19:01",
-        "decimal": "2.32",
-        "text": "2 hrs 19 mins",
-        "hours": 2,
-        "minutes": 19,
-        "seconds": 1,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -62,6 +33,53 @@
         "minutes": 3,
         "seconds": 19,
         "percent": 2.39
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 19,
+      "total_seconds": 8341.213857,
+      "digital": "2:19",
+      "decimal": "2.32",
+      "text": "2 hrs 19 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8341.213857,
+        "digital": "2:19:01",
+        "decimal": "2.32",
+        "text": "2 hrs 19 mins",
+        "hours": 2,
+        "minutes": 19,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8341.213857,
+        "digital": "2:19:01",
+        "decimal": "2.32",
+        "text": "2 hrs 19 mins",
+        "hours": 2,
+        "minutes": 19,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 8341.213857,
+        "digital": "2:19:01",
+        "decimal": "2.32",
+        "text": "2 hrs 19 mins",
+        "hours": 2,
+        "minutes": 19,
+        "seconds": 1,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -275,7 +293,7 @@
         "percent": 2.14
       },
       {
-        "name": "inngest",
+        "name": "concurrency",
         "total_seconds": 1604.937482,
         "digital": "0:26:44",
         "decimal": "0.43",
@@ -286,7 +304,7 @@
         "percent": 1.99
       },
       {
-        "name": "concurrency",
+        "name": "inngest",
         "total_seconds": 1604.937482,
         "digital": "0:26:44",
         "decimal": "0.43",
@@ -583,6 +601,17 @@
         "percent": 0.33
       },
       {
+        "name": "property-value-form",
+        "total_seconds": 265.51365,
+        "digital": "0:04:25",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 25,
+        "percent": 0.33
+      },
+      {
         "name": "default-property-form",
         "total_seconds": 265.51365,
         "digital": "0:04:25",
@@ -595,17 +624,6 @@
       },
       {
         "name": "create-employment-form",
-        "total_seconds": 265.51365,
-        "digital": "0:04:25",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 25,
-        "percent": 0.33
-      },
-      {
-        "name": "property-value-form",
         "total_seconds": 265.51365,
         "digital": "0:04:25",
         "decimal": "0.07",
@@ -638,7 +656,7 @@
         "percent": 0.33
       },
       {
-        "name": "pagination",
+        "name": "authorization",
         "total_seconds": 262.312264,
         "digital": "0:04:22",
         "decimal": "0.07",
@@ -649,7 +667,7 @@
         "percent": 0.33
       },
       {
-        "name": "authorization",
+        "name": "pagination",
         "total_seconds": 262.312264,
         "digital": "0:04:22",
         "decimal": "0.07",
@@ -759,7 +777,7 @@
         "percent": 0.01
       },
       {
-        "name": "preload",
+        "name": "auth",
         "total_seconds": 9.361919,
         "digital": "0:00:09",
         "decimal": "0.00",
@@ -770,7 +788,7 @@
         "percent": 0.01
       },
       {
-        "name": "auth",
+        "name": "preload",
         "total_seconds": 9.361919,
         "digital": "0:00:09",
         "decimal": "0.00",
@@ -803,17 +821,6 @@
         "percent": 0.01
       },
       {
-        "name": "input",
-        "total_seconds": 6.808456,
-        "digital": "0:00:06",
-        "decimal": "0.00",
-        "text": "6 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 6,
-        "percent": 0.01
-      },
-      {
         "name": "checkbox",
         "total_seconds": 6.808456,
         "digital": "0:00:06",
@@ -825,7 +832,18 @@
         "percent": 0.01
       },
       {
-        "name": "select",
+        "name": "input",
+        "total_seconds": 6.808456,
+        "digital": "0:00:06",
+        "decimal": "0.00",
+        "text": "6 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 6,
+        "percent": 0.01
+      },
+      {
+        "name": "textarea-tiptap",
         "total_seconds": 3.885639,
         "digital": "0:00:03",
         "decimal": "0.00",
@@ -836,7 +854,7 @@
         "percent": 0
       },
       {
-        "name": "textarea-tiptap",
+        "name": "select",
         "total_seconds": 3.885639,
         "digital": "0:00:03",
         "decimal": "0.00",
@@ -858,17 +876,6 @@
         "percent": 0
       },
       {
-        "name": "swagger-ui",
-        "total_seconds": 3.053886,
-        "digital": "0:00:03",
-        "decimal": "0.00",
-        "text": "3 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 3,
-        "percent": 0
-      },
-      {
         "name": "router.prospect",
         "total_seconds": 3.053886,
         "digital": "0:00:03",
@@ -880,7 +887,29 @@
         "percent": 0
       },
       {
-        "name": "router.$id.trigger",
+        "name": "request-id",
+        "total_seconds": 3.053886,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0
+      },
+      {
+        "name": "swagger-ui",
+        "total_seconds": 3.053886,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0
+      },
+      {
+        "name": "sentry",
         "total_seconds": 3.053886,
         "digital": "0:00:03",
         "decimal": "0.00",
@@ -924,18 +953,7 @@
         "percent": 0
       },
       {
-        "name": "sentry",
-        "total_seconds": 3.053886,
-        "digital": "0:00:03",
-        "decimal": "0.00",
-        "text": "3 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 3,
-        "percent": 0
-      },
-      {
-        "name": "request-id",
+        "name": "router.$id.trigger",
         "total_seconds": 3.053886,
         "digital": "0:00:03",
         "decimal": "0.00",
@@ -957,7 +975,7 @@
         "percent": 0
       },
       {
-        "name": "react-hotkeys-hook",
+        "name": "generations",
         "total_seconds": 1.126581,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -968,7 +986,7 @@
         "percent": 0
       },
       {
-        "name": "accordion",
+        "name": "logo",
         "total_seconds": 1.126581,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -990,7 +1008,7 @@
         "percent": 0
       },
       {
-        "name": "items",
+        "name": "accordion",
         "total_seconds": 1.126581,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1023,7 +1041,7 @@
         "percent": 0
       },
       {
-        "name": "logo",
+        "name": "react-hotkeys-hook",
         "total_seconds": 1.126581,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1034,7 +1052,7 @@
         "percent": 0
       },
       {
-        "name": "generations",
+        "name": "items",
         "total_seconds": 1.126581,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1104,9 +1122,9 @@
         "percent": 4.92
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "2024-11",
         "total_seconds": 8341.213857,
         "digital": "2:19:01",
         "decimal": "2.32",
@@ -1117,31 +1135,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8341.213857,
-        "digital": "2:19:01",
-        "decimal": "2.32",
-        "text": "2 hrs 19 mins",
-        "hours": 2,
-        "minutes": 19,
-        "seconds": 1,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 8341.213857,
-        "digital": "2:19:01",
-        "decimal": "2.32",
-        "text": "2 hrs 19 mins",
-        "hours": 2,
-        "minutes": 19,
-        "seconds": 1,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2024-12-14T23:00:00Z",
+      "end": "2024-12-15T22:59:59Z",
+      "date": "2024-12-15",
+      "text": "Sun Dec 15th 2024",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
