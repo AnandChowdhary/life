@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 43,
-      "total_seconds": 17037.839342,
-      "digital": "4:43",
-      "decimal": "4.72",
-      "text": "4 hrs 43 mins"
-    },
-    "range": {
-      "start": "2025-01-07T23:00:00Z",
-      "end": "2025-01-08T22:59:59Z",
-      "date": "2025-01-08",
-      "text": "Wed Jan 8th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "2024-11",
-        "total_seconds": 17037.839342,
-        "color": null,
-        "digital": "4:43:57",
-        "decimal": "4.72",
-        "text": "4 hrs 43 mins",
-        "hours": 4,
-        "minutes": 43,
-        "seconds": 57,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -62,6 +33,64 @@
         "minutes": 1,
         "seconds": 15,
         "percent": 0.44
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 43,
+      "total_seconds": 17037.839342,
+      "digital": "4:43",
+      "decimal": "4.72",
+      "text": "4 hrs 43 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 17037.839342,
+        "digital": "4:43:57",
+        "decimal": "4.72",
+        "text": "4 hrs 43 mins",
+        "hours": 4,
+        "minutes": 43,
+        "seconds": 57,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 17037.839342,
+        "digital": "4:43:57",
+        "decimal": "4.72",
+        "text": "4 hrs 43 mins",
+        "hours": 4,
+        "minutes": 43,
+        "seconds": 57,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Building",
+        "total_seconds": 9842.017277,
+        "digital": "2:44:02",
+        "decimal": "2.73",
+        "text": "2 hrs 44 mins",
+        "hours": 2,
+        "minutes": 44,
+        "seconds": 2,
+        "percent": 57.77
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 7195.822065,
+        "digital": "1:59:55",
+        "decimal": "1.98",
+        "text": "1 hr 59 mins",
+        "hours": 1,
+        "minutes": 59,
+        "seconds": 55,
+        "percent": 42.23
       }
     ],
     "dependencies": [
@@ -1787,10 +1816,11 @@
         "percent": 0
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "2024-11",
         "total_seconds": 17037.839342,
+        "color": null,
         "digital": "4:43:57",
         "decimal": "4.72",
         "text": "4 hrs 43 mins",
@@ -1800,42 +1830,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 17037.839342,
-        "digital": "4:43:57",
-        "decimal": "4.72",
-        "text": "4 hrs 43 mins",
-        "hours": 4,
-        "minutes": 43,
-        "seconds": 57,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Building",
-        "total_seconds": 9842.017277,
-        "digital": "2:44:02",
-        "decimal": "2.73",
-        "text": "2 hrs 44 mins",
-        "hours": 2,
-        "minutes": 44,
-        "seconds": 2,
-        "percent": 57.77
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 7195.822065,
-        "digital": "1:59:55",
-        "decimal": "1.98",
-        "text": "1 hr 59 mins",
-        "hours": 1,
-        "minutes": 59,
-        "seconds": 55,
-        "percent": 42.23
-      }
-    ]
+    "range": {
+      "start": "2025-01-07T23:00:00Z",
+      "end": "2025-01-08T22:59:59Z",
+      "date": "2025-01-08",
+      "text": "Wed Jan 8th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
