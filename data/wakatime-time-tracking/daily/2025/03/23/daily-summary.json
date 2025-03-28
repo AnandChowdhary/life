@@ -1,5 +1,46 @@
 [
   {
+    "grand_total": {
+      "hours": 7,
+      "minutes": 1,
+      "total_seconds": 25270.459607,
+      "digital": "7:01",
+      "decimal": "7.02",
+      "text": "7 hrs 1 min"
+    },
+    "range": {
+      "start": "2025-03-23T23:00:00Z",
+      "end": "2025-03-24T22:59:59Z",
+      "date": "2025-03-24",
+      "text": "Mon Mar 24th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "2024-11",
+        "total_seconds": 24286.650382,
+        "color": null,
+        "digital": "6:44:46",
+        "decimal": "6.73",
+        "text": "6 hrs 44 mins",
+        "hours": 6,
+        "minutes": 44,
+        "seconds": 46,
+        "percent": 96.11
+      },
+      {
+        "name": "firstquadrant",
+        "total_seconds": 983.809225,
+        "color": null,
+        "digital": "0:16:23",
+        "decimal": "0.27",
+        "text": "16 mins",
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 23,
+        "percent": 3.89
+      }
+    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -55,53 +96,6 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.02
-      }
-    ],
-    "grand_total": {
-      "hours": 7,
-      "minutes": 1,
-      "total_seconds": 25270.459607,
-      "digital": "7:01",
-      "decimal": "7.02",
-      "text": "7 hrs 1 min"
-    },
-    "editors": [
-      {
-        "name": "Cursor",
-        "total_seconds": 25270.459607,
-        "digital": "7:01:10",
-        "decimal": "7.02",
-        "text": "7 hrs 1 min",
-        "hours": 7,
-        "minutes": 1,
-        "seconds": 10,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 25270.459607,
-        "digital": "7:01:10",
-        "decimal": "7.02",
-        "text": "7 hrs 1 min",
-        "hours": 7,
-        "minutes": 1,
-        "seconds": 10,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 25270.459607,
-        "digital": "7:01:10",
-        "decimal": "7.02",
-        "text": "7 hrs 1 min",
-        "hours": 7,
-        "minutes": 1,
-        "seconds": 10,
-        "percent": 100
       }
     ],
     "dependencies": [
@@ -5103,38 +5097,44 @@
         "percent": 100
       }
     ],
-    "projects": [
+    "editors": [
       {
-        "name": "2024-11",
-        "total_seconds": 24286.650382,
-        "color": null,
-        "digital": "6:44:46",
-        "decimal": "6.73",
-        "text": "6 hrs 44 mins",
-        "hours": 6,
-        "minutes": 44,
-        "seconds": 46,
-        "percent": 96.11
-      },
-      {
-        "name": "firstquadrant",
-        "total_seconds": 983.809225,
-        "color": null,
-        "digital": "0:16:23",
-        "decimal": "0.27",
-        "text": "16 mins",
-        "hours": 0,
-        "minutes": 16,
-        "seconds": 23,
-        "percent": 3.89
+        "name": "Cursor",
+        "total_seconds": 25270.459607,
+        "digital": "7:01:10",
+        "decimal": "7.02",
+        "text": "7 hrs 1 min",
+        "hours": 7,
+        "minutes": 1,
+        "seconds": 10,
+        "percent": 100
       }
     ],
-    "range": {
-      "start": "2025-03-23T23:00:00Z",
-      "end": "2025-03-24T22:59:59Z",
-      "date": "2025-03-24",
-      "text": "Mon Mar 24th 2025",
-      "timezone": "Europe/Amsterdam"
-    }
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 25270.459607,
+        "digital": "7:01:10",
+        "decimal": "7.02",
+        "text": "7 hrs 1 min",
+        "hours": 7,
+        "minutes": 1,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 25270.459607,
+        "digital": "7:01:10",
+        "decimal": "7.02",
+        "text": "7 hrs 1 min",
+        "hours": 7,
+        "minutes": 1,
+        "seconds": 10,
+        "percent": 100
+      }
+    ]
   }
 ]
