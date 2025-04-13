@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 46,
-      "total_seconds": 10003.823761,
-      "digital": "2:46",
-      "decimal": "2.77",
-      "text": "2 hrs 46 mins"
-    },
-    "range": {
-      "start": "2025-04-08T22:00:00Z",
-      "end": "2025-04-09T21:59:59Z",
-      "date": "2025-04-09",
-      "text": "Wed Apr 9th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 9804.880323,
-        "color": null,
-        "digital": "2:43:24",
-        "decimal": "2.72",
-        "text": "2 hrs 43 mins",
-        "hours": 2,
-        "minutes": 43,
-        "seconds": 24,
-        "percent": 98.01
-      },
-      {
-        "name": "uptime-monitor",
-        "total_seconds": 198.943438,
-        "color": null,
-        "digital": "0:03:18",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 18,
-        "percent": 1.99
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -85,6 +44,53 @@
         "minutes": 1,
         "seconds": 18,
         "percent": 0.78
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 46,
+      "total_seconds": 10003.823761,
+      "digital": "2:46",
+      "decimal": "2.77",
+      "text": "2 hrs 46 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 10003.823761,
+        "digital": "2:46:43",
+        "decimal": "2.77",
+        "text": "2 hrs 46 mins",
+        "hours": 2,
+        "minutes": 46,
+        "seconds": 43,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 10003.823761,
+        "digital": "2:46:43",
+        "decimal": "2.77",
+        "text": "2 hrs 46 mins",
+        "hours": 2,
+        "minutes": 46,
+        "seconds": 43,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 10003.823761,
+        "digital": "2:46:43",
+        "decimal": "2.77",
+        "text": "2 hrs 46 mins",
+        "hours": 2,
+        "minutes": 46,
+        "seconds": 43,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2183,44 +2189,38 @@
         "percent": 23.28
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 10003.823761,
-        "digital": "2:46:43",
-        "decimal": "2.77",
-        "text": "2 hrs 46 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 9804.880323,
+        "color": null,
+        "digital": "2:43:24",
+        "decimal": "2.72",
+        "text": "2 hrs 43 mins",
         "hours": 2,
-        "minutes": 46,
-        "seconds": 43,
-        "percent": 100
+        "minutes": 43,
+        "seconds": 24,
+        "percent": 98.01
+      },
+      {
+        "name": "uptime-monitor",
+        "total_seconds": 198.943438,
+        "color": null,
+        "digital": "0:03:18",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 18,
+        "percent": 1.99
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 10003.823761,
-        "digital": "2:46:43",
-        "decimal": "2.77",
-        "text": "2 hrs 46 mins",
-        "hours": 2,
-        "minutes": 46,
-        "seconds": 43,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 10003.823761,
-        "digital": "2:46:43",
-        "decimal": "2.77",
-        "text": "2 hrs 46 mins",
-        "hours": 2,
-        "minutes": 46,
-        "seconds": 43,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-04-08T22:00:00Z",
+      "end": "2025-04-09T21:59:59Z",
+      "date": "2025-04-09",
+      "text": "Wed Apr 9th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
