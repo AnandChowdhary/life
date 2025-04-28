@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 16,
-      "total_seconds": 8204.61972,
-      "digital": "2:16",
-      "decimal": "2.27",
-      "text": "2 hrs 16 mins"
-    },
-    "range": {
-      "start": "2025-04-24T22:00:00Z",
-      "end": "2025-04-25T21:59:59Z",
-      "date": "2025-04-25",
-      "text": "Fri Apr 25th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "chat",
-        "total_seconds": 4760.275566,
-        "color": null,
-        "digital": "1:19:20",
-        "decimal": "1.32",
-        "text": "1 hr 19 mins",
-        "hours": 1,
-        "minutes": 19,
-        "seconds": 20,
-        "percent": 58.02
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 3444.344154,
-        "color": null,
-        "digital": "0:57:24",
-        "decimal": "0.95",
-        "text": "57 mins",
-        "hours": 0,
-        "minutes": 57,
-        "seconds": 24,
-        "percent": 41.98
-      }
-    ],
     "languages": [
       {
         "name": "YAML",
@@ -96,6 +55,53 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.06
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 16,
+      "total_seconds": 8204.61972,
+      "digital": "2:16",
+      "decimal": "2.27",
+      "text": "2 hrs 16 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8204.61972,
+        "digital": "2:16:44",
+        "decimal": "2.27",
+        "text": "2 hrs 16 mins",
+        "hours": 2,
+        "minutes": 16,
+        "seconds": 44,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8204.61972,
+        "digital": "2:16:44",
+        "decimal": "2.27",
+        "text": "2 hrs 16 mins",
+        "hours": 2,
+        "minutes": 16,
+        "seconds": 44,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 8204.61972,
+        "digital": "2:16:44",
+        "decimal": "2.27",
+        "text": "2 hrs 16 mins",
+        "hours": 2,
+        "minutes": 16,
+        "seconds": 44,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1425,44 +1431,38 @@
         "percent": 0.02
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 8204.61972,
-        "digital": "2:16:44",
-        "decimal": "2.27",
-        "text": "2 hrs 16 mins",
-        "hours": 2,
-        "minutes": 16,
-        "seconds": 44,
-        "percent": 100
+        "name": "chat",
+        "total_seconds": 4760.275566,
+        "color": null,
+        "digital": "1:19:20",
+        "decimal": "1.32",
+        "text": "1 hr 19 mins",
+        "hours": 1,
+        "minutes": 19,
+        "seconds": 20,
+        "percent": 58.02
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 3444.344154,
+        "color": null,
+        "digital": "0:57:24",
+        "decimal": "0.95",
+        "text": "57 mins",
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 24,
+        "percent": 41.98
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8204.61972,
-        "digital": "2:16:44",
-        "decimal": "2.27",
-        "text": "2 hrs 16 mins",
-        "hours": 2,
-        "minutes": 16,
-        "seconds": 44,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 8204.61972,
-        "digital": "2:16:44",
-        "decimal": "2.27",
-        "text": "2 hrs 16 mins",
-        "hours": 2,
-        "minutes": 16,
-        "seconds": 44,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-04-24T22:00:00Z",
+      "end": "2025-04-25T21:59:59Z",
+      "date": "2025-04-25",
+      "text": "Fri Apr 25th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
