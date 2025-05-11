@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 43,
-      "total_seconds": 20583.675273,
-      "digital": "5:43",
-      "decimal": "5.72",
-      "text": "5 hrs 43 mins"
-    },
-    "range": {
-      "start": "2025-05-06T22:00:00Z",
-      "end": "2025-05-07T21:59:59Z",
-      "date": "2025-05-07",
-      "text": "Wed May 7th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 15586.539203,
-        "color": null,
-        "digital": "4:19:46",
-        "decimal": "4.32",
-        "text": "4 hrs 19 mins",
-        "hours": 4,
-        "minutes": 19,
-        "seconds": 46,
-        "percent": 75.72
-      },
-      {
-        "name": "radiant-ts",
-        "total_seconds": 4997.13607,
-        "color": null,
-        "digital": "1:23:17",
-        "decimal": "1.38",
-        "text": "1 hr 23 mins",
-        "hours": 1,
-        "minutes": 23,
-        "seconds": 17,
-        "percent": 24.28
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -96,6 +55,53 @@
         "minutes": 0,
         "seconds": 10,
         "percent": 0.05
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 43,
+      "total_seconds": 20583.675273,
+      "digital": "5:43",
+      "decimal": "5.72",
+      "text": "5 hrs 43 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 20583.675273,
+        "digital": "5:43:03",
+        "decimal": "5.72",
+        "text": "5 hrs 43 mins",
+        "hours": 5,
+        "minutes": 43,
+        "seconds": 3,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 20583.675273,
+        "digital": "5:43:03",
+        "decimal": "5.72",
+        "text": "5 hrs 43 mins",
+        "hours": 5,
+        "minutes": 43,
+        "seconds": 3,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 20583.675273,
+        "digital": "5:43:03",
+        "decimal": "5.72",
+        "text": "5 hrs 43 mins",
+        "hours": 5,
+        "minutes": 43,
+        "seconds": 3,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2183,44 +2189,38 @@
         "percent": 33.35
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 20583.675273,
-        "digital": "5:43:03",
-        "decimal": "5.72",
-        "text": "5 hrs 43 mins",
-        "hours": 5,
-        "minutes": 43,
-        "seconds": 3,
-        "percent": 100
+        "name": "firstquadrant.ai",
+        "total_seconds": 15586.539203,
+        "color": null,
+        "digital": "4:19:46",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 46,
+        "percent": 75.72
+      },
+      {
+        "name": "radiant-ts",
+        "total_seconds": 4997.13607,
+        "color": null,
+        "digital": "1:23:17",
+        "decimal": "1.38",
+        "text": "1 hr 23 mins",
+        "hours": 1,
+        "minutes": 23,
+        "seconds": 17,
+        "percent": 24.28
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 20583.675273,
-        "digital": "5:43:03",
-        "decimal": "5.72",
-        "text": "5 hrs 43 mins",
-        "hours": 5,
-        "minutes": 43,
-        "seconds": 3,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 20583.675273,
-        "digital": "5:43:03",
-        "decimal": "5.72",
-        "text": "5 hrs 43 mins",
-        "hours": 5,
-        "minutes": 43,
-        "seconds": 3,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-05-06T22:00:00Z",
+      "end": "2025-05-07T21:59:59Z",
+      "date": "2025-05-07",
+      "text": "Wed May 7th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
