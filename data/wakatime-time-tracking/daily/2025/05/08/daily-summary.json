@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 39,
-      "total_seconds": 9561.504683,
-      "digital": "2:39",
-      "decimal": "2.65",
-      "text": "2 hrs 39 mins"
-    },
-    "range": {
-      "start": "2025-05-08T22:00:00Z",
-      "end": "2025-05-09T21:59:59Z",
-      "date": "2025-05-09",
-      "text": "Fri May 9th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 6357.119732,
-        "color": null,
-        "digital": "1:45:57",
-        "decimal": "1.75",
-        "text": "1 hr 45 mins",
-        "hours": 1,
-        "minutes": 45,
-        "seconds": 57,
-        "percent": 66.49
-      },
-      {
-        "name": "vibe-coding",
-        "total_seconds": 3204.384951,
-        "color": null,
-        "digital": "0:53:24",
-        "decimal": "0.88",
-        "text": "53 mins",
-        "hours": 0,
-        "minutes": 53,
-        "seconds": 24,
-        "percent": 33.51
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -118,6 +77,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 39,
+      "total_seconds": 9561.504683,
+      "digital": "2:39",
+      "decimal": "2.65",
+      "text": "2 hrs 39 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9561.504683,
+        "digital": "2:39:21",
+        "decimal": "2.65",
+        "text": "2 hrs 39 mins",
+        "hours": 2,
+        "minutes": 39,
+        "seconds": 21,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9561.504683,
+        "digital": "2:39:21",
+        "decimal": "2.65",
+        "text": "2 hrs 39 mins",
+        "hours": 2,
+        "minutes": 39,
+        "seconds": 21,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 9561.504683,
+        "digital": "2:39:21",
+        "decimal": "2.65",
+        "text": "2 hrs 39 mins",
+        "hours": 2,
+        "minutes": 39,
+        "seconds": 21,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1203,44 +1209,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 9561.504683,
-        "digital": "2:39:21",
-        "decimal": "2.65",
-        "text": "2 hrs 39 mins",
-        "hours": 2,
-        "minutes": 39,
-        "seconds": 21,
-        "percent": 100
+        "name": "firstquadrant.ai",
+        "total_seconds": 6357.119732,
+        "color": null,
+        "digital": "1:45:57",
+        "decimal": "1.75",
+        "text": "1 hr 45 mins",
+        "hours": 1,
+        "minutes": 45,
+        "seconds": 57,
+        "percent": 66.49
+      },
+      {
+        "name": "vibe-coding",
+        "total_seconds": 3204.384951,
+        "color": null,
+        "digital": "0:53:24",
+        "decimal": "0.88",
+        "text": "53 mins",
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 24,
+        "percent": 33.51
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9561.504683,
-        "digital": "2:39:21",
-        "decimal": "2.65",
-        "text": "2 hrs 39 mins",
-        "hours": 2,
-        "minutes": 39,
-        "seconds": 21,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 9561.504683,
-        "digital": "2:39:21",
-        "decimal": "2.65",
-        "text": "2 hrs 39 mins",
-        "hours": 2,
-        "minutes": 39,
-        "seconds": 21,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-05-08T22:00:00Z",
+      "end": "2025-05-09T21:59:59Z",
+      "date": "2025-05-09",
+      "text": "Fri May 9th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
