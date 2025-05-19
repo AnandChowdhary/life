@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 33,
-      "total_seconds": 12798.510413,
-      "digital": "3:33",
-      "decimal": "3.55",
-      "text": "3 hrs 33 mins"
-    },
-    "range": {
-      "start": "2025-05-15T22:00:00Z",
-      "end": "2025-05-16T21:59:59Z",
-      "date": "2025-05-16",
-      "text": "Fri May 16th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 12224.398644,
-        "color": null,
-        "digital": "3:23:44",
-        "decimal": "3.38",
-        "text": "3 hrs 23 mins",
-        "hours": 3,
-        "minutes": 23,
-        "seconds": 44,
-        "percent": 95.51
-      },
-      {
-        "name": "life-logs",
-        "total_seconds": 477.356148,
-        "color": null,
-        "digital": "0:07:57",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 57,
-        "percent": 3.73
-      },
-      {
-        "name": "limitless",
-        "total_seconds": 96.755621,
-        "color": null,
-        "digital": "0:01:36",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 36,
-        "percent": 0.76
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -141,6 +88,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 33,
+      "total_seconds": 12798.510413,
+      "digital": "3:33",
+      "decimal": "3.55",
+      "text": "3 hrs 33 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 12798.510413,
+        "digital": "3:33:18",
+        "decimal": "3.55",
+        "text": "3 hrs 33 mins",
+        "hours": 3,
+        "minutes": 33,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 12798.510413,
+        "digital": "3:33:18",
+        "decimal": "3.55",
+        "text": "3 hrs 33 mins",
+        "hours": 3,
+        "minutes": 33,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 12798.510413,
+        "digital": "3:33:18",
+        "decimal": "3.55",
+        "text": "3 hrs 33 mins",
+        "hours": 3,
+        "minutes": 33,
+        "seconds": 18,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2645,44 +2639,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 12798.510413,
-        "digital": "3:33:18",
-        "decimal": "3.55",
-        "text": "3 hrs 33 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 12224.398644,
+        "color": null,
+        "digital": "3:23:44",
+        "decimal": "3.38",
+        "text": "3 hrs 23 mins",
         "hours": 3,
-        "minutes": 33,
-        "seconds": 18,
-        "percent": 100
+        "minutes": 23,
+        "seconds": 44,
+        "percent": 95.51
+      },
+      {
+        "name": "life-logs",
+        "total_seconds": 477.356148,
+        "color": null,
+        "digital": "0:07:57",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 57,
+        "percent": 3.73
+      },
+      {
+        "name": "limitless",
+        "total_seconds": 96.755621,
+        "color": null,
+        "digital": "0:01:36",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 36,
+        "percent": 0.76
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 12798.510413,
-        "digital": "3:33:18",
-        "decimal": "3.55",
-        "text": "3 hrs 33 mins",
-        "hours": 3,
-        "minutes": 33,
-        "seconds": 18,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 12798.510413,
-        "digital": "3:33:18",
-        "decimal": "3.55",
-        "text": "3 hrs 33 mins",
-        "hours": 3,
-        "minutes": 33,
-        "seconds": 18,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-05-15T22:00:00Z",
+      "end": "2025-05-16T21:59:59Z",
+      "date": "2025-05-16",
+      "text": "Fri May 16th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
