@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 53,
-      "total_seconds": 6797.503609,
-      "digital": "1:53",
-      "decimal": "1.88",
-      "text": "1 hr 53 mins"
-    },
-    "range": {
-      "start": "2025-06-05T22:00:00Z",
-      "end": "2025-06-06T21:59:59Z",
-      "date": "2025-06-06",
-      "text": "Fri Jun 6th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 4070.314591,
-        "color": null,
-        "digital": "1:07:50",
-        "decimal": "1.12",
-        "text": "1 hr 7 mins",
-        "hours": 1,
-        "minutes": 7,
-        "seconds": 50,
-        "percent": 59.88
-      },
-      {
-        "name": "anand-billboard",
-        "total_seconds": 2727.189018,
-        "color": null,
-        "digital": "0:45:27",
-        "decimal": "0.75",
-        "text": "45 mins",
-        "hours": 0,
-        "minutes": 45,
-        "seconds": 27,
-        "percent": 40.12
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -129,6 +88,53 @@
         "minutes": 0,
         "seconds": 8,
         "percent": 0.12
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 53,
+      "total_seconds": 6797.503609,
+      "digital": "1:53",
+      "decimal": "1.88",
+      "text": "1 hr 53 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 6797.503609,
+        "digital": "1:53:17",
+        "decimal": "1.88",
+        "text": "1 hr 53 mins",
+        "hours": 1,
+        "minutes": 53,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 6797.503609,
+        "digital": "1:53:17",
+        "decimal": "1.88",
+        "text": "1 hr 53 mins",
+        "hours": 1,
+        "minutes": 53,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 6797.503609,
+        "digital": "1:53:17",
+        "decimal": "1.88",
+        "text": "1 hr 53 mins",
+        "hours": 1,
+        "minutes": 53,
+        "seconds": 17,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1170,44 +1176,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 6797.503609,
-        "digital": "1:53:17",
-        "decimal": "1.88",
-        "text": "1 hr 53 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 4070.314591,
+        "color": null,
+        "digital": "1:07:50",
+        "decimal": "1.12",
+        "text": "1 hr 7 mins",
         "hours": 1,
-        "minutes": 53,
-        "seconds": 17,
-        "percent": 100
+        "minutes": 7,
+        "seconds": 50,
+        "percent": 59.88
+      },
+      {
+        "name": "anand-billboard",
+        "total_seconds": 2727.189018,
+        "color": null,
+        "digital": "0:45:27",
+        "decimal": "0.75",
+        "text": "45 mins",
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 27,
+        "percent": 40.12
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 6797.503609,
-        "digital": "1:53:17",
-        "decimal": "1.88",
-        "text": "1 hr 53 mins",
-        "hours": 1,
-        "minutes": 53,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 6797.503609,
-        "digital": "1:53:17",
-        "decimal": "1.88",
-        "text": "1 hr 53 mins",
-        "hours": 1,
-        "minutes": 53,
-        "seconds": 17,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-06-05T22:00:00Z",
+      "end": "2025-06-06T21:59:59Z",
+      "date": "2025-06-06",
+      "text": "Fri Jun 6th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]

@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 20,
-      "total_seconds": 8445.850167,
-      "digital": "2:20",
-      "decimal": "2.33",
-      "text": "2 hrs 20 mins"
-    },
-    "range": {
-      "start": "2025-06-04T22:00:00Z",
-      "end": "2025-06-05T21:59:59Z",
-      "date": "2025-06-05",
-      "text": "Thu Jun 5th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 4418.220994,
-        "color": null,
-        "digital": "1:13:38",
-        "decimal": "1.22",
-        "text": "1 hr 13 mins",
-        "hours": 1,
-        "minutes": 13,
-        "seconds": 38,
-        "percent": 52.31
-      },
-      {
-        "name": "deliverabilityguide.com",
-        "total_seconds": 4027.629173,
-        "color": null,
-        "digital": "1:07:07",
-        "decimal": "1.12",
-        "text": "1 hr 7 mins",
-        "hours": 1,
-        "minutes": 7,
-        "seconds": 7,
-        "percent": 47.69
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -107,6 +66,53 @@
         "minutes": 0,
         "seconds": 11,
         "percent": 0.14
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 20,
+      "total_seconds": 8445.850167,
+      "digital": "2:20",
+      "decimal": "2.33",
+      "text": "2 hrs 20 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8445.850167,
+        "digital": "2:20:45",
+        "decimal": "2.33",
+        "text": "2 hrs 20 mins",
+        "hours": 2,
+        "minutes": 20,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8445.850167,
+        "digital": "2:20:45",
+        "decimal": "2.33",
+        "text": "2 hrs 20 mins",
+        "hours": 2,
+        "minutes": 20,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 8445.850167,
+        "digital": "2:20:45",
+        "decimal": "2.33",
+        "text": "2 hrs 20 mins",
+        "hours": 2,
+        "minutes": 20,
+        "seconds": 45,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1797,44 +1803,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 8445.850167,
-        "digital": "2:20:45",
-        "decimal": "2.33",
-        "text": "2 hrs 20 mins",
-        "hours": 2,
-        "minutes": 20,
-        "seconds": 45,
-        "percent": 100
+        "name": "firstquadrant.ai",
+        "total_seconds": 4418.220994,
+        "color": null,
+        "digital": "1:13:38",
+        "decimal": "1.22",
+        "text": "1 hr 13 mins",
+        "hours": 1,
+        "minutes": 13,
+        "seconds": 38,
+        "percent": 52.31
+      },
+      {
+        "name": "deliverabilityguide.com",
+        "total_seconds": 4027.629173,
+        "color": null,
+        "digital": "1:07:07",
+        "decimal": "1.12",
+        "text": "1 hr 7 mins",
+        "hours": 1,
+        "minutes": 7,
+        "seconds": 7,
+        "percent": 47.69
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8445.850167,
-        "digital": "2:20:45",
-        "decimal": "2.33",
-        "text": "2 hrs 20 mins",
-        "hours": 2,
-        "minutes": 20,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 8445.850167,
-        "digital": "2:20:45",
-        "decimal": "2.33",
-        "text": "2 hrs 20 mins",
-        "hours": 2,
-        "minutes": 20,
-        "seconds": 45,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-06-04T22:00:00Z",
+      "end": "2025-06-05T21:59:59Z",
+      "date": "2025-06-05",
+      "text": "Thu Jun 5th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
