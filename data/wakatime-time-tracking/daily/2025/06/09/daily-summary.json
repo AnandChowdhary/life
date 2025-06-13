@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 21,
-      "total_seconds": 8461.545684,
-      "digital": "2:21",
-      "decimal": "2.35",
-      "text": "2 hrs 21 mins"
-    },
-    "range": {
-      "start": "2025-06-09T22:00:00Z",
-      "end": "2025-06-10T21:59:59Z",
-      "date": "2025-06-10",
-      "text": "Tue Jun 10th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "test-coder",
-        "total_seconds": 8461.545684,
-        "color": null,
-        "digital": "2:21:01",
-        "decimal": "2.35",
-        "text": "2 hrs 21 mins",
-        "hours": 2,
-        "minutes": 21,
-        "seconds": 1,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "JavaScript",
@@ -128,6 +99,53 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.04
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 21,
+      "total_seconds": 8461.545684,
+      "digital": "2:21",
+      "decimal": "2.35",
+      "text": "2 hrs 21 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8461.545684,
+        "digital": "2:21:01",
+        "decimal": "2.35",
+        "text": "2 hrs 21 mins",
+        "hours": 2,
+        "minutes": 21,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8461.545684,
+        "digital": "2:21:01",
+        "decimal": "2.35",
+        "text": "2 hrs 21 mins",
+        "hours": 2,
+        "minutes": 21,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 8461.545684,
+        "digital": "2:21:01",
+        "decimal": "2.35",
+        "text": "2 hrs 21 mins",
+        "hours": 2,
+        "minutes": 21,
+        "seconds": 1,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -729,10 +747,11 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "test-coder",
         "total_seconds": 8461.545684,
+        "color": null,
         "digital": "2:21:01",
         "decimal": "2.35",
         "text": "2 hrs 21 mins",
@@ -742,31 +761,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8461.545684,
-        "digital": "2:21:01",
-        "decimal": "2.35",
-        "text": "2 hrs 21 mins",
-        "hours": 2,
-        "minutes": 21,
-        "seconds": 1,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 8461.545684,
-        "digital": "2:21:01",
-        "decimal": "2.35",
-        "text": "2 hrs 21 mins",
-        "hours": 2,
-        "minutes": 21,
-        "seconds": 1,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-06-09T22:00:00Z",
+      "end": "2025-06-10T21:59:59Z",
+      "date": "2025-06-10",
+      "text": "Tue Jun 10th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
