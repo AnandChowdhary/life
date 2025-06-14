@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 25,
-      "total_seconds": 1518.194837,
-      "digital": "0:25",
-      "decimal": "0.42",
-      "text": "25 mins"
-    },
-    "range": {
-      "start": "2025-06-10T22:00:00Z",
-      "end": "2025-06-11T21:59:59Z",
-      "date": "2025-06-11",
-      "text": "Wed Jun 11th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "test-coder",
-        "total_seconds": 849.730889,
-        "color": null,
-        "digital": "0:14:09",
-        "decimal": "0.23",
-        "text": "14 mins",
-        "hours": 0,
-        "minutes": 14,
-        "seconds": 9,
-        "percent": 55.97
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 668.463948,
-        "color": null,
-        "digital": "0:11:08",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 8,
-        "percent": 44.03
-      }
-    ],
     "languages": [
       {
         "name": "JavaScript",
@@ -107,6 +66,53 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0.05
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 25,
+      "total_seconds": 1518.194837,
+      "digital": "0:25",
+      "decimal": "0.42",
+      "text": "25 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1518.194837,
+        "digital": "0:25:18",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1518.194837,
+        "digital": "0:25:18",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 18,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1518.194837,
+        "digital": "0:25:18",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 18,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -356,44 +362,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 1518.194837,
-        "digital": "0:25:18",
-        "decimal": "0.42",
-        "text": "25 mins",
+        "name": "test-coder",
+        "total_seconds": 849.730889,
+        "color": null,
+        "digital": "0:14:09",
+        "decimal": "0.23",
+        "text": "14 mins",
         "hours": 0,
-        "minutes": 25,
-        "seconds": 18,
-        "percent": 100
+        "minutes": 14,
+        "seconds": 9,
+        "percent": 55.97
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 668.463948,
+        "color": null,
+        "digital": "0:11:08",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 8,
+        "percent": 44.03
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1518.194837,
-        "digital": "0:25:18",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 18,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1518.194837,
-        "digital": "0:25:18",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 18,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-06-10T22:00:00Z",
+      "end": "2025-06-11T21:59:59Z",
+      "date": "2025-06-11",
+      "text": "Wed Jun 11th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
