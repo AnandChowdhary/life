@@ -1,82 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 57,
-      "total_seconds": 10629.845018,
-      "digital": "2:57",
-      "decimal": "2.95",
-      "text": "2 hrs 57 mins"
-    },
-    "range": {
-      "start": "2025-06-11T22:00:00Z",
-      "end": "2025-06-12T21:59:59Z",
-      "date": "2025-06-12",
-      "text": "Thu Jun 12th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "render-atl-2025",
-        "total_seconds": 5372.850838,
-        "color": null,
-        "digital": "1:29:32",
-        "decimal": "1.48",
-        "text": "1 hr 29 mins",
-        "hours": 1,
-        "minutes": 29,
-        "seconds": 32,
-        "percent": 50.54
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 2152.358632,
-        "color": null,
-        "digital": "0:35:52",
-        "decimal": "0.58",
-        "text": "35 mins",
-        "hours": 0,
-        "minutes": 35,
-        "seconds": 52,
-        "percent": 20.25
-      },
-      {
-        "name": "render-talk-test",
-        "total_seconds": 1631.414547,
-        "color": null,
-        "digital": "0:27:11",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 11,
-        "percent": 15.35
-      },
-      {
-        "name": "test-coder",
-        "total_seconds": 1176.955505,
-        "color": null,
-        "digital": "0:19:36",
-        "decimal": "0.32",
-        "text": "19 mins",
-        "hours": 0,
-        "minutes": 19,
-        "seconds": 36,
-        "percent": 11.07
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 296.265496,
-        "color": null,
-        "digital": "0:04:56",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 56,
-        "percent": 2.79
-      }
-    ],
     "languages": [
       {
         "name": "JavaScript",
@@ -187,6 +110,53 @@
         "minutes": 0,
         "seconds": 2,
         "percent": 0.02
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 57,
+      "total_seconds": 10629.845018,
+      "digital": "2:57",
+      "decimal": "2.95",
+      "text": "2 hrs 57 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 10629.845018,
+        "digital": "2:57:09",
+        "decimal": "2.95",
+        "text": "2 hrs 57 mins",
+        "hours": 2,
+        "minutes": 57,
+        "seconds": 9,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 10629.845018,
+        "digital": "2:57:09",
+        "decimal": "2.95",
+        "text": "2 hrs 57 mins",
+        "hours": 2,
+        "minutes": 57,
+        "seconds": 9,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 10629.845018,
+        "digital": "2:57:09",
+        "decimal": "2.95",
+        "text": "2 hrs 57 mins",
+        "hours": 2,
+        "minutes": 57,
+        "seconds": 9,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -931,44 +901,74 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 10629.845018,
-        "digital": "2:57:09",
-        "decimal": "2.95",
-        "text": "2 hrs 57 mins",
-        "hours": 2,
-        "minutes": 57,
-        "seconds": 9,
-        "percent": 100
+        "name": "render-atl-2025",
+        "total_seconds": 5372.850838,
+        "color": null,
+        "digital": "1:29:32",
+        "decimal": "1.48",
+        "text": "1 hr 29 mins",
+        "hours": 1,
+        "minutes": 29,
+        "seconds": 32,
+        "percent": 50.54
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 2152.358632,
+        "color": null,
+        "digital": "0:35:52",
+        "decimal": "0.58",
+        "text": "35 mins",
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 52,
+        "percent": 20.25
+      },
+      {
+        "name": "render-talk-test",
+        "total_seconds": 1631.414547,
+        "color": null,
+        "digital": "0:27:11",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 11,
+        "percent": 15.35
+      },
+      {
+        "name": "test-coder",
+        "total_seconds": 1176.955505,
+        "color": null,
+        "digital": "0:19:36",
+        "decimal": "0.32",
+        "text": "19 mins",
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 36,
+        "percent": 11.07
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 296.265496,
+        "color": null,
+        "digital": "0:04:56",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 56,
+        "percent": 2.79
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 10629.845018,
-        "digital": "2:57:09",
-        "decimal": "2.95",
-        "text": "2 hrs 57 mins",
-        "hours": 2,
-        "minutes": 57,
-        "seconds": 9,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 10629.845018,
-        "digital": "2:57:09",
-        "decimal": "2.95",
-        "text": "2 hrs 57 mins",
-        "hours": 2,
-        "minutes": 57,
-        "seconds": 9,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-06-11T22:00:00Z",
+      "end": "2025-06-12T21:59:59Z",
+      "date": "2025-06-12",
+      "text": "Thu Jun 12th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
