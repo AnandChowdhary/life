@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 17,
-      "total_seconds": 15435.963772,
-      "digital": "4:17",
-      "decimal": "4.28",
-      "text": "4 hrs 17 mins"
-    },
-    "range": {
-      "start": "2025-06-17T22:00:00Z",
-      "end": "2025-06-18T21:59:59Z",
-      "date": "2025-06-18",
-      "text": "Wed Jun 18th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 11467.243771,
-        "color": null,
-        "digital": "3:11:07",
-        "decimal": "3.18",
-        "text": "3 hrs 11 mins",
-        "hours": 3,
-        "minutes": 11,
-        "seconds": 7,
-        "percent": 74.29
-      },
-      {
-        "name": "vibe-coding",
-        "total_seconds": 3968.720001,
-        "color": null,
-        "digital": "1:06:08",
-        "decimal": "1.10",
-        "text": "1 hr 6 mins",
-        "hours": 1,
-        "minutes": 6,
-        "seconds": 8,
-        "percent": 25.71
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -173,6 +132,53 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.03
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 17,
+      "total_seconds": 15435.963772,
+      "digital": "4:17",
+      "decimal": "4.28",
+      "text": "4 hrs 17 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 15435.963772,
+        "digital": "4:17:15",
+        "decimal": "4.28",
+        "text": "4 hrs 17 mins",
+        "hours": 4,
+        "minutes": 17,
+        "seconds": 15,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 15435.963772,
+        "digital": "4:17:15",
+        "decimal": "4.28",
+        "text": "4 hrs 17 mins",
+        "hours": 4,
+        "minutes": 17,
+        "seconds": 15,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 15435.963772,
+        "digital": "4:17:15",
+        "decimal": "4.28",
+        "text": "4 hrs 17 mins",
+        "hours": 4,
+        "minutes": 17,
+        "seconds": 15,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2501,44 +2507,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 15435.963772,
-        "digital": "4:17:15",
-        "decimal": "4.28",
-        "text": "4 hrs 17 mins",
-        "hours": 4,
-        "minutes": 17,
-        "seconds": 15,
-        "percent": 100
+        "name": "firstquadrant.ai",
+        "total_seconds": 11467.243771,
+        "color": null,
+        "digital": "3:11:07",
+        "decimal": "3.18",
+        "text": "3 hrs 11 mins",
+        "hours": 3,
+        "minutes": 11,
+        "seconds": 7,
+        "percent": 74.29
+      },
+      {
+        "name": "vibe-coding",
+        "total_seconds": 3968.720001,
+        "color": null,
+        "digital": "1:06:08",
+        "decimal": "1.10",
+        "text": "1 hr 6 mins",
+        "hours": 1,
+        "minutes": 6,
+        "seconds": 8,
+        "percent": 25.71
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 15435.963772,
-        "digital": "4:17:15",
-        "decimal": "4.28",
-        "text": "4 hrs 17 mins",
-        "hours": 4,
-        "minutes": 17,
-        "seconds": 15,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 15435.963772,
-        "digital": "4:17:15",
-        "decimal": "4.28",
-        "text": "4 hrs 17 mins",
-        "hours": 4,
-        "minutes": 17,
-        "seconds": 15,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-06-17T22:00:00Z",
+      "end": "2025-06-18T21:59:59Z",
+      "date": "2025-06-18",
+      "text": "Wed Jun 18th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
