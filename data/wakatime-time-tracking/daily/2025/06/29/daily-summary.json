@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 25,
-      "total_seconds": 15905.84786,
-      "digital": "4:25",
-      "decimal": "4.42",
-      "text": "4 hrs 25 mins"
-    },
-    "range": {
-      "start": "2025-06-29T22:00:00Z",
-      "end": "2025-06-30T21:59:59Z",
-      "date": "2025-06-30",
-      "text": "Mon Jun 30th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 15657.515717,
-        "color": null,
-        "digital": "4:20:57",
-        "decimal": "4.33",
-        "text": "4 hrs 20 mins",
-        "hours": 4,
-        "minutes": 20,
-        "seconds": 57,
-        "percent": 98.44
-      },
-      {
-        "name": "KeepingYouAwake",
-        "total_seconds": 248.332143,
-        "color": null,
-        "digital": "0:04:08",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 8,
-        "percent": 1.56
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -118,6 +77,64 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.03
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 25,
+      "total_seconds": 15905.84786,
+      "digital": "4:25",
+      "decimal": "4.42",
+      "text": "4 hrs 25 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 15905.84786,
+        "digital": "4:25:05",
+        "decimal": "4.42",
+        "text": "4 hrs 25 mins",
+        "hours": 4,
+        "minutes": 25,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 15905.84786,
+        "digital": "4:25:05",
+        "decimal": "4.42",
+        "text": "4 hrs 25 mins",
+        "hours": 4,
+        "minutes": 25,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 12652.210628,
+        "digital": "3:30:52",
+        "decimal": "3.50",
+        "text": "3 hrs 30 mins",
+        "hours": 3,
+        "minutes": 30,
+        "seconds": 52,
+        "percent": 79.54
+      },
+      {
+        "name": "Building",
+        "total_seconds": 3253.637232,
+        "digital": "0:54:13",
+        "decimal": "0.90",
+        "text": "54 mins",
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 13,
+        "percent": 20.46
       }
     ],
     "dependencies": [
@@ -2347,55 +2364,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 15905.84786,
-        "digital": "4:25:05",
-        "decimal": "4.42",
-        "text": "4 hrs 25 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 15657.515717,
+        "color": null,
+        "digital": "4:20:57",
+        "decimal": "4.33",
+        "text": "4 hrs 20 mins",
         "hours": 4,
-        "minutes": 25,
-        "seconds": 5,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 15905.84786,
-        "digital": "4:25:05",
-        "decimal": "4.42",
-        "text": "4 hrs 25 mins",
-        "hours": 4,
-        "minutes": 25,
-        "seconds": 5,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 12652.210628,
-        "digital": "3:30:52",
-        "decimal": "3.50",
-        "text": "3 hrs 30 mins",
-        "hours": 3,
-        "minutes": 30,
-        "seconds": 52,
-        "percent": 79.54
+        "minutes": 20,
+        "seconds": 57,
+        "percent": 98.44
       },
       {
-        "name": "Building",
-        "total_seconds": 3253.637232,
-        "digital": "0:54:13",
-        "decimal": "0.90",
-        "text": "54 mins",
+        "name": "KeepingYouAwake",
+        "total_seconds": 248.332143,
+        "color": null,
+        "digital": "0:04:08",
+        "decimal": "0.07",
+        "text": "4 mins",
         "hours": 0,
-        "minutes": 54,
-        "seconds": 13,
-        "percent": 20.46
+        "minutes": 4,
+        "seconds": 8,
+        "percent": 1.56
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-06-29T22:00:00Z",
+      "end": "2025-06-30T21:59:59Z",
+      "date": "2025-06-30",
+      "text": "Mon Jun 30th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
