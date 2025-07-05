@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 28,
-      "total_seconds": 8907.507729,
-      "digital": "2:28",
-      "decimal": "2.47",
-      "text": "2 hrs 28 mins"
-    },
-    "range": {
-      "start": "2025-07-01T22:00:00Z",
-      "end": "2025-07-02T21:59:59Z",
-      "date": "2025-07-02",
-      "text": "Wed Jul 2nd 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 8907.507729,
-        "color": null,
-        "digital": "2:28:27",
-        "decimal": "2.47",
-        "text": "2 hrs 28 mins",
-        "hours": 2,
-        "minutes": 28,
-        "seconds": 27,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -106,6 +77,64 @@
         "minutes": 0,
         "seconds": 23,
         "percent": 0.26
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 28,
+      "total_seconds": 8907.507729,
+      "digital": "2:28",
+      "decimal": "2.47",
+      "text": "2 hrs 28 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 8907.507729,
+        "digital": "2:28:27",
+        "decimal": "2.47",
+        "text": "2 hrs 28 mins",
+        "hours": 2,
+        "minutes": 28,
+        "seconds": 27,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8907.507729,
+        "digital": "2:28:27",
+        "decimal": "2.47",
+        "text": "2 hrs 28 mins",
+        "hours": 2,
+        "minutes": 28,
+        "seconds": 27,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Building",
+        "total_seconds": 7231.10811,
+        "digital": "2:00:31",
+        "decimal": "2.00",
+        "text": "2 hrs",
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 31,
+        "percent": 81.18
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 1676.399619,
+        "digital": "0:27:56",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 56,
+        "percent": 18.82
       }
     ],
     "dependencies": [
@@ -2115,10 +2144,11 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
+        "name": "firstquadrant.ai",
         "total_seconds": 8907.507729,
+        "color": null,
         "digital": "2:28:27",
         "decimal": "2.47",
         "text": "2 hrs 28 mins",
@@ -2128,42 +2158,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8907.507729,
-        "digital": "2:28:27",
-        "decimal": "2.47",
-        "text": "2 hrs 28 mins",
-        "hours": 2,
-        "minutes": 28,
-        "seconds": 27,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Building",
-        "total_seconds": 7231.10811,
-        "digital": "2:00:31",
-        "decimal": "2.00",
-        "text": "2 hrs",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 31,
-        "percent": 81.18
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 1676.399619,
-        "digital": "0:27:56",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 56,
-        "percent": 18.82
-      }
-    ]
+    "range": {
+      "start": "2025-07-01T22:00:00Z",
+      "end": "2025-07-02T21:59:59Z",
+      "date": "2025-07-02",
+      "text": "Wed Jul 2nd 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
