@@ -1,46 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 58,
-      "total_seconds": 7116.365038,
-      "digital": "1:58",
-      "decimal": "1.97",
-      "text": "1 hr 58 mins"
-    },
-    "range": {
-      "start": "2025-07-16T22:00:00Z",
-      "end": "2025-07-17T21:59:59Z",
-      "date": "2025-07-17",
-      "text": "Thu Jul 17th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 6355.056558,
-        "color": null,
-        "digital": "1:45:55",
-        "decimal": "1.75",
-        "text": "1 hr 45 mins",
-        "hours": 1,
-        "minutes": 45,
-        "seconds": 55,
-        "percent": 89.3
-      },
-      {
-        "name": "hono",
-        "total_seconds": 761.30848,
-        "color": null,
-        "digital": "0:12:41",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 41,
-        "percent": 10.7
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -96,6 +55,53 @@
         "minutes": 0,
         "seconds": 9,
         "percent": 0.14
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 58,
+      "total_seconds": 7116.365038,
+      "digital": "1:58",
+      "decimal": "1.97",
+      "text": "1 hr 58 mins"
+    },
+    "editors": [
+      {
+        "name": "VS Code",
+        "total_seconds": 7116.365038,
+        "digital": "1:58:36",
+        "decimal": "1.97",
+        "text": "1 hr 58 mins",
+        "hours": 1,
+        "minutes": 58,
+        "seconds": 36,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 7116.365038,
+        "digital": "1:58:36",
+        "decimal": "1.97",
+        "text": "1 hr 58 mins",
+        "hours": 1,
+        "minutes": 58,
+        "seconds": 36,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 7116.365038,
+        "digital": "1:58:36",
+        "decimal": "1.97",
+        "text": "1 hr 58 mins",
+        "hours": 1,
+        "minutes": 58,
+        "seconds": 36,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1346,44 +1352,38 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "VS Code",
-        "total_seconds": 7116.365038,
-        "digital": "1:58:36",
-        "decimal": "1.97",
-        "text": "1 hr 58 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 6355.056558,
+        "color": null,
+        "digital": "1:45:55",
+        "decimal": "1.75",
+        "text": "1 hr 45 mins",
         "hours": 1,
-        "minutes": 58,
-        "seconds": 36,
-        "percent": 100
+        "minutes": 45,
+        "seconds": 55,
+        "percent": 89.3
+      },
+      {
+        "name": "hono",
+        "total_seconds": 761.30848,
+        "color": null,
+        "digital": "0:12:41",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 41,
+        "percent": 10.7
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 7116.365038,
-        "digital": "1:58:36",
-        "decimal": "1.97",
-        "text": "1 hr 58 mins",
-        "hours": 1,
-        "minutes": 58,
-        "seconds": 36,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 7116.365038,
-        "digital": "1:58:36",
-        "decimal": "1.97",
-        "text": "1 hr 58 mins",
-        "hours": 1,
-        "minutes": 58,
-        "seconds": 36,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-07-16T22:00:00Z",
+      "end": "2025-07-17T21:59:59Z",
+      "date": "2025-07-17",
+      "text": "Thu Jul 17th 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
