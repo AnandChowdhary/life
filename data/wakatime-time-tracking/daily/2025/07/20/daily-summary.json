@@ -1,34 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 32,
-      "total_seconds": 16378.703827,
-      "digital": "4:32",
-      "decimal": "4.53",
-      "text": "4 hrs 32 mins"
-    },
-    "range": {
-      "start": "2025-07-20T22:00:00Z",
-      "end": "2025-07-21T21:59:59Z",
-      "date": "2025-07-21",
-      "text": "Mon Jul 21st 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 16378.703827,
-        "color": null,
-        "digital": "4:32:58",
-        "decimal": "4.53",
-        "text": "4 hrs 32 mins",
-        "hours": 4,
-        "minutes": 32,
-        "seconds": 58,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -95,6 +66,75 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.02
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 32,
+      "total_seconds": 16378.703827,
+      "digital": "4:32",
+      "decimal": "4.53",
+      "text": "4 hrs 32 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 16378.703827,
+        "digital": "4:32:58",
+        "decimal": "4.53",
+        "text": "4 hrs 32 mins",
+        "hours": 4,
+        "minutes": 32,
+        "seconds": 58,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 16378.703827,
+        "digital": "4:32:58",
+        "decimal": "4.53",
+        "text": "4 hrs 32 mins",
+        "hours": 4,
+        "minutes": 32,
+        "seconds": 58,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 14757.628012,
+        "digital": "4:05:57",
+        "decimal": "4.08",
+        "text": "4 hrs 5 mins",
+        "hours": 4,
+        "minutes": 5,
+        "seconds": 57,
+        "percent": 90.1
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 1564.124697,
+        "digital": "0:26:04",
+        "decimal": "0.43",
+        "text": "26 mins",
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 4,
+        "percent": 9.55
+      },
+      {
+        "name": "Code Reviewing",
+        "total_seconds": 56.951118,
+        "digital": "0:00:56",
+        "decimal": "0.00",
+        "text": "56 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 56,
+        "percent": 0.35
       }
     ],
     "dependencies": [
@@ -2775,10 +2815,11 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "firstquadrant.ai",
         "total_seconds": 16378.703827,
+        "color": null,
         "digital": "4:32:58",
         "decimal": "4.53",
         "text": "4 hrs 32 mins",
@@ -2788,53 +2829,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 16378.703827,
-        "digital": "4:32:58",
-        "decimal": "4.53",
-        "text": "4 hrs 32 mins",
-        "hours": 4,
-        "minutes": 32,
-        "seconds": 58,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 14757.628012,
-        "digital": "4:05:57",
-        "decimal": "4.08",
-        "text": "4 hrs 5 mins",
-        "hours": 4,
-        "minutes": 5,
-        "seconds": 57,
-        "percent": 90.1
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 1564.124697,
-        "digital": "0:26:04",
-        "decimal": "0.43",
-        "text": "26 mins",
-        "hours": 0,
-        "minutes": 26,
-        "seconds": 4,
-        "percent": 9.55
-      },
-      {
-        "name": "Code Reviewing",
-        "total_seconds": 56.951118,
-        "digital": "0:00:56",
-        "decimal": "0.00",
-        "text": "56 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 56,
-        "percent": 0.35
-      }
-    ]
+    "range": {
+      "start": "2025-07-20T22:00:00Z",
+      "end": "2025-07-21T21:59:59Z",
+      "date": "2025-07-21",
+      "text": "Mon Jul 21st 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
