@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 16,
-      "total_seconds": 8206.88998,
-      "digital": "2:16",
-      "decimal": "2.27",
-      "text": "2 hrs 16 mins"
-    },
-    "range": {
-      "start": "2025-07-22T22:00:00Z",
-      "end": "2025-07-23T21:59:59Z",
-      "date": "2025-07-23",
-      "text": "Wed Jul 23rd 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 6555.339709,
-        "color": null,
-        "digital": "1:49:15",
-        "decimal": "1.82",
-        "text": "1 hr 49 mins",
-        "hours": 1,
-        "minutes": 49,
-        "seconds": 15,
-        "percent": 79.88
-      },
-      {
-        "name": "priced-in",
-        "total_seconds": 1648.129856,
-        "color": null,
-        "digital": "0:27:28",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 28,
-        "percent": 20.08
-      },
-      {
-        "name": "hono",
-        "total_seconds": 3.420415,
-        "color": null,
-        "digital": "0:00:03",
-        "decimal": "0.00",
-        "text": "3 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 3,
-        "percent": 0.04
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -119,6 +66,64 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.04
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 16,
+      "total_seconds": 8206.88998,
+      "digital": "2:16",
+      "decimal": "2.27",
+      "text": "2 hrs 16 mins"
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8206.88998,
+        "digital": "2:16:46",
+        "decimal": "2.27",
+        "text": "2 hrs 16 mins",
+        "hours": 2,
+        "minutes": 16,
+        "seconds": 46,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8206.88998,
+        "digital": "2:16:46",
+        "decimal": "2.27",
+        "text": "2 hrs 16 mins",
+        "hours": 2,
+        "minutes": 16,
+        "seconds": 46,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 7464.16548,
+        "digital": "2:04:24",
+        "decimal": "2.07",
+        "text": "2 hrs 4 mins",
+        "hours": 2,
+        "minutes": 4,
+        "seconds": 24,
+        "percent": 90.95
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 742.7245,
+        "digital": "0:12:22",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 22,
+        "percent": 9.05
       }
     ],
     "dependencies": [
@@ -1568,55 +1573,50 @@
         "percent": 0.23
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 8206.88998,
-        "digital": "2:16:46",
-        "decimal": "2.27",
-        "text": "2 hrs 16 mins",
-        "hours": 2,
-        "minutes": 16,
-        "seconds": 46,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8206.88998,
-        "digital": "2:16:46",
-        "decimal": "2.27",
-        "text": "2 hrs 16 mins",
-        "hours": 2,
-        "minutes": 16,
-        "seconds": 46,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 7464.16548,
-        "digital": "2:04:24",
-        "decimal": "2.07",
-        "text": "2 hrs 4 mins",
-        "hours": 2,
-        "minutes": 4,
-        "seconds": 24,
-        "percent": 90.95
+        "name": "firstquadrant.ai",
+        "total_seconds": 6555.339709,
+        "color": null,
+        "digital": "1:49:15",
+        "decimal": "1.82",
+        "text": "1 hr 49 mins",
+        "hours": 1,
+        "minutes": 49,
+        "seconds": 15,
+        "percent": 79.88
       },
       {
-        "name": "AI Coding",
-        "total_seconds": 742.7245,
-        "digital": "0:12:22",
-        "decimal": "0.20",
-        "text": "12 mins",
+        "name": "priced-in",
+        "total_seconds": 1648.129856,
+        "color": null,
+        "digital": "0:27:28",
+        "decimal": "0.45",
+        "text": "27 mins",
         "hours": 0,
-        "minutes": 12,
-        "seconds": 22,
-        "percent": 9.05
+        "minutes": 27,
+        "seconds": 28,
+        "percent": 20.08
+      },
+      {
+        "name": "hono",
+        "total_seconds": 3.420415,
+        "color": null,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.04
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-07-22T22:00:00Z",
+      "end": "2025-07-23T21:59:59Z",
+      "date": "2025-07-23",
+      "text": "Wed Jul 23rd 2025",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
