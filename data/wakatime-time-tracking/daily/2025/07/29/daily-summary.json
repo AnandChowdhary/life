@@ -1,90 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 54,
-      "total_seconds": 21252.764606,
-      "digital": "5:54",
-      "decimal": "5.90",
-      "text": "5 hrs 54 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2025-07-29T22:00:00Z",
-      "end": "2025-07-30T21:59:59Z",
-      "date": "2025-07-30",
-      "text": "Wed Jul 30th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 16524.13794,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "4:35:24",
-        "decimal": "4.58",
-        "text": "4 hrs 35 mins",
-        "hours": 4,
-        "minutes": 35,
-        "seconds": 24,
-        "percent": 77.75
-      },
-      {
-        "name": "my-app",
-        "total_seconds": 3924.873946,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "1:05:24",
-        "decimal": "1.08",
-        "text": "1 hr 5 mins",
-        "hours": 1,
-        "minutes": 5,
-        "seconds": 24,
-        "percent": 18.47
-      },
-      {
-        "name": "events",
-        "total_seconds": 777.670502,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:12:57",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 57,
-        "percent": 3.66
-      },
-      {
-        "name": "anand",
-        "total_seconds": 26.082218,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:26",
-        "decimal": "0.00",
-        "text": "26 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 26,
-        "percent": 0.12
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -173,6 +88,79 @@
         "minutes": 0,
         "seconds": 21,
         "percent": 0.1
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 54,
+      "total_seconds": 21252.764606,
+      "digital": "5:54",
+      "decimal": "5.90",
+      "text": "5 hrs 54 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 21252.764606,
+        "digital": "5:54:12",
+        "decimal": "5.90",
+        "text": "5 hrs 54 mins",
+        "hours": 5,
+        "minutes": 54,
+        "seconds": 12,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 21252.764606,
+        "digital": "5:54:12",
+        "decimal": "5.90",
+        "text": "5 hrs 54 mins",
+        "hours": 5,
+        "minutes": 54,
+        "seconds": 12,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 19969.127337,
+        "digital": "5:32:49",
+        "decimal": "5.53",
+        "text": "5 hrs 32 mins",
+        "hours": 5,
+        "minutes": 32,
+        "seconds": 49,
+        "percent": 93.96
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 1224.655799,
+        "digital": "0:20:24",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 24,
+        "percent": 5.76
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 58.98147,
+        "digital": "0:00:58",
+        "decimal": "0.00",
+        "text": "58 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 58,
+        "percent": 0.28
       }
     ],
     "dependencies": [
@@ -3293,66 +3281,82 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 21252.764606,
-        "digital": "5:54:12",
-        "decimal": "5.90",
-        "text": "5 hrs 54 mins",
-        "hours": 5,
-        "minutes": 54,
-        "seconds": 12,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 21252.764606,
-        "digital": "5:54:12",
-        "decimal": "5.90",
-        "text": "5 hrs 54 mins",
-        "hours": 5,
-        "minutes": 54,
-        "seconds": 12,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 19969.127337,
-        "digital": "5:32:49",
-        "decimal": "5.53",
-        "text": "5 hrs 32 mins",
-        "hours": 5,
-        "minutes": 32,
-        "seconds": 49,
-        "percent": 93.96
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 1224.655799,
-        "digital": "0:20:24",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
+        "name": "firstquadrant.ai",
+        "total_seconds": 16524.13794,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "4:35:24",
+        "decimal": "4.58",
+        "text": "4 hrs 35 mins",
+        "hours": 4,
+        "minutes": 35,
         "seconds": 24,
-        "percent": 5.76
+        "percent": 77.75
       },
       {
-        "name": "AI Coding",
-        "total_seconds": 58.98147,
-        "digital": "0:00:58",
+        "name": "my-app",
+        "total_seconds": 3924.873946,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "1:05:24",
+        "decimal": "1.08",
+        "text": "1 hr 5 mins",
+        "hours": 1,
+        "minutes": 5,
+        "seconds": 24,
+        "percent": 18.47
+      },
+      {
+        "name": "events",
+        "total_seconds": 777.670502,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:12:57",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 57,
+        "percent": 3.66
+      },
+      {
+        "name": "anand",
+        "total_seconds": 26.082218,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:26",
         "decimal": "0.00",
-        "text": "58 secs",
+        "text": "26 secs",
         "hours": 0,
         "minutes": 0,
-        "seconds": 58,
-        "percent": 0.28
+        "seconds": 26,
+        "percent": 0.12
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-07-29T22:00:00Z",
+      "end": "2025-07-30T21:59:59Z",
+      "date": "2025-07-30",
+      "text": "Wed Jul 30th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
