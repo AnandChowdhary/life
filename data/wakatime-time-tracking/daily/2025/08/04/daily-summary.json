@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 7,
-      "minutes": 38,
-      "total_seconds": 27533.781,
-      "digital": "7:38",
-      "decimal": "7.63",
-      "text": "7 hrs 38 mins",
-      "ai_additions": 363,
-      "ai_deletions": 19,
-      "human_additions": 1528,
-      "human_deletions": 1232
-    },
-    "range": {
-      "start": "2025-08-04T22:00:00Z",
-      "end": "2025-08-05T21:59:59Z",
-      "date": "2025-08-05",
-      "text": "Tue Aug 5th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 27533.781,
-        "ai_additions": 363,
-        "ai_deletions": 19,
-        "human_additions": 1528,
-        "human_deletions": 1232,
-        "color": null,
-        "digital": "7:38:53",
-        "decimal": "7.63",
-        "text": "7 hrs 38 mins",
-        "hours": 7,
-        "minutes": 38,
-        "seconds": 53,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -114,6 +77,79 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 7,
+      "minutes": 38,
+      "total_seconds": 27533.781,
+      "digital": "7:38",
+      "decimal": "7.63",
+      "text": "7 hrs 38 mins",
+      "ai_additions": 363,
+      "ai_deletions": 19,
+      "human_additions": 1528,
+      "human_deletions": 1232
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 27533.781,
+        "digital": "7:38:53",
+        "decimal": "7.63",
+        "text": "7 hrs 38 mins",
+        "hours": 7,
+        "minutes": 38,
+        "seconds": 53,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 27533.781,
+        "digital": "7:38:53",
+        "decimal": "7.63",
+        "text": "7 hrs 38 mins",
+        "hours": 7,
+        "minutes": 38,
+        "seconds": 53,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 21205.54,
+        "digital": "5:53:25",
+        "decimal": "5.88",
+        "text": "5 hrs 53 mins",
+        "hours": 5,
+        "minutes": 53,
+        "seconds": 25,
+        "percent": 77.02
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 5212.883,
+        "digital": "1:26:52",
+        "decimal": "1.43",
+        "text": "1 hr 26 mins",
+        "hours": 1,
+        "minutes": 26,
+        "seconds": 52,
+        "percent": 18.93
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 1115.358,
+        "digital": "0:18:35",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 35,
+        "percent": 4.05
       }
     ],
     "dependencies": [
@@ -2926,10 +2962,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "firstquadrant.ai",
         "total_seconds": 27533.781,
+        "ai_additions": 363,
+        "ai_deletions": 19,
+        "human_additions": 1528,
+        "human_deletions": 1232,
+        "color": null,
         "digital": "7:38:53",
         "decimal": "7.63",
         "text": "7 hrs 38 mins",
@@ -2939,53 +2980,16 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 27533.781,
-        "digital": "7:38:53",
-        "decimal": "7.63",
-        "text": "7 hrs 38 mins",
-        "hours": 7,
-        "minutes": 38,
-        "seconds": 53,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 21205.54,
-        "digital": "5:53:25",
-        "decimal": "5.88",
-        "text": "5 hrs 53 mins",
-        "hours": 5,
-        "minutes": 53,
-        "seconds": 25,
-        "percent": 77.02
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 5212.883,
-        "digital": "1:26:52",
-        "decimal": "1.43",
-        "text": "1 hr 26 mins",
-        "hours": 1,
-        "minutes": 26,
-        "seconds": 52,
-        "percent": 18.93
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 1115.358,
-        "digital": "0:18:35",
-        "decimal": "0.30",
-        "text": "18 mins",
-        "hours": 0,
-        "minutes": 18,
-        "seconds": 35,
-        "percent": 4.05
-      }
-    ]
+    "range": {
+      "start": "2025-08-04T22:00:00Z",
+      "end": "2025-08-05T21:59:59Z",
+      "date": "2025-08-05",
+      "text": "Tue Aug 5th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]

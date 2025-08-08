@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 13,
-      "total_seconds": 18827.465,
-      "digital": "5:13",
-      "decimal": "5.22",
-      "text": "5 hrs 13 mins",
-      "ai_additions": 9,
-      "ai_deletions": 0,
-      "human_additions": 744,
-      "human_deletions": 703
-    },
-    "range": {
-      "start": "2025-08-03T22:00:00Z",
-      "end": "2025-08-04T21:59:59Z",
-      "date": "2025-08-04",
-      "text": "Mon Aug 4th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 18542.048,
-        "ai_additions": 9,
-        "ai_deletions": 0,
-        "human_additions": 564,
-        "human_deletions": 506,
-        "color": null,
-        "digital": "5:09:02",
-        "decimal": "5.15",
-        "text": "5 hrs 9 mins",
-        "hours": 5,
-        "minutes": 9,
-        "seconds": 2,
-        "percent": 98.48
-      },
-      {
-        "name": "everything",
-        "total_seconds": 206.961,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 17,
-        "color": null,
-        "digital": "0:03:26",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 26,
-        "percent": 1.1
-      },
-      {
-        "name": "location",
-        "total_seconds": 78.456,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 180,
-        "human_deletions": 180,
-        "color": null,
-        "digital": "0:01:18",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 18,
-        "percent": 0.42
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -135,6 +66,68 @@
         "minutes": 1,
         "seconds": 20,
         "percent": 0.43
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 13,
+      "total_seconds": 18827.465,
+      "digital": "5:13",
+      "decimal": "5.22",
+      "text": "5 hrs 13 mins",
+      "ai_additions": 9,
+      "ai_deletions": 0,
+      "human_additions": 744,
+      "human_deletions": 703
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 18827.465,
+        "digital": "5:13:47",
+        "decimal": "5.22",
+        "text": "5 hrs 13 mins",
+        "hours": 5,
+        "minutes": 13,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 18827.465,
+        "digital": "5:13:47",
+        "decimal": "5.22",
+        "text": "5 hrs 13 mins",
+        "hours": 5,
+        "minutes": 13,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 17979.241,
+        "digital": "4:59:39",
+        "decimal": "4.98",
+        "text": "4 hrs 59 mins",
+        "hours": 4,
+        "minutes": 59,
+        "seconds": 39,
+        "percent": 95.49
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 848.224,
+        "digital": "0:14:08",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 8,
+        "percent": 4.51
       }
     ],
     "dependencies": [
@@ -3530,55 +3523,66 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 18827.465,
-        "digital": "5:13:47",
-        "decimal": "5.22",
-        "text": "5 hrs 13 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 18542.048,
+        "ai_additions": 9,
+        "ai_deletions": 0,
+        "human_additions": 564,
+        "human_deletions": 506,
+        "color": null,
+        "digital": "5:09:02",
+        "decimal": "5.15",
+        "text": "5 hrs 9 mins",
         "hours": 5,
-        "minutes": 13,
-        "seconds": 47,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 18827.465,
-        "digital": "5:13:47",
-        "decimal": "5.22",
-        "text": "5 hrs 13 mins",
-        "hours": 5,
-        "minutes": 13,
-        "seconds": 47,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 17979.241,
-        "digital": "4:59:39",
-        "decimal": "4.98",
-        "text": "4 hrs 59 mins",
-        "hours": 4,
-        "minutes": 59,
-        "seconds": 39,
-        "percent": 95.49
+        "minutes": 9,
+        "seconds": 2,
+        "percent": 98.48
       },
       {
-        "name": "AI Coding",
-        "total_seconds": 848.224,
-        "digital": "0:14:08",
-        "decimal": "0.23",
-        "text": "14 mins",
+        "name": "everything",
+        "total_seconds": 206.961,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 17,
+        "color": null,
+        "digital": "0:03:26",
+        "decimal": "0.05",
+        "text": "3 mins",
         "hours": 0,
-        "minutes": 14,
-        "seconds": 8,
-        "percent": 4.51
+        "minutes": 3,
+        "seconds": 26,
+        "percent": 1.1
+      },
+      {
+        "name": "location",
+        "total_seconds": 78.456,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 180,
+        "human_deletions": 180,
+        "color": null,
+        "digital": "0:01:18",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 18,
+        "percent": 0.42
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-08-03T22:00:00Z",
+      "end": "2025-08-04T21:59:59Z",
+      "date": "2025-08-04",
+      "text": "Mon Aug 4th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
