@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 7,
-      "minutes": 49,
-      "total_seconds": 28167.212,
-      "digital": "7:49",
-      "decimal": "7.82",
-      "text": "7 hrs 49 mins",
-      "ai_additions": 5,
-      "ai_deletions": 29,
-      "human_additions": 1005,
-      "human_deletions": 799
-    },
-    "range": {
-      "start": "2025-08-06T22:00:00Z",
-      "end": "2025-08-07T21:59:59Z",
-      "date": "2025-08-07",
-      "text": "Thu Aug 7th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 28167.212,
-        "ai_additions": 5,
-        "ai_deletions": 29,
-        "human_additions": 1005,
-        "human_deletions": 799,
-        "color": null,
-        "digital": "7:49:27",
-        "decimal": "7.82",
-        "text": "7 hrs 49 mins",
-        "hours": 7,
-        "minutes": 49,
-        "seconds": 27,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -125,6 +88,68 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 7,
+      "minutes": 49,
+      "total_seconds": 28167.212,
+      "digital": "7:49",
+      "decimal": "7.82",
+      "text": "7 hrs 49 mins",
+      "ai_additions": 5,
+      "ai_deletions": 29,
+      "human_additions": 1005,
+      "human_deletions": 799
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 28167.212,
+        "digital": "7:49:27",
+        "decimal": "7.82",
+        "text": "7 hrs 49 mins",
+        "hours": 7,
+        "minutes": 49,
+        "seconds": 27,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 28167.212,
+        "digital": "7:49:27",
+        "decimal": "7.82",
+        "text": "7 hrs 49 mins",
+        "hours": 7,
+        "minutes": 49,
+        "seconds": 27,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 26540.902,
+        "digital": "7:22:20",
+        "decimal": "7.37",
+        "text": "7 hrs 22 mins",
+        "hours": 7,
+        "minutes": 22,
+        "seconds": 20,
+        "percent": 94.23
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 1626.31,
+        "digital": "0:27:06",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 6,
+        "percent": 5.77
       }
     ],
     "dependencies": [
@@ -4015,10 +4040,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "firstquadrant.ai",
         "total_seconds": 28167.212,
+        "ai_additions": 5,
+        "ai_deletions": 29,
+        "human_additions": 1005,
+        "human_deletions": 799,
+        "color": null,
         "digital": "7:49:27",
         "decimal": "7.82",
         "text": "7 hrs 49 mins",
@@ -4028,42 +4058,16 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 28167.212,
-        "digital": "7:49:27",
-        "decimal": "7.82",
-        "text": "7 hrs 49 mins",
-        "hours": 7,
-        "minutes": 49,
-        "seconds": 27,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 26540.902,
-        "digital": "7:22:20",
-        "decimal": "7.37",
-        "text": "7 hrs 22 mins",
-        "hours": 7,
-        "minutes": 22,
-        "seconds": 20,
-        "percent": 94.23
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 1626.31,
-        "digital": "0:27:06",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 6,
-        "percent": 5.77
-      }
-    ]
+    "range": {
+      "start": "2025-08-06T22:00:00Z",
+      "end": "2025-08-07T21:59:59Z",
+      "date": "2025-08-07",
+      "text": "Thu Aug 7th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
