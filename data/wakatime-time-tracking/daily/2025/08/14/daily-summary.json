@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 12,
-      "total_seconds": 15131.017,
-      "digital": "4:12",
-      "decimal": "4.20",
-      "text": "4 hrs 12 mins",
-      "ai_additions": 28,
-      "ai_deletions": 35,
-      "human_additions": 1309,
-      "human_deletions": 631
-    },
-    "range": {
-      "start": "2025-08-14T22:00:00Z",
-      "end": "2025-08-15T21:59:59Z",
-      "date": "2025-08-15",
-      "text": "Fri Aug 15th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 7465.38,
-        "ai_additions": 14,
-        "ai_deletions": 30,
-        "human_additions": 456,
-        "human_deletions": 90,
-        "color": null,
-        "digital": "2:04:25",
-        "decimal": "2.07",
-        "text": "2 hrs 4 mins",
-        "hours": 2,
-        "minutes": 4,
-        "seconds": 25,
-        "percent": 49.34
-      },
-      {
-        "name": "anandchowdhary.com",
-        "total_seconds": 6601.273,
-        "ai_additions": 14,
-        "ai_deletions": 5,
-        "human_additions": 774,
-        "human_deletions": 541,
-        "color": null,
-        "digital": "1:50:01",
-        "decimal": "1.83",
-        "text": "1 hr 50 mins",
-        "hours": 1,
-        "minutes": 50,
-        "seconds": 1,
-        "percent": 43.63
-      },
-      {
-        "name": "tweeter",
-        "total_seconds": 1064.364,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 79,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:17:44",
-        "decimal": "0.28",
-        "text": "17 mins",
-        "hours": 0,
-        "minutes": 17,
-        "seconds": 44,
-        "percent": 7.03
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -124,6 +55,68 @@
         "minutes": 0,
         "seconds": 48,
         "percent": 0.32
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 12,
+      "total_seconds": 15131.017,
+      "digital": "4:12",
+      "decimal": "4.20",
+      "text": "4 hrs 12 mins",
+      "ai_additions": 28,
+      "ai_deletions": 35,
+      "human_additions": 1309,
+      "human_deletions": 631
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 15131.017,
+        "digital": "4:12:11",
+        "decimal": "4.20",
+        "text": "4 hrs 12 mins",
+        "hours": 4,
+        "minutes": 12,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 15131.017,
+        "digital": "4:12:11",
+        "decimal": "4.20",
+        "text": "4 hrs 12 mins",
+        "hours": 4,
+        "minutes": 12,
+        "seconds": 11,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 14274.185,
+        "digital": "3:57:54",
+        "decimal": "3.95",
+        "text": "3 hrs 57 mins",
+        "hours": 3,
+        "minutes": 57,
+        "seconds": 54,
+        "percent": 94.34
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 856.832,
+        "digital": "0:14:16",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 16,
+        "percent": 5.66
       }
     ],
     "dependencies": [
@@ -2331,55 +2324,66 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 15131.017,
-        "digital": "4:12:11",
-        "decimal": "4.20",
-        "text": "4 hrs 12 mins",
-        "hours": 4,
-        "minutes": 12,
-        "seconds": 11,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 15131.017,
-        "digital": "4:12:11",
-        "decimal": "4.20",
-        "text": "4 hrs 12 mins",
-        "hours": 4,
-        "minutes": 12,
-        "seconds": 11,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 14274.185,
-        "digital": "3:57:54",
-        "decimal": "3.95",
-        "text": "3 hrs 57 mins",
-        "hours": 3,
-        "minutes": 57,
-        "seconds": 54,
-        "percent": 94.34
+        "name": "firstquadrant.ai",
+        "total_seconds": 7465.38,
+        "ai_additions": 14,
+        "ai_deletions": 30,
+        "human_additions": 456,
+        "human_deletions": 90,
+        "color": null,
+        "digital": "2:04:25",
+        "decimal": "2.07",
+        "text": "2 hrs 4 mins",
+        "hours": 2,
+        "minutes": 4,
+        "seconds": 25,
+        "percent": 49.34
       },
       {
-        "name": "AI Coding",
-        "total_seconds": 856.832,
-        "digital": "0:14:16",
-        "decimal": "0.23",
-        "text": "14 mins",
+        "name": "anandchowdhary.com",
+        "total_seconds": 6601.273,
+        "ai_additions": 14,
+        "ai_deletions": 5,
+        "human_additions": 774,
+        "human_deletions": 541,
+        "color": null,
+        "digital": "1:50:01",
+        "decimal": "1.83",
+        "text": "1 hr 50 mins",
+        "hours": 1,
+        "minutes": 50,
+        "seconds": 1,
+        "percent": 43.63
+      },
+      {
+        "name": "tweeter",
+        "total_seconds": 1064.364,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 79,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:17:44",
+        "decimal": "0.28",
+        "text": "17 mins",
         "hours": 0,
-        "minutes": 14,
-        "seconds": 16,
-        "percent": 5.66
+        "minutes": 17,
+        "seconds": 44,
+        "percent": 7.03
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-08-14T22:00:00Z",
+      "end": "2025-08-15T21:59:59Z",
+      "date": "2025-08-15",
+      "text": "Fri Aug 15th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
