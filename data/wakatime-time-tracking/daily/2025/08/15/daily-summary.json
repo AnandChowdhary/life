@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 12,
-      "total_seconds": 7965.991,
-      "digital": "2:12",
-      "decimal": "2.20",
-      "text": "2 hrs 12 mins",
-      "ai_additions": 14,
-      "ai_deletions": 57,
-      "human_additions": 477,
-      "human_deletions": 205
-    },
-    "range": {
-      "start": "2025-08-15T22:00:00Z",
-      "end": "2025-08-16T21:59:59Z",
-      "date": "2025-08-16",
-      "text": "Sat Aug 16th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "anandchowdhary.com",
-        "total_seconds": 6302.945,
-        "ai_additions": 1,
-        "ai_deletions": 48,
-        "human_additions": 408,
-        "human_deletions": 135,
-        "color": null,
-        "digital": "1:45:02",
-        "decimal": "1.75",
-        "text": "1 hr 45 mins",
-        "hours": 1,
-        "minutes": 45,
-        "seconds": 2,
-        "percent": 79.12
-      },
-      {
-        "name": "notes",
-        "total_seconds": 1618.884,
-        "ai_additions": 13,
-        "ai_deletions": 9,
-        "human_additions": 69,
-        "human_deletions": 70,
-        "color": null,
-        "digital": "0:26:58",
-        "decimal": "0.43",
-        "text": "26 mins",
-        "hours": 0,
-        "minutes": 26,
-        "seconds": 58,
-        "percent": 20.32
-      },
-      {
-        "name": "events",
-        "total_seconds": 44.162,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:44",
-        "decimal": "0.00",
-        "text": "44 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 44,
-        "percent": 0.55
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -146,6 +77,79 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.05
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 12,
+      "total_seconds": 7965.991,
+      "digital": "2:12",
+      "decimal": "2.20",
+      "text": "2 hrs 12 mins",
+      "ai_additions": 14,
+      "ai_deletions": 57,
+      "human_additions": 477,
+      "human_deletions": 205
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 7965.991,
+        "digital": "2:12:45",
+        "decimal": "2.20",
+        "text": "2 hrs 12 mins",
+        "hours": 2,
+        "minutes": 12,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 7965.991,
+        "digital": "2:12:45",
+        "decimal": "2.20",
+        "text": "2 hrs 12 mins",
+        "hours": 2,
+        "minutes": 12,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 7683.669,
+        "digital": "2:08:03",
+        "decimal": "2.13",
+        "text": "2 hrs 8 mins",
+        "hours": 2,
+        "minutes": 8,
+        "seconds": 3,
+        "percent": 96.46
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 211.81,
+        "digital": "0:03:31",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 31,
+        "percent": 2.66
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 70.512,
+        "digital": "0:01:10",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 10,
+        "percent": 0.89
       }
     ],
     "dependencies": [
@@ -517,66 +521,66 @@
         "percent": 24.7
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 7965.991,
-        "digital": "2:12:45",
-        "decimal": "2.20",
-        "text": "2 hrs 12 mins",
-        "hours": 2,
-        "minutes": 12,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 7965.991,
-        "digital": "2:12:45",
-        "decimal": "2.20",
-        "text": "2 hrs 12 mins",
-        "hours": 2,
-        "minutes": 12,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 7683.669,
-        "digital": "2:08:03",
-        "decimal": "2.13",
-        "text": "2 hrs 8 mins",
-        "hours": 2,
-        "minutes": 8,
-        "seconds": 3,
-        "percent": 96.46
+        "name": "anandchowdhary.com",
+        "total_seconds": 6302.945,
+        "ai_additions": 1,
+        "ai_deletions": 48,
+        "human_additions": 408,
+        "human_deletions": 135,
+        "color": null,
+        "digital": "1:45:02",
+        "decimal": "1.75",
+        "text": "1 hr 45 mins",
+        "hours": 1,
+        "minutes": 45,
+        "seconds": 2,
+        "percent": 79.12
       },
       {
-        "name": "AI Coding",
-        "total_seconds": 211.81,
-        "digital": "0:03:31",
-        "decimal": "0.05",
-        "text": "3 mins",
+        "name": "notes",
+        "total_seconds": 1618.884,
+        "ai_additions": 13,
+        "ai_deletions": 9,
+        "human_additions": 69,
+        "human_deletions": 70,
+        "color": null,
+        "digital": "0:26:58",
+        "decimal": "0.43",
+        "text": "26 mins",
         "hours": 0,
-        "minutes": 3,
-        "seconds": 31,
-        "percent": 2.66
+        "minutes": 26,
+        "seconds": 58,
+        "percent": 20.32
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 70.512,
-        "digital": "0:01:10",
-        "decimal": "0.02",
-        "text": "1 min",
+        "name": "events",
+        "total_seconds": 44.162,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:44",
+        "decimal": "0.00",
+        "text": "44 secs",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 10,
-        "percent": 0.89
+        "minutes": 0,
+        "seconds": 44,
+        "percent": 0.55
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-08-15T22:00:00Z",
+      "end": "2025-08-16T21:59:59Z",
+      "date": "2025-08-16",
+      "text": "Sat Aug 16th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
