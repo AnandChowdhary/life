@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 6,
-      "minutes": 3,
-      "total_seconds": 21808.724,
-      "digital": "6:03",
-      "decimal": "6.05",
-      "text": "6 hrs 3 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1858,
-      "human_deletions": 952
-    },
-    "range": {
-      "start": "2025-08-26T22:00:00Z",
-      "end": "2025-08-27T21:59:59Z",
-      "date": "2025-08-27",
-      "text": "Wed Aug 27th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 11353.025,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1125,
-        "human_deletions": 586,
-        "color": null,
-        "digital": "3:09:13",
-        "decimal": "3.15",
-        "text": "3 hrs 9 mins",
-        "hours": 3,
-        "minutes": 9,
-        "seconds": 13,
-        "percent": 52.06
-      },
-      {
-        "name": "anandchowdhary.com",
-        "total_seconds": 10455.699,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 733,
-        "human_deletions": 366,
-        "color": null,
-        "digital": "2:54:15",
-        "decimal": "2.90",
-        "text": "2 hrs 54 mins",
-        "hours": 2,
-        "minutes": 54,
-        "seconds": 15,
-        "percent": 47.94
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -89,6 +36,79 @@
       },
       {
         "name": "Markdown",
+        "total_seconds": 4.977,
+        "digital": "0:00:04",
+        "decimal": "0.00",
+        "text": "4 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 4,
+        "percent": 0.02
+      }
+    ],
+    "grand_total": {
+      "hours": 6,
+      "minutes": 3,
+      "total_seconds": 21808.724,
+      "digital": "6:03",
+      "decimal": "6.05",
+      "text": "6 hrs 3 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1858,
+      "human_deletions": 952
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 21808.724,
+        "digital": "6:03:28",
+        "decimal": "6.05",
+        "text": "6 hrs 3 mins",
+        "hours": 6,
+        "minutes": 3,
+        "seconds": 28,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 21808.724,
+        "digital": "6:03:28",
+        "decimal": "6.05",
+        "text": "6 hrs 3 mins",
+        "hours": 6,
+        "minutes": 3,
+        "seconds": 28,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 15581.809,
+        "digital": "4:19:41",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 41,
+        "percent": 71.45
+      },
+      {
+        "name": "Building",
+        "total_seconds": 6221.938,
+        "digital": "1:43:41",
+        "decimal": "1.72",
+        "text": "1 hr 43 mins",
+        "hours": 1,
+        "minutes": 43,
+        "seconds": 41,
+        "percent": 28.53
+      },
+      {
+        "name": "Writing Docs",
         "total_seconds": 4.977,
         "digital": "0:00:04",
         "decimal": "0.00",
@@ -2425,66 +2445,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 21808.724,
-        "digital": "6:03:28",
-        "decimal": "6.05",
-        "text": "6 hrs 3 mins",
-        "hours": 6,
-        "minutes": 3,
-        "seconds": 28,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 21808.724,
-        "digital": "6:03:28",
-        "decimal": "6.05",
-        "text": "6 hrs 3 mins",
-        "hours": 6,
-        "minutes": 3,
-        "seconds": 28,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 15581.809,
-        "digital": "4:19:41",
-        "decimal": "4.32",
-        "text": "4 hrs 19 mins",
-        "hours": 4,
-        "minutes": 19,
-        "seconds": 41,
-        "percent": 71.45
+        "name": "firstquadrant.ai",
+        "total_seconds": 11353.025,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1125,
+        "human_deletions": 586,
+        "color": null,
+        "digital": "3:09:13",
+        "decimal": "3.15",
+        "text": "3 hrs 9 mins",
+        "hours": 3,
+        "minutes": 9,
+        "seconds": 13,
+        "percent": 52.06
       },
       {
-        "name": "Building",
-        "total_seconds": 6221.938,
-        "digital": "1:43:41",
-        "decimal": "1.72",
-        "text": "1 hr 43 mins",
-        "hours": 1,
-        "minutes": 43,
-        "seconds": 41,
-        "percent": 28.53
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 4.977,
-        "digital": "0:00:04",
-        "decimal": "0.00",
-        "text": "4 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 4,
-        "percent": 0.02
+        "name": "anandchowdhary.com",
+        "total_seconds": 10455.699,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 733,
+        "human_deletions": 366,
+        "color": null,
+        "digital": "2:54:15",
+        "decimal": "2.90",
+        "text": "2 hrs 54 mins",
+        "hours": 2,
+        "minutes": 54,
+        "seconds": 15,
+        "percent": 47.94
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-08-26T22:00:00Z",
+      "end": "2025-08-27T21:59:59Z",
+      "date": "2025-08-27",
+      "text": "Wed Aug 27th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]

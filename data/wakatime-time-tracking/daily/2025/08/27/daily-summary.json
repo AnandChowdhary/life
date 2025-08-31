@@ -1,90 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 6,
-      "minutes": 59,
-      "total_seconds": 25172.847,
-      "digital": "6:59",
-      "decimal": "6.98",
-      "text": "6 hrs 59 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 3431,
-      "human_deletions": 512
-    },
-    "range": {
-      "start": "2025-08-27T22:00:00Z",
-      "end": "2025-08-28T21:59:59Z",
-      "date": "2025-08-28",
-      "text": "Thu Aug 28th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "anandchowdhary.com",
-        "total_seconds": 23424.195,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 3372,
-        "human_deletions": 470,
-        "color": null,
-        "digital": "6:30:24",
-        "decimal": "6.50",
-        "text": "6 hrs 30 mins",
-        "hours": 6,
-        "minutes": 30,
-        "seconds": 24,
-        "percent": 93.05
-      },
-      {
-        "name": "versions",
-        "total_seconds": 1486.409,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 55,
-        "human_deletions": 32,
-        "color": null,
-        "digital": "0:24:46",
-        "decimal": "0.40",
-        "text": "24 mins",
-        "hours": 0,
-        "minutes": 24,
-        "seconds": 46,
-        "percent": 5.9
-      },
-      {
-        "name": "themes",
-        "total_seconds": 259.589,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 4,
-        "human_deletions": 10,
-        "color": null,
-        "digital": "0:04:19",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 19,
-        "percent": 1.03
-      },
-      {
-        "name": "action",
-        "total_seconds": 2.654,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:02",
-        "decimal": "0.00",
-        "text": "2 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 2,
-        "percent": 0.01
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -140,6 +55,79 @@
         "minutes": 1,
         "seconds": 54,
         "percent": 0.45
+      }
+    ],
+    "grand_total": {
+      "hours": 6,
+      "minutes": 59,
+      "total_seconds": 25172.847,
+      "digital": "6:59",
+      "decimal": "6.98",
+      "text": "6 hrs 59 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 3431,
+      "human_deletions": 512
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 25172.847,
+        "digital": "6:59:32",
+        "decimal": "6.98",
+        "text": "6 hrs 59 mins",
+        "hours": 6,
+        "minutes": 59,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 25172.847,
+        "digital": "6:59:32",
+        "decimal": "6.98",
+        "text": "6 hrs 59 mins",
+        "hours": 6,
+        "minutes": 59,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Building",
+        "total_seconds": 16427.493,
+        "digital": "4:33:47",
+        "decimal": "4.55",
+        "text": "4 hrs 33 mins",
+        "hours": 4,
+        "minutes": 33,
+        "seconds": 47,
+        "percent": 65.26
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 7090.736,
+        "digital": "1:58:10",
+        "decimal": "1.97",
+        "text": "1 hr 58 mins",
+        "hours": 1,
+        "minutes": 58,
+        "seconds": 10,
+        "percent": 28.17
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 1654.618,
+        "digital": "0:27:34",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 34,
+        "percent": 6.57
       }
     ],
     "dependencies": [
@@ -1137,66 +1125,82 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 25172.847,
-        "digital": "6:59:32",
-        "decimal": "6.98",
-        "text": "6 hrs 59 mins",
+        "name": "anandchowdhary.com",
+        "total_seconds": 23424.195,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 3372,
+        "human_deletions": 470,
+        "color": null,
+        "digital": "6:30:24",
+        "decimal": "6.50",
+        "text": "6 hrs 30 mins",
         "hours": 6,
-        "minutes": 59,
-        "seconds": 32,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 25172.847,
-        "digital": "6:59:32",
-        "decimal": "6.98",
-        "text": "6 hrs 59 mins",
-        "hours": 6,
-        "minutes": 59,
-        "seconds": 32,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Building",
-        "total_seconds": 16427.493,
-        "digital": "4:33:47",
-        "decimal": "4.55",
-        "text": "4 hrs 33 mins",
-        "hours": 4,
-        "minutes": 33,
-        "seconds": 47,
-        "percent": 65.26
+        "minutes": 30,
+        "seconds": 24,
+        "percent": 93.05
       },
       {
-        "name": "Coding",
-        "total_seconds": 7090.736,
-        "digital": "1:58:10",
-        "decimal": "1.97",
-        "text": "1 hr 58 mins",
-        "hours": 1,
-        "minutes": 58,
-        "seconds": 10,
-        "percent": 28.17
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 1654.618,
-        "digital": "0:27:34",
-        "decimal": "0.45",
-        "text": "27 mins",
+        "name": "versions",
+        "total_seconds": 1486.409,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 55,
+        "human_deletions": 32,
+        "color": null,
+        "digital": "0:24:46",
+        "decimal": "0.40",
+        "text": "24 mins",
         "hours": 0,
-        "minutes": 27,
-        "seconds": 34,
-        "percent": 6.57
+        "minutes": 24,
+        "seconds": 46,
+        "percent": 5.9
+      },
+      {
+        "name": "themes",
+        "total_seconds": 259.589,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 4,
+        "human_deletions": 10,
+        "color": null,
+        "digital": "0:04:19",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 19,
+        "percent": 1.03
+      },
+      {
+        "name": "action",
+        "total_seconds": 2.654,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:02",
+        "decimal": "0.00",
+        "text": "2 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2,
+        "percent": 0.01
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-08-27T22:00:00Z",
+      "end": "2025-08-28T21:59:59Z",
+      "date": "2025-08-28",
+      "text": "Thu Aug 28th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
