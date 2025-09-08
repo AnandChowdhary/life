@@ -1,5 +1,74 @@
 [
   {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 53,
+      "total_seconds": 3205.156,
+      "digital": "0:53",
+      "decimal": "0.88",
+      "text": "53 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 164,
+      "human_deletions": 365
+    },
+    "range": {
+      "start": "2025-09-03T22:00:00Z",
+      "end": "2025-09-04T21:59:59Z",
+      "date": "2025-09-04",
+      "text": "Thu Sep 4th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "tweeter",
+        "total_seconds": 1633.431,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 39,
+        "human_deletions": 33,
+        "color": null,
+        "digital": "0:27:13",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 13,
+        "percent": 50.96
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 1517.417,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 125,
+        "human_deletions": 332,
+        "color": null,
+        "digital": "0:25:17",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 17,
+        "percent": 47.34
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 54.308,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:54",
+        "decimal": "0.00",
+        "text": "54 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 54,
+        "percent": 1.69
+      }
+    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -66,68 +135,6 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.04
-      }
-    ],
-    "grand_total": {
-      "hours": 0,
-      "minutes": 53,
-      "total_seconds": 3205.156,
-      "digital": "0:53",
-      "decimal": "0.88",
-      "text": "53 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 164,
-      "human_deletions": 365
-    },
-    "editors": [
-      {
-        "name": "Cursor",
-        "total_seconds": 3205.156,
-        "digital": "0:53:25",
-        "decimal": "0.88",
-        "text": "53 mins",
-        "hours": 0,
-        "minutes": 53,
-        "seconds": 25,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 3205.156,
-        "digital": "0:53:25",
-        "decimal": "0.88",
-        "text": "53 mins",
-        "hours": 0,
-        "minutes": 53,
-        "seconds": 25,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2634.754,
-        "digital": "0:43:54",
-        "decimal": "0.72",
-        "text": "43 mins",
-        "hours": 0,
-        "minutes": 43,
-        "seconds": 54,
-        "percent": 82.2
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 570.402,
-        "digital": "0:09:30",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 30,
-        "percent": 17.8
       }
     ],
     "dependencies": [
@@ -971,66 +978,55 @@
         "percent": 100
       }
     ],
-    "projects": [
+    "editors": [
       {
-        "name": "tweeter",
-        "total_seconds": 1633.431,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 39,
-        "human_deletions": 33,
-        "color": null,
-        "digital": "0:27:13",
-        "decimal": "0.45",
-        "text": "27 mins",
+        "name": "Cursor",
+        "total_seconds": 3205.156,
+        "digital": "0:53:25",
+        "decimal": "0.88",
+        "text": "53 mins",
         "hours": 0,
-        "minutes": 27,
-        "seconds": 13,
-        "percent": 50.96
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 1517.417,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 125,
-        "human_deletions": 332,
-        "color": null,
-        "digital": "0:25:17",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 17,
-        "percent": 47.34
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 54.308,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:54",
-        "decimal": "0.00",
-        "text": "54 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 54,
-        "percent": 1.69
+        "minutes": 53,
+        "seconds": 25,
+        "percent": 100
       }
     ],
-    "range": {
-      "start": "2025-09-03T22:00:00Z",
-      "end": "2025-09-04T21:59:59Z",
-      "date": "2025-09-04",
-      "text": "Thu Sep 4th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "ai_additions": 0,
-    "ai_deletions": 0,
-    "human_additions": 0,
-    "human_deletions": 0
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3205.156,
+        "digital": "0:53:25",
+        "decimal": "0.88",
+        "text": "53 mins",
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 2634.754,
+        "digital": "0:43:54",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 54,
+        "percent": 82.2
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 570.402,
+        "digital": "0:09:30",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 30,
+        "percent": 17.8
+      }
+    ]
   }
 ]
