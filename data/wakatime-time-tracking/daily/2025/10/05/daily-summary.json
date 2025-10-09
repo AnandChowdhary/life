@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 8,
-      "minutes": 2,
-      "total_seconds": 28922.312,
-      "digital": "8:02",
-      "decimal": "8.03",
-      "text": "8 hrs 2 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1839,
-      "human_deletions": 982
-    },
-    "range": {
-      "start": "2025-10-05T22:00:00Z",
-      "end": "2025-10-06T21:59:59Z",
-      "date": "2025-10-06",
-      "text": "Mon Oct 6th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "first",
-        "total_seconds": 28922.312,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1839,
-        "human_deletions": 982,
-        "color": null,
-        "digital": "8:02:02",
-        "decimal": "8.03",
-        "text": "8 hrs 2 mins",
-        "hours": 8,
-        "minutes": 2,
-        "seconds": 2,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -81,6 +44,57 @@
         "minutes": 0,
         "seconds": 33,
         "percent": 0.12
+      }
+    ],
+    "grand_total": {
+      "hours": 8,
+      "minutes": 2,
+      "total_seconds": 28922.312,
+      "digital": "8:02",
+      "decimal": "8.03",
+      "text": "8 hrs 2 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1839,
+      "human_deletions": 982
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 28922.312,
+        "digital": "8:02:02",
+        "decimal": "8.03",
+        "text": "8 hrs 2 mins",
+        "hours": 8,
+        "minutes": 2,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 28922.312,
+        "digital": "8:02:02",
+        "decimal": "8.03",
+        "text": "8 hrs 2 mins",
+        "hours": 8,
+        "minutes": 2,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 28922.312,
+        "digital": "8:02:02",
+        "decimal": "8.03",
+        "text": "8 hrs 2 mins",
+        "hours": 8,
+        "minutes": 2,
+        "seconds": 2,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1859,10 +1873,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "first",
         "total_seconds": 28922.312,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1839,
+        "human_deletions": 982,
+        "color": null,
         "digital": "8:02:02",
         "decimal": "8.03",
         "text": "8 hrs 2 mins",
@@ -1872,31 +1891,16 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 28922.312,
-        "digital": "8:02:02",
-        "decimal": "8.03",
-        "text": "8 hrs 2 mins",
-        "hours": 8,
-        "minutes": 2,
-        "seconds": 2,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 28922.312,
-        "digital": "8:02:02",
-        "decimal": "8.03",
-        "text": "8 hrs 2 mins",
-        "hours": 8,
-        "minutes": 2,
-        "seconds": 2,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-10-05T22:00:00Z",
+      "end": "2025-10-06T21:59:59Z",
+      "date": "2025-10-06",
+      "text": "Mon Oct 6th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
