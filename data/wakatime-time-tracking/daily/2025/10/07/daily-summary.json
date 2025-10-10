@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 7,
-      "minutes": 1,
-      "total_seconds": 25280.756,
-      "digital": "7:01",
-      "decimal": "7.02",
-      "text": "7 hrs 1 min",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1966,
-      "human_deletions": 1018
-    },
-    "range": {
-      "start": "2025-10-07T22:00:00Z",
-      "end": "2025-10-08T21:59:59Z",
-      "date": "2025-10-08",
-      "text": "Wed Oct 8th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "first",
-        "total_seconds": 25280.756,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1966,
-        "human_deletions": 1018,
-        "color": null,
-        "digital": "7:01:20",
-        "decimal": "7.02",
-        "text": "7 hrs 1 min",
-        "hours": 7,
-        "minutes": 1,
-        "seconds": 20,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -81,6 +44,57 @@
         "minutes": 1,
         "seconds": 13,
         "percent": 0.29
+      }
+    ],
+    "grand_total": {
+      "hours": 7,
+      "minutes": 1,
+      "total_seconds": 25280.756,
+      "digital": "7:01",
+      "decimal": "7.02",
+      "text": "7 hrs 1 min",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1966,
+      "human_deletions": 1018
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 25280.756,
+        "digital": "7:01:20",
+        "decimal": "7.02",
+        "text": "7 hrs 1 min",
+        "hours": 7,
+        "minutes": 1,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 25280.756,
+        "digital": "7:01:20",
+        "decimal": "7.02",
+        "text": "7 hrs 1 min",
+        "hours": 7,
+        "minutes": 1,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 25280.756,
+        "digital": "7:01:20",
+        "decimal": "7.02",
+        "text": "7 hrs 1 min",
+        "hours": 7,
+        "minutes": 1,
+        "seconds": 20,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -349,7 +363,7 @@
         "percent": 1.71
       },
       {
-        "name": "preloader",
+        "name": "navbar",
         "total_seconds": 3700.473,
         "digital": "1:01:40",
         "decimal": "1.02",
@@ -360,7 +374,7 @@
         "percent": 1.71
       },
       {
-        "name": "navbar",
+        "name": "preloader",
         "total_seconds": 3700.473,
         "digital": "1:01:40",
         "decimal": "1.02",
@@ -382,7 +396,7 @@
         "percent": 1.36
       },
       {
-        "name": "react-table",
+        "name": "checkbox",
         "total_seconds": 2934.441,
         "digital": "0:48:54",
         "decimal": "0.80",
@@ -393,7 +407,7 @@
         "percent": 1.36
       },
       {
-        "name": "checkbox",
+        "name": "react-table",
         "total_seconds": 2934.441,
         "digital": "0:48:54",
         "decimal": "0.80",
@@ -536,7 +550,7 @@
         "percent": 0.57
       },
       {
-        "name": "workspace-settings-form",
+        "name": "workspace-delete-button",
         "total_seconds": 1180.951,
         "digital": "0:19:40",
         "decimal": "0.32",
@@ -547,7 +561,7 @@
         "percent": 0.55
       },
       {
-        "name": "workspace-delete-button",
+        "name": "workspace-settings-form",
         "total_seconds": 1180.951,
         "digital": "0:19:40",
         "decimal": "0.32",
@@ -800,7 +814,7 @@
         "percent": 0.04
       },
       {
-        "name": "query-db-collection",
+        "name": "electric-db-collection",
         "total_seconds": 88.067,
         "digital": "0:01:28",
         "decimal": "0.02",
@@ -811,7 +825,7 @@
         "percent": 0.04
       },
       {
-        "name": "electric-db-collection",
+        "name": "query-db-collection",
         "total_seconds": 88.067,
         "digital": "0:01:28",
         "decimal": "0.02",
@@ -844,18 +858,7 @@
         "percent": 0.04
       },
       {
-        "name": "skeleton",
-        "total_seconds": 86.6,
-        "digital": "0:01:26",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 26,
-        "percent": 0.04
-      },
-      {
-        "name": "use-mobile",
+        "name": "use-render",
         "total_seconds": 86.6,
         "digital": "0:01:26",
         "decimal": "0.02",
@@ -877,7 +880,18 @@
         "percent": 0.04
       },
       {
-        "name": "use-render",
+        "name": "skeleton",
+        "total_seconds": 86.6,
+        "digital": "0:01:26",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 26,
+        "percent": 0.04
+      },
+      {
+        "name": "use-mobile",
         "total_seconds": 86.6,
         "digital": "0:01:26",
         "decimal": "0.02",
@@ -965,6 +979,39 @@
         "percent": 0.02
       },
       {
+        "name": "wrangler",
+        "total_seconds": 30.142,
+        "digital": "0:00:30",
+        "decimal": "0.00",
+        "text": "30 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30,
+        "percent": 0.01
+      },
+      {
+        "name": "algoliasearch",
+        "total_seconds": 30.142,
+        "digital": "0:00:30",
+        "decimal": "0.00",
+        "text": "30 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30,
+        "percent": 0.01
+      },
+      {
+        "name": "dotenv",
+        "total_seconds": 30.142,
+        "digital": "0:00:30",
+        "decimal": "0.00",
+        "text": "30 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30,
+        "percent": 0.01
+      },
+      {
         "name": "@electric-sql/client",
         "total_seconds": 30.142,
         "digital": "0:00:30",
@@ -976,7 +1023,7 @@
         "percent": 0.01
       },
       {
-        "name": "drizzle-zod",
+        "name": "npm",
         "total_seconds": 30.142,
         "digital": "0:00:30",
         "decimal": "0.00",
@@ -998,7 +1045,7 @@
         "percent": 0.01
       },
       {
-        "name": "@types/node",
+        "name": "drizzle-kit",
         "total_seconds": 30.142,
         "digital": "0:00:30",
         "decimal": "0.00",
@@ -1009,7 +1056,18 @@
         "percent": 0.01
       },
       {
-        "name": "npm",
+        "name": "drizzle-zod",
+        "total_seconds": 30.142,
+        "digital": "0:00:30",
+        "decimal": "0.00",
+        "text": "30 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30,
+        "percent": 0.01
+      },
+      {
+        "name": "@types/node",
         "total_seconds": 30.142,
         "digital": "0:00:30",
         "decimal": "0.00",
@@ -1042,51 +1100,7 @@
         "percent": 0.01
       },
       {
-        "name": "drizzle-kit",
-        "total_seconds": 30.142,
-        "digital": "0:00:30",
-        "decimal": "0.00",
-        "text": "30 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 30,
-        "percent": 0.01
-      },
-      {
         "name": "@sindresorhus/slugify",
-        "total_seconds": 30.142,
-        "digital": "0:00:30",
-        "decimal": "0.00",
-        "text": "30 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 30,
-        "percent": 0.01
-      },
-      {
-        "name": "@hono/zod-validator",
-        "total_seconds": 30.142,
-        "digital": "0:00:30",
-        "decimal": "0.00",
-        "text": "30 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 30,
-        "percent": 0.01
-      },
-      {
-        "name": "dotenv",
-        "total_seconds": 30.142,
-        "digital": "0:00:30",
-        "decimal": "0.00",
-        "text": "30 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 30,
-        "percent": 0.01
-      },
-      {
-        "name": "algoliasearch",
         "total_seconds": 30.142,
         "digital": "0:00:30",
         "decimal": "0.00",
@@ -1108,7 +1122,7 @@
         "percent": 0.01
       },
       {
-        "name": "wrangler",
+        "name": "@hono/zod-validator",
         "total_seconds": 30.142,
         "digital": "0:00:30",
         "decimal": "0.00",
@@ -1185,28 +1199,6 @@
         "percent": 0
       },
       {
-        "name": "router",
-        "total_seconds": 1.17,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "join-workspace",
-        "total_seconds": 1.17,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
         "name": "login",
         "total_seconds": 1.17,
         "digital": "0:00:01",
@@ -1218,7 +1210,7 @@
         "percent": 0
       },
       {
-        "name": "$tenantSlug",
+        "name": "register",
         "total_seconds": 1.17,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1229,7 +1221,7 @@
         "percent": 0
       },
       {
-        "name": "new",
+        "name": "$tenantSlug",
         "total_seconds": 1.17,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1262,17 +1254,6 @@
         "percent": 0
       },
       {
-        "name": "new-workspace",
-        "total_seconds": 1.17,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
         "name": "react-start",
         "total_seconds": 1.17,
         "digital": "0:00:01",
@@ -1284,7 +1265,7 @@
         "percent": 0
       },
       {
-        "name": "register",
+        "name": "router",
         "total_seconds": 1.17,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1295,7 +1276,40 @@
         "percent": 0
       },
       {
-        "name": "sql",
+        "name": "join-workspace",
+        "total_seconds": 1.17,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "new-workspace",
+        "total_seconds": 1.17,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "new",
+        "total_seconds": 1.17,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "column",
         "total_seconds": 0.91,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1317,7 +1331,7 @@
         "percent": 0
       },
       {
-        "name": "operations",
+        "name": "sql",
         "total_seconds": 0.91,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1328,7 +1342,7 @@
         "percent": 0
       },
       {
-        "name": "column",
+        "name": "operations",
         "total_seconds": 0.91,
         "digital": "0:00:00",
         "decimal": "0.00",
@@ -1364,10 +1378,14 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "first",
         "total_seconds": 25280.756,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1966,
+        "human_deletions": 1018,
         "digital": "7:01:20",
         "decimal": "7.02",
         "text": "7 hrs 1 min",
@@ -1377,31 +1395,16 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 25280.756,
-        "digital": "7:01:20",
-        "decimal": "7.02",
-        "text": "7 hrs 1 min",
-        "hours": 7,
-        "minutes": 1,
-        "seconds": 20,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 25280.756,
-        "digital": "7:01:20",
-        "decimal": "7.02",
-        "text": "7 hrs 1 min",
-        "hours": 7,
-        "minutes": 1,
-        "seconds": 20,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-10-07T22:00:00Z",
+      "end": "2025-10-08T21:59:59Z",
+      "date": "2025-10-08",
+      "text": "Wed Oct 8th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
