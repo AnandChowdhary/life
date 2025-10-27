@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 38,
-      "total_seconds": 2323.656,
-      "digital": "0:38",
-      "decimal": "0.63",
-      "text": "38 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 66,
-      "human_deletions": 5
-    },
-    "range": {
-      "start": "2025-10-22T22:00:00Z",
-      "end": "2025-10-23T21:59:59Z",
-      "date": "2025-10-23",
-      "text": "Thu Oct 23rd 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "Unknown Project",
-        "total_seconds": 1677.117,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:27:57",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 57,
-        "percent": 72.18
-      },
-      {
-        "name": "slack-export-summary",
-        "total_seconds": 646.539,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 66,
-        "human_deletions": 5,
-        "color": null,
-        "digital": "0:10:46",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 46,
-        "percent": 27.82
-      }
-    ],
     "languages": [
       {
         "name": "Other",
@@ -88,21 +35,18 @@
         "percent": 10.03
       }
     ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anands-MBP.home",
-        "total_seconds": 2323.656,
-        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "0:38:43",
-        "decimal": "0.63",
-        "text": "38 mins",
-        "hours": 0,
-        "minutes": 38,
-        "seconds": 43,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 38,
+      "total_seconds": 2323.656,
+      "digital": "0:38",
+      "decimal": "0.63",
+      "text": "38 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 66,
+      "human_deletions": 5
+    },
     "editors": [
       {
         "name": "Cursor",
@@ -152,6 +96,66 @@
         "seconds": 53,
         "percent": 17.8
       }
-    ]
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 2323.656,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:38:43",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 43,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "Unknown Project",
+        "total_seconds": 1677.117,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:27:57",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 57,
+        "percent": 72.18
+      },
+      {
+        "name": "slack-export-summary",
+        "total_seconds": 646.539,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 66,
+        "human_deletions": 5,
+        "color": null,
+        "digital": "0:10:46",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 46,
+        "percent": 27.82
+      }
+    ],
+    "range": {
+      "start": "2025-10-22T22:00:00Z",
+      "end": "2025-10-23T21:59:59Z",
+      "date": "2025-10-23",
+      "text": "Thu Oct 23rd 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
