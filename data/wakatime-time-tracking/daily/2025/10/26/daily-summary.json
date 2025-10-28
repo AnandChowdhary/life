@@ -2,15 +2,15 @@
   {
     "grand_total": {
       "hours": 0,
-      "minutes": 0,
-      "total_seconds": 0,
-      "digital": "0:00",
-      "decimal": "0.00",
-      "text": "0 secs",
+      "minutes": 9,
+      "total_seconds": 578.589,
+      "digital": "0:09",
+      "decimal": "0.15",
+      "text": "9 mins",
       "ai_additions": 0,
       "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0
+      "human_additions": 112,
+      "human_deletions": 6
     },
     "range": {
       "start": "2025-10-26T23:00:00Z",
@@ -19,12 +19,112 @@
       "text": "Mon Oct 27th 2025",
       "timezone": "Europe/Amsterdam"
     },
-    "projects": [],
-    "languages": [],
+    "projects": [
+      {
+        "name": "Unknown Project",
+        "total_seconds": 578.589,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 112,
+        "human_deletions": 6,
+        "color": null,
+        "digital": "0:09:38",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "languages": [
+      {
+        "name": "Markdown",
+        "total_seconds": 418.84,
+        "digital": "0:06:58",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 58,
+        "percent": 72.39
+      },
+      {
+        "name": "Other",
+        "total_seconds": 159.749,
+        "digital": "0:02:39",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 39,
+        "percent": 27.61
+      }
+    ],
     "dependencies": [],
-    "machines": [],
-    "editors": [],
-    "operating_systems": [],
-    "categories": []
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 578.589,
+        "machine_name_id": "cb6e3e58-9e2a-4a0a-b066-a32d8fc5b8f9",
+        "digital": "0:09:38",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 578.589,
+        "digital": "0:09:38",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 578.589,
+        "digital": "0:09:38",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Writing Docs",
+        "total_seconds": 418.84,
+        "digital": "0:06:58",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 58,
+        "percent": 72.39
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 159.749,
+        "digital": "0:02:39",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 39,
+        "percent": 27.61
+      }
+    ]
   }
 ]
