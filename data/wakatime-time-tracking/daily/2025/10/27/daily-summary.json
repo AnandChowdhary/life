@@ -1,106 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 10,
-      "total_seconds": 7804.172,
-      "digital": "2:10",
-      "decimal": "2.17",
-      "text": "2 hrs 10 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1001,
-      "human_deletions": 1266
-    },
-    "range": {
-      "start": "2025-10-27T23:00:00Z",
-      "end": "2025-10-28T22:59:59Z",
-      "date": "2025-10-28",
-      "text": "Tue Oct 28th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "BADGER",
-        "total_seconds": 3226.789,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 425,
-        "human_deletions": 518,
-        "color": null,
-        "digital": "0:53:46",
-        "decimal": "0.88",
-        "text": "53 mins",
-        "hours": 0,
-        "minutes": 53,
-        "seconds": 46,
-        "percent": 41.35
-      },
-      {
-        "name": "first",
-        "total_seconds": 3048.451,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 568,
-        "human_deletions": 748,
-        "color": null,
-        "digital": "0:50:48",
-        "decimal": "0.83",
-        "text": "50 mins",
-        "hours": 0,
-        "minutes": 50,
-        "seconds": 48,
-        "percent": 39.06
-      },
-      {
-        "name": "gallery",
-        "total_seconds": 641.141,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 8,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:10:41",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 41,
-        "percent": 8.22
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 451.445,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:07:31",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 31,
-        "percent": 5.78
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 436.346,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:07:16",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 16,
-        "percent": 5.59
-      }
-    ],
     "languages": [
       {
         "name": "Python",
@@ -145,6 +44,57 @@
         "minutes": 0,
         "seconds": 26,
         "percent": 0.34
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 10,
+      "total_seconds": 7804.172,
+      "digital": "2:10",
+      "decimal": "2.17",
+      "text": "2 hrs 10 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1001,
+      "human_deletions": 1266
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 7804.172,
+        "digital": "2:10:04",
+        "decimal": "2.17",
+        "text": "2 hrs 10 mins",
+        "hours": 2,
+        "minutes": 10,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 7804.172,
+        "digital": "2:10:04",
+        "decimal": "2.17",
+        "text": "2 hrs 10 mins",
+        "hours": 2,
+        "minutes": 10,
+        "seconds": 4,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 7804.172,
+        "digital": "2:10:04",
+        "decimal": "2.17",
+        "text": "2 hrs 10 mins",
+        "hours": 2,
+        "minutes": 10,
+        "seconds": 4,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -2254,44 +2204,98 @@
         "percent": 49.38
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 7804.172,
-        "digital": "2:10:04",
-        "decimal": "2.17",
-        "text": "2 hrs 10 mins",
-        "hours": 2,
+        "name": "BADGER",
+        "total_seconds": 3226.789,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 425,
+        "human_deletions": 518,
+        "color": null,
+        "digital": "0:53:46",
+        "decimal": "0.88",
+        "text": "53 mins",
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 46,
+        "percent": 41.35
+      },
+      {
+        "name": "first",
+        "total_seconds": 3048.451,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 568,
+        "human_deletions": 748,
+        "color": null,
+        "digital": "0:50:48",
+        "decimal": "0.83",
+        "text": "50 mins",
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 48,
+        "percent": 39.06
+      },
+      {
+        "name": "gallery",
+        "total_seconds": 641.141,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 8,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:10:41",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
         "minutes": 10,
-        "seconds": 4,
-        "percent": 100
+        "seconds": 41,
+        "percent": 8.22
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 451.445,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:07:31",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 31,
+        "percent": 5.78
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 436.346,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:07:16",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 16,
+        "percent": 5.59
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 7804.172,
-        "digital": "2:10:04",
-        "decimal": "2.17",
-        "text": "2 hrs 10 mins",
-        "hours": 2,
-        "minutes": 10,
-        "seconds": 4,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 7804.172,
-        "digital": "2:10:04",
-        "decimal": "2.17",
-        "text": "2 hrs 10 mins",
-        "hours": 2,
-        "minutes": 10,
-        "seconds": 4,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-10-27T23:00:00Z",
+      "end": "2025-10-28T22:59:59Z",
+      "date": "2025-10-28",
+      "text": "Tue Oct 28th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
