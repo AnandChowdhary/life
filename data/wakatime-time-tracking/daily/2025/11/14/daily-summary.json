@@ -1,5 +1,90 @@
 [
   {
+    "grand_total": {
+      "hours": 5,
+      "minutes": 28,
+      "total_seconds": 19697.965,
+      "digital": "5:28",
+      "decimal": "5.47",
+      "text": "5 hrs 28 mins",
+      "ai_additions": 28,
+      "ai_deletions": 0,
+      "human_additions": 1997,
+      "human_deletions": 1267
+    },
+    "range": {
+      "start": "2025-11-14T23:00:00Z",
+      "end": "2025-11-15T22:59:59Z",
+      "date": "2025-11-15",
+      "text": "Sat Nov 15th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "continuous-claude",
+        "total_seconds": 14408.861,
+        "ai_additions": 28,
+        "ai_deletions": 0,
+        "human_additions": 1885,
+        "human_deletions": 1197,
+        "color": null,
+        "digital": "4:00:08",
+        "decimal": "4.00",
+        "text": "4 hrs",
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 73.15
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 2339.803,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 90,
+        "human_deletions": 63,
+        "color": null,
+        "digital": "0:38:59",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 59,
+        "percent": 11.88
+      },
+      {
+        "name": "blog",
+        "total_seconds": 2155.529,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 21,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:35:55",
+        "decimal": "0.58",
+        "text": "35 mins",
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 55,
+        "percent": 10.94
+      },
+      {
+        "name": "anandchowdhary.com",
+        "total_seconds": 793.772,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1,
+        "human_deletions": 7,
+        "color": null,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 4.03
+      }
+    ],
     "languages": [
       {
         "name": "Bash",
@@ -79,18 +164,154 @@
         "percent": 0.71
       }
     ],
-    "grand_total": {
-      "hours": 5,
-      "minutes": 28,
-      "total_seconds": 19697.965,
-      "digital": "5:28",
-      "decimal": "5.47",
-      "text": "5 hrs 28 mins",
-      "ai_additions": 28,
-      "ai_deletions": 0,
-      "human_additions": 1997,
-      "human_deletions": 1267
-    },
+    "dependencies": [
+      {
+        "name": "link",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "next",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "container",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "footer",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "header",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "marked",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "external-link",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "opengraph",
+        "total_seconds": 793.772,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 9.68
+      },
+      {
+        "name": "database",
+        "total_seconds": 704.477,
+        "digital": "0:11:44",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 44,
+        "percent": 8.59
+      },
+      {
+        "name": "vitest",
+        "total_seconds": 704.477,
+        "digital": "0:11:44",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 44,
+        "percent": 8.59
+      },
+      {
+        "name": "hono",
+        "total_seconds": 220.704,
+        "digital": "0:03:40",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 40,
+        "percent": 2.69
+      },
+      {
+        "name": "tokens",
+        "total_seconds": 220.704,
+        "digital": "0:03:40",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 40,
+        "percent": 2.69
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 19697.965,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "5:28:17",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
     "editors": [
       {
         "name": "Cursor",
@@ -151,227 +372,6 @@
         "seconds": 3,
         "percent": 0.02
       }
-    ],
-    "dependencies": [
-      {
-        "name": "footer",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "container",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "marked",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "link",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "opengraph",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "next",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "external-link",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "header",
-        "total_seconds": 793.772,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 9.68
-      },
-      {
-        "name": "vitest",
-        "total_seconds": 704.477,
-        "digital": "0:11:44",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 44,
-        "percent": 8.59
-      },
-      {
-        "name": "database",
-        "total_seconds": 704.477,
-        "digital": "0:11:44",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 44,
-        "percent": 8.59
-      },
-      {
-        "name": "hono",
-        "total_seconds": 220.704,
-        "digital": "0:03:40",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 40,
-        "percent": 2.69
-      },
-      {
-        "name": "tokens",
-        "total_seconds": 220.704,
-        "digital": "0:03:40",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 40,
-        "percent": 2.69
-      }
-    ],
-    "machines": [
-      {
-        "name": "Anands-MBP.home",
-        "total_seconds": 19697.965,
-        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "5:28:17",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
-        "hours": 5,
-        "minutes": 28,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "projects": [
-      {
-        "name": "continuous-claude",
-        "total_seconds": 14408.861,
-        "ai_additions": 28,
-        "ai_deletions": 0,
-        "human_additions": 1885,
-        "human_deletions": 1197,
-        "digital": "4:00:08",
-        "decimal": "4.00",
-        "text": "4 hrs",
-        "hours": 4,
-        "minutes": 0,
-        "seconds": 8,
-        "percent": 73.15
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 2339.803,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 90,
-        "human_deletions": 63,
-        "digital": "0:38:59",
-        "decimal": "0.63",
-        "text": "38 mins",
-        "hours": 0,
-        "minutes": 38,
-        "seconds": 59,
-        "percent": 11.88
-      },
-      {
-        "name": "blog",
-        "total_seconds": 2155.529,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 21,
-        "human_deletions": 0,
-        "digital": "0:35:55",
-        "decimal": "0.58",
-        "text": "35 mins",
-        "hours": 0,
-        "minutes": 35,
-        "seconds": 55,
-        "percent": 10.94
-      },
-      {
-        "name": "anandchowdhary.com",
-        "total_seconds": 793.772,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1,
-        "human_deletions": 7,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 4.03
-      }
-    ],
-    "range": {
-      "start": "2025-11-14T23:00:00Z",
-      "end": "2025-11-15T22:59:59Z",
-      "date": "2025-11-15",
-      "text": "Sat Nov 15th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "ai_additions": 0,
-    "ai_deletions": 0,
-    "human_additions": 0,
-    "human_deletions": 0
+    ]
   }
 ]
