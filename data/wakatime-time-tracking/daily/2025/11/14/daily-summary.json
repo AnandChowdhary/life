@@ -1,90 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 28,
-      "total_seconds": 19697.965,
-      "digital": "5:28",
-      "decimal": "5.47",
-      "text": "5 hrs 28 mins",
-      "ai_additions": 28,
-      "ai_deletions": 0,
-      "human_additions": 1997,
-      "human_deletions": 1267
-    },
-    "range": {
-      "start": "2025-11-14T23:00:00Z",
-      "end": "2025-11-15T22:59:59Z",
-      "date": "2025-11-15",
-      "text": "Sat Nov 15th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "continuous-claude",
-        "total_seconds": 14408.861,
-        "ai_additions": 28,
-        "ai_deletions": 0,
-        "human_additions": 1885,
-        "human_deletions": 1197,
-        "color": null,
-        "digital": "4:00:08",
-        "decimal": "4.00",
-        "text": "4 hrs",
-        "hours": 4,
-        "minutes": 0,
-        "seconds": 8,
-        "percent": 73.15
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 2339.803,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 90,
-        "human_deletions": 63,
-        "color": null,
-        "digital": "0:38:59",
-        "decimal": "0.63",
-        "text": "38 mins",
-        "hours": 0,
-        "minutes": 38,
-        "seconds": 59,
-        "percent": 11.88
-      },
-      {
-        "name": "blog",
-        "total_seconds": 2155.529,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 21,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:35:55",
-        "decimal": "0.58",
-        "text": "35 mins",
-        "hours": 0,
-        "minutes": 35,
-        "seconds": 55,
-        "percent": 10.94
-      },
-      {
-        "name": "anandchowdhary.com",
-        "total_seconds": 793.772,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1,
-        "human_deletions": 7,
-        "color": null,
-        "digital": "0:13:13",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 13,
-        "percent": 4.03
-      }
-    ],
     "languages": [
       {
         "name": "Bash",
@@ -162,6 +77,79 @@
         "minutes": 2,
         "seconds": 20,
         "percent": 0.71
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 28,
+      "total_seconds": 19697.965,
+      "digital": "5:28",
+      "decimal": "5.47",
+      "text": "5 hrs 28 mins",
+      "ai_additions": 28,
+      "ai_deletions": 0,
+      "human_additions": 1997,
+      "human_deletions": 1267
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 19697.965,
+        "digital": "5:28:17",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 19697.965,
+        "digital": "5:28:17",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 13735.799,
+        "digital": "3:48:55",
+        "decimal": "3.80",
+        "text": "3 hrs 48 mins",
+        "hours": 3,
+        "minutes": 48,
+        "seconds": 55,
+        "percent": 69.73
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 5958.873,
+        "digital": "1:39:18",
+        "decimal": "1.65",
+        "text": "1 hr 39 mins",
+        "hours": 1,
+        "minutes": 39,
+        "seconds": 18,
+        "percent": 30.25
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 3.293,
+        "digital": "0:00:03",
+        "decimal": "0.00",
+        "text": "3 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 0.02
       }
     ],
     "dependencies": [
@@ -312,66 +300,82 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 19697.965,
-        "digital": "5:28:17",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
-        "hours": 5,
-        "minutes": 28,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 19697.965,
-        "digital": "5:28:17",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
-        "hours": 5,
-        "minutes": 28,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 13735.799,
-        "digital": "3:48:55",
-        "decimal": "3.80",
-        "text": "3 hrs 48 mins",
-        "hours": 3,
-        "minutes": 48,
-        "seconds": 55,
-        "percent": 69.73
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 5958.873,
-        "digital": "1:39:18",
-        "decimal": "1.65",
-        "text": "1 hr 39 mins",
-        "hours": 1,
-        "minutes": 39,
-        "seconds": 18,
-        "percent": 30.25
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 3.293,
-        "digital": "0:00:03",
-        "decimal": "0.00",
-        "text": "3 secs",
-        "hours": 0,
+        "name": "continuous-claude",
+        "total_seconds": 14408.861,
+        "ai_additions": 28,
+        "ai_deletions": 0,
+        "human_additions": 1885,
+        "human_deletions": 1197,
+        "color": null,
+        "digital": "4:00:08",
+        "decimal": "4.00",
+        "text": "4 hrs",
+        "hours": 4,
         "minutes": 0,
-        "seconds": 3,
-        "percent": 0.02
+        "seconds": 8,
+        "percent": 73.15
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 2339.803,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 90,
+        "human_deletions": 63,
+        "color": null,
+        "digital": "0:38:59",
+        "decimal": "0.63",
+        "text": "38 mins",
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 59,
+        "percent": 11.88
+      },
+      {
+        "name": "blog",
+        "total_seconds": 2155.529,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 21,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:35:55",
+        "decimal": "0.58",
+        "text": "35 mins",
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 55,
+        "percent": 10.94
+      },
+      {
+        "name": "anandchowdhary.com",
+        "total_seconds": 793.772,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1,
+        "human_deletions": 7,
+        "color": null,
+        "digital": "0:13:13",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 13,
+        "percent": 4.03
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-11-14T23:00:00Z",
+      "end": "2025-11-15T22:59:59Z",
+      "date": "2025-11-15",
+      "text": "Sat Nov 15th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
