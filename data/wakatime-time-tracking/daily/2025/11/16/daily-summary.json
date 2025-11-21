@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 25,
-      "total_seconds": 8730.176,
-      "digital": "2:25",
-      "decimal": "2.42",
-      "text": "2 hrs 25 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 212,
-      "human_deletions": 161
-    },
-    "range": {
-      "start": "2025-11-16T23:00:00Z",
-      "end": "2025-11-17T22:59:59Z",
-      "date": "2025-11-17",
-      "text": "Mon Nov 17th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 4553.911,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 63,
-        "human_deletions": 76,
-        "color": null,
-        "digital": "1:15:53",
-        "decimal": "1.25",
-        "text": "1 hr 15 mins",
-        "hours": 1,
-        "minutes": 15,
-        "seconds": 53,
-        "percent": 52.16
-      },
-      {
-        "name": "blog",
-        "total_seconds": 2828.83,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 60,
-        "human_deletions": 42,
-        "color": null,
-        "digital": "0:47:08",
-        "decimal": "0.78",
-        "text": "47 mins",
-        "hours": 0,
-        "minutes": 47,
-        "seconds": 8,
-        "percent": 32.4
-      },
-      {
-        "name": "continuous-claude",
-        "total_seconds": 1347.435,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 89,
-        "human_deletions": 43,
-        "color": null,
-        "digital": "0:22:27",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 27,
-        "percent": 15.43
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -157,6 +88,68 @@
         "minutes": 0,
         "seconds": 14,
         "percent": 0.17
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 25,
+      "total_seconds": 8730.176,
+      "digital": "2:25",
+      "decimal": "2.42",
+      "text": "2 hrs 25 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 212,
+      "human_deletions": 161
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8730.176,
+        "digital": "2:25:30",
+        "decimal": "2.42",
+        "text": "2 hrs 25 mins",
+        "hours": 2,
+        "minutes": 25,
+        "seconds": 30,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8730.176,
+        "digital": "2:25:30",
+        "decimal": "2.42",
+        "text": "2 hrs 25 mins",
+        "hours": 2,
+        "minutes": 25,
+        "seconds": 30,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4623.097,
+        "digital": "1:17:03",
+        "decimal": "1.28",
+        "text": "1 hr 17 mins",
+        "hours": 1,
+        "minutes": 17,
+        "seconds": 3,
+        "percent": 52.96
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 4107.079,
+        "digital": "1:08:27",
+        "decimal": "1.13",
+        "text": "1 hr 8 mins",
+        "hours": 1,
+        "minutes": 8,
+        "seconds": 27,
+        "percent": 47.04
       }
     ],
     "dependencies": [
@@ -956,55 +949,66 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 8730.176,
-        "digital": "2:25:30",
-        "decimal": "2.42",
-        "text": "2 hrs 25 mins",
-        "hours": 2,
-        "minutes": 25,
-        "seconds": 30,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8730.176,
-        "digital": "2:25:30",
-        "decimal": "2.42",
-        "text": "2 hrs 25 mins",
-        "hours": 2,
-        "minutes": 25,
-        "seconds": 30,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 4623.097,
-        "digital": "1:17:03",
-        "decimal": "1.28",
-        "text": "1 hr 17 mins",
+        "name": "firstquadrant.ai",
+        "total_seconds": 4553.911,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 63,
+        "human_deletions": 76,
+        "color": null,
+        "digital": "1:15:53",
+        "decimal": "1.25",
+        "text": "1 hr 15 mins",
         "hours": 1,
-        "minutes": 17,
-        "seconds": 3,
-        "percent": 52.96
+        "minutes": 15,
+        "seconds": 53,
+        "percent": 52.16
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 4107.079,
-        "digital": "1:08:27",
-        "decimal": "1.13",
-        "text": "1 hr 8 mins",
-        "hours": 1,
-        "minutes": 8,
+        "name": "blog",
+        "total_seconds": 2828.83,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 60,
+        "human_deletions": 42,
+        "color": null,
+        "digital": "0:47:08",
+        "decimal": "0.78",
+        "text": "47 mins",
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 8,
+        "percent": 32.4
+      },
+      {
+        "name": "continuous-claude",
+        "total_seconds": 1347.435,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 89,
+        "human_deletions": 43,
+        "color": null,
+        "digital": "0:22:27",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
         "seconds": 27,
-        "percent": 47.04
+        "percent": 15.43
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-11-16T23:00:00Z",
+      "end": "2025-11-17T22:59:59Z",
+      "date": "2025-11-17",
+      "text": "Mon Nov 17th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
