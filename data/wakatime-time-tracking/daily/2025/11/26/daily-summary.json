@@ -1,90 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 37,
-      "total_seconds": 9428.218,
-      "digital": "2:37",
-      "decimal": "2.62",
-      "text": "2 hrs 37 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 916,
-      "human_deletions": 229
-    },
-    "range": {
-      "start": "2025-11-26T23:00:00Z",
-      "end": "2025-11-27T22:59:59Z",
-      "date": "2025-11-27",
-      "text": "Thu Nov 27th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "github-stars-contributions-mcp",
-        "total_seconds": 4688.423,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 586,
-        "human_deletions": 37,
-        "color": null,
-        "digital": "1:18:08",
-        "decimal": "1.30",
-        "text": "1 hr 18 mins",
-        "hours": 1,
-        "minutes": 18,
-        "seconds": 8,
-        "percent": 49.73
-      },
-      {
-        "name": "blog",
-        "total_seconds": 2941.602,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 143,
-        "human_deletions": 46,
-        "color": null,
-        "digital": "0:49:01",
-        "decimal": "0.82",
-        "text": "49 mins",
-        "hours": 0,
-        "minutes": 49,
-        "seconds": 1,
-        "percent": 31.2
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 1315.142,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 187,
-        "human_deletions": 145,
-        "color": null,
-        "digital": "0:21:55",
-        "decimal": "0.35",
-        "text": "21 mins",
-        "hours": 0,
-        "minutes": 21,
-        "seconds": 55,
-        "percent": 13.95
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 483.051,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 1,
-        "color": null,
-        "digital": "0:08:03",
-        "decimal": "0.13",
-        "text": "8 mins",
-        "hours": 0,
-        "minutes": 8,
-        "seconds": 3,
-        "percent": 5.12
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -140,6 +55,79 @@
         "minutes": 1,
         "seconds": 29,
         "percent": 0.95
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 37,
+      "total_seconds": 9428.218,
+      "digital": "2:37",
+      "decimal": "2.62",
+      "text": "2 hrs 37 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 916,
+      "human_deletions": 229
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9428.218,
+        "digital": "2:37:08",
+        "decimal": "2.62",
+        "text": "2 hrs 37 mins",
+        "hours": 2,
+        "minutes": 37,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9428.218,
+        "digital": "2:37:08",
+        "decimal": "2.62",
+        "text": "2 hrs 37 mins",
+        "hours": 2,
+        "minutes": 37,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 6233.923,
+        "digital": "1:43:53",
+        "decimal": "1.72",
+        "text": "1 hr 43 mins",
+        "hours": 1,
+        "minutes": 43,
+        "seconds": 53,
+        "percent": 66.12
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 3084.982,
+        "digital": "0:51:24",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 24,
+        "percent": 32.72
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 109.313,
+        "digital": "0:01:49",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 49,
+        "percent": 1.16
       }
     ],
     "dependencies": [
@@ -741,66 +729,82 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 9428.218,
-        "digital": "2:37:08",
-        "decimal": "2.62",
-        "text": "2 hrs 37 mins",
-        "hours": 2,
-        "minutes": 37,
-        "seconds": 8,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9428.218,
-        "digital": "2:37:08",
-        "decimal": "2.62",
-        "text": "2 hrs 37 mins",
-        "hours": 2,
-        "minutes": 37,
-        "seconds": 8,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 6233.923,
-        "digital": "1:43:53",
-        "decimal": "1.72",
-        "text": "1 hr 43 mins",
+        "name": "github-stars-contributions-mcp",
+        "total_seconds": 4688.423,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 586,
+        "human_deletions": 37,
+        "color": null,
+        "digital": "1:18:08",
+        "decimal": "1.30",
+        "text": "1 hr 18 mins",
         "hours": 1,
-        "minutes": 43,
-        "seconds": 53,
-        "percent": 66.12
+        "minutes": 18,
+        "seconds": 8,
+        "percent": 49.73
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 3084.982,
-        "digital": "0:51:24",
-        "decimal": "0.85",
-        "text": "51 mins",
+        "name": "blog",
+        "total_seconds": 2941.602,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 143,
+        "human_deletions": 46,
+        "color": null,
+        "digital": "0:49:01",
+        "decimal": "0.82",
+        "text": "49 mins",
         "hours": 0,
-        "minutes": 51,
-        "seconds": 24,
-        "percent": 32.72
+        "minutes": 49,
+        "seconds": 1,
+        "percent": 31.2
       },
       {
-        "name": "Writing Tests",
-        "total_seconds": 109.313,
-        "digital": "0:01:49",
-        "decimal": "0.02",
-        "text": "1 min",
+        "name": "firstquadrant.ai",
+        "total_seconds": 1315.142,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 187,
+        "human_deletions": 145,
+        "color": null,
+        "digital": "0:21:55",
+        "decimal": "0.35",
+        "text": "21 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 49,
-        "percent": 1.16
+        "minutes": 21,
+        "seconds": 55,
+        "percent": 13.95
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 483.051,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 1,
+        "color": null,
+        "digital": "0:08:03",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 3,
+        "percent": 5.12
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-11-26T23:00:00Z",
+      "end": "2025-11-27T22:59:59Z",
+      "date": "2025-11-27",
+      "text": "Thu Nov 27th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
