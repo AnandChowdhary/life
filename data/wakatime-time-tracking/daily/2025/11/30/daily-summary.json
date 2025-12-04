@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 3,
-      "total_seconds": 202.498,
-      "digital": "0:03",
-      "decimal": "0.05",
-      "text": "3 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 15,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2025-11-30T23:00:00Z",
-      "end": "2025-12-01T22:59:59Z",
-      "date": "2025-12-01",
-      "text": "Mon Dec 1st 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "bhagavadgita-ka-saral-paath",
-        "total_seconds": 169.399,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:02:49",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 49,
-        "percent": 83.65
-      },
-      {
-        "name": "blog",
-        "total_seconds": 23.482,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:23",
-        "decimal": "0.00",
-        "text": "23 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 23,
-        "percent": 11.6
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 9.617,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 15,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:09",
-        "decimal": "0.00",
-        "text": "9 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 9,
-        "percent": 4.75
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -94,6 +25,68 @@
       },
       {
         "name": "Markdown",
+        "total_seconds": 8.621,
+        "digital": "0:00:08",
+        "decimal": "0.00",
+        "text": "8 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 4.26
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 3,
+      "total_seconds": 202.498,
+      "digital": "0:03",
+      "decimal": "0.05",
+      "text": "3 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 15,
+      "human_deletions": 0
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 202.498,
+        "digital": "0:03:22",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 22,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 202.498,
+        "digital": "0:03:22",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 22,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 193.877,
+        "digital": "0:03:13",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 13,
+        "percent": 95.74
+      },
+      {
+        "name": "Writing Docs",
         "total_seconds": 8.621,
         "digital": "0:00:08",
         "decimal": "0.00",
@@ -241,55 +234,66 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 202.498,
-        "digital": "0:03:22",
-        "decimal": "0.05",
-        "text": "3 mins",
+        "name": "bhagavadgita-ka-saral-paath",
+        "total_seconds": 169.399,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:02:49",
+        "decimal": "0.03",
+        "text": "2 mins",
         "hours": 0,
-        "minutes": 3,
-        "seconds": 22,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 202.498,
-        "digital": "0:03:22",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 22,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 193.877,
-        "digital": "0:03:13",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 13,
-        "percent": 95.74
+        "minutes": 2,
+        "seconds": 49,
+        "percent": 83.65
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 8.621,
-        "digital": "0:00:08",
+        "name": "blog",
+        "total_seconds": 23.482,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:23",
         "decimal": "0.00",
-        "text": "8 secs",
+        "text": "23 secs",
         "hours": 0,
         "minutes": 0,
-        "seconds": 8,
-        "percent": 4.26
+        "seconds": 23,
+        "percent": 11.6
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 9.617,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 15,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:09",
+        "decimal": "0.00",
+        "text": "9 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 4.75
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-11-30T23:00:00Z",
+      "end": "2025-12-01T22:59:59Z",
+      "date": "2025-12-01",
+      "text": "Mon Dec 1st 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
