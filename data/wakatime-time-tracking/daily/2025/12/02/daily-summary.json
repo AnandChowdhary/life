@@ -1,5 +1,106 @@
 [
   {
+    "grand_total": {
+      "hours": 1,
+      "minutes": 38,
+      "total_seconds": 5915.129,
+      "digital": "1:38",
+      "decimal": "1.63",
+      "text": "1 hr 38 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 492,
+      "human_deletions": 520
+    },
+    "range": {
+      "start": "2025-12-02T23:00:00Z",
+      "end": "2025-12-03T22:59:59Z",
+      "date": "2025-12-03",
+      "text": "Wed Dec 3rd 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "mistral-code",
+        "total_seconds": 5398.976,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 478,
+        "human_deletions": 450,
+        "color": null,
+        "digital": "1:29:58",
+        "decimal": "1.48",
+        "text": "1 hr 29 mins",
+        "hours": 1,
+        "minutes": 29,
+        "seconds": 58,
+        "percent": 91.27
+      },
+      {
+        "name": "bhagavadgita-ka-saral-paath",
+        "total_seconds": 499.518,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 14,
+        "human_deletions": 70,
+        "color": null,
+        "digital": "0:08:19",
+        "decimal": "0.13",
+        "text": "8 mins",
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 19,
+        "percent": 8.44
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 16.635,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:16",
+        "decimal": "0.00",
+        "text": "16 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 16,
+        "percent": 0.28
+      },
+      {
+        "name": "blog",
+        "total_seconds": 0,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 0,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -77,68 +178,6 @@
         "minutes": 0,
         "seconds": 29,
         "percent": 0.51
-      }
-    ],
-    "grand_total": {
-      "hours": 1,
-      "minutes": 38,
-      "total_seconds": 5915.129,
-      "digital": "1:38",
-      "decimal": "1.63",
-      "text": "1 hr 38 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 492,
-      "human_deletions": 520
-    },
-    "editors": [
-      {
-        "name": "Cursor",
-        "total_seconds": 5915.129,
-        "digital": "1:38:35",
-        "decimal": "1.63",
-        "text": "1 hr 38 mins",
-        "hours": 1,
-        "minutes": 38,
-        "seconds": 35,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5915.129,
-        "digital": "1:38:35",
-        "decimal": "1.63",
-        "text": "1 hr 38 mins",
-        "hours": 1,
-        "minutes": 38,
-        "seconds": 35,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5289.189,
-        "digital": "1:28:09",
-        "decimal": "1.47",
-        "text": "1 hr 28 mins",
-        "hours": 1,
-        "minutes": 28,
-        "seconds": 9,
-        "percent": 89.42
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 625.94,
-        "digital": "0:10:25",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 25,
-        "percent": 10.58
       }
     ],
     "dependencies": [
@@ -341,6 +380,39 @@
         "percent": 0.31
       },
       {
+        "name": "commander",
+        "total_seconds": 51.396,
+        "digital": "0:00:51",
+        "decimal": "0.00",
+        "text": "51 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 51,
+        "percent": 0.22
+      },
+      {
+        "name": "@mistralai/mistralai",
+        "total_seconds": 51.396,
+        "digital": "0:00:51",
+        "decimal": "0.00",
+        "text": "51 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 51,
+        "percent": 0.22
+      },
+      {
+        "name": "dotenv",
+        "total_seconds": 51.396,
+        "digital": "0:00:51",
+        "decimal": "0.00",
+        "text": "51 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 51,
+        "percent": 0.22
+      },
+      {
         "name": "@types/node",
         "total_seconds": 51.396,
         "digital": "0:00:51",
@@ -363,39 +435,6 @@
         "percent": 0.22
       },
       {
-        "name": "typescript",
-        "total_seconds": 51.396,
-        "digital": "0:00:51",
-        "decimal": "0.00",
-        "text": "51 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 51,
-        "percent": 0.22
-      },
-      {
-        "name": "@mistralai/mistralai",
-        "total_seconds": 51.396,
-        "digital": "0:00:51",
-        "decimal": "0.00",
-        "text": "51 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 51,
-        "percent": 0.22
-      },
-      {
-        "name": "commander",
-        "total_seconds": 51.396,
-        "digital": "0:00:51",
-        "decimal": "0.00",
-        "text": "51 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 51,
-        "percent": 0.22
-      },
-      {
         "name": "tsx",
         "total_seconds": 51.396,
         "digital": "0:00:51",
@@ -407,7 +446,7 @@
         "percent": 0.22
       },
       {
-        "name": "dotenv",
+        "name": "typescript",
         "total_seconds": 51.396,
         "digital": "0:00:51",
         "decimal": "0.00",
@@ -454,93 +493,55 @@
         "percent": 100
       }
     ],
-    "projects": [
+    "editors": [
       {
-        "name": "mistral-code",
-        "total_seconds": 5398.976,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 478,
-        "human_deletions": 450,
-        "digital": "1:29:58",
-        "decimal": "1.48",
-        "text": "1 hr 29 mins",
+        "name": "Cursor",
+        "total_seconds": 5915.129,
+        "digital": "1:38:35",
+        "decimal": "1.63",
+        "text": "1 hr 38 mins",
         "hours": 1,
-        "minutes": 29,
-        "seconds": 58,
-        "percent": 91.27
-      },
-      {
-        "name": "bhagavadgita-ka-saral-paath",
-        "total_seconds": 499.518,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 14,
-        "human_deletions": 70,
-        "digital": "0:08:19",
-        "decimal": "0.13",
-        "text": "8 mins",
-        "hours": 0,
-        "minutes": 8,
-        "seconds": 19,
-        "percent": 8.44
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 16.635,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "digital": "0:00:16",
-        "decimal": "0.00",
-        "text": "16 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 16,
-        "percent": 0.28
-      },
-      {
-        "name": "blog",
-        "total_seconds": 0,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 0,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
+        "minutes": 38,
+        "seconds": 35,
+        "percent": 100
       }
     ],
-    "range": {
-      "start": "2025-12-02T23:00:00Z",
-      "end": "2025-12-03T22:59:59Z",
-      "date": "2025-12-03",
-      "text": "Wed Dec 3rd 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "ai_additions": 0,
-    "ai_deletions": 0,
-    "human_additions": 0,
-    "human_deletions": 0
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5915.129,
+        "digital": "1:38:35",
+        "decimal": "1.63",
+        "text": "1 hr 38 mins",
+        "hours": 1,
+        "minutes": 38,
+        "seconds": 35,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5289.189,
+        "digital": "1:28:09",
+        "decimal": "1.47",
+        "text": "1 hr 28 mins",
+        "hours": 1,
+        "minutes": 28,
+        "seconds": 9,
+        "percent": 89.42
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 625.94,
+        "digital": "0:10:25",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25,
+        "percent": 10.58
+      }
+    ]
   }
 ]
