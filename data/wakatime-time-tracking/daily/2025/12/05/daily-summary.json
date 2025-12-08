@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 29,
-      "total_seconds": 5350.175,
-      "digital": "1:29",
-      "decimal": "1.48",
-      "text": "1 hr 29 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 86,
-      "human_deletions": 159
-    },
-    "range": {
-      "start": "2025-12-05T23:00:00Z",
-      "end": "2025-12-06T22:59:59Z",
-      "date": "2025-12-06",
-      "text": "Sat Dec 6th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "tweeter",
-        "total_seconds": 5350.175,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 86,
-        "human_deletions": 159,
-        "color": null,
-        "digital": "1:29:10",
-        "decimal": "1.48",
-        "text": "1 hr 29 mins",
-        "hours": 1,
-        "minutes": 29,
-        "seconds": 10,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -114,6 +77,79 @@
         "minutes": 0,
         "seconds": 17,
         "percent": 0.32
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 29,
+      "total_seconds": 5350.175,
+      "digital": "1:29",
+      "decimal": "1.48",
+      "text": "1 hr 29 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 86,
+      "human_deletions": 159
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 5350.175,
+        "digital": "1:29:10",
+        "decimal": "1.48",
+        "text": "1 hr 29 mins",
+        "hours": 1,
+        "minutes": 29,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5350.175,
+        "digital": "1:29:10",
+        "decimal": "1.48",
+        "text": "1 hr 29 mins",
+        "hours": 1,
+        "minutes": 29,
+        "seconds": 10,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4085.227,
+        "digital": "1:08:05",
+        "decimal": "1.13",
+        "text": "1 hr 8 mins",
+        "hours": 1,
+        "minutes": 8,
+        "seconds": 5,
+        "percent": 76.36
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 1264.846,
+        "digital": "0:21:04",
+        "decimal": "0.35",
+        "text": "21 mins",
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 4,
+        "percent": 23.64
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 0.102,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
       }
     ],
     "dependencies": [
@@ -396,10 +432,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "tweeter",
         "total_seconds": 5350.175,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 86,
+        "human_deletions": 159,
+        "color": null,
         "digital": "1:29:10",
         "decimal": "1.48",
         "text": "1 hr 29 mins",
@@ -409,53 +450,16 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5350.175,
-        "digital": "1:29:10",
-        "decimal": "1.48",
-        "text": "1 hr 29 mins",
-        "hours": 1,
-        "minutes": 29,
-        "seconds": 10,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 4085.227,
-        "digital": "1:08:05",
-        "decimal": "1.13",
-        "text": "1 hr 8 mins",
-        "hours": 1,
-        "minutes": 8,
-        "seconds": 5,
-        "percent": 76.36
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 1264.846,
-        "digital": "0:21:04",
-        "decimal": "0.35",
-        "text": "21 mins",
-        "hours": 0,
-        "minutes": 21,
-        "seconds": 4,
-        "percent": 23.64
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 0.102,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      }
-    ]
+    "range": {
+      "start": "2025-12-05T23:00:00Z",
+      "end": "2025-12-06T22:59:59Z",
+      "date": "2025-12-06",
+      "text": "Sat Dec 6th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]

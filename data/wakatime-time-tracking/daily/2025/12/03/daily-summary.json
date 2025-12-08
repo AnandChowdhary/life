@@ -1,106 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 35,
-      "total_seconds": 5706.04,
-      "digital": "1:35",
-      "decimal": "1.58",
-      "text": "1 hr 35 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 456,
-      "human_deletions": 273
-    },
-    "range": {
-      "start": "2025-12-03T23:00:00Z",
-      "end": "2025-12-04T22:59:59Z",
-      "date": "2025-12-04",
-      "text": "Thu Dec 4th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "mistral-1",
-        "total_seconds": 4342.402,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 452,
-        "human_deletions": 273,
-        "color": null,
-        "digital": "1:12:22",
-        "decimal": "1.20",
-        "text": "1 hr 12 mins",
-        "hours": 1,
-        "minutes": 12,
-        "seconds": 22,
-        "percent": 76.1
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 774.635,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:12:54",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 54,
-        "percent": 13.58
-      },
-      {
-        "name": "mistral-code",
-        "total_seconds": 340.909,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:05:40",
-        "decimal": "0.08",
-        "text": "5 mins",
-        "hours": 0,
-        "minutes": 5,
-        "seconds": 40,
-        "percent": 5.97
-      },
-      {
-        "name": "brain",
-        "total_seconds": 247.262,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 4,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:04:07",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 7,
-        "percent": 4.33
-      },
-      {
-        "name": "blog",
-        "total_seconds": 0.832,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0.01
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -200,6 +99,68 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.06
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 35,
+      "total_seconds": 5706.04,
+      "digital": "1:35",
+      "decimal": "1.58",
+      "text": "1 hr 35 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 456,
+      "human_deletions": 273
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 5706.04,
+        "digital": "1:35:06",
+        "decimal": "1.58",
+        "text": "1 hr 35 mins",
+        "hours": 1,
+        "minutes": 35,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5706.04,
+        "digital": "1:35:06",
+        "decimal": "1.58",
+        "text": "1 hr 35 mins",
+        "hours": 1,
+        "minutes": 35,
+        "seconds": 6,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5339.47,
+        "digital": "1:28:59",
+        "decimal": "1.47",
+        "text": "1 hr 28 mins",
+        "hours": 1,
+        "minutes": 28,
+        "seconds": 59,
+        "percent": 93.58
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 366.57,
+        "digital": "0:06:06",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 6,
+        "percent": 6.42
       }
     ],
     "dependencies": [
@@ -768,55 +729,98 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 5706.04,
-        "digital": "1:35:06",
-        "decimal": "1.58",
-        "text": "1 hr 35 mins",
+        "name": "mistral-1",
+        "total_seconds": 4342.402,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 452,
+        "human_deletions": 273,
+        "color": null,
+        "digital": "1:12:22",
+        "decimal": "1.20",
+        "text": "1 hr 12 mins",
         "hours": 1,
-        "minutes": 35,
-        "seconds": 6,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5706.04,
-        "digital": "1:35:06",
-        "decimal": "1.58",
-        "text": "1 hr 35 mins",
-        "hours": 1,
-        "minutes": 35,
-        "seconds": 6,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5339.47,
-        "digital": "1:28:59",
-        "decimal": "1.47",
-        "text": "1 hr 28 mins",
-        "hours": 1,
-        "minutes": 28,
-        "seconds": 59,
-        "percent": 93.58
+        "minutes": 12,
+        "seconds": 22,
+        "percent": 76.1
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 366.57,
-        "digital": "0:06:06",
-        "decimal": "0.10",
-        "text": "6 mins",
+        "name": "Unknown Project",
+        "total_seconds": 774.635,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:12:54",
+        "decimal": "0.20",
+        "text": "12 mins",
         "hours": 0,
-        "minutes": 6,
-        "seconds": 6,
-        "percent": 6.42
+        "minutes": 12,
+        "seconds": 54,
+        "percent": 13.58
+      },
+      {
+        "name": "mistral-code",
+        "total_seconds": 340.909,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:05:40",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 40,
+        "percent": 5.97
+      },
+      {
+        "name": "brain",
+        "total_seconds": 247.262,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 4,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:04:07",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 7,
+        "percent": 4.33
+      },
+      {
+        "name": "blog",
+        "total_seconds": 0.832,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0.01
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-12-03T23:00:00Z",
+      "end": "2025-12-04T22:59:59Z",
+      "date": "2025-12-04",
+      "text": "Thu Dec 4th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
