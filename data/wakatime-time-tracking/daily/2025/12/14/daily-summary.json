@@ -1,90 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 7,
-      "total_seconds": 18460.295,
-      "digital": "5:07",
-      "decimal": "5.12",
-      "text": "5 hrs 7 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 3052,
-      "human_deletions": 1061
-    },
-    "range": {
-      "start": "2025-12-14T23:00:00Z",
-      "end": "2025-12-15T22:59:59Z",
-      "date": "2025-12-15",
-      "text": "Mon Dec 15th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave-ui",
-        "total_seconds": 10834.664,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 2123,
-        "human_deletions": 876,
-        "color": null,
-        "digital": "3:00:34",
-        "decimal": "3.00",
-        "text": "3 hrs",
-        "hours": 3,
-        "minutes": 0,
-        "seconds": 34,
-        "percent": 58.69
-      },
-      {
-        "name": "airweave",
-        "total_seconds": 6762.451,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 929,
-        "human_deletions": 185,
-        "color": null,
-        "digital": "1:52:42",
-        "decimal": "1.87",
-        "text": "1 hr 52 mins",
-        "hours": 1,
-        "minutes": 52,
-        "seconds": 42,
-        "percent": 36.63
-      },
-      {
-        "name": "firstquadrant.ai",
-        "total_seconds": 832.175,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:13:52",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 52,
-        "percent": 4.51
-      },
-      {
-        "name": "ui",
-        "total_seconds": 31.005,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:31",
-        "decimal": "0.00",
-        "text": "31 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 31,
-        "percent": 0.17
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -184,6 +99,57 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 7,
+      "total_seconds": 18460.295,
+      "digital": "5:07",
+      "decimal": "5.12",
+      "text": "5 hrs 7 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 3052,
+      "human_deletions": 1061
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 18460.295,
+        "digital": "5:07:40",
+        "decimal": "5.12",
+        "text": "5 hrs 7 mins",
+        "hours": 5,
+        "minutes": 7,
+        "seconds": 40,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 18460.295,
+        "digital": "5:07:40",
+        "decimal": "5.12",
+        "text": "5 hrs 7 mins",
+        "hours": 5,
+        "minutes": 7,
+        "seconds": 40,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 18460.295,
+        "digital": "5:07:40",
+        "decimal": "5.12",
+        "text": "5 hrs 7 mins",
+        "hours": 5,
+        "minutes": 7,
+        "seconds": 40,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1533,44 +1499,82 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 18460.295,
-        "digital": "5:07:40",
-        "decimal": "5.12",
-        "text": "5 hrs 7 mins",
-        "hours": 5,
-        "minutes": 7,
-        "seconds": 40,
-        "percent": 100
+        "name": "airweave-ui",
+        "total_seconds": 10834.664,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 2123,
+        "human_deletions": 876,
+        "color": null,
+        "digital": "3:00:34",
+        "decimal": "3.00",
+        "text": "3 hrs",
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 34,
+        "percent": 58.69
+      },
+      {
+        "name": "airweave",
+        "total_seconds": 6762.451,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 929,
+        "human_deletions": 185,
+        "color": null,
+        "digital": "1:52:42",
+        "decimal": "1.87",
+        "text": "1 hr 52 mins",
+        "hours": 1,
+        "minutes": 52,
+        "seconds": 42,
+        "percent": 36.63
+      },
+      {
+        "name": "firstquadrant.ai",
+        "total_seconds": 832.175,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:13:52",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 52,
+        "percent": 4.51
+      },
+      {
+        "name": "ui",
+        "total_seconds": 31.005,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:31",
+        "decimal": "0.00",
+        "text": "31 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 31,
+        "percent": 0.17
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 18460.295,
-        "digital": "5:07:40",
-        "decimal": "5.12",
-        "text": "5 hrs 7 mins",
-        "hours": 5,
-        "minutes": 7,
-        "seconds": 40,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 18460.295,
-        "digital": "5:07:40",
-        "decimal": "5.12",
-        "text": "5 hrs 7 mins",
-        "hours": 5,
-        "minutes": 7,
-        "seconds": 40,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2025-12-14T23:00:00Z",
+      "end": "2025-12-15T22:59:59Z",
+      "date": "2025-12-15",
+      "text": "Mon Dec 15th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
