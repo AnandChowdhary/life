@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 5,
-      "total_seconds": 18320.729,
-      "digital": "5:05",
-      "decimal": "5.08",
-      "text": "5 hrs 5 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 2115,
-      "human_deletions": 714
-    },
-    "range": {
-      "start": "2025-12-16T23:00:00Z",
-      "end": "2025-12-17T22:59:59Z",
-      "date": "2025-12-17",
-      "text": "Wed Dec 17th 2025",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 15821.243,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1879,
-        "human_deletions": 626,
-        "color": null,
-        "digital": "4:23:41",
-        "decimal": "4.38",
-        "text": "4 hrs 23 mins",
-        "hours": 4,
-        "minutes": 23,
-        "seconds": 41,
-        "percent": 86.36
-      },
-      {
-        "name": "generative-os",
-        "total_seconds": 2499.486,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 236,
-        "human_deletions": 88,
-        "color": null,
-        "digital": "0:41:39",
-        "decimal": "0.68",
-        "text": "41 mins",
-        "hours": 0,
-        "minutes": 41,
-        "seconds": 39,
-        "percent": 13.64
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -108,6 +55,68 @@
         "minutes": 0,
         "seconds": 9,
         "percent": 0.05
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 5,
+      "total_seconds": 18320.729,
+      "digital": "5:05",
+      "decimal": "5.08",
+      "text": "5 hrs 5 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 2115,
+      "human_deletions": 714
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 18320.729,
+        "digital": "5:05:20",
+        "decimal": "5.08",
+        "text": "5 hrs 5 mins",
+        "hours": 5,
+        "minutes": 5,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 18320.729,
+        "digital": "5:05:20",
+        "decimal": "5.08",
+        "text": "5 hrs 5 mins",
+        "hours": 5,
+        "minutes": 5,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 18210.394,
+        "digital": "5:03:30",
+        "decimal": "5.05",
+        "text": "5 hrs 3 mins",
+        "hours": 5,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 99.4
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 110.335,
+        "digital": "0:01:50",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 50,
+        "percent": 0.6
       }
     ],
     "dependencies": [
@@ -1193,55 +1202,50 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 18320.729,
-        "digital": "5:05:20",
-        "decimal": "5.08",
-        "text": "5 hrs 5 mins",
-        "hours": 5,
-        "minutes": 5,
-        "seconds": 20,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 18320.729,
-        "digital": "5:05:20",
-        "decimal": "5.08",
-        "text": "5 hrs 5 mins",
-        "hours": 5,
-        "minutes": 5,
-        "seconds": 20,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 18210.394,
-        "digital": "5:03:30",
-        "decimal": "5.05",
-        "text": "5 hrs 3 mins",
-        "hours": 5,
-        "minutes": 3,
-        "seconds": 30,
-        "percent": 99.4
+        "name": "airweave",
+        "total_seconds": 15821.243,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1879,
+        "human_deletions": 626,
+        "color": null,
+        "digital": "4:23:41",
+        "decimal": "4.38",
+        "text": "4 hrs 23 mins",
+        "hours": 4,
+        "minutes": 23,
+        "seconds": 41,
+        "percent": 86.36
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 110.335,
-        "digital": "0:01:50",
-        "decimal": "0.02",
-        "text": "1 min",
+        "name": "generative-os",
+        "total_seconds": 2499.486,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 236,
+        "human_deletions": 88,
+        "color": null,
+        "digital": "0:41:39",
+        "decimal": "0.68",
+        "text": "41 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 50,
-        "percent": 0.6
+        "minutes": 41,
+        "seconds": 39,
+        "percent": 13.64
       }
-    ]
+    ],
+    "range": {
+      "start": "2025-12-16T23:00:00Z",
+      "end": "2025-12-17T22:59:59Z",
+      "date": "2025-12-17",
+      "text": "Wed Dec 17th 2025",
+      "timezone": "Europe/Amsterdam"
+    },
+    "ai_additions": 0,
+    "ai_deletions": 0,
+    "human_additions": 0,
+    "human_deletions": 0
   }
 ]
