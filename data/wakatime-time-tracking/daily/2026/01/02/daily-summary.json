@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 42,
-      "total_seconds": 2521.72,
-      "digital": "0:42",
-      "decimal": "0.70",
-      "text": "42 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 131,
-      "human_deletions": 73
-    },
-    "range": {
-      "start": "2026-01-02T23:00:00Z",
-      "end": "2026-01-03T22:59:59Z",
-      "date": "2026-01-03",
-      "text": "Sat Jan 3rd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 2521.72,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 131,
-        "human_deletions": 73,
-        "color": null,
-        "digital": "0:42:01",
-        "decimal": "0.70",
-        "text": "42 mins",
-        "hours": 0,
-        "minutes": 42,
-        "seconds": 1,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -70,6 +33,57 @@
         "minutes": 0,
         "seconds": 18,
         "percent": 0.73
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 42,
+      "total_seconds": 2521.72,
+      "digital": "0:42",
+      "decimal": "0.70",
+      "text": "42 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 131,
+      "human_deletions": 73
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 2521.72,
+        "digital": "0:42:01",
+        "decimal": "0.70",
+        "text": "42 mins",
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 2521.72,
+        "digital": "0:42:01",
+        "decimal": "0.70",
+        "text": "42 mins",
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 1,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 2521.72,
+        "digital": "0:42:01",
+        "decimal": "0.70",
+        "text": "42 mins",
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 1,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -705,10 +719,15 @@
         "percent": 0.13
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "airweave",
         "total_seconds": 2521.72,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 131,
+        "human_deletions": 73,
+        "color": null,
         "digital": "0:42:01",
         "decimal": "0.70",
         "text": "42 mins",
@@ -718,31 +737,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 2521.72,
-        "digital": "0:42:01",
-        "decimal": "0.70",
-        "text": "42 mins",
-        "hours": 0,
-        "minutes": 42,
-        "seconds": 1,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2521.72,
-        "digital": "0:42:01",
-        "decimal": "0.70",
-        "text": "42 mins",
-        "hours": 0,
-        "minutes": 42,
-        "seconds": 1,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2026-01-02T23:00:00Z",
+      "end": "2026-01-03T22:59:59Z",
+      "date": "2026-01-03",
+      "text": "Sat Jan 3rd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
