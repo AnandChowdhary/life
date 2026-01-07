@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 5,
-      "total_seconds": 3902.291,
-      "digital": "1:05",
-      "decimal": "1.08",
-      "text": "1 hr 5 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 554,
-      "human_deletions": 251
-    },
-    "range": {
-      "start": "2026-01-03T23:00:00Z",
-      "end": "2026-01-04T22:59:59Z",
-      "date": "2026-01-04",
-      "text": "Sun Jan 4th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 3902.291,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 554,
-        "human_deletions": 251,
-        "color": null,
-        "digital": "1:05:02",
-        "decimal": "1.08",
-        "text": "1 hr 5 mins",
-        "hours": 1,
-        "minutes": 5,
-        "seconds": 2,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -70,6 +33,68 @@
         "minutes": 0,
         "seconds": 13,
         "percent": 0.35
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 5,
+      "total_seconds": 3902.291,
+      "digital": "1:05",
+      "decimal": "1.08",
+      "text": "1 hr 5 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 554,
+      "human_deletions": 251
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 3902.291,
+        "digital": "1:05:02",
+        "decimal": "1.08",
+        "text": "1 hr 5 mins",
+        "hours": 1,
+        "minutes": 5,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3902.291,
+        "digital": "1:05:02",
+        "decimal": "1.08",
+        "text": "1 hr 5 mins",
+        "hours": 1,
+        "minutes": 5,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3433.403,
+        "digital": "0:57:13",
+        "decimal": "0.95",
+        "text": "57 mins",
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 13,
+        "percent": 87.98
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 468.888,
+        "digital": "0:07:48",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 48,
+        "percent": 12.02
       }
     ],
     "dependencies": [
@@ -1035,10 +1060,15 @@
         "percent": 12.47
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "airweave",
         "total_seconds": 3902.291,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 554,
+        "human_deletions": 251,
+        "color": null,
         "digital": "1:05:02",
         "decimal": "1.08",
         "text": "1 hr 5 mins",
@@ -1048,42 +1078,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 3902.291,
-        "digital": "1:05:02",
-        "decimal": "1.08",
-        "text": "1 hr 5 mins",
-        "hours": 1,
-        "minutes": 5,
-        "seconds": 2,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 3433.403,
-        "digital": "0:57:13",
-        "decimal": "0.95",
-        "text": "57 mins",
-        "hours": 0,
-        "minutes": 57,
-        "seconds": 13,
-        "percent": 87.98
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 468.888,
-        "digital": "0:07:48",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 48,
-        "percent": 12.02
-      }
-    ]
+    "range": {
+      "start": "2026-01-03T23:00:00Z",
+      "end": "2026-01-04T22:59:59Z",
+      "date": "2026-01-04",
+      "text": "Sun Jan 4th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
