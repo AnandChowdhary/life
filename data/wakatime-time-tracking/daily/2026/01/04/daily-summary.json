@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 34,
-      "total_seconds": 9281.279,
-      "digital": "2:34",
-      "decimal": "2.57",
-      "text": "2 hrs 34 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1770,
-      "human_deletions": 1828
-    },
-    "range": {
-      "start": "2026-01-04T23:00:00Z",
-      "end": "2026-01-05T22:59:59Z",
-      "date": "2026-01-05",
-      "text": "Mon Jan 5th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 9281.279,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1770,
-        "human_deletions": 1828,
-        "color": null,
-        "digital": "2:34:41",
-        "decimal": "2.57",
-        "text": "2 hrs 34 mins",
-        "hours": 2,
-        "minutes": 34,
-        "seconds": 41,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -81,6 +44,68 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 34,
+      "total_seconds": 9281.279,
+      "digital": "2:34",
+      "decimal": "2.57",
+      "text": "2 hrs 34 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1770,
+      "human_deletions": 1828
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9281.279,
+        "digital": "2:34:41",
+        "decimal": "2.57",
+        "text": "2 hrs 34 mins",
+        "hours": 2,
+        "minutes": 34,
+        "seconds": 41,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9281.279,
+        "digital": "2:34:41",
+        "decimal": "2.57",
+        "text": "2 hrs 34 mins",
+        "hours": 2,
+        "minutes": 34,
+        "seconds": 41,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 9136.73,
+        "digital": "2:32:16",
+        "decimal": "2.53",
+        "text": "2 hrs 32 mins",
+        "hours": 2,
+        "minutes": 32,
+        "seconds": 16,
+        "percent": 98.44
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 144.549,
+        "digital": "0:02:24",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 24,
+        "percent": 1.56
       }
     ],
     "dependencies": [
@@ -1760,10 +1785,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "airweave",
         "total_seconds": 9281.279,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1770,
+        "human_deletions": 1828,
+        "color": null,
         "digital": "2:34:41",
         "decimal": "2.57",
         "text": "2 hrs 34 mins",
@@ -1773,42 +1803,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9281.279,
-        "digital": "2:34:41",
-        "decimal": "2.57",
-        "text": "2 hrs 34 mins",
-        "hours": 2,
-        "minutes": 34,
-        "seconds": 41,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 9136.73,
-        "digital": "2:32:16",
-        "decimal": "2.53",
-        "text": "2 hrs 32 mins",
-        "hours": 2,
-        "minutes": 32,
-        "seconds": 16,
-        "percent": 98.44
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 144.549,
-        "digital": "0:02:24",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 24,
-        "percent": 1.56
-      }
-    ]
+    "range": {
+      "start": "2026-01-04T23:00:00Z",
+      "end": "2026-01-05T22:59:59Z",
+      "date": "2026-01-05",
+      "text": "Mon Jan 5th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
