@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 5,
-      "minutes": 28,
-      "total_seconds": 19720.912,
-      "digital": "5:28",
-      "decimal": "5.47",
-      "text": "5 hrs 28 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 2500,
-      "human_deletions": 1264
-    },
-    "range": {
-      "start": "2026-01-12T23:00:00Z",
-      "end": "2026-01-13T22:59:59Z",
-      "date": "2026-01-13",
-      "text": "Tue Jan 13th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 19091.644,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 2500,
-        "human_deletions": 1264,
-        "color": null,
-        "digital": "5:18:11",
-        "decimal": "5.30",
-        "text": "5 hrs 18 mins",
-        "hours": 5,
-        "minutes": 18,
-        "seconds": 11,
-        "percent": 96.81
-      },
-      {
-        "name": "continuous-claude",
-        "total_seconds": 629.268,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:10:29",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 29,
-        "percent": 3.19
-      },
-      {
-        "name": "rupiya",
-        "total_seconds": 0,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -190,6 +121,90 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.02
+      }
+    ],
+    "grand_total": {
+      "hours": 5,
+      "minutes": 28,
+      "total_seconds": 19720.912,
+      "digital": "5:28",
+      "decimal": "5.47",
+      "text": "5 hrs 28 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 2500,
+      "human_deletions": 1264
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 19720.912,
+        "digital": "5:28:40",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 40,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 19720.912,
+        "digital": "5:28:40",
+        "decimal": "5.47",
+        "text": "5 hrs 28 mins",
+        "hours": 5,
+        "minutes": 28,
+        "seconds": 40,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 16614.329,
+        "digital": "4:36:54",
+        "decimal": "4.60",
+        "text": "4 hrs 36 mins",
+        "hours": 4,
+        "minutes": 36,
+        "seconds": 54,
+        "percent": 84.25
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 3098.567,
+        "digital": "0:51:38",
+        "decimal": "0.85",
+        "text": "51 mins",
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 38,
+        "percent": 15.71
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 8.016,
+        "digital": "0:00:08",
+        "decimal": "0.00",
+        "text": "8 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 0.04
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 0,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
       }
     ],
     "dependencies": [
@@ -1947,69 +1962,47 @@
         "percent": 0
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 19720.912,
-        "digital": "5:28:40",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
+        "name": "airweave",
+        "total_seconds": 19091.644,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 2500,
+        "human_deletions": 1264,
+        "color": null,
+        "digital": "5:18:11",
+        "decimal": "5.30",
+        "text": "5 hrs 18 mins",
         "hours": 5,
-        "minutes": 28,
-        "seconds": 40,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 19720.912,
-        "digital": "5:28:40",
-        "decimal": "5.47",
-        "text": "5 hrs 28 mins",
-        "hours": 5,
-        "minutes": 28,
-        "seconds": 40,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 16614.329,
-        "digital": "4:36:54",
-        "decimal": "4.60",
-        "text": "4 hrs 36 mins",
-        "hours": 4,
-        "minutes": 36,
-        "seconds": 54,
-        "percent": 84.25
+        "minutes": 18,
+        "seconds": 11,
+        "percent": 96.81
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 3098.567,
-        "digital": "0:51:38",
-        "decimal": "0.85",
-        "text": "51 mins",
+        "name": "continuous-claude",
+        "total_seconds": 629.268,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:10:29",
+        "decimal": "0.17",
+        "text": "10 mins",
         "hours": 0,
-        "minutes": 51,
-        "seconds": 38,
-        "percent": 15.71
+        "minutes": 10,
+        "seconds": 29,
+        "percent": 3.19
       },
       {
-        "name": "AI Coding",
-        "total_seconds": 8.016,
-        "digital": "0:00:08",
-        "decimal": "0.00",
-        "text": "8 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 8,
-        "percent": 0.04
-      },
-      {
-        "name": "Writing Tests",
+        "name": "rupiya",
         "total_seconds": 0,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
         "digital": "0:00:00",
         "decimal": "0.00",
         "text": "0 secs",
@@ -2018,6 +2011,13 @@
         "seconds": 0,
         "percent": 0
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-12T23:00:00Z",
+      "end": "2026-01-13T22:59:59Z",
+      "date": "2026-01-13",
+      "text": "Tue Jan 13th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
