@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 7,
-      "minutes": 44,
-      "total_seconds": 27865.372,
-      "digital": "7:44",
-      "decimal": "7.73",
-      "text": "7 hrs 44 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 5834,
-      "human_deletions": 2063
-    },
-    "range": {
-      "start": "2026-01-14T23:00:00Z",
-      "end": "2026-01-15T22:59:59Z",
-      "date": "2026-01-15",
-      "text": "Thu Jan 15th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "rupiya",
-        "total_seconds": 27582.766,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 5827,
-        "human_deletions": 2063,
-        "color": null,
-        "digital": "7:39:42",
-        "decimal": "7.65",
-        "text": "7 hrs 39 mins",
-        "hours": 7,
-        "minutes": 39,
-        "seconds": 42,
-        "percent": 98.99
-      },
-      {
-        "name": "continuous-claude",
-        "total_seconds": 282.606,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 7,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:04:42",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 42,
-        "percent": 1.01
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -141,6 +88,68 @@
         "minutes": 0,
         "seconds": 2,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 7,
+      "minutes": 44,
+      "total_seconds": 27865.372,
+      "digital": "7:44",
+      "decimal": "7.73",
+      "text": "7 hrs 44 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 5834,
+      "human_deletions": 2063
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 27865.372,
+        "digital": "7:44:25",
+        "decimal": "7.73",
+        "text": "7 hrs 44 mins",
+        "hours": 7,
+        "minutes": 44,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 27865.372,
+        "digital": "7:44:25",
+        "decimal": "7.73",
+        "text": "7 hrs 44 mins",
+        "hours": 7,
+        "minutes": 44,
+        "seconds": 25,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 21186.189,
+        "digital": "5:53:06",
+        "decimal": "5.88",
+        "text": "5 hrs 53 mins",
+        "hours": 5,
+        "minutes": 53,
+        "seconds": 6,
+        "percent": 76.03
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 6679.183,
+        "digital": "1:51:19",
+        "decimal": "1.85",
+        "text": "1 hr 51 mins",
+        "hours": 1,
+        "minutes": 51,
+        "seconds": 19,
+        "percent": 23.97
       }
     ],
     "dependencies": [
@@ -1424,55 +1433,46 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 27865.372,
-        "digital": "7:44:25",
-        "decimal": "7.73",
-        "text": "7 hrs 44 mins",
+        "name": "rupiya",
+        "total_seconds": 27582.766,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 5827,
+        "human_deletions": 2063,
+        "color": null,
+        "digital": "7:39:42",
+        "decimal": "7.65",
+        "text": "7 hrs 39 mins",
         "hours": 7,
-        "minutes": 44,
-        "seconds": 25,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 27865.372,
-        "digital": "7:44:25",
-        "decimal": "7.73",
-        "text": "7 hrs 44 mins",
-        "hours": 7,
-        "minutes": 44,
-        "seconds": 25,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 21186.189,
-        "digital": "5:53:06",
-        "decimal": "5.88",
-        "text": "5 hrs 53 mins",
-        "hours": 5,
-        "minutes": 53,
-        "seconds": 6,
-        "percent": 76.03
+        "minutes": 39,
+        "seconds": 42,
+        "percent": 98.99
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 6679.183,
-        "digital": "1:51:19",
-        "decimal": "1.85",
-        "text": "1 hr 51 mins",
-        "hours": 1,
-        "minutes": 51,
-        "seconds": 19,
-        "percent": 23.97
+        "name": "continuous-claude",
+        "total_seconds": 282.606,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 7,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:04:42",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 42,
+        "percent": 1.01
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-14T23:00:00Z",
+      "end": "2026-01-15T22:59:59Z",
+      "date": "2026-01-15",
+      "text": "Thu Jan 15th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]

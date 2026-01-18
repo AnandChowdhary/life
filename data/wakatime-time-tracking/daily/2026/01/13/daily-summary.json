@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 16,
-      "total_seconds": 979.375,
-      "digital": "0:16",
-      "decimal": "0.27",
-      "text": "16 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 124,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2026-01-13T23:00:00Z",
-      "end": "2026-01-14T22:59:59Z",
-      "date": "2026-01-14",
-      "text": "Wed Jan 14th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "airweave",
-        "total_seconds": 769.208,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:12:49",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 49,
-        "percent": 78.54
-      },
-      {
-        "name": "rupiya",
-        "total_seconds": 210.167,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 124,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:03:30",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 30,
-        "percent": 21.46
-      }
-    ],
     "languages": [
       {
         "name": "Other",
@@ -121,55 +68,18 @@
         "percent": 0.91
       }
     ],
-    "dependencies": [
-      {
-        "name": "h3",
-        "total_seconds": 11.881,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 33.33
-      },
-      {
-        "name": "filesystem",
-        "total_seconds": 11.881,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 33.33
-      },
-      {
-        "name": "_utils",
-        "total_seconds": 11.881,
-        "digital": "0:00:11",
-        "decimal": "0.00",
-        "text": "11 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 11,
-        "percent": 33.33
-      }
-    ],
-    "machines": [
-      {
-        "name": "Anands-MBP.home",
-        "total_seconds": 979.375,
-        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "0:16:19",
-        "decimal": "0.27",
-        "text": "16 mins",
-        "hours": 0,
-        "minutes": 16,
-        "seconds": 19,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 16,
+      "total_seconds": 979.375,
+      "digital": "0:16",
+      "decimal": "0.27",
+      "text": "16 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 124,
+      "human_deletions": 0
+    },
     "editors": [
       {
         "name": "Cursor",
@@ -219,6 +129,96 @@
         "seconds": 58,
         "percent": 12.06
       }
-    ]
+    ],
+    "dependencies": [
+      {
+        "name": "h3",
+        "total_seconds": 11.881,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 33.33
+      },
+      {
+        "name": "filesystem",
+        "total_seconds": 11.881,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 33.33
+      },
+      {
+        "name": "_utils",
+        "total_seconds": 11.881,
+        "digital": "0:00:11",
+        "decimal": "0.00",
+        "text": "11 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 11,
+        "percent": 33.33
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 979.375,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:16:19",
+        "decimal": "0.27",
+        "text": "16 mins",
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 19,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "airweave",
+        "total_seconds": 769.208,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:12:49",
+        "decimal": "0.20",
+        "text": "12 mins",
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 49,
+        "percent": 78.54
+      },
+      {
+        "name": "rupiya",
+        "total_seconds": 210.167,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 124,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:03:30",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30,
+        "percent": 21.46
+      }
+    ],
+    "range": {
+      "start": "2026-01-13T23:00:00Z",
+      "end": "2026-01-14T22:59:59Z",
+      "date": "2026-01-14",
+      "text": "Wed Jan 14th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
