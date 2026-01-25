@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 43,
-      "total_seconds": 9808.943,
-      "digital": "2:43",
-      "decimal": "2.72",
-      "text": "2 hrs 43 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 513,
-      "human_deletions": 158
-    },
-    "range": {
-      "start": "2026-01-22T23:00:00Z",
-      "end": "2026-01-23T22:59:59Z",
-      "date": "2026-01-23",
-      "text": "Fri Jan 23rd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "sycamore-core",
-        "total_seconds": 7833.263,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 308,
-        "human_deletions": 157,
-        "color": null,
-        "digital": "2:10:33",
-        "decimal": "2.17",
-        "text": "2 hrs 10 mins",
-        "hours": 2,
-        "minutes": 10,
-        "seconds": 33,
-        "percent": 79.86
-      },
-      {
-        "name": "continuous-claude",
-        "total_seconds": 1343.593,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 97,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:22:23",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 23,
-        "percent": 13.7
-      },
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 632.087,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 108,
-        "human_deletions": 1,
-        "color": null,
-        "digital": "0:10:32",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 32,
-        "percent": 6.44
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -159,6 +90,79 @@
         "percent": 0.1
       }
     ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 43,
+      "total_seconds": 9808.943,
+      "digital": "2:43",
+      "decimal": "2.72",
+      "text": "2 hrs 43 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 513,
+      "human_deletions": 158
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9808.943,
+        "digital": "2:43:28",
+        "decimal": "2.72",
+        "text": "2 hrs 43 mins",
+        "hours": 2,
+        "minutes": 43,
+        "seconds": 28,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9808.943,
+        "digital": "2:43:28",
+        "decimal": "2.72",
+        "text": "2 hrs 43 mins",
+        "hours": 2,
+        "minutes": 43,
+        "seconds": 28,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5867.474,
+        "digital": "1:37:47",
+        "decimal": "1.62",
+        "text": "1 hr 37 mins",
+        "hours": 1,
+        "minutes": 37,
+        "seconds": 47,
+        "percent": 59.82
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 3749.574,
+        "digital": "1:02:29",
+        "decimal": "1.03",
+        "text": "1 hr 2 mins",
+        "hours": 1,
+        "minutes": 2,
+        "seconds": 29,
+        "percent": 38.23
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 191.895,
+        "digital": "0:03:11",
+        "decimal": "0.05",
+        "text": "3 mins",
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 11,
+        "percent": 1.96
+      }
+    ],
     "dependencies": [
       {
         "name": "react",
@@ -216,106 +220,7 @@
         "percent": 1.99
       },
       {
-        "name": "accordion.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "avatar.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "dialog.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "separator.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "input.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "meter.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "form.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "progress.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "toggle-group.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "radio.stories",
+        "name": "context-menu.stories",
         "total_seconds": 571.161,
         "digital": "0:09:31",
         "decimal": "0.15",
@@ -337,183 +242,7 @@
         "percent": 1.88
       },
       {
-        "name": "select.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "fieldset.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "switch.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "client",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "checkbox.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "checkbox-group.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
         "name": "number-field.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "button.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "toast.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "alert-dialog.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "tooltip.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "menubar.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "preview-card.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "collapsible.stories",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "style",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "toggle-group",
-        "total_seconds": 571.161,
-        "digital": "0:09:31",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 31,
-        "percent": 1.88
-      },
-      {
-        "name": "context-menu.stories",
         "total_seconds": 571.161,
         "digital": "0:09:31",
         "decimal": "0.15",
@@ -535,7 +264,282 @@
         "percent": 1.88
       },
       {
+        "name": "tooltip.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "progress.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "alert-dialog.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "client",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "accordion.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "toast.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "radio.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "toggle-group.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "style",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "switch.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "meter.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "preview-card.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "checkbox.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "form.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "menubar.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "button.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "dialog.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "input.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "toggle-group",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "avatar.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
         "name": "popover.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "collapsible.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "fieldset.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "separator.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "checkbox-group.stories",
+        "total_seconds": 571.161,
+        "digital": "0:09:31",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 31,
+        "percent": 1.88
+      },
+      {
+        "name": "select.stories",
         "total_seconds": 571.161,
         "digital": "0:09:31",
         "decimal": "0.15",
@@ -755,17 +759,6 @@
         "percent": 0.14
       },
       {
-        "name": "ui",
-        "total_seconds": 24.937,
-        "digital": "0:00:24",
-        "decimal": "0.00",
-        "text": "24 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 24,
-        "percent": 0.08
-      },
-      {
         "name": "plugin-react",
         "total_seconds": 24.937,
         "digital": "0:00:24",
@@ -788,7 +781,18 @@
         "percent": 0.08
       },
       {
-        "name": "preview-card",
+        "name": "ui",
+        "total_seconds": 24.937,
+        "digital": "0:00:24",
+        "decimal": "0.00",
+        "text": "24 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 24,
+        "percent": 0.08
+      },
+      {
+        "name": "popup",
         "total_seconds": 19.432,
         "digital": "0:00:19",
         "decimal": "0.00",
@@ -799,7 +803,7 @@
         "percent": 0.06
       },
       {
-        "name": "popup",
+        "name": "preview-card",
         "total_seconds": 19.432,
         "digital": "0:00:19",
         "decimal": "0.00",
@@ -912,66 +916,59 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 9808.943,
-        "digital": "2:43:28",
-        "decimal": "2.72",
-        "text": "2 hrs 43 mins",
+        "name": "sycamore-core",
+        "total_seconds": 7833.263,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 308,
+        "human_deletions": 157,
+        "digital": "2:10:33",
+        "decimal": "2.17",
+        "text": "2 hrs 10 mins",
         "hours": 2,
-        "minutes": 43,
-        "seconds": 28,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9808.943,
-        "digital": "2:43:28",
-        "decimal": "2.72",
-        "text": "2 hrs 43 mins",
-        "hours": 2,
-        "minutes": 43,
-        "seconds": 28,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5867.474,
-        "digital": "1:37:47",
-        "decimal": "1.62",
-        "text": "1 hr 37 mins",
-        "hours": 1,
-        "minutes": 37,
-        "seconds": 47,
-        "percent": 59.82
+        "minutes": 10,
+        "seconds": 33,
+        "percent": 79.86
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 3749.574,
-        "digital": "1:02:29",
-        "decimal": "1.03",
-        "text": "1 hr 2 mins",
-        "hours": 1,
-        "minutes": 2,
-        "seconds": 29,
-        "percent": 38.23
-      },
-      {
-        "name": "Writing Tests",
-        "total_seconds": 191.895,
-        "digital": "0:03:11",
-        "decimal": "0.05",
-        "text": "3 mins",
+        "name": "continuous-claude",
+        "total_seconds": 1343.593,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 97,
+        "human_deletions": 0,
+        "digital": "0:22:23",
+        "decimal": "0.37",
+        "text": "22 mins",
         "hours": 0,
-        "minutes": 3,
-        "seconds": 11,
-        "percent": 1.96
+        "minutes": 22,
+        "seconds": 23,
+        "percent": 13.7
+      },
+      {
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 632.087,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 108,
+        "human_deletions": 1,
+        "digital": "0:10:32",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 32,
+        "percent": 6.44
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-22T23:00:00Z",
+      "end": "2026-01-23T22:59:59Z",
+      "date": "2026-01-23",
+      "text": "Fri Jan 23rd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
