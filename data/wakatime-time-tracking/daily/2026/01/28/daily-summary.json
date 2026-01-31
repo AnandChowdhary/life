@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 44,
-      "total_seconds": 9894.934,
-      "digital": "2:44",
-      "decimal": "2.73",
-      "text": "2 hrs 44 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 279,
-      "human_deletions": 115
-    },
-    "range": {
-      "start": "2026-01-28T23:00:00Z",
-      "end": "2026-01-29T22:59:59Z",
-      "date": "2026-01-29",
-      "text": "Thu Jan 29th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 7230.349,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 216,
-        "human_deletions": 115,
-        "color": null,
-        "digital": "2:00:30",
-        "decimal": "2.00",
-        "text": "2 hrs",
-        "hours": 2,
-        "minutes": 0,
-        "seconds": 30,
-        "percent": 73.07
-      },
-      {
-        "name": "sycamore-core",
-        "total_seconds": 1414.189,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 62,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:23:34",
-        "decimal": "0.38",
-        "text": "23 mins",
-        "hours": 0,
-        "minutes": 23,
-        "seconds": 34,
-        "percent": 14.29
-      },
-      {
-        "name": "blog",
-        "total_seconds": 1250.396,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:20:50",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 50,
-        "percent": 12.64
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -168,6 +99,79 @@
         "minutes": 0,
         "seconds": 5,
         "percent": 0.05
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 44,
+      "total_seconds": 9894.934,
+      "digital": "2:44",
+      "decimal": "2.73",
+      "text": "2 hrs 44 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 279,
+      "human_deletions": 115
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9894.934,
+        "digital": "2:44:54",
+        "decimal": "2.73",
+        "text": "2 hrs 44 mins",
+        "hours": 2,
+        "minutes": 44,
+        "seconds": 54,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9894.934,
+        "digital": "2:44:54",
+        "decimal": "2.73",
+        "text": "2 hrs 44 mins",
+        "hours": 2,
+        "minutes": 44,
+        "seconds": 54,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 7831.148,
+        "digital": "2:10:31",
+        "decimal": "2.17",
+        "text": "2 hrs 10 mins",
+        "hours": 2,
+        "minutes": 10,
+        "seconds": 31,
+        "percent": 79.14
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 1906.047,
+        "digital": "0:31:46",
+        "decimal": "0.52",
+        "text": "31 mins",
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 46,
+        "percent": 19.26
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 157.739,
+        "digital": "0:02:37",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 37,
+        "percent": 1.59
       }
     ],
     "dependencies": [
@@ -271,7 +275,7 @@
         "percent": 2.13
       },
       {
-        "name": "workflow-card",
+        "name": "use-generate-prd-state",
         "total_seconds": 1201.596,
         "digital": "0:20:01",
         "decimal": "0.33",
@@ -304,7 +308,7 @@
         "percent": 2.11
       },
       {
-        "name": "use-generate-prd-state",
+        "name": "workflow-card",
         "total_seconds": 1201.596,
         "digital": "0:20:01",
         "decimal": "0.33",
@@ -359,7 +363,7 @@
         "percent": 1.26
       },
       {
-        "name": "jsdom",
+        "name": "npm",
         "total_seconds": 666.699,
         "digital": "0:11:06",
         "decimal": "0.18",
@@ -381,7 +385,7 @@
         "percent": 1.17
       },
       {
-        "name": "@types/react",
+        "name": "tailwindcss",
         "total_seconds": 666.699,
         "digital": "0:11:06",
         "decimal": "0.18",
@@ -392,7 +396,7 @@
         "percent": 1.17
       },
       {
-        "name": "@vitejs/plugin-react",
+        "name": "@types/react-dom",
         "total_seconds": 666.699,
         "digital": "0:11:06",
         "decimal": "0.18",
@@ -403,7 +407,7 @@
         "percent": 1.17
       },
       {
-        "name": "npm",
+        "name": "jsdom",
         "total_seconds": 666.699,
         "digital": "0:11:06",
         "decimal": "0.18",
@@ -425,7 +429,7 @@
         "percent": 1.17
       },
       {
-        "name": "tailwindcss",
+        "name": "@vitejs/plugin-react",
         "total_seconds": 666.699,
         "digital": "0:11:06",
         "decimal": "0.18",
@@ -447,7 +451,7 @@
         "percent": 1.17
       },
       {
-        "name": "@types/react-dom",
+        "name": "@types/react",
         "total_seconds": 666.699,
         "digital": "0:11:06",
         "decimal": "0.18",
@@ -480,7 +484,7 @@
         "percent": 0.99
       },
       {
-        "name": "@sycamore-labs/ui",
+        "name": "@tanstack/devtools-vite",
         "total_seconds": 559.887,
         "digital": "0:09:19",
         "decimal": "0.15",
@@ -491,95 +495,7 @@
         "percent": 0.99
       },
       {
-        "name": "openapi-typescript",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "@tanstack/react-router-devtools",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "@tanstack/react-router-ssr-query",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "@types/node",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "nitro",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "typescript",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "@testing-library/dom",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "@clerk/types",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "h3",
+        "name": "openapi-react-query",
         "total_seconds": 559.887,
         "digital": "0:09:19",
         "decimal": "0.15",
@@ -601,29 +517,7 @@
         "percent": 0.99
       },
       {
-        "name": "@tanstack/devtools-vite",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "@tanstack/react-query",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "web-vitals",
+        "name": "@testing-library/dom",
         "total_seconds": 559.887,
         "digital": "0:09:19",
         "decimal": "0.15",
@@ -645,40 +539,7 @@
         "percent": 0.99
       },
       {
-        "name": "@tanstack/react-start",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "@tanstack/react-router",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "chokidar",
-        "total_seconds": 559.887,
-        "digital": "0:09:19",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 19,
-        "percent": 0.99
-      },
-      {
-        "name": "openapi-react-query",
+        "name": "@tanstack/react-query",
         "total_seconds": 559.887,
         "digital": "0:09:19",
         "decimal": "0.15",
@@ -701,6 +562,149 @@
       },
       {
         "name": "@tanstack/router-plugin",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "chokidar",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "@types/node",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "@tanstack/react-router-ssr-query",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "h3",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "nitro",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "openapi-typescript",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "@sycamore-labs/ui",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "@tanstack/react-start",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "web-vitals",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "typescript",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "@clerk/types",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "@tanstack/react-router-devtools",
+        "total_seconds": 559.887,
+        "digital": "0:09:19",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 19,
+        "percent": 0.99
+      },
+      {
+        "name": "@tanstack/react-router",
         "total_seconds": 559.887,
         "digital": "0:09:19",
         "decimal": "0.15",
@@ -788,29 +792,18 @@
         "percent": 0.54
       },
       {
-        "name": "projects.$projectId",
-        "total_seconds": 309.4,
-        "digital": "0:05:09",
-        "decimal": "0.08",
-        "text": "5 mins",
-        "hours": 0,
-        "minutes": 5,
-        "seconds": 9,
-        "percent": 0.54
-      },
-      {
-        "name": "__root",
-        "total_seconds": 309.4,
-        "digital": "0:05:09",
-        "decimal": "0.08",
-        "text": "5 mins",
-        "hours": 0,
-        "minutes": 5,
-        "seconds": 9,
-        "percent": 0.54
-      },
-      {
         "name": "sign-in",
+        "total_seconds": 309.4,
+        "digital": "0:05:09",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 9,
+        "percent": 0.54
+      },
+      {
+        "name": "router",
         "total_seconds": 309.4,
         "digital": "0:05:09",
         "decimal": "0.08",
@@ -832,7 +825,18 @@
         "percent": 0.54
       },
       {
-        "name": "router",
+        "name": "__root",
+        "total_seconds": 309.4,
+        "digital": "0:05:09",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 9,
+        "percent": 0.54
+      },
+      {
+        "name": "projects.$projectId",
         "total_seconds": 309.4,
         "digital": "0:05:09",
         "decimal": "0.08",
@@ -898,7 +902,7 @@
         "percent": 0.36
       },
       {
-        "name": "streaming-message",
+        "name": "stories.types",
         "total_seconds": 206.861,
         "digital": "0:03:26",
         "decimal": "0.05",
@@ -909,7 +913,7 @@
         "percent": 0.36
       },
       {
-        "name": "stories.types",
+        "name": "streaming-message",
         "total_seconds": 206.861,
         "digital": "0:03:26",
         "decimal": "0.05",
@@ -997,17 +1001,6 @@
         "percent": 0.3
       },
       {
-        "name": "store",
-        "total_seconds": 168.65,
-        "digital": "0:02:48",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 48,
-        "percent": 0.3
-      },
-      {
         "name": "sse-types",
         "total_seconds": 168.65,
         "digital": "0:02:48",
@@ -1031,6 +1024,17 @@
       },
       {
         "name": "use-messages",
+        "total_seconds": 168.65,
+        "digital": "0:02:48",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 48,
+        "percent": 0.3
+      },
+      {
+        "name": "store",
         "total_seconds": 168.65,
         "digital": "0:02:48",
         "decimal": "0.03",
@@ -1085,6 +1089,28 @@
         "percent": 0.19
       },
       {
+        "name": "sidebar-nav",
+        "total_seconds": 105.346,
+        "digital": "0:01:45",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 45,
+        "percent": 0.19
+      },
+      {
+        "name": "runtime-config-script",
+        "total_seconds": 105.346,
+        "digital": "0:01:45",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 45,
+        "percent": 0.19
+      },
+      {
         "name": "styles.css?url",
         "total_seconds": 105.346,
         "digital": "0:01:45",
@@ -1107,28 +1133,6 @@
         "percent": 0.19
       },
       {
-        "name": "runtime-config-script",
-        "total_seconds": 105.346,
-        "digital": "0:01:45",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 45,
-        "percent": 0.19
-      },
-      {
-        "name": "sidebar-nav",
-        "total_seconds": 105.346,
-        "digital": "0:01:45",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 45,
-        "percent": 0.19
-      },
-      {
         "name": "transitions",
         "total_seconds": 95.222,
         "digital": "0:01:35",
@@ -1140,7 +1144,7 @@
         "percent": 0.17
       },
       {
-        "name": "styles",
+        "name": "dialog",
         "total_seconds": 89.738,
         "digital": "0:01:29",
         "decimal": "0.02",
@@ -1151,7 +1155,7 @@
         "percent": 0.16
       },
       {
-        "name": "dialog",
+        "name": "styles",
         "total_seconds": 89.738,
         "digital": "0:01:29",
         "decimal": "0.02",
@@ -1327,7 +1331,7 @@
         "percent": 0.01
       },
       {
-        "name": "node:module",
+        "name": "node:child_process",
         "total_seconds": 5.351,
         "digital": "0:00:05",
         "decimal": "0.00",
@@ -1338,7 +1342,7 @@
         "percent": 0.01
       },
       {
-        "name": "node:fs",
+        "name": "node:module",
         "total_seconds": 5.351,
         "digital": "0:00:05",
         "decimal": "0.00",
@@ -1360,7 +1364,7 @@
         "percent": 0.01
       },
       {
-        "name": "node:child_process",
+        "name": "node:fs",
         "total_seconds": 5.351,
         "digital": "0:00:05",
         "decimal": "0.00",
@@ -1437,7 +1441,40 @@
         "percent": 0
       },
       {
-        "name": "rollup",
+        "name": "node:querystring",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "yaml",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "fdir",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "node:zlib",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1459,6 +1496,28 @@
         "percent": 0
       },
       {
+        "name": "ws",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "node:net",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
         "name": "?t=",
         "total_seconds": 1.603,
         "digital": "0:00:01",
@@ -1470,7 +1529,7 @@
         "percent": 0
       },
       {
-        "name": "node:dns",
+        "name": "node:assert",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1481,7 +1540,7 @@
         "percent": 0
       },
       {
-        "name": "chunk",
+        "name": "fs",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1492,7 +1551,7 @@
         "percent": 0
       },
       {
-        "name": "parseAst",
+        "name": "module-runner",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1503,7 +1562,7 @@
         "percent": 0
       },
       {
-        "name": "picomatch",
+        "name": "jiti",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1525,7 +1584,117 @@
         "percent": 0
       },
       {
+        "name": "node:crypto",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "dist",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "postcss",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "rollup",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "tinyglobby",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
         "name": "build",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "node:buffer",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "#module-sync-enabled",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "chunk",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "promises",
+        "total_seconds": 1.603,
+        "digital": "0:00:01",
+        "decimal": "0.00",
+        "text": "1 sec",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1,
+        "percent": 0
+      },
+      {
+        "name": "*",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1547,7 +1716,7 @@
         "percent": 0
       },
       {
-        "name": "node:worker_threads",
+        "name": "node:dns",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1580,7 +1749,7 @@
         "percent": 0
       },
       {
-        "name": "*",
+        "name": "build2",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1591,7 +1760,7 @@
         "percent": 0
       },
       {
-        "name": "jiti",
+        "name": "parseAst",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1602,7 +1771,7 @@
         "percent": 0
       },
       {
-        "name": "module",
+        "name": "node:worker_threads",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1613,18 +1782,7 @@
         "percent": 0
       },
       {
-        "name": "node:crypto",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "yaml",
+        "name": "picomatch",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1646,106 +1804,7 @@
         "percent": 0
       },
       {
-        "name": "node:querystring",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "fs",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "tinyglobby",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "node:zlib",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "module-runner",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "build2",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "dist",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "node:net",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "#module-sync-enabled",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "ws",
+        "name": "module",
         "total_seconds": 1.603,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1767,61 +1826,6 @@
         "percent": 0
       },
       {
-        "name": "promises",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "node:assert",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "fdir",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "postcss",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
-        "name": "node:buffer",
-        "total_seconds": 1.603,
-        "digital": "0:00:01",
-        "decimal": "0.00",
-        "text": "1 sec",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 1,
-        "percent": 0
-      },
-      {
         "name": "artifact-view-header",
         "total_seconds": 1.19,
         "digital": "0:00:01",
@@ -1833,7 +1837,7 @@
         "percent": 0
       },
       {
-        "name": "artifact-preview",
+        "name": "artifact-item",
         "total_seconds": 1.19,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1844,7 +1848,7 @@
         "percent": 0
       },
       {
-        "name": "artifact-item",
+        "name": "artifact-preview",
         "total_seconds": 1.19,
         "digital": "0:00:01",
         "decimal": "0.00",
@@ -1880,66 +1884,59 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 9894.934,
-        "digital": "2:44:54",
-        "decimal": "2.73",
-        "text": "2 hrs 44 mins",
+        "name": "kernel",
+        "total_seconds": 7230.349,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 216,
+        "human_deletions": 115,
+        "digital": "2:00:30",
+        "decimal": "2.00",
+        "text": "2 hrs",
         "hours": 2,
-        "minutes": 44,
-        "seconds": 54,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9894.934,
-        "digital": "2:44:54",
-        "decimal": "2.73",
-        "text": "2 hrs 44 mins",
-        "hours": 2,
-        "minutes": 44,
-        "seconds": 54,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 7831.148,
-        "digital": "2:10:31",
-        "decimal": "2.17",
-        "text": "2 hrs 10 mins",
-        "hours": 2,
-        "minutes": 10,
-        "seconds": 31,
-        "percent": 79.14
+        "minutes": 0,
+        "seconds": 30,
+        "percent": 73.07
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 1906.047,
-        "digital": "0:31:46",
-        "decimal": "0.52",
-        "text": "31 mins",
+        "name": "sycamore-core",
+        "total_seconds": 1414.189,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 62,
+        "human_deletions": 0,
+        "digital": "0:23:34",
+        "decimal": "0.38",
+        "text": "23 mins",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 46,
-        "percent": 19.26
+        "minutes": 23,
+        "seconds": 34,
+        "percent": 14.29
       },
       {
-        "name": "Writing Tests",
-        "total_seconds": 157.739,
-        "digital": "0:02:37",
-        "decimal": "0.03",
-        "text": "2 mins",
+        "name": "blog",
+        "total_seconds": 1250.396,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1,
+        "human_deletions": 0,
+        "digital": "0:20:50",
+        "decimal": "0.33",
+        "text": "20 mins",
         "hours": 0,
-        "minutes": 2,
-        "seconds": 37,
-        "percent": 1.59
+        "minutes": 20,
+        "seconds": 50,
+        "percent": 12.64
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-28T23:00:00Z",
+      "end": "2026-01-29T22:59:59Z",
+      "date": "2026-01-29",
+      "text": "Thu Jan 29th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
