@@ -1,106 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 22,
-      "total_seconds": 4958.965,
-      "digital": "1:22",
-      "decimal": "1.37",
-      "text": "1 hr 22 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 770,
-      "human_deletions": 450
-    },
-    "range": {
-      "start": "2026-01-29T23:00:00Z",
-      "end": "2026-01-30T22:59:59Z",
-      "date": "2026-01-30",
-      "text": "Fri Jan 30th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 3324.297,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 745,
-        "human_deletions": 450,
-        "color": null,
-        "digital": "0:55:24",
-        "decimal": "0.92",
-        "text": "55 mins",
-        "hours": 0,
-        "minutes": 55,
-        "seconds": 24,
-        "percent": 67.04
-      },
-      {
-        "name": "workspace",
-        "total_seconds": 713.38,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 23,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:11:53",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 53,
-        "percent": 14.39
-      },
-      {
-        "name": "syslides",
-        "total_seconds": 619.661,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:10:19",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 19,
-        "percent": 12.5
-      },
-      {
-        "name": "openclaw",
-        "total_seconds": 292.684,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:04:52",
-        "decimal": "0.07",
-        "text": "4 mins",
-        "hours": 0,
-        "minutes": 4,
-        "seconds": 52,
-        "percent": 5.9
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 8.943,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:08",
-        "decimal": "0.00",
-        "text": "8 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 8,
-        "percent": 0.18
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -189,6 +88,68 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.04
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 22,
+      "total_seconds": 4958.965,
+      "digital": "1:22",
+      "decimal": "1.37",
+      "text": "1 hr 22 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 770,
+      "human_deletions": 450
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 4958.965,
+        "digital": "1:22:38",
+        "decimal": "1.37",
+        "text": "1 hr 22 mins",
+        "hours": 1,
+        "minutes": 22,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4958.965,
+        "digital": "1:22:38",
+        "decimal": "1.37",
+        "text": "1 hr 22 mins",
+        "hours": 1,
+        "minutes": 22,
+        "seconds": 38,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3056.953,
+        "digital": "0:50:56",
+        "decimal": "0.83",
+        "text": "50 mins",
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 56,
+        "percent": 61.64
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 1902.012,
+        "digital": "0:31:42",
+        "decimal": "0.52",
+        "text": "31 mins",
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 42,
+        "percent": 38.36
       }
     ],
     "dependencies": [
@@ -737,55 +698,94 @@
         "percent": 0.45
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 4958.965,
-        "digital": "1:22:38",
-        "decimal": "1.37",
-        "text": "1 hr 22 mins",
-        "hours": 1,
-        "minutes": 22,
-        "seconds": 38,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 4958.965,
-        "digital": "1:22:38",
-        "decimal": "1.37",
-        "text": "1 hr 22 mins",
-        "hours": 1,
-        "minutes": 22,
-        "seconds": 38,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 3056.953,
-        "digital": "0:50:56",
-        "decimal": "0.83",
-        "text": "50 mins",
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 3324.297,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 745,
+        "human_deletions": 450,
+        "color": null,
+        "digital": "0:55:24",
+        "decimal": "0.92",
+        "text": "55 mins",
         "hours": 0,
-        "minutes": 50,
-        "seconds": 56,
-        "percent": 61.64
+        "minutes": 55,
+        "seconds": 24,
+        "percent": 67.04
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 1902.012,
-        "digital": "0:31:42",
-        "decimal": "0.52",
-        "text": "31 mins",
+        "name": "workspace",
+        "total_seconds": 713.38,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 23,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:11:53",
+        "decimal": "0.18",
+        "text": "11 mins",
         "hours": 0,
-        "minutes": 31,
-        "seconds": 42,
-        "percent": 38.36
+        "minutes": 11,
+        "seconds": 53,
+        "percent": 14.39
+      },
+      {
+        "name": "syslides",
+        "total_seconds": 619.661,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:10:19",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 19,
+        "percent": 12.5
+      },
+      {
+        "name": "openclaw",
+        "total_seconds": 292.684,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:04:52",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 52,
+        "percent": 5.9
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 8.943,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:08",
+        "decimal": "0.00",
+        "text": "8 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 0.18
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-29T23:00:00Z",
+      "end": "2026-01-30T22:59:59Z",
+      "date": "2026-01-30",
+      "text": "Fri Jan 30th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
