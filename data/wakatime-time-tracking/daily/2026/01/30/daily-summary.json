@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 54,
-      "total_seconds": 3281.363,
-      "digital": "0:54",
-      "decimal": "0.90",
-      "text": "54 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 96,
-      "human_deletions": 45
-    },
-    "range": {
-      "start": "2026-01-30T23:00:00Z",
-      "end": "2026-01-31T22:59:59Z",
-      "date": "2026-01-31",
-      "text": "Sat Jan 31st 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 2162.856,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 40,
-        "human_deletions": 29,
-        "color": null,
-        "digital": "0:36:02",
-        "decimal": "0.60",
-        "text": "36 mins",
-        "hours": 0,
-        "minutes": 36,
-        "seconds": 2,
-        "percent": 65.91
-      },
-      {
-        "name": "syslides",
-        "total_seconds": 884.413,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 56,
-        "human_deletions": 16,
-        "color": null,
-        "digital": "0:14:44",
-        "decimal": "0.23",
-        "text": "14 mins",
-        "hours": 0,
-        "minutes": 14,
-        "seconds": 44,
-        "percent": 26.95
-      },
-      {
-        "name": "sycamore-core",
-        "total_seconds": 234.094,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:03:54",
-        "decimal": "0.05",
-        "text": "3 mins",
-        "hours": 0,
-        "minutes": 3,
-        "seconds": 54,
-        "percent": 7.13
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -135,6 +66,79 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 54,
+      "total_seconds": 3281.363,
+      "digital": "0:54",
+      "decimal": "0.90",
+      "text": "54 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 96,
+      "human_deletions": 45
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 3281.363,
+        "digital": "0:54:41",
+        "decimal": "0.90",
+        "text": "54 mins",
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 41,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 3281.363,
+        "digital": "0:54:41",
+        "decimal": "0.90",
+        "text": "54 mins",
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 41,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 2642.209,
+        "digital": "0:44:02",
+        "decimal": "0.73",
+        "text": "44 mins",
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 2,
+        "percent": 80.52
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 629.334,
+        "digital": "0:10:29",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 29,
+        "percent": 19.18
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 9.82,
+        "digital": "0:00:09",
+        "decimal": "0.00",
+        "text": "9 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 9,
+        "percent": 0.3
       }
     ],
     "dependencies": [
@@ -1055,66 +1059,62 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 3281.363,
-        "digital": "0:54:41",
-        "decimal": "0.90",
-        "text": "54 mins",
+        "name": "kernel",
+        "total_seconds": 2162.856,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 40,
+        "human_deletions": 29,
+        "color": null,
+        "digital": "0:36:02",
+        "decimal": "0.60",
+        "text": "36 mins",
         "hours": 0,
-        "minutes": 54,
-        "seconds": 41,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 3281.363,
-        "digital": "0:54:41",
-        "decimal": "0.90",
-        "text": "54 mins",
-        "hours": 0,
-        "minutes": 54,
-        "seconds": 41,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 2642.209,
-        "digital": "0:44:02",
-        "decimal": "0.73",
-        "text": "44 mins",
-        "hours": 0,
-        "minutes": 44,
+        "minutes": 36,
         "seconds": 2,
-        "percent": 80.52
+        "percent": 65.91
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 629.334,
-        "digital": "0:10:29",
-        "decimal": "0.17",
-        "text": "10 mins",
+        "name": "syslides",
+        "total_seconds": 884.413,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 56,
+        "human_deletions": 16,
+        "color": null,
+        "digital": "0:14:44",
+        "decimal": "0.23",
+        "text": "14 mins",
         "hours": 0,
-        "minutes": 10,
-        "seconds": 29,
-        "percent": 19.18
+        "minutes": 14,
+        "seconds": 44,
+        "percent": 26.95
       },
       {
-        "name": "Writing Tests",
-        "total_seconds": 9.82,
-        "digital": "0:00:09",
-        "decimal": "0.00",
-        "text": "9 secs",
+        "name": "sycamore-core",
+        "total_seconds": 234.094,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:03:54",
+        "decimal": "0.05",
+        "text": "3 mins",
         "hours": 0,
-        "minutes": 0,
-        "seconds": 9,
-        "percent": 0.3
+        "minutes": 3,
+        "seconds": 54,
+        "percent": 7.13
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-30T23:00:00Z",
+      "end": "2026-01-31T22:59:59Z",
+      "date": "2026-01-31",
+      "text": "Sat Jan 31st 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
