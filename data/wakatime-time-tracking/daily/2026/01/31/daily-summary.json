@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 25,
-      "total_seconds": 1502.369,
-      "digital": "0:25",
-      "decimal": "0.42",
-      "text": "25 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 19,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2026-01-31T23:00:00Z",
-      "end": "2026-02-01T22:59:59Z",
-      "date": "2026-02-01",
-      "text": "Sun Feb 1st 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 898.232,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 19,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:14:58",
-        "decimal": "0.23",
-        "text": "14 mins",
-        "hours": 0,
-        "minutes": 14,
-        "seconds": 58,
-        "percent": 59.79
-      },
-      {
-        "name": "syslides",
-        "total_seconds": 604.137,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:10:04",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 4,
-        "percent": 40.21
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -108,6 +55,79 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.13
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 25,
+      "total_seconds": 1502.369,
+      "digital": "0:25",
+      "decimal": "0.42",
+      "text": "25 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 19,
+      "human_deletions": 0
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1502.369,
+        "digital": "0:25:02",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1502.369,
+        "digital": "0:25:02",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 2,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 1236.43,
+        "digital": "0:20:36",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 36,
+        "percent": 82.3
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 260.933,
+        "digital": "0:04:20",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 20,
+        "percent": 17.37
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 5.006,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.33
       }
     ],
     "dependencies": [
@@ -500,66 +520,46 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 1502.369,
-        "digital": "0:25:02",
-        "decimal": "0.42",
-        "text": "25 mins",
+        "name": "kernel",
+        "total_seconds": 898.232,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 19,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:14:58",
+        "decimal": "0.23",
+        "text": "14 mins",
         "hours": 0,
-        "minutes": 25,
-        "seconds": 2,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1502.369,
-        "digital": "0:25:02",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 2,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 1236.43,
-        "digital": "0:20:36",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 36,
-        "percent": 82.3
+        "minutes": 14,
+        "seconds": 58,
+        "percent": 59.79
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 260.933,
-        "digital": "0:04:20",
-        "decimal": "0.07",
-        "text": "4 mins",
+        "name": "syslides",
+        "total_seconds": 604.137,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:10:04",
+        "decimal": "0.17",
+        "text": "10 mins",
         "hours": 0,
-        "minutes": 4,
-        "seconds": 20,
-        "percent": 17.37
-      },
-      {
-        "name": "Writing Tests",
-        "total_seconds": 5.006,
-        "digital": "0:00:05",
-        "decimal": "0.00",
-        "text": "5 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 5,
-        "percent": 0.33
+        "minutes": 10,
+        "seconds": 4,
+        "percent": 40.21
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-01-31T23:00:00Z",
+      "end": "2026-02-01T22:59:59Z",
+      "date": "2026-02-01",
+      "text": "Sun Feb 1st 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
