@@ -1,106 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 25,
-      "total_seconds": 15946.102,
-      "digital": "4:25",
-      "decimal": "4.42",
-      "text": "4 hrs 25 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 449,
-      "human_deletions": 203
-    },
-    "range": {
-      "start": "2026-02-02T23:00:00Z",
-      "end": "2026-02-03T22:59:59Z",
-      "date": "2026-02-03",
-      "text": "Tue Feb 3rd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 9283.467,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 367,
-        "human_deletions": 41,
-        "color": null,
-        "digital": "2:34:43",
-        "decimal": "2.57",
-        "text": "2 hrs 34 mins",
-        "hours": 2,
-        "minutes": 34,
-        "seconds": 43,
-        "percent": 58.22
-      },
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 3485.563,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 63,
-        "human_deletions": 9,
-        "color": null,
-        "digital": "0:58:05",
-        "decimal": "0.97",
-        "text": "58 mins",
-        "hours": 0,
-        "minutes": 58,
-        "seconds": 5,
-        "percent": 21.86
-      },
-      {
-        "name": "sycamore-core",
-        "total_seconds": 1960.271,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 1,
-        "human_deletions": 153,
-        "color": null,
-        "digital": "0:32:40",
-        "decimal": "0.53",
-        "text": "32 mins",
-        "hours": 0,
-        "minutes": 32,
-        "seconds": 40,
-        "percent": 12.29
-      },
-      {
-        "name": "kernel",
-        "total_seconds": 1115.395,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 14,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:18:35",
-        "decimal": "0.30",
-        "text": "18 mins",
-        "hours": 0,
-        "minutes": 18,
-        "seconds": 35,
-        "percent": 6.99
-      },
-      {
-        "name": "featured",
-        "total_seconds": 101.406,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 4,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:01:41",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 41,
-        "percent": 0.64
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -189,6 +88,90 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.01
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 25,
+      "total_seconds": 15946.102,
+      "digital": "4:25",
+      "decimal": "4.42",
+      "text": "4 hrs 25 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 449,
+      "human_deletions": 203
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 15946.102,
+        "digital": "4:25:46",
+        "decimal": "4.42",
+        "text": "4 hrs 25 mins",
+        "hours": 4,
+        "minutes": 25,
+        "seconds": 46,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 15946.102,
+        "digital": "4:25:46",
+        "decimal": "4.42",
+        "text": "4 hrs 25 mins",
+        "hours": 4,
+        "minutes": 25,
+        "seconds": 46,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Building",
+        "total_seconds": 8000.452,
+        "digital": "2:13:20",
+        "decimal": "2.22",
+        "text": "2 hrs 13 mins",
+        "hours": 2,
+        "minutes": 13,
+        "seconds": 20,
+        "percent": 50.17
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 6425.663,
+        "digital": "1:47:05",
+        "decimal": "1.78",
+        "text": "1 hr 47 mins",
+        "hours": 1,
+        "minutes": 47,
+        "seconds": 5,
+        "percent": 40.3
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 1514.265,
+        "digital": "0:25:14",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 14,
+        "percent": 9.5
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 5.722,
+        "digital": "0:00:05",
+        "decimal": "0.00",
+        "text": "5 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5,
+        "percent": 0.04
       }
     ],
     "dependencies": [
@@ -1989,77 +1972,94 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 15946.102,
-        "digital": "4:25:46",
-        "decimal": "4.42",
-        "text": "4 hrs 25 mins",
-        "hours": 4,
-        "minutes": 25,
-        "seconds": 46,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 15946.102,
-        "digital": "4:25:46",
-        "decimal": "4.42",
-        "text": "4 hrs 25 mins",
-        "hours": 4,
-        "minutes": 25,
-        "seconds": 46,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Building",
-        "total_seconds": 8000.452,
-        "digital": "2:13:20",
-        "decimal": "2.22",
-        "text": "2 hrs 13 mins",
+        "name": "website",
+        "total_seconds": 9283.467,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 367,
+        "human_deletions": 41,
+        "color": null,
+        "digital": "2:34:43",
+        "decimal": "2.57",
+        "text": "2 hrs 34 mins",
         "hours": 2,
-        "minutes": 13,
-        "seconds": 20,
-        "percent": 50.17
+        "minutes": 34,
+        "seconds": 43,
+        "percent": 58.22
       },
       {
-        "name": "Coding",
-        "total_seconds": 6425.663,
-        "digital": "1:47:05",
-        "decimal": "1.78",
-        "text": "1 hr 47 mins",
-        "hours": 1,
-        "minutes": 47,
-        "seconds": 5,
-        "percent": 40.3
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 1514.265,
-        "digital": "0:25:14",
-        "decimal": "0.42",
-        "text": "25 mins",
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 3485.563,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 63,
+        "human_deletions": 9,
+        "color": null,
+        "digital": "0:58:05",
+        "decimal": "0.97",
+        "text": "58 mins",
         "hours": 0,
-        "minutes": 25,
-        "seconds": 14,
-        "percent": 9.5
+        "minutes": 58,
+        "seconds": 5,
+        "percent": 21.86
       },
       {
-        "name": "Writing Tests",
-        "total_seconds": 5.722,
-        "digital": "0:00:05",
-        "decimal": "0.00",
-        "text": "5 secs",
+        "name": "sycamore-core",
+        "total_seconds": 1960.271,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 1,
+        "human_deletions": 153,
+        "color": null,
+        "digital": "0:32:40",
+        "decimal": "0.53",
+        "text": "32 mins",
         "hours": 0,
-        "minutes": 0,
-        "seconds": 5,
-        "percent": 0.04
+        "minutes": 32,
+        "seconds": 40,
+        "percent": 12.29
+      },
+      {
+        "name": "kernel",
+        "total_seconds": 1115.395,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 14,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:18:35",
+        "decimal": "0.30",
+        "text": "18 mins",
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 35,
+        "percent": 6.99
+      },
+      {
+        "name": "featured",
+        "total_seconds": 101.406,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 4,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:41",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 41,
+        "percent": 0.64
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-02-02T23:00:00Z",
+      "end": "2026-02-03T22:59:59Z",
+      "date": "2026-02-03",
+      "text": "Tue Feb 3rd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
