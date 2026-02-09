@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 14,
-      "total_seconds": 857.635,
-      "digital": "0:14",
-      "decimal": "0.23",
-      "text": "14 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 9,
-      "human_deletions": 2
-    },
-    "range": {
-      "start": "2026-02-05T23:00:00Z",
-      "end": "2026-02-06T22:59:59Z",
-      "date": "2026-02-06",
-      "text": "Fri Feb 6th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 767.864,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 9,
-        "human_deletions": 2,
-        "color": null,
-        "digital": "0:12:47",
-        "decimal": "0.20",
-        "text": "12 mins",
-        "hours": 0,
-        "minutes": 12,
-        "seconds": 47,
-        "percent": 89.53
-      },
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 89.771,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:01:29",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 29,
-        "percent": 10.47
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 0,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -113,6 +44,57 @@
         "minutes": 0,
         "seconds": 3,
         "percent": 0.41
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 14,
+      "total_seconds": 857.635,
+      "digital": "0:14",
+      "decimal": "0.23",
+      "text": "14 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 9,
+      "human_deletions": 2
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 857.635,
+        "digital": "0:14:17",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 857.635,
+        "digital": "0:14:17",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 857.635,
+        "digital": "0:14:17",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 17,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -429,44 +411,62 @@
         "percent": 1.2
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 857.635,
-        "digital": "0:14:17",
-        "decimal": "0.23",
-        "text": "14 mins",
+        "name": "kernel",
+        "total_seconds": 767.864,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 9,
+        "human_deletions": 2,
+        "color": null,
+        "digital": "0:12:47",
+        "decimal": "0.20",
+        "text": "12 mins",
         "hours": 0,
-        "minutes": 14,
-        "seconds": 17,
-        "percent": 100
+        "minutes": 12,
+        "seconds": 47,
+        "percent": 89.53
+      },
+      {
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 89.771,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:29",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 29,
+        "percent": 10.47
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 0,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 857.635,
-        "digital": "0:14:17",
-        "decimal": "0.23",
-        "text": "14 mins",
-        "hours": 0,
-        "minutes": 14,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 857.635,
-        "digital": "0:14:17",
-        "decimal": "0.23",
-        "text": "14 mins",
-        "hours": 0,
-        "minutes": 14,
-        "seconds": 17,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2026-02-05T23:00:00Z",
+      "end": "2026-02-06T22:59:59Z",
+      "date": "2026-02-06",
+      "text": "Fri Feb 6th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
