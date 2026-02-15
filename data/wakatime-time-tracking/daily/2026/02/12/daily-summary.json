@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 14,
-      "total_seconds": 4483.605,
-      "digital": "1:14",
-      "decimal": "1.23",
-      "text": "1 hr 14 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 405,
-      "human_deletions": 204
-    },
-    "range": {
-      "start": "2026-02-12T23:00:00Z",
-      "end": "2026-02-13T22:59:59Z",
-      "date": "2026-02-13",
-      "text": "Fri Feb 13th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 4475.177,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 405,
-        "human_deletions": 204,
-        "color": null,
-        "digital": "1:14:35",
-        "decimal": "1.23",
-        "text": "1 hr 14 mins",
-        "hours": 1,
-        "minutes": 14,
-        "seconds": 35,
-        "percent": 99.81
-      },
-      {
-        "name": "kernel",
-        "total_seconds": 8.428,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:08",
-        "decimal": "0.00",
-        "text": "8 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 8,
-        "percent": 0.19
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -97,6 +44,57 @@
         "minutes": 3,
         "seconds": 27,
         "percent": 4.62
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 14,
+      "total_seconds": 4483.605,
+      "digital": "1:14",
+      "decimal": "1.23",
+      "text": "1 hr 14 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 405,
+      "human_deletions": 204
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 4483.605,
+        "digital": "1:14:43",
+        "decimal": "1.23",
+        "text": "1 hr 14 mins",
+        "hours": 1,
+        "minutes": 14,
+        "seconds": 43,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4483.605,
+        "digital": "1:14:43",
+        "decimal": "1.23",
+        "text": "1 hr 14 mins",
+        "hours": 1,
+        "minutes": 14,
+        "seconds": 43,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 4483.605,
+        "digital": "1:14:43",
+        "decimal": "1.23",
+        "text": "1 hr 14 mins",
+        "hours": 1,
+        "minutes": 14,
+        "seconds": 43,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -764,44 +762,46 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 4483.605,
-        "digital": "1:14:43",
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 4475.177,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 405,
+        "human_deletions": 204,
+        "color": null,
+        "digital": "1:14:35",
         "decimal": "1.23",
         "text": "1 hr 14 mins",
         "hours": 1,
         "minutes": 14,
-        "seconds": 43,
-        "percent": 100
+        "seconds": 35,
+        "percent": 99.81
+      },
+      {
+        "name": "kernel",
+        "total_seconds": 8.428,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:08",
+        "decimal": "0.00",
+        "text": "8 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 8,
+        "percent": 0.19
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 4483.605,
-        "digital": "1:14:43",
-        "decimal": "1.23",
-        "text": "1 hr 14 mins",
-        "hours": 1,
-        "minutes": 14,
-        "seconds": 43,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 4483.605,
-        "digital": "1:14:43",
-        "decimal": "1.23",
-        "text": "1 hr 14 mins",
-        "hours": 1,
-        "minutes": 14,
-        "seconds": 43,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2026-02-12T23:00:00Z",
+      "end": "2026-02-13T22:59:59Z",
+      "date": "2026-02-13",
+      "text": "Fri Feb 13th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]

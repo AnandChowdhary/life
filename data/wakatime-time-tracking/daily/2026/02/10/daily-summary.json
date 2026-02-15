@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 3,
-      "minutes": 45,
-      "total_seconds": 13554.069,
-      "digital": "3:45",
-      "decimal": "3.75",
-      "text": "3 hrs 45 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 463,
-      "human_deletions": 845
-    },
-    "range": {
-      "start": "2026-02-10T23:00:00Z",
-      "end": "2026-02-11T22:59:59Z",
-      "date": "2026-02-11",
-      "text": "Wed Feb 11th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 12925.981,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 463,
-        "human_deletions": 845,
-        "color": null,
-        "digital": "3:35:25",
-        "decimal": "3.58",
-        "text": "3 hrs 35 mins",
-        "hours": 3,
-        "minutes": 35,
-        "seconds": 25,
-        "percent": 95.37
-      },
-      {
-        "name": "kernel",
-        "total_seconds": 628.088,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:10:28",
-        "decimal": "0.17",
-        "text": "10 mins",
-        "hours": 0,
-        "minutes": 10,
-        "seconds": 28,
-        "percent": 4.63
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -119,6 +66,90 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.04
+      }
+    ],
+    "grand_total": {
+      "hours": 3,
+      "minutes": 45,
+      "total_seconds": 13554.069,
+      "digital": "3:45",
+      "decimal": "3.75",
+      "text": "3 hrs 45 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 463,
+      "human_deletions": 845
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 13554.069,
+        "digital": "3:45:54",
+        "decimal": "3.75",
+        "text": "3 hrs 45 mins",
+        "hours": 3,
+        "minutes": 45,
+        "seconds": 54,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 13554.069,
+        "digital": "3:45:54",
+        "decimal": "3.75",
+        "text": "3 hrs 45 mins",
+        "hours": 3,
+        "minutes": 45,
+        "seconds": 54,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 9162.839,
+        "digital": "2:32:42",
+        "decimal": "2.53",
+        "text": "2 hrs 32 mins",
+        "hours": 2,
+        "minutes": 32,
+        "seconds": 42,
+        "percent": 67.6
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 3596.325,
+        "digital": "0:59:56",
+        "decimal": "0.98",
+        "text": "59 mins",
+        "hours": 0,
+        "minutes": 59,
+        "seconds": 56,
+        "percent": 26.53
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 628.088,
+        "digital": "0:10:28",
+        "decimal": "0.17",
+        "text": "10 mins",
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 28,
+        "percent": 4.63
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 166.817,
+        "digital": "0:02:46",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 46,
+        "percent": 1.23
       }
     ],
     "dependencies": [
@@ -973,58 +1004,31 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 13554.069,
-        "digital": "3:45:54",
-        "decimal": "3.75",
-        "text": "3 hrs 45 mins",
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 12925.981,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 463,
+        "human_deletions": 845,
+        "color": null,
+        "digital": "3:35:25",
+        "decimal": "3.58",
+        "text": "3 hrs 35 mins",
         "hours": 3,
-        "minutes": 45,
-        "seconds": 54,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 13554.069,
-        "digital": "3:45:54",
-        "decimal": "3.75",
-        "text": "3 hrs 45 mins",
-        "hours": 3,
-        "minutes": 45,
-        "seconds": 54,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 9162.839,
-        "digital": "2:32:42",
-        "decimal": "2.53",
-        "text": "2 hrs 32 mins",
-        "hours": 2,
-        "minutes": 32,
-        "seconds": 42,
-        "percent": 67.6
+        "minutes": 35,
+        "seconds": 25,
+        "percent": 95.37
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 3596.325,
-        "digital": "0:59:56",
-        "decimal": "0.98",
-        "text": "59 mins",
-        "hours": 0,
-        "minutes": 59,
-        "seconds": 56,
-        "percent": 26.53
-      },
-      {
-        "name": "Writing Tests",
+        "name": "kernel",
         "total_seconds": 628.088,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
         "digital": "0:10:28",
         "decimal": "0.17",
         "text": "10 mins",
@@ -1032,18 +1036,14 @@
         "minutes": 10,
         "seconds": 28,
         "percent": 4.63
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 166.817,
-        "digital": "0:02:46",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 46,
-        "percent": 1.23
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-02-10T23:00:00Z",
+      "end": "2026-02-11T22:59:59Z",
+      "date": "2026-02-11",
+      "text": "Wed Feb 11th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
