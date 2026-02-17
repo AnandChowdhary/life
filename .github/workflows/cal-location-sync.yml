@@ -15,7 +15,6 @@ jobs:
         env:
           CAL_API_KEY: ${{ secrets.CAL_API_KEY }}
           CAL_USER_ID: ${{ secrets.CAL_USER_ID }}
-          # Location-specific event type IDs
           EVENT_COFFEE_NL: "1312606"
           EVENT_COFFEE_SF: "1312571"
         run: |
@@ -27,7 +26,6 @@ jobs:
           EMOJI=$(echo "$LOCATION" | jq -r '.country_emoji')
           TIMEZONE=$(echo "$LOCATION" | jq -r '.timezone.name')
           COUNTRY_CODE=$(echo "$LOCATION" | jq -r '.country_code')
-          # Extract country name from the last part of full_label
           COUNTRY=$(echo "$LOCATION" | jq -r '.full_label' | rev | cut -d',' -f1 | rev | xargs)
 
           echo "📍 Location: $LABEL, $COUNTRY ($EMOJI) — TZ: $TIMEZONE — CC: $COUNTRY_CODE"
@@ -40,9 +38,10 @@ jobs:
           # 3. Build new location line (country, not city)
           LOCATION_LINE="${EMOJI} Currently in ${COUNTRY}"
 
-          # 4. Update bio: replace first line if it starts with "Currently in" pattern, otherwise prepend
+          # 4. Update bio: replace first line if it has "Currently in", otherwise prepend
           if echo "$CURRENT_BIO" | head -1 | grep -q 'Currently in '; then
-            NEW_BIO=$(printf '%s\n%s' "$LOCATION_LINE" "$(echo "$CURRENT_BIO" | tail -n +2)")
+            REST=$(echo "$CURRENT_BIO" | tail -n +2)
+            NEW_BIO=$(printf '%s\n%s' "$LOCATION_LINE" "$REST")
           else
             NEW_BIO=$(printf '%s\n%s' "$LOCATION_LINE" "$CURRENT_BIO")
           fi
@@ -50,10 +49,7 @@ jobs:
           echo "New bio: $NEW_BIO"
 
           # 5. PATCH Cal.com profile (v2 API)
-          PAYLOAD=$(jq -n \
-            --arg bio "$NEW_BIO" \
-            --arg tz "$TIMEZONE" \
-            '{bio: $bio, timeZone: $tz}')
+          PAYLOAD=$(jq -n --arg bio "$NEW_BIO" --arg tz "$TIMEZONE" '{bio: $bio, timeZone: $tz}')
 
           RESPONSE=$(curl -s -w "\n%{http_code}" -X PATCH \
             -H "Content-Type: application/json" \
@@ -70,46 +66,38 @@ jobs:
             exit 1
           fi
 
-          # 6. Update location-specific event types with availability note
-          update_event_note() {
-            local EVENT_ID=$1
-            local BASE_DESC=$2
-            local IS_HERE=$3
-
-            if [ "$IS_HERE" = "true" ]; then
-              NOTE="✅ Anand is currently in the area — book a time!"
-            else
-              NOTE="❌ Anand is not currently in this location."
-            fi
-
-            NEW_DESC="${BASE_DESC}
-
-${NOTE}"
-
-            curl -s -X PATCH \
-              -H "Content-Type: application/json" \
-              -d "$(jq -n --arg desc "$NEW_DESC" '{description: $desc}')" \
-              "https://api.cal.com/v1/event-types/${EVENT_ID}?apiKey=${CAL_API_KEY}" > /dev/null
-
-            echo "  → Event $EVENT_ID: $NOTE"
-          }
-
+          # 6. Update location-specific event types
           echo ""
           echo "Updating event type availability notes..."
 
-          # Coffee in NL — available when country_code is "nl"
-          NL_HERE="false"
-          [ "$COUNTRY_CODE" = "nl" ] && NL_HERE="true"
-          update_event_note "$EVENT_COFFEE_NL" \
-            "Meet Anand for an IRL coffee in Amsterdam or Utrecht. _Invite-only and when I am in the Netherlands._" \
-            "$NL_HERE"
+          NL_DESC="Meet Anand for an IRL coffee in Amsterdam or Utrecht. _Invite-only and when I am in the Netherlands._"
+          SF_DESC="Meet Anand for an IRL coffee at Shack 15 (Ferry Building). _Invite-only and when I am in the Bay Area._"
 
-          # Coffee in SF — available when country_code is "us"
-          SF_HERE="false"
-          [ "$COUNTRY_CODE" = "us" ] && SF_HERE="true"
-          update_event_note "$EVENT_COFFEE_SF" \
-            "Meet Anand for an IRL coffee at Shack 15 (Ferry Building). _Invite-only and when I am in the Bay Area._" \
-            "$SF_HERE"
+          if [ "$COUNTRY_CODE" = "nl" ]; then
+            NL_NOTE="✅ Anand is currently in the area — book a time!"
+          else
+            NL_NOTE="❌ Anand is not currently in this location."
+          fi
+
+          if [ "$COUNTRY_CODE" = "us" ]; then
+            SF_NOTE="✅ Anand is currently in the area — book a time!"
+          else
+            SF_NOTE="❌ Anand is not currently in this location."
+          fi
+
+          curl -s -o /dev/null -X PATCH -H "Content-Type: application/json" \
+            -d "$(jq -n --arg d "$NL_DESC
+
+          $NL_NOTE" '{description: $d}')" \
+            "https://api.cal.com/v1/event-types/${EVENT_COFFEE_NL}?apiKey=${CAL_API_KEY}"
+          echo "  → Coffee NL: $NL_NOTE"
+
+          curl -s -o /dev/null -X PATCH -H "Content-Type: application/json" \
+            -d "$(jq -n --arg d "$SF_DESC
+
+          $SF_NOTE" '{description: $d}')" \
+            "https://api.cal.com/v1/event-types/${EVENT_COFFEE_SF}?apiKey=${CAL_API_KEY}"
+          echo "  → Coffee SF: $SF_NOTE"
 
           echo ""
           echo "🎉 All done!"
