@@ -77,7 +77,7 @@ jobs:
             if [ "$IS_HERE" = "true" ]; then
               NOTE="✅ Anand is currently in the area — book a time!"
             else
-              NOTE="⚠️ Anand is not currently in this location."
+              NOTE="❌ Anand is not currently in this location."
             fi
 
             NEW_DESC="${BASE_DESC}
