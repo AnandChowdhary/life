@@ -12,7 +12,6 @@ jobs:
       - name: Fetch location and update Cal.com
         env:
           CAL_API_KEY: ${{ secrets.CAL_API_KEY }}
-          CAL_USER_ID: ${{ secrets.CAL_USER_ID }}
         run: |
           set -euo pipefail
 
@@ -24,39 +23,42 @@ jobs:
 
           echo "📍 Location: $LABEL ($EMOJI) — TZ: $TIMEZONE"
 
-          # 2. Get current bio from Cal.com
-          CURRENT_BIO=$(curl -sf "https://api.cal.com/v1/me?apiKey=${CAL_API_KEY}" | jq -r '.user.bio')
+          # 2. Get current bio from Cal.com (v2 API)
+          ME=$(curl -sf -H "Authorization: Bearer ${CAL_API_KEY}" "https://api.cal.com/v2/me")
+          CURRENT_BIO=$(echo "$ME" | jq -r '.data.bio // ""')
           echo "Current bio: $CURRENT_BIO"
 
           # 3. Build new location line
           LOCATION_LINE="${EMOJI} Currently in ${LABEL}"
 
-          # 4. Update bio: replace first line if it starts with a flag emoji, otherwise prepend
-          # Country flag emojis are two regional indicator symbols (U+1F1E6–U+1F1FF)
-          if echo "$CURRENT_BIO" | head -1 | grep -qP '^\p{So}[\p{So}\x{200D}\x{FE0F}]* Currently in '; then
-            NEW_BIO=$(echo "$CURRENT_BIO" | sed "1s/.*/$LOCATION_LINE/")
+          # 4. Update bio: replace first line if it starts with "Currently in" pattern, otherwise prepend
+          if echo "$CURRENT_BIO" | head -1 | grep -q 'Currently in '; then
+            NEW_BIO=$(printf '%s\n%s' "$LOCATION_LINE" "$(echo "$CURRENT_BIO" | tail -n +2)")
           else
-            NEW_BIO="${LOCATION_LINE}
-          ${CURRENT_BIO}"
+            NEW_BIO=$(printf '%s\n%s' "$LOCATION_LINE" "$CURRENT_BIO")
           fi
 
           echo "New bio: $NEW_BIO"
 
-          # 5. PATCH Cal.com profile
+          # 5. PATCH Cal.com profile (v2 API)
           PAYLOAD=$(jq -n \
             --arg bio "$NEW_BIO" \
             --arg tz "$TIMEZONE" \
             '{bio: $bio, timeZone: $tz}')
 
-          HTTP_CODE=$(curl -sf -o /dev/null -w "%{http_code}" \
-            -X PATCH \
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X PATCH \
             -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${CAL_API_KEY}" \
             -d "$PAYLOAD" \
-            "https://api.cal.com/v1/users/${CAL_USER_ID}?apiKey=${CAL_API_KEY}")
+            "https://api.cal.com/v2/me")
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | sed '$d')
 
           if [ "$HTTP_CODE" = "200" ]; then
             echo "✅ Cal.com updated: $LOCATION_LINE | TZ: $TIMEZONE"
           else
             echo "❌ Failed with HTTP $HTTP_CODE"
+            echo "$BODY"
             exit 1
           fi
