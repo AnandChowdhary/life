@@ -1,0 +1,62 @@
+name: Sync location to Cal.com
+on:
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: Update Cal.com bio & timezone
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch location and update Cal.com
+        env:
+          CAL_API_KEY: ${{ secrets.CAL_API_KEY }}
+          CAL_USER_ID: ${{ secrets.CAL_USER_ID }}
+        run: |
+          set -euo pipefail
+
+          # 1. Fetch current location
+          LOCATION=$(curl -sf https://raw.githubusercontent.com/AnandChowdhary/location/main/api.json)
+          LABEL=$(echo "$LOCATION" | jq -r '.label')
+          EMOJI=$(echo "$LOCATION" | jq -r '.country_emoji')
+          TIMEZONE=$(echo "$LOCATION" | jq -r '.timezone.name')
+
+          echo "📍 Location: $LABEL ($EMOJI) — TZ: $TIMEZONE"
+
+          # 2. Get current bio from Cal.com
+          CURRENT_BIO=$(curl -sf "https://api.cal.com/v1/me?apiKey=${CAL_API_KEY}" | jq -r '.user.bio')
+          echo "Current bio: $CURRENT_BIO"
+
+          # 3. Build new location line
+          LOCATION_LINE="${EMOJI} Currently in ${LABEL}"
+
+          # 4. Update bio: replace first line if it starts with a flag emoji, otherwise prepend
+          # Country flag emojis are two regional indicator symbols (U+1F1E6–U+1F1FF)
+          if echo "$CURRENT_BIO" | head -1 | grep -qP '^\p{So}[\p{So}\x{200D}\x{FE0F}]* Currently in '; then
+            NEW_BIO=$(echo "$CURRENT_BIO" | sed "1s/.*/$LOCATION_LINE/")
+          else
+            NEW_BIO="${LOCATION_LINE}
+          ${CURRENT_BIO}"
+          fi
+
+          echo "New bio: $NEW_BIO"
+
+          # 5. PATCH Cal.com profile
+          PAYLOAD=$(jq -n \
+            --arg bio "$NEW_BIO" \
+            --arg tz "$TIMEZONE" \
+            '{bio: $bio, timeZone: $tz}')
+
+          HTTP_CODE=$(curl -sf -o /dev/null -w "%{http_code}" \
+            -X PATCH \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            "https://api.cal.com/v1/users/${CAL_USER_ID}?apiKey=${CAL_API_KEY}")
+
+          if [ "$HTTP_CODE" = "200" ]; then
+            echo "✅ Cal.com updated: $LOCATION_LINE | TZ: $TIMEZONE"
+          else
+            echo "❌ Failed with HTTP $HTTP_CODE"
+            exit 1
+          fi
