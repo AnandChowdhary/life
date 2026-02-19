@@ -1,122 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 42,
-      "total_seconds": 9762.367,
-      "digital": "2:42",
-      "decimal": "2.70",
-      "text": "2 hrs 42 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 1069,
-      "human_deletions": 46
-    },
-    "range": {
-      "start": "2026-02-16T23:00:00Z",
-      "end": "2026-02-17T22:59:59Z",
-      "date": "2026-02-17",
-      "text": "Tue Feb 17th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "sukritikapoor.com",
-        "total_seconds": 4448.052,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 307,
-        "human_deletions": 32,
-        "color": null,
-        "digital": "1:14:08",
-        "decimal": "1.23",
-        "text": "1 hr 14 mins",
-        "hours": 1,
-        "minutes": 14,
-        "seconds": 8,
-        "percent": 45.56
-      },
-      {
-        "name": "croatia",
-        "total_seconds": 2977.07,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 3,
-        "human_deletions": 13,
-        "color": null,
-        "digital": "0:49:37",
-        "decimal": "0.82",
-        "text": "49 mins",
-        "hours": 0,
-        "minutes": 49,
-        "seconds": 37,
-        "percent": 30.5
-      },
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 1808.194,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 759,
-        "human_deletions": 1,
-        "color": null,
-        "digital": "0:30:08",
-        "decimal": "0.50",
-        "text": "30 mins",
-        "hours": 0,
-        "minutes": 30,
-        "seconds": 8,
-        "percent": 18.52
-      },
-      {
-        "name": "kernel",
-        "total_seconds": 456.365,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:07:36",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 36,
-        "percent": 4.67
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 72.686,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:01:12",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 12,
-        "percent": 0.74
-      },
-      {
-        "name": "sycamore-core",
-        "total_seconds": 0,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -249,6 +132,79 @@
         "minutes": 0,
         "seconds": 4,
         "percent": 0.05
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 42,
+      "total_seconds": 9762.367,
+      "digital": "2:42",
+      "decimal": "2.70",
+      "text": "2 hrs 42 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 1069,
+      "human_deletions": 46
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 9762.367,
+        "digital": "2:42:42",
+        "decimal": "2.70",
+        "text": "2 hrs 42 mins",
+        "hours": 2,
+        "minutes": 42,
+        "seconds": 42,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 9762.367,
+        "digital": "2:42:42",
+        "decimal": "2.70",
+        "text": "2 hrs 42 mins",
+        "hours": 2,
+        "minutes": 42,
+        "seconds": 42,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 5622.971,
+        "digital": "1:33:42",
+        "decimal": "1.55",
+        "text": "1 hr 33 mins",
+        "hours": 1,
+        "minutes": 33,
+        "seconds": 42,
+        "percent": 57.6
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 3988.422,
+        "digital": "1:06:28",
+        "decimal": "1.10",
+        "text": "1 hr 6 mins",
+        "hours": 1,
+        "minutes": 6,
+        "seconds": 28,
+        "percent": 40.86
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 150.974,
+        "digital": "0:02:30",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 30,
+        "percent": 1.55
       }
     ],
     "dependencies": [
@@ -861,66 +817,110 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 9762.367,
-        "digital": "2:42:42",
-        "decimal": "2.70",
-        "text": "2 hrs 42 mins",
-        "hours": 2,
-        "minutes": 42,
-        "seconds": 42,
-        "percent": 100
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 9762.367,
-        "digital": "2:42:42",
-        "decimal": "2.70",
-        "text": "2 hrs 42 mins",
-        "hours": 2,
-        "minutes": 42,
-        "seconds": 42,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 5622.971,
-        "digital": "1:33:42",
-        "decimal": "1.55",
-        "text": "1 hr 33 mins",
+        "name": "sukritikapoor.com",
+        "total_seconds": 4448.052,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 307,
+        "human_deletions": 32,
+        "color": null,
+        "digital": "1:14:08",
+        "decimal": "1.23",
+        "text": "1 hr 14 mins",
         "hours": 1,
-        "minutes": 33,
-        "seconds": 42,
-        "percent": 57.6
+        "minutes": 14,
+        "seconds": 8,
+        "percent": 45.56
       },
       {
-        "name": "Writing Docs",
-        "total_seconds": 3988.422,
-        "digital": "1:06:28",
-        "decimal": "1.10",
-        "text": "1 hr 6 mins",
-        "hours": 1,
-        "minutes": 6,
-        "seconds": 28,
-        "percent": 40.86
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 150.974,
-        "digital": "0:02:30",
-        "decimal": "0.03",
-        "text": "2 mins",
+        "name": "croatia",
+        "total_seconds": 2977.07,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 3,
+        "human_deletions": 13,
+        "color": null,
+        "digital": "0:49:37",
+        "decimal": "0.82",
+        "text": "49 mins",
         "hours": 0,
-        "minutes": 2,
-        "seconds": 30,
-        "percent": 1.55
+        "minutes": 49,
+        "seconds": 37,
+        "percent": 30.5
+      },
+      {
+        "name": "sycamore-internal-workspace",
+        "total_seconds": 1808.194,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 759,
+        "human_deletions": 1,
+        "color": null,
+        "digital": "0:30:08",
+        "decimal": "0.50",
+        "text": "30 mins",
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 8,
+        "percent": 18.52
+      },
+      {
+        "name": "kernel",
+        "total_seconds": 456.365,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:07:36",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 36,
+        "percent": 4.67
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 72.686,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:12",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 12,
+        "percent": 0.74
+      },
+      {
+        "name": "sycamore-core",
+        "total_seconds": 0,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-02-16T23:00:00Z",
+      "end": "2026-02-17T22:59:59Z",
+      "date": "2026-02-17",
+      "text": "Tue Feb 17th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]

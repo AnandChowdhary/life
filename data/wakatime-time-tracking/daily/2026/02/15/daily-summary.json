@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 14,
-      "total_seconds": 8088.737,
-      "digital": "2:14",
-      "decimal": "2.23",
-      "text": "2 hrs 14 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 992,
-      "human_deletions": 336
-    },
-    "range": {
-      "start": "2026-02-15T23:00:00Z",
-      "end": "2026-02-16T22:59:59Z",
-      "date": "2026-02-16",
-      "text": "Mon Feb 16th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "sycamore-internal-workspace",
-        "total_seconds": 8088.737,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 992,
-        "human_deletions": 336,
-        "color": null,
-        "digital": "2:14:48",
-        "decimal": "2.23",
-        "text": "2 hrs 14 mins",
-        "hours": 2,
-        "minutes": 14,
-        "seconds": 48,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -114,6 +77,68 @@
         "minutes": 0,
         "seconds": 2,
         "percent": 0.04
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 14,
+      "total_seconds": 8088.737,
+      "digital": "2:14",
+      "decimal": "2.23",
+      "text": "2 hrs 14 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 992,
+      "human_deletions": 336
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 8088.737,
+        "digital": "2:14:48",
+        "decimal": "2.23",
+        "text": "2 hrs 14 mins",
+        "hours": 2,
+        "minutes": 14,
+        "seconds": 48,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 8088.737,
+        "digital": "2:14:48",
+        "decimal": "2.23",
+        "text": "2 hrs 14 mins",
+        "hours": 2,
+        "minutes": 14,
+        "seconds": 48,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Writing Docs",
+        "total_seconds": 4210.668,
+        "digital": "1:10:10",
+        "decimal": "1.17",
+        "text": "1 hr 10 mins",
+        "hours": 1,
+        "minutes": 10,
+        "seconds": 10,
+        "percent": 52.06
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 3878.069,
+        "digital": "1:04:38",
+        "decimal": "1.07",
+        "text": "1 hr 4 mins",
+        "hours": 1,
+        "minutes": 4,
+        "seconds": 38,
+        "percent": 47.94
       }
     ],
     "dependencies": [
@@ -528,10 +553,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "sycamore-internal-workspace",
         "total_seconds": 8088.737,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 992,
+        "human_deletions": 336,
+        "color": null,
         "digital": "2:14:48",
         "decimal": "2.23",
         "text": "2 hrs 14 mins",
@@ -541,42 +571,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 8088.737,
-        "digital": "2:14:48",
-        "decimal": "2.23",
-        "text": "2 hrs 14 mins",
-        "hours": 2,
-        "minutes": 14,
-        "seconds": 48,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Writing Docs",
-        "total_seconds": 4210.668,
-        "digital": "1:10:10",
-        "decimal": "1.17",
-        "text": "1 hr 10 mins",
-        "hours": 1,
-        "minutes": 10,
-        "seconds": 10,
-        "percent": 52.06
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 3878.069,
-        "digital": "1:04:38",
-        "decimal": "1.07",
-        "text": "1 hr 4 mins",
-        "hours": 1,
-        "minutes": 4,
-        "seconds": 38,
-        "percent": 47.94
-      }
-    ]
+    "range": {
+      "start": "2026-02-15T23:00:00Z",
+      "end": "2026-02-16T22:59:59Z",
+      "date": "2026-02-16",
+      "text": "Mon Feb 16th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
