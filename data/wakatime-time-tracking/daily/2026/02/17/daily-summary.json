@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 11,
-      "total_seconds": 680.171,
-      "digital": "0:11",
-      "decimal": "0.18",
-      "text": "11 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 14,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2026-02-17T23:00:00Z",
-      "end": "2026-02-18T22:59:59Z",
-      "date": "2026-02-18",
-      "text": "Wed Feb 18th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 680.171,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 14,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:11:20",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 20,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Bash",
@@ -105,55 +68,18 @@
         "percent": 0.36
       }
     ],
-    "dependencies": [
-      {
-        "name": "typescript-eslint",
-        "total_seconds": 150.833,
-        "digital": "0:02:30",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 30,
-        "percent": 47.08
-      },
-      {
-        "name": "eslint-plugin",
-        "total_seconds": 150.833,
-        "digital": "0:02:30",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 30,
-        "percent": 47.08
-      },
-      {
-        "name": "config",
-        "total_seconds": 18.721,
-        "digital": "0:00:18",
-        "decimal": "0.00",
-        "text": "18 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 18,
-        "percent": 5.84
-      }
-    ],
-    "machines": [
-      {
-        "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 680.171,
-        "machine_name_id": "0cddcecd-017c-404a-b457-c4297097bb3e",
-        "digital": "0:11:20",
-        "decimal": "0.18",
-        "text": "11 mins",
-        "hours": 0,
-        "minutes": 11,
-        "seconds": 20,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 11,
+      "total_seconds": 680.171,
+      "digital": "0:11",
+      "decimal": "0.18",
+      "text": "11 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 14,
+      "human_deletions": 0
+    },
     "editors": [
       {
         "name": "Cursor",
@@ -203,6 +129,80 @@
         "seconds": 2,
         "percent": 0.36
       }
-    ]
+    ],
+    "dependencies": [
+      {
+        "name": "typescript-eslint",
+        "total_seconds": 150.833,
+        "digital": "0:02:30",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 30,
+        "percent": 47.08
+      },
+      {
+        "name": "eslint-plugin",
+        "total_seconds": 150.833,
+        "digital": "0:02:30",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 30,
+        "percent": 47.08
+      },
+      {
+        "name": "config",
+        "total_seconds": 18.721,
+        "digital": "0:00:18",
+        "decimal": "0.00",
+        "text": "18 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 18,
+        "percent": 5.84
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 680.171,
+        "machine_name_id": "0cddcecd-017c-404a-b457-c4297097bb3e",
+        "digital": "0:11:20",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "kernel",
+        "total_seconds": 680.171,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 14,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:11:20",
+        "decimal": "0.18",
+        "text": "11 mins",
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 20,
+        "percent": 100
+      }
+    ],
+    "range": {
+      "start": "2026-02-17T23:00:00Z",
+      "end": "2026-02-18T22:59:59Z",
+      "date": "2026-02-18",
+      "text": "Wed Feb 18th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
