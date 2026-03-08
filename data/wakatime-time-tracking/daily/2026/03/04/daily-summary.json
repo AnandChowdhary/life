@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 26,
-      "total_seconds": 1592.059,
-      "digital": "0:26",
-      "decimal": "0.43",
-      "text": "26 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 196,
-      "human_deletions": 2
-    },
-    "range": {
-      "start": "2026-03-04T23:00:00Z",
-      "end": "2026-03-05T22:59:59Z",
-      "date": "2026-03-05",
-      "text": "Thu Mar 5th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 1592.059,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 196,
-        "human_deletions": 2,
-        "color": null,
-        "digital": "0:26:32",
-        "decimal": "0.43",
-        "text": "26 mins",
-        "hours": 0,
-        "minutes": 26,
-        "seconds": 32,
-        "percent": 100
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 0,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:00",
-        "decimal": "0.00",
-        "text": "0 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 0,
-        "percent": 0
-      }
-    ],
     "languages": [
       {
         "name": "HTML",
@@ -121,21 +68,18 @@
         "percent": 0.62
       }
     ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 1592.059,
-        "machine_name_id": "4f48c88f-1d8e-4ed4-88df-af2f3fdc6a3c",
-        "digital": "0:26:32",
-        "decimal": "0.43",
-        "text": "26 mins",
-        "hours": 0,
-        "minutes": 26,
-        "seconds": 32,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 26,
+      "total_seconds": 1592.059,
+      "digital": "0:26",
+      "decimal": "0.43",
+      "text": "26 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 196,
+      "human_deletions": 2
+    },
     "editors": [
       {
         "name": "Cursor",
@@ -196,6 +140,62 @@
         "seconds": 10,
         "percent": 0.65
       }
-    ]
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 1592.059,
+        "machine_name_id": "4f48c88f-1d8e-4ed4-88df-af2f3fdc6a3c",
+        "digital": "0:26:32",
+        "decimal": "0.43",
+        "text": "26 mins",
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 32,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "website",
+        "total_seconds": 1592.059,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 196,
+        "human_deletions": 2,
+        "color": null,
+        "digital": "0:26:32",
+        "decimal": "0.43",
+        "text": "26 mins",
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 32,
+        "percent": 100
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 0,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:00",
+        "decimal": "0.00",
+        "text": "0 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0,
+        "percent": 0
+      }
+    ],
+    "range": {
+      "start": "2026-03-04T23:00:00Z",
+      "end": "2026-03-05T22:59:59Z",
+      "date": "2026-03-05",
+      "text": "Thu Mar 5th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
