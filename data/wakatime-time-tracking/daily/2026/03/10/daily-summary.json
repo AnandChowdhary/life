@@ -1,74 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 24,
-      "total_seconds": 8643.049,
-      "digital": "2:24",
-      "decimal": "2.40",
-      "text": "2 hrs 24 mins",
-      "ai_additions": 1622,
-      "ai_deletions": 332,
-      "human_additions": 136,
-      "human_deletions": 32
-    },
-    "range": {
-      "start": "2026-03-10T23:00:00Z",
-      "end": "2026-03-11T22:59:59Z",
-      "date": "2026-03-11",
-      "text": "Wed Mar 11th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 6778.057,
-        "ai_additions": 540,
-        "ai_deletions": 289,
-        "human_additions": 136,
-        "human_deletions": 32,
-        "color": null,
-        "digital": "1:52:58",
-        "decimal": "1.87",
-        "text": "1 hr 52 mins",
-        "hours": 1,
-        "minutes": 52,
-        "seconds": 58,
-        "percent": 78.42
-      },
-      {
-        "name": "kernel",
-        "total_seconds": 1769.964,
-        "ai_additions": 1082,
-        "ai_deletions": 30,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:29:29",
-        "decimal": "0.48",
-        "text": "29 mins",
-        "hours": 0,
-        "minutes": 29,
-        "seconds": 29,
-        "percent": 20.48
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 95.028,
-        "ai_additions": 0,
-        "ai_deletions": 13,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:01:35",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 35,
-        "percent": 1.1
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -115,33 +46,18 @@
         "percent": 6.66
       }
     ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 7089.229,
-        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
-        "digital": "1:58:09",
-        "decimal": "1.97",
-        "text": "1 hr 58 mins",
-        "hours": 1,
-        "minutes": 58,
-        "seconds": 9,
-        "percent": 82.02
-      },
-      {
-        "name": "Mac.localdomain",
-        "total_seconds": 1553.82,
-        "machine_name_id": "32aa50fd-92f6-4c8f-ad2d-66db96195f92",
-        "digital": "0:25:53",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 53,
-        "percent": 17.98
-      }
-    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 24,
+      "total_seconds": 8643.049,
+      "digital": "2:24",
+      "decimal": "2.40",
+      "text": "2 hrs 24 mins",
+      "ai_additions": 1622,
+      "ai_deletions": 332,
+      "human_additions": 136,
+      "human_deletions": 32
+    },
     "editors": [
       {
         "name": "Cursor",
@@ -213,6 +129,90 @@
         "seconds": 11,
         "percent": 23.05
       }
-    ]
+    ],
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 7089.229,
+        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
+        "digital": "1:58:09",
+        "decimal": "1.97",
+        "text": "1 hr 58 mins",
+        "hours": 1,
+        "minutes": 58,
+        "seconds": 9,
+        "percent": 82.02
+      },
+      {
+        "name": "Mac.localdomain",
+        "total_seconds": 1553.82,
+        "machine_name_id": "32aa50fd-92f6-4c8f-ad2d-66db96195f92",
+        "digital": "0:25:53",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 53,
+        "percent": 17.98
+      }
+    ],
+    "projects": [
+      {
+        "name": "website",
+        "total_seconds": 6778.057,
+        "ai_additions": 540,
+        "ai_deletions": 289,
+        "human_additions": 136,
+        "human_deletions": 32,
+        "color": null,
+        "digital": "1:52:58",
+        "decimal": "1.87",
+        "text": "1 hr 52 mins",
+        "hours": 1,
+        "minutes": 52,
+        "seconds": 58,
+        "percent": 78.42
+      },
+      {
+        "name": "kernel",
+        "total_seconds": 1769.964,
+        "ai_additions": 1082,
+        "ai_deletions": 30,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:29:29",
+        "decimal": "0.48",
+        "text": "29 mins",
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 29,
+        "percent": 20.48
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 95.028,
+        "ai_additions": 0,
+        "ai_deletions": 13,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:01:35",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 35,
+        "percent": 1.1
+      }
+    ],
+    "range": {
+      "start": "2026-03-10T23:00:00Z",
+      "end": "2026-03-11T22:59:59Z",
+      "date": "2026-03-11",
+      "text": "Wed Mar 11th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
