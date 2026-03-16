@@ -1,90 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 2,
-      "minutes": 57,
-      "total_seconds": 10673.348,
-      "digital": "2:57",
-      "decimal": "2.95",
-      "text": "2 hrs 57 mins",
-      "ai_additions": 3708,
-      "ai_deletions": 277,
-      "human_additions": 120,
-      "human_deletions": 0
-    },
-    "range": {
-      "start": "2026-03-12T23:00:00Z",
-      "end": "2026-03-13T22:59:59Z",
-      "date": "2026-03-13",
-      "text": "Fri Mar 13th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "matcha",
-        "total_seconds": 7755.241,
-        "ai_additions": 2483,
-        "ai_deletions": 35,
-        "human_additions": 50,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "2:09:15",
-        "decimal": "2.15",
-        "text": "2 hrs 9 mins",
-        "hours": 2,
-        "minutes": 9,
-        "seconds": 15,
-        "percent": 72.66
-      },
-      {
-        "name": "openclaw",
-        "total_seconds": 2135.584,
-        "ai_additions": 945,
-        "ai_deletions": 242,
-        "human_additions": 15,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:35:35",
-        "decimal": "0.58",
-        "text": "35 mins",
-        "hours": 0,
-        "minutes": 35,
-        "seconds": 35,
-        "percent": 20.01
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 421.076,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 55,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:07:01",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 1,
-        "percent": 3.95
-      },
-      {
-        "name": "website",
-        "total_seconds": 361.447,
-        "ai_additions": 280,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:06:01",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 1,
-        "percent": 3.39
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -151,6 +66,101 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 2,
+      "minutes": 57,
+      "total_seconds": 10673.348,
+      "digital": "2:57",
+      "decimal": "2.95",
+      "text": "2 hrs 57 mins",
+      "ai_additions": 3708,
+      "ai_deletions": 277,
+      "human_additions": 120,
+      "human_deletions": 0
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 5848.206,
+        "digital": "1:37:28",
+        "decimal": "1.62",
+        "text": "1 hr 37 mins",
+        "hours": 1,
+        "minutes": 37,
+        "seconds": 28,
+        "percent": 54.79
+      },
+      {
+        "name": "VS Code",
+        "total_seconds": 4825.142,
+        "digital": "1:20:25",
+        "decimal": "1.33",
+        "text": "1 hr 20 mins",
+        "hours": 1,
+        "minutes": 20,
+        "seconds": 25,
+        "percent": 45.21
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 10673.348,
+        "digital": "2:57:53",
+        "decimal": "2.95",
+        "text": "2 hrs 57 mins",
+        "hours": 2,
+        "minutes": 57,
+        "seconds": 53,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 6829.506,
+        "digital": "1:53:49",
+        "decimal": "1.88",
+        "text": "1 hr 53 mins",
+        "hours": 1,
+        "minutes": 53,
+        "seconds": 49,
+        "percent": 63.99
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 2266.05,
+        "digital": "0:37:46",
+        "decimal": "0.62",
+        "text": "37 mins",
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 46,
+        "percent": 21.23
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 1527.062,
+        "digital": "0:25:27",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 27,
+        "percent": 14.31
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 50.73,
+        "digital": "0:00:50",
+        "decimal": "0.00",
+        "text": "50 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 50,
+        "percent": 0.48
       }
     ],
     "dependencies": [
@@ -477,88 +487,78 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 5848.206,
-        "digital": "1:37:28",
-        "decimal": "1.62",
-        "text": "1 hr 37 mins",
-        "hours": 1,
-        "minutes": 37,
-        "seconds": 28,
-        "percent": 54.79
-      },
-      {
-        "name": "VS Code",
-        "total_seconds": 4825.142,
-        "digital": "1:20:25",
-        "decimal": "1.33",
-        "text": "1 hr 20 mins",
-        "hours": 1,
-        "minutes": 20,
-        "seconds": 25,
-        "percent": 45.21
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 10673.348,
-        "digital": "2:57:53",
-        "decimal": "2.95",
-        "text": "2 hrs 57 mins",
+        "name": "matcha",
+        "total_seconds": 7755.241,
+        "ai_additions": 2483,
+        "ai_deletions": 35,
+        "human_additions": 50,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "2:09:15",
+        "decimal": "2.15",
+        "text": "2 hrs 9 mins",
         "hours": 2,
-        "minutes": 57,
-        "seconds": 53,
-        "percent": 100
+        "minutes": 9,
+        "seconds": 15,
+        "percent": 72.66
+      },
+      {
+        "name": "openclaw",
+        "total_seconds": 2135.584,
+        "ai_additions": 945,
+        "ai_deletions": 242,
+        "human_additions": 15,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:35:35",
+        "decimal": "0.58",
+        "text": "35 mins",
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 35,
+        "percent": 20.01
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 421.076,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 55,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:07:01",
+        "decimal": "0.12",
+        "text": "7 mins",
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 1,
+        "percent": 3.95
+      },
+      {
+        "name": "website",
+        "total_seconds": 361.447,
+        "ai_additions": 280,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:06:01",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 1,
+        "percent": 3.39
       }
     ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "total_seconds": 6829.506,
-        "digital": "1:53:49",
-        "decimal": "1.88",
-        "text": "1 hr 53 mins",
-        "hours": 1,
-        "minutes": 53,
-        "seconds": 49,
-        "percent": 63.99
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 2266.05,
-        "digital": "0:37:46",
-        "decimal": "0.62",
-        "text": "37 mins",
-        "hours": 0,
-        "minutes": 37,
-        "seconds": 46,
-        "percent": 21.23
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 1527.062,
-        "digital": "0:25:27",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 27,
-        "percent": 14.31
-      },
-      {
-        "name": "Writing Tests",
-        "total_seconds": 50.73,
-        "digital": "0:00:50",
-        "decimal": "0.00",
-        "text": "50 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 50,
-        "percent": 0.48
-      }
-    ]
+    "range": {
+      "start": "2026-03-12T23:00:00Z",
+      "end": "2026-03-13T22:59:59Z",
+      "date": "2026-03-13",
+      "text": "Fri Mar 13th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
