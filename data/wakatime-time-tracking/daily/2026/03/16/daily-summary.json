@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 46,
-      "total_seconds": 2775.724,
-      "digital": "0:46",
-      "decimal": "0.77",
-      "text": "46 mins",
-      "ai_additions": 942,
-      "ai_deletions": 193,
-      "human_additions": 16,
-      "human_deletions": 39
-    },
-    "range": {
-      "start": "2026-03-16T23:00:00Z",
-      "end": "2026-03-17T22:59:59Z",
-      "date": "2026-03-17",
-      "text": "Tue Mar 17th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 2598.752,
-        "ai_additions": 881,
-        "ai_deletions": 193,
-        "human_additions": 16,
-        "human_deletions": 39,
-        "color": null,
-        "digital": "0:43:18",
-        "decimal": "0.72",
-        "text": "43 mins",
-        "hours": 0,
-        "minutes": 43,
-        "seconds": 18,
-        "percent": 93.62
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 176.972,
-        "ai_additions": 61,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:02:56",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 56,
-        "percent": 6.38
-      }
-    ],
     "languages": [
       {
         "name": "Astro",
@@ -99,44 +46,18 @@
         "percent": 0
       }
     ],
-    "dependencies": [
-      {
-        "name": "npm",
-        "total_seconds": 13.279,
-        "digital": "0:00:13",
-        "decimal": "0.00",
-        "text": "13 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 13,
-        "percent": 50
-      },
-      {
-        "name": "astro",
-        "total_seconds": 13.279,
-        "digital": "0:00:13",
-        "decimal": "0.00",
-        "text": "13 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 13,
-        "percent": 50
-      }
-    ],
-    "machines": [
-      {
-        "name": "Anands-MacBook-Pro.local",
-        "total_seconds": 2775.724,
-        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
-        "digital": "0:46:15",
-        "decimal": "0.77",
-        "text": "46 mins",
-        "hours": 0,
-        "minutes": 46,
-        "seconds": 15,
-        "percent": 100
-      }
-    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 46,
+      "total_seconds": 2775.724,
+      "digital": "0:46",
+      "decimal": "0.77",
+      "text": "46 mins",
+      "ai_additions": 942,
+      "ai_deletions": 193,
+      "human_additions": 16,
+      "human_deletions": 39
+    },
     "editors": [
       {
         "name": "VS Code",
@@ -208,6 +129,85 @@
         "seconds": 38,
         "percent": 3.56
       }
-    ]
+    ],
+    "dependencies": [
+      {
+        "name": "npm",
+        "total_seconds": 13.279,
+        "digital": "0:00:13",
+        "decimal": "0.00",
+        "text": "13 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 13,
+        "percent": 50
+      },
+      {
+        "name": "astro",
+        "total_seconds": 13.279,
+        "digital": "0:00:13",
+        "decimal": "0.00",
+        "text": "13 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 13,
+        "percent": 50
+      }
+    ],
+    "machines": [
+      {
+        "name": "Anands-MacBook-Pro.local",
+        "total_seconds": 2775.724,
+        "machine_name_id": "2853d459-48c8-492d-b149-b1dd5cffdcce",
+        "digital": "0:46:15",
+        "decimal": "0.77",
+        "text": "46 mins",
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 15,
+        "percent": 100
+      }
+    ],
+    "projects": [
+      {
+        "name": "website",
+        "total_seconds": 2598.752,
+        "ai_additions": 881,
+        "ai_deletions": 193,
+        "human_additions": 16,
+        "human_deletions": 39,
+        "color": null,
+        "digital": "0:43:18",
+        "decimal": "0.72",
+        "text": "43 mins",
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 18,
+        "percent": 93.62
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 176.972,
+        "ai_additions": 61,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:02:56",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 56,
+        "percent": 6.38
+      }
+    ],
+    "range": {
+      "start": "2026-03-16T23:00:00Z",
+      "end": "2026-03-17T22:59:59Z",
+      "date": "2026-03-17",
+      "text": "Tue Mar 17th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
