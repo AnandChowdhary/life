@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 25,
-      "total_seconds": 1553.651,
-      "digital": "0:25",
-      "decimal": "0.42",
-      "text": "25 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 35,
-      "human_deletions": 53
-    },
-    "range": {
-      "start": "2026-03-21T23:00:00Z",
-      "end": "2026-03-22T22:59:59Z",
-      "date": "2026-03-22",
-      "text": "Sun Mar 22nd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 1553.651,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 35,
-        "human_deletions": 53,
-        "color": null,
-        "digital": "0:25:53",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 53,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Astro",
@@ -103,6 +66,68 @@
         "minutes": 0,
         "seconds": 17,
         "percent": 1.14
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 25,
+      "total_seconds": 1553.651,
+      "digital": "0:25",
+      "decimal": "0.42",
+      "text": "25 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 35,
+      "human_deletions": 53
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1553.651,
+        "digital": "0:25:53",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 53,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1553.651,
+        "digital": "0:25:53",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 53,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Building",
+        "total_seconds": 1498.434,
+        "digital": "0:24:58",
+        "decimal": "0.40",
+        "text": "24 mins",
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 58,
+        "percent": 96.45
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 55.217,
+        "digital": "0:00:55",
+        "decimal": "0.00",
+        "text": "55 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 55,
+        "percent": 3.55
       }
     ],
     "dependencies": [
@@ -232,10 +257,15 @@
         "percent": 4.37
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "website",
         "total_seconds": 1553.651,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 35,
+        "human_deletions": 53,
+        "color": null,
         "digital": "0:25:53",
         "decimal": "0.42",
         "text": "25 mins",
@@ -245,42 +275,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1553.651,
-        "digital": "0:25:53",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 53,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Building",
-        "total_seconds": 1498.434,
-        "digital": "0:24:58",
-        "decimal": "0.40",
-        "text": "24 mins",
-        "hours": 0,
-        "minutes": 24,
-        "seconds": 58,
-        "percent": 96.45
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 55.217,
-        "digital": "0:00:55",
-        "decimal": "0.00",
-        "text": "55 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 55,
-        "percent": 3.55
-      }
-    ]
+    "range": {
+      "start": "2026-03-21T23:00:00Z",
+      "end": "2026-03-22T22:59:59Z",
+      "date": "2026-03-22",
+      "text": "Sun Mar 22nd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
