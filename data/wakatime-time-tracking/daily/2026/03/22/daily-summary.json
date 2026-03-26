@@ -1,58 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 45,
-      "total_seconds": 6314.982,
-      "digital": "1:45",
-      "decimal": "1.75",
-      "text": "1 hr 45 mins",
-      "ai_additions": 161,
-      "ai_deletions": 0,
-      "human_additions": 516,
-      "human_deletions": 171
-    },
-    "range": {
-      "start": "2026-03-22T23:00:00Z",
-      "end": "2026-03-23T22:59:59Z",
-      "date": "2026-03-23",
-      "text": "Mon Mar 23rd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 6267.16,
-        "ai_additions": 161,
-        "ai_deletions": 0,
-        "human_additions": 516,
-        "human_deletions": 171,
-        "color": null,
-        "digital": "1:44:27",
-        "decimal": "1.73",
-        "text": "1 hr 44 mins",
-        "hours": 1,
-        "minutes": 44,
-        "seconds": 27,
-        "percent": 99.24
-      },
-      {
-        "name": "syc-website-v2",
-        "total_seconds": 47.822,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "color": null,
-        "digital": "0:00:47",
-        "decimal": "0.00",
-        "text": "47 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 47,
-        "percent": 0.76
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -163,6 +110,101 @@
         "minutes": 0,
         "seconds": 20,
         "percent": 0.32
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 45,
+      "total_seconds": 6314.982,
+      "digital": "1:45",
+      "decimal": "1.75",
+      "text": "1 hr 45 mins",
+      "ai_additions": 161,
+      "ai_deletions": 0,
+      "human_additions": 516,
+      "human_deletions": 171
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 6063.956,
+        "digital": "1:41:03",
+        "decimal": "1.68",
+        "text": "1 hr 41 mins",
+        "hours": 1,
+        "minutes": 41,
+        "seconds": 3,
+        "percent": 96.02
+      },
+      {
+        "name": "VS Code",
+        "total_seconds": 251.026,
+        "digital": "0:04:11",
+        "decimal": "0.07",
+        "text": "4 mins",
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 11,
+        "percent": 3.98
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 6314.982,
+        "digital": "1:45:14",
+        "decimal": "1.75",
+        "text": "1 hr 45 mins",
+        "hours": 1,
+        "minutes": 45,
+        "seconds": 14,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 3259.476,
+        "digital": "0:54:19",
+        "decimal": "0.90",
+        "text": "54 mins",
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 19,
+        "percent": 51.61
+      },
+      {
+        "name": "Building",
+        "total_seconds": 1627.328,
+        "digital": "0:27:07",
+        "decimal": "0.45",
+        "text": "27 mins",
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 7,
+        "percent": 25.77
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 833.242,
+        "digital": "0:13:53",
+        "decimal": "0.22",
+        "text": "13 mins",
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 53,
+        "percent": 13.19
+      },
+      {
+        "name": "AI Coding",
+        "total_seconds": 594.936,
+        "digital": "0:09:54",
+        "decimal": "0.15",
+        "text": "9 mins",
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 54,
+        "percent": 9.42
       }
     ],
     "dependencies": [
@@ -357,88 +399,46 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 6063.956,
-        "digital": "1:41:03",
-        "decimal": "1.68",
-        "text": "1 hr 41 mins",
+        "name": "website",
+        "total_seconds": 6267.16,
+        "ai_additions": 161,
+        "ai_deletions": 0,
+        "human_additions": 516,
+        "human_deletions": 171,
+        "color": null,
+        "digital": "1:44:27",
+        "decimal": "1.73",
+        "text": "1 hr 44 mins",
         "hours": 1,
-        "minutes": 41,
-        "seconds": 3,
-        "percent": 96.02
+        "minutes": 44,
+        "seconds": 27,
+        "percent": 99.24
       },
       {
-        "name": "VS Code",
-        "total_seconds": 251.026,
-        "digital": "0:04:11",
-        "decimal": "0.07",
-        "text": "4 mins",
+        "name": "syc-website-v2",
+        "total_seconds": 47.822,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "color": null,
+        "digital": "0:00:47",
+        "decimal": "0.00",
+        "text": "47 secs",
         "hours": 0,
-        "minutes": 4,
-        "seconds": 11,
-        "percent": 3.98
+        "minutes": 0,
+        "seconds": 47,
+        "percent": 0.76
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 6314.982,
-        "digital": "1:45:14",
-        "decimal": "1.75",
-        "text": "1 hr 45 mins",
-        "hours": 1,
-        "minutes": 45,
-        "seconds": 14,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 3259.476,
-        "digital": "0:54:19",
-        "decimal": "0.90",
-        "text": "54 mins",
-        "hours": 0,
-        "minutes": 54,
-        "seconds": 19,
-        "percent": 51.61
-      },
-      {
-        "name": "Building",
-        "total_seconds": 1627.328,
-        "digital": "0:27:07",
-        "decimal": "0.45",
-        "text": "27 mins",
-        "hours": 0,
-        "minutes": 27,
-        "seconds": 7,
-        "percent": 25.77
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 833.242,
-        "digital": "0:13:53",
-        "decimal": "0.22",
-        "text": "13 mins",
-        "hours": 0,
-        "minutes": 13,
-        "seconds": 53,
-        "percent": 13.19
-      },
-      {
-        "name": "AI Coding",
-        "total_seconds": 594.936,
-        "digital": "0:09:54",
-        "decimal": "0.15",
-        "text": "9 mins",
-        "hours": 0,
-        "minutes": 9,
-        "seconds": 54,
-        "percent": 9.42
-      }
-    ]
+    "range": {
+      "start": "2026-03-22T23:00:00Z",
+      "end": "2026-03-23T22:59:59Z",
+      "date": "2026-03-23",
+      "text": "Mon Mar 23rd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
