@@ -1,42 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 25,
-      "total_seconds": 1517.593,
-      "digital": "0:25",
-      "decimal": "0.42",
-      "text": "25 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 116,
-      "human_deletions": 29
-    },
-    "range": {
-      "start": "2026-03-23T23:00:00Z",
-      "end": "2026-03-24T22:59:59Z",
-      "date": "2026-03-24",
-      "text": "Tue Mar 24th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "website",
-        "total_seconds": 1517.593,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 116,
-        "human_deletions": 29,
-        "color": null,
-        "digital": "0:25:17",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "Other",
@@ -114,6 +77,90 @@
         "minutes": 0,
         "seconds": 1,
         "percent": 0.11
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 25,
+      "total_seconds": 1517.593,
+      "digital": "0:25",
+      "decimal": "0.42",
+      "text": "25 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 116,
+      "human_deletions": 29
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 1517.593,
+        "digital": "0:25:17",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 1517.593,
+        "digital": "0:25:17",
+        "decimal": "0.42",
+        "text": "25 mins",
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 17,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "Coding",
+        "total_seconds": 841.964,
+        "digital": "0:14:01",
+        "decimal": "0.23",
+        "text": "14 mins",
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 1,
+        "percent": 55.48
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 408.269,
+        "digital": "0:06:48",
+        "decimal": "0.10",
+        "text": "6 mins",
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 48,
+        "percent": 26.9
+      },
+      {
+        "name": "Building",
+        "total_seconds": 179.599,
+        "digital": "0:02:59",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 59,
+        "percent": 11.83
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 87.761,
+        "digital": "0:01:27",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 27,
+        "percent": 5.78
       }
     ],
     "dependencies": [
@@ -275,10 +322,15 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "website",
         "total_seconds": 1517.593,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 116,
+        "human_deletions": 29,
+        "color": null,
         "digital": "0:25:17",
         "decimal": "0.42",
         "text": "25 mins",
@@ -288,64 +340,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 1517.593,
-        "digital": "0:25:17",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 17,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "Coding",
-        "total_seconds": 841.964,
-        "digital": "0:14:01",
-        "decimal": "0.23",
-        "text": "14 mins",
-        "hours": 0,
-        "minutes": 14,
-        "seconds": 1,
-        "percent": 55.48
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 408.269,
-        "digital": "0:06:48",
-        "decimal": "0.10",
-        "text": "6 mins",
-        "hours": 0,
-        "minutes": 6,
-        "seconds": 48,
-        "percent": 26.9
-      },
-      {
-        "name": "Building",
-        "total_seconds": 179.599,
-        "digital": "0:02:59",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 59,
-        "percent": 11.83
-      },
-      {
-        "name": "Writing Tests",
-        "total_seconds": 87.761,
-        "digital": "0:01:27",
-        "decimal": "0.02",
-        "text": "1 min",
-        "hours": 0,
-        "minutes": 1,
-        "seconds": 27,
-        "percent": 5.78
-      }
-    ]
+    "range": {
+      "start": "2026-03-23T23:00:00Z",
+      "end": "2026-03-24T22:59:59Z",
+      "date": "2026-03-24",
+      "text": "Tue Mar 24th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
