@@ -1,67 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 31,
-      "total_seconds": 5468.894,
-      "digital": "1:31",
-      "decimal": "1.52",
-      "text": "1 hr 31 mins",
-      "ai_additions": 2335,
-      "ai_deletions": 221,
-      "human_additions": 164,
-      "human_deletions": 159,
-      "ai_input_tokens": 23692909,
-      "ai_output_tokens": 114761,
-      "ai_prompt_length": 0
-    },
-    "range": {
-      "start": "2026-04-16T22:00:00Z",
-      "end": "2026-04-17T21:59:59Z",
-      "date": "2026-04-17",
-      "text": "Fri Apr 17th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "carapace",
-        "total_seconds": 4265,
-        "ai_additions": 2093,
-        "ai_deletions": 221,
-        "human_additions": 164,
-        "human_deletions": 159,
-        "ai_input_tokens": 23464277,
-        "ai_output_tokens": 103004,
-        "ai_prompt_length": 0,
-        "color": null,
-        "digital": "1:11:05",
-        "decimal": "1.18",
-        "text": "1 hr 11 mins",
-        "hours": 1,
-        "minutes": 11,
-        "seconds": 5,
-        "percent": 77.99
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 1203.894,
-        "ai_additions": 242,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_input_tokens": 228632,
-        "ai_output_tokens": 11757,
-        "ai_prompt_length": 0,
-        "color": null,
-        "digital": "0:20:03",
-        "decimal": "0.33",
-        "text": "20 mins",
-        "hours": 0,
-        "minutes": 20,
-        "seconds": 3,
-        "percent": 22.01
-      }
-    ],
     "languages": [
       {
         "name": "Markdown",
@@ -117,6 +55,100 @@
         "minutes": 5,
         "seconds": 19,
         "percent": 5.84
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 31,
+      "total_seconds": 5468.894,
+      "digital": "1:31",
+      "decimal": "1.52",
+      "text": "1 hr 31 mins",
+      "ai_additions": 2335,
+      "ai_deletions": 221,
+      "human_additions": 164,
+      "human_deletions": 159,
+      "ai_input_tokens": 23692909,
+      "ai_output_tokens": 114761,
+      "ai_prompt_length": 0
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 5468.894,
+        "ai_additions": 2335,
+        "ai_deletions": 221,
+        "human_additions": 164,
+        "human_deletions": 159,
+        "ai_input_tokens": 23692909,
+        "ai_output_tokens": 114761,
+        "ai_prompt_length": 0,
+        "digital": "1:31:08",
+        "decimal": "1.52",
+        "text": "1 hr 31 mins",
+        "hours": 1,
+        "minutes": 31,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5468.894,
+        "digital": "1:31:08",
+        "decimal": "1.52",
+        "text": "1 hr 31 mins",
+        "hours": 1,
+        "minutes": 31,
+        "seconds": 8,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 5088.608,
+        "digital": "1:24:48",
+        "decimal": "1.40",
+        "text": "1 hr 24 mins",
+        "hours": 1,
+        "minutes": 24,
+        "seconds": 48,
+        "percent": 93.05
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 316.346,
+        "digital": "0:05:16",
+        "decimal": "0.08",
+        "text": "5 mins",
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 16,
+        "percent": 5.78
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 51.296,
+        "digital": "0:00:51",
+        "decimal": "0.00",
+        "text": "51 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 51,
+        "percent": 0.94
+      },
+      {
+        "name": "Writing Tests",
+        "total_seconds": 12.644,
+        "digital": "0:00:12",
+        "decimal": "0.00",
+        "text": "12 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 12,
+        "percent": 0.23
       }
     ],
     "dependencies": [
@@ -916,84 +948,52 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 5468.894,
-        "ai_additions": 2335,
+        "name": "carapace",
+        "total_seconds": 4265,
+        "ai_additions": 2093,
         "ai_deletions": 221,
         "human_additions": 164,
         "human_deletions": 159,
-        "ai_input_tokens": 23692909,
-        "ai_output_tokens": 114761,
+        "ai_input_tokens": 23464277,
+        "ai_output_tokens": 103004,
         "ai_prompt_length": 0,
-        "digital": "1:31:08",
-        "decimal": "1.52",
-        "text": "1 hr 31 mins",
+        "color": null,
+        "digital": "1:11:05",
+        "decimal": "1.18",
+        "text": "1 hr 11 mins",
         "hours": 1,
-        "minutes": 31,
-        "seconds": 8,
-        "percent": 100
+        "minutes": 11,
+        "seconds": 5,
+        "percent": 77.99
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 1203.894,
+        "ai_additions": 242,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_input_tokens": 228632,
+        "ai_output_tokens": 11757,
+        "ai_prompt_length": 0,
+        "color": null,
+        "digital": "0:20:03",
+        "decimal": "0.33",
+        "text": "20 mins",
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 3,
+        "percent": 22.01
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5468.894,
-        "digital": "1:31:08",
-        "decimal": "1.52",
-        "text": "1 hr 31 mins",
-        "hours": 1,
-        "minutes": 31,
-        "seconds": 8,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "total_seconds": 5088.608,
-        "digital": "1:24:48",
-        "decimal": "1.40",
-        "text": "1 hr 24 mins",
-        "hours": 1,
-        "minutes": 24,
-        "seconds": 48,
-        "percent": 93.05
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 316.346,
-        "digital": "0:05:16",
-        "decimal": "0.08",
-        "text": "5 mins",
-        "hours": 0,
-        "minutes": 5,
-        "seconds": 16,
-        "percent": 5.78
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 51.296,
-        "digital": "0:00:51",
-        "decimal": "0.00",
-        "text": "51 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 51,
-        "percent": 0.94
-      },
-      {
-        "name": "Writing Tests",
-        "total_seconds": 12.644,
-        "digital": "0:00:12",
-        "decimal": "0.00",
-        "text": "12 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 12,
-        "percent": 0.23
-      }
-    ]
+    "range": {
+      "start": "2026-04-16T22:00:00Z",
+      "end": "2026-04-17T21:59:59Z",
+      "date": "2026-04-17",
+      "text": "Fri Apr 17th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
