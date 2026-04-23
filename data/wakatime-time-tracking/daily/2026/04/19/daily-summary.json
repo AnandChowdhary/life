@@ -1,52 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 12,
-      "total_seconds": 4367.286,
-      "digital": "1:12",
-      "decimal": "1.20",
-      "text": "1 hr 12 mins",
-      "ai_additions": 104,
-      "ai_deletions": 334,
-      "human_additions": 64,
-      "human_deletions": 571,
-      "ai_input_tokens": 12493178,
-      "ai_output_tokens": 49119,
-      "avg_ai_prompt_length": 2132,
-      "num_ai_prompt_events": 4,
-      "sum_ai_prompt_length": 8526
-    },
-    "range": {
-      "start": "2026-04-19T22:00:00Z",
-      "end": "2026-04-20T21:59:59Z",
-      "date": "2026-04-20",
-      "text": "Mon Apr 20th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 4367.286,
-        "ai_additions": 104,
-        "ai_deletions": 334,
-        "human_additions": 64,
-        "human_deletions": 571,
-        "ai_input_tokens": 12493178,
-        "ai_output_tokens": 49119,
-        "color": null,
-        "sum_ai_prompt_length": 8526,
-        "avg_ai_prompt_length": 2132,
-        "num_ai_prompt_events": 4,
-        "digital": "1:12:47",
-        "decimal": "1.20",
-        "text": "1 hr 12 mins",
-        "hours": 1,
-        "minutes": 12,
-        "seconds": 47,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "CSS",
@@ -135,6 +88,82 @@
         "minutes": 0,
         "seconds": 6,
         "percent": 0.14
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 12,
+      "total_seconds": 4367.286,
+      "digital": "1:12",
+      "decimal": "1.20",
+      "text": "1 hr 12 mins",
+      "ai_additions": 104,
+      "ai_deletions": 334,
+      "human_additions": 64,
+      "human_deletions": 571,
+      "ai_input_tokens": 12493178,
+      "ai_output_tokens": 49119,
+      "avg_ai_prompt_length": 2132,
+      "num_ai_prompt_events": 4,
+      "sum_ai_prompt_length": 8526
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 4367.286,
+        "ai_additions": 104,
+        "ai_deletions": 334,
+        "human_additions": 64,
+        "human_deletions": 571,
+        "ai_input_tokens": 12493178,
+        "ai_output_tokens": 49119,
+        "sum_ai_prompt_length": 8526,
+        "avg_ai_prompt_length": 2132,
+        "num_ai_prompt_events": 4,
+        "digital": "1:12:47",
+        "decimal": "1.20",
+        "text": "1 hr 12 mins",
+        "hours": 1,
+        "minutes": 12,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 4367.286,
+        "digital": "1:12:47",
+        "decimal": "1.20",
+        "text": "1 hr 12 mins",
+        "hours": 1,
+        "minutes": 12,
+        "seconds": 47,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 4236.756,
+        "digital": "1:10:36",
+        "decimal": "1.17",
+        "text": "1 hr 10 mins",
+        "hours": 1,
+        "minutes": 10,
+        "seconds": 36,
+        "percent": 97.01
+      },
+      {
+        "name": "Coding",
+        "total_seconds": 130.53,
+        "digital": "0:02:10",
+        "decimal": "0.03",
+        "text": "2 mins",
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 10,
+        "percent": 2.99
       }
     ],
     "dependencies": [
@@ -1066,9 +1095,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
+        "name": "kernel",
         "total_seconds": 4367.286,
         "ai_additions": 104,
         "ai_deletions": 334,
@@ -1076,6 +1105,7 @@
         "human_deletions": 571,
         "ai_input_tokens": 12493178,
         "ai_output_tokens": 49119,
+        "color": null,
         "sum_ai_prompt_length": 8526,
         "avg_ai_prompt_length": 2132,
         "num_ai_prompt_events": 4,
@@ -1088,42 +1118,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 4367.286,
-        "digital": "1:12:47",
-        "decimal": "1.20",
-        "text": "1 hr 12 mins",
-        "hours": 1,
-        "minutes": 12,
-        "seconds": 47,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "total_seconds": 4236.756,
-        "digital": "1:10:36",
-        "decimal": "1.17",
-        "text": "1 hr 10 mins",
-        "hours": 1,
-        "minutes": 10,
-        "seconds": 36,
-        "percent": 97.01
-      },
-      {
-        "name": "Coding",
-        "total_seconds": 130.53,
-        "digital": "0:02:10",
-        "decimal": "0.03",
-        "text": "2 mins",
-        "hours": 0,
-        "minutes": 2,
-        "seconds": 10,
-        "percent": 2.99
-      }
-    ]
+    "range": {
+      "start": "2026-04-19T22:00:00Z",
+      "end": "2026-04-20T21:59:59Z",
+      "date": "2026-04-20",
+      "text": "Mon Apr 20th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
