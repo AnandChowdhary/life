@@ -1,52 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 0,
-      "minutes": 15,
-      "total_seconds": 945,
-      "digital": "0:15",
-      "decimal": "0.25",
-      "text": "15 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "ai_input_tokens": 710507,
-      "ai_output_tokens": 6076,
-      "avg_ai_prompt_length": 0,
-      "num_ai_prompt_events": 0,
-      "sum_ai_prompt_length": 0
-    },
-    "range": {
-      "start": "2026-04-21T22:00:00Z",
-      "end": "2026-04-22T21:59:59Z",
-      "date": "2026-04-22",
-      "text": "Wed Apr 22nd 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 945,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_input_tokens": 710507,
-        "ai_output_tokens": 6076,
-        "color": null,
-        "sum_ai_prompt_length": 0,
-        "avg_ai_prompt_length": 0,
-        "num_ai_prompt_events": 0,
-        "digital": "0:15:45",
-        "decimal": "0.25",
-        "text": "15 mins",
-        "hours": 0,
-        "minutes": 15,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -69,6 +22,71 @@
         "minutes": 0,
         "seconds": 8,
         "percent": 0.85
+      }
+    ],
+    "grand_total": {
+      "hours": 0,
+      "minutes": 15,
+      "total_seconds": 945,
+      "digital": "0:15",
+      "decimal": "0.25",
+      "text": "15 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_input_tokens": 710507,
+      "ai_output_tokens": 6076,
+      "avg_ai_prompt_length": 0,
+      "num_ai_prompt_events": 0,
+      "sum_ai_prompt_length": 0
+    },
+    "editors": [
+      {
+        "name": "Unknown Editor",
+        "total_seconds": 945,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_input_tokens": 710507,
+        "ai_output_tokens": 6076,
+        "sum_ai_prompt_length": 0,
+        "avg_ai_prompt_length": 0,
+        "num_ai_prompt_events": 0,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 945,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 945,
+        "digital": "0:15:45",
+        "decimal": "0.25",
+        "text": "15 mins",
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -285,9 +303,9 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Unknown Editor",
+        "name": "kernel",
         "total_seconds": 945,
         "ai_additions": 0,
         "ai_deletions": 0,
@@ -295,6 +313,7 @@
         "human_deletions": 0,
         "ai_input_tokens": 710507,
         "ai_output_tokens": 6076,
+        "color": null,
         "sum_ai_prompt_length": 0,
         "avg_ai_prompt_length": 0,
         "num_ai_prompt_events": 0,
@@ -307,31 +326,12 @@
         "percent": 100
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 945,
-        "digital": "0:15:45",
-        "decimal": "0.25",
-        "text": "15 mins",
-        "hours": 0,
-        "minutes": 15,
-        "seconds": 45,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "total_seconds": 945,
-        "digital": "0:15:45",
-        "decimal": "0.25",
-        "text": "15 mins",
-        "hours": 0,
-        "minutes": 15,
-        "seconds": 45,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2026-04-21T22:00:00Z",
+      "end": "2026-04-22T21:59:59Z",
+      "date": "2026-04-22",
+      "text": "Wed Apr 22nd 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
