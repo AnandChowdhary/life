@@ -1,5 +1,87 @@
 [
   {
+    "grand_total": {
+      "hours": 0,
+      "minutes": 23,
+      "total_seconds": 1414.826,
+      "digital": "0:23",
+      "decimal": "0.38",
+      "text": "23 mins",
+      "ai_additions": 0,
+      "ai_deletions": 0,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_agent_line_changes": {},
+      "ai_input_tokens": 877604,
+      "ai_output_tokens": 7638,
+      "ai_prompt_length_avg": 210,
+      "ai_prompt_length_sum": 1473,
+      "ai_prompt_events": 7,
+      "ai_agent_costs": {
+        "Claude": 0.051114
+      }
+    },
+    "range": {
+      "start": "2026-05-05T22:00:00Z",
+      "end": "2026-05-06T21:59:59Z",
+      "date": "2026-05-06",
+      "text": "Wed May 6th 2026",
+      "timezone": "Europe/Amsterdam"
+    },
+    "projects": [
+      {
+        "name": "anandchowdhary",
+        "total_seconds": 1369,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {},
+        "ai_input_tokens": 877604,
+        "ai_output_tokens": 7638,
+        "ai_prompt_length_sum": 1473,
+        "ai_prompt_events": 7,
+        "color": null,
+        "ai_agent_costs": {
+          "Claude": 0.051114
+        },
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 210,
+        "digital": "0:22:49",
+        "decimal": "0.37",
+        "text": "22 mins",
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 49,
+        "percent": 96.76
+      },
+      {
+        "name": "Unknown Project",
+        "total_seconds": 45.826,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {},
+        "ai_input_tokens": 0,
+        "ai_output_tokens": 0,
+        "ai_prompt_length_sum": 0,
+        "ai_prompt_events": 0,
+        "color": null,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 0,
+        "digital": "0:00:45",
+        "decimal": "0.00",
+        "text": "45 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 45,
+        "percent": 3.24
+      }
+    ],
     "languages": [
       {
         "name": "Other",
@@ -24,24 +106,21 @@
         "percent": 8.05
       }
     ],
-    "grand_total": {
-      "hours": 0,
-      "minutes": 23,
-      "total_seconds": 1414.826,
-      "digital": "0:23",
-      "decimal": "0.38",
-      "text": "23 mins",
-      "ai_additions": 0,
-      "ai_deletions": 0,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "ai_agent_line_changes": {},
-      "ai_input_tokens": 877604,
-      "ai_output_tokens": 7638,
-      "ai_prompt_length_avg": 210,
-      "ai_prompt_length_sum": 1473,
-      "ai_prompt_events": 7
-    },
+    "dependencies": [],
+    "machines": [
+      {
+        "name": "Anands-MBP.home",
+        "total_seconds": 1414.826,
+        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
+        "digital": "0:23:34",
+        "decimal": "0.38",
+        "text": "23 mins",
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 34,
+        "percent": 100
+      }
+    ],
     "editors": [
       {
         "name": "Cursor",
@@ -55,7 +134,9 @@
         "ai_output_tokens": 7638,
         "ai_prompt_length_sum": 1473,
         "ai_prompt_events": 7,
-        "ai_agent_costs": {},
+        "ai_agent_costs": {
+          "Claude": 0.051114
+        },
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
         "ai_prompt_length_avg": 210,
@@ -104,78 +185,6 @@
         "seconds": 45,
         "percent": 3.24
       }
-    ],
-    "dependencies": [],
-    "machines": [
-      {
-        "name": "Anands-MBP.home",
-        "total_seconds": 1414.826,
-        "machine_name_id": "1ff3795f-c752-4858-9fa4-7090240f0ab3",
-        "digital": "0:23:34",
-        "decimal": "0.38",
-        "text": "23 mins",
-        "hours": 0,
-        "minutes": 23,
-        "seconds": 34,
-        "percent": 100
-      }
-    ],
-    "projects": [
-      {
-        "name": "anandchowdhary",
-        "total_seconds": 1369,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {},
-        "ai_input_tokens": 877604,
-        "ai_output_tokens": 7638,
-        "ai_prompt_length_sum": 1473,
-        "ai_prompt_events": 7,
-        "ai_agent_costs": {},
-        "ai_agent_breakdown": [],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 210,
-        "digital": "0:22:49",
-        "decimal": "0.37",
-        "text": "22 mins",
-        "hours": 0,
-        "minutes": 22,
-        "seconds": 49,
-        "percent": 96.76
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 45.826,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {},
-        "ai_input_tokens": 0,
-        "ai_output_tokens": 0,
-        "ai_prompt_length_sum": 0,
-        "ai_prompt_events": 0,
-        "ai_agent_costs": {},
-        "ai_agent_breakdown": [],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 0,
-        "digital": "0:00:45",
-        "decimal": "0.00",
-        "text": "45 secs",
-        "hours": 0,
-        "minutes": 0,
-        "seconds": 45,
-        "percent": 3.24
-      }
-    ],
-    "range": {
-      "start": "2026-05-05T22:00:00Z",
-      "end": "2026-05-06T21:59:59Z",
-      "date": "2026-05-06",
-      "text": "Wed May 6th 2026",
-      "timezone": "Europe/Amsterdam"
-    }
+    ]
   }
 ]
