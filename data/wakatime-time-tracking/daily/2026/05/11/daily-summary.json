@@ -1,95 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 4,
-      "minutes": 21,
-      "total_seconds": 15691.336,
-      "digital": "4:21",
-      "decimal": "4.35",
-      "text": "4 hrs 21 mins",
-      "ai_additions": 2336,
-      "ai_deletions": 5,
-      "human_additions": 54,
-      "human_deletions": 0,
-      "ai_agent_line_changes": {
-        "Claude": 1006,
-        "Codex": 1335
-      },
-      "ai_input_tokens": 102608581,
-      "ai_output_tokens": 274944,
-      "ai_prompt_length_avg": 6361,
-      "ai_prompt_length_sum": 228979,
-      "ai_prompt_events": 36,
-      "ai_agent_costs": {
-        "Claude": 0.467995
-      }
-    },
-    "range": {
-      "start": "2026-05-11T22:00:00Z",
-      "end": "2026-05-12T21:59:59Z",
-      "date": "2026-05-12",
-      "text": "Tue May 12th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 15215.603,
-        "ai_additions": 2336,
-        "ai_deletions": 5,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {
-          "Claude": 1006,
-          "Codex": 1335
-        },
-        "ai_input_tokens": 101196355,
-        "ai_output_tokens": 274552,
-        "ai_prompt_length_sum": 228979,
-        "ai_prompt_events": 36,
-        "color": null,
-        "ai_agent_costs": {
-          "Claude": 0.466203
-        },
-        "ai_agent_breakdown": [],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 6361,
-        "digital": "4:13:35",
-        "decimal": "4.22",
-        "text": "4 hrs 13 mins",
-        "hours": 4,
-        "minutes": 13,
-        "seconds": 35,
-        "percent": 96.97
-      },
-      {
-        "name": "Unknown Project",
-        "total_seconds": 475.733,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 54,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {},
-        "ai_input_tokens": 1412226,
-        "ai_output_tokens": 392,
-        "ai_prompt_length_sum": 0,
-        "ai_prompt_events": 0,
-        "color": null,
-        "ai_agent_costs": {
-          "Claude": 0.001792
-        },
-        "ai_agent_breakdown": [],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 0,
-        "digital": "0:07:55",
-        "decimal": "0.12",
-        "text": "7 mins",
-        "hours": 0,
-        "minutes": 7,
-        "seconds": 55,
-        "percent": 3.03
-      }
-    ],
     "languages": [
       {
         "name": "Python",
@@ -189,6 +99,126 @@
         "minutes": 0,
         "seconds": 0,
         "percent": 0
+      }
+    ],
+    "grand_total": {
+      "hours": 4,
+      "minutes": 21,
+      "total_seconds": 15691.336,
+      "digital": "4:21",
+      "decimal": "4.35",
+      "text": "4 hrs 21 mins",
+      "ai_additions": 2336,
+      "ai_deletions": 5,
+      "human_additions": 54,
+      "human_deletions": 0,
+      "ai_agent_line_changes": {
+        "Claude": 1006,
+        "Codex": 1335
+      },
+      "ai_input_tokens": 102608581,
+      "ai_output_tokens": 274944,
+      "ai_prompt_length_avg": 6361,
+      "ai_prompt_length_sum": 228979,
+      "ai_prompt_events": 36,
+      "ai_agent_costs": {
+        "Claude": 0.467995
+      }
+    },
+    "editors": [
+      {
+        "name": "Unknown Editor",
+        "total_seconds": 11895.52,
+        "ai_additions": 982,
+        "ai_deletions": 5,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {
+          "Claude": 987
+        },
+        "ai_input_tokens": 79558129,
+        "ai_output_tokens": 181931,
+        "ai_prompt_length_sum": 176501,
+        "ai_prompt_events": 29,
+        "ai_agent_costs": {
+          "Claude": 0.444135
+        },
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 6086,
+        "digital": "3:18:15",
+        "decimal": "3.30",
+        "text": "3 hrs 18 mins",
+        "hours": 3,
+        "minutes": 18,
+        "seconds": 15,
+        "percent": 75.81
+      },
+      {
+        "name": "Cursor",
+        "total_seconds": 3795.816,
+        "ai_additions": 1354,
+        "ai_deletions": 0,
+        "human_additions": 54,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {
+          "Claude": 19,
+          "Codex": 1335
+        },
+        "ai_input_tokens": 23050452,
+        "ai_output_tokens": 93013,
+        "ai_prompt_length_sum": 52478,
+        "ai_prompt_events": 7,
+        "ai_agent_costs": {
+          "Claude": 0.02386
+        },
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 7497,
+        "digital": "1:03:15",
+        "decimal": "1.05",
+        "text": "1 hr 3 mins",
+        "hours": 1,
+        "minutes": 3,
+        "seconds": 15,
+        "percent": 24.19
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 15691.336,
+        "digital": "4:21:31",
+        "decimal": "4.35",
+        "text": "4 hrs 21 mins",
+        "hours": 4,
+        "minutes": 21,
+        "seconds": 31,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 15586,
+        "digital": "4:19:46",
+        "decimal": "4.32",
+        "text": "4 hrs 19 mins",
+        "hours": 4,
+        "minutes": 19,
+        "seconds": 46,
+        "percent": 99.33
+      },
+      {
+        "name": "Writing Docs",
+        "total_seconds": 105.336,
+        "digital": "0:01:45",
+        "decimal": "0.02",
+        "text": "1 min",
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 45,
+        "percent": 0.67
       }
     ],
     "dependencies": [
@@ -724,101 +754,71 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Unknown Editor",
-        "total_seconds": 11895.52,
-        "ai_additions": 982,
+        "name": "kernel",
+        "total_seconds": 15215.603,
+        "ai_additions": 2336,
         "ai_deletions": 5,
         "human_additions": 0,
         "human_deletions": 0,
         "ai_agent_line_changes": {
-          "Claude": 987
+          "Claude": 1006,
+          "Codex": 1335
         },
-        "ai_input_tokens": 79558129,
-        "ai_output_tokens": 181931,
-        "ai_prompt_length_sum": 176501,
-        "ai_prompt_events": 29,
+        "ai_input_tokens": 101196355,
+        "ai_output_tokens": 274552,
+        "ai_prompt_length_sum": 228979,
+        "ai_prompt_events": 36,
+        "color": null,
         "ai_agent_costs": {
-          "Claude": 0.444135
+          "Claude": 0.466203
         },
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 6086,
-        "digital": "3:18:15",
-        "decimal": "3.30",
-        "text": "3 hrs 18 mins",
-        "hours": 3,
-        "minutes": 18,
-        "seconds": 15,
-        "percent": 75.81
+        "ai_prompt_length_avg": 6361,
+        "digital": "4:13:35",
+        "decimal": "4.22",
+        "text": "4 hrs 13 mins",
+        "hours": 4,
+        "minutes": 13,
+        "seconds": 35,
+        "percent": 96.97
       },
       {
-        "name": "Cursor",
-        "total_seconds": 3795.816,
-        "ai_additions": 1354,
+        "name": "Unknown Project",
+        "total_seconds": 475.733,
+        "ai_additions": 0,
         "ai_deletions": 0,
         "human_additions": 54,
         "human_deletions": 0,
-        "ai_agent_line_changes": {
-          "Claude": 19,
-          "Codex": 1335
-        },
-        "ai_input_tokens": 23050452,
-        "ai_output_tokens": 93013,
-        "ai_prompt_length_sum": 52478,
-        "ai_prompt_events": 7,
+        "ai_agent_line_changes": {},
+        "ai_input_tokens": 1412226,
+        "ai_output_tokens": 392,
+        "ai_prompt_length_sum": 0,
+        "ai_prompt_events": 0,
+        "color": null,
         "ai_agent_costs": {
-          "Claude": 0.02386
+          "Claude": 0.001792
         },
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 7497,
-        "digital": "1:03:15",
-        "decimal": "1.05",
-        "text": "1 hr 3 mins",
-        "hours": 1,
-        "minutes": 3,
-        "seconds": 15,
-        "percent": 24.19
-      }
-    ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 15691.336,
-        "digital": "4:21:31",
-        "decimal": "4.35",
-        "text": "4 hrs 21 mins",
-        "hours": 4,
-        "minutes": 21,
-        "seconds": 31,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "total_seconds": 15586,
-        "digital": "4:19:46",
-        "decimal": "4.32",
-        "text": "4 hrs 19 mins",
-        "hours": 4,
-        "minutes": 19,
-        "seconds": 46,
-        "percent": 99.33
-      },
-      {
-        "name": "Writing Docs",
-        "total_seconds": 105.336,
-        "digital": "0:01:45",
-        "decimal": "0.02",
-        "text": "1 min",
+        "ai_prompt_length_avg": 0,
+        "digital": "0:07:55",
+        "decimal": "0.12",
+        "text": "7 mins",
         "hours": 0,
-        "minutes": 1,
-        "seconds": 45,
-        "percent": 0.67
+        "minutes": 7,
+        "seconds": 55,
+        "percent": 3.03
       }
-    ]
+    ],
+    "range": {
+      "start": "2026-05-11T22:00:00Z",
+      "end": "2026-05-12T21:59:59Z",
+      "date": "2026-05-12",
+      "text": "Tue May 12th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
