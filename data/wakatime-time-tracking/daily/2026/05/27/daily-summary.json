@@ -1,116 +1,5 @@
 [
   {
-    "grand_total": {
-      "hours": 1,
-      "minutes": 25,
-      "total_seconds": 5105,
-      "digital": "1:25",
-      "decimal": "1.42",
-      "text": "1 hr 25 mins",
-      "ai_additions": 1704,
-      "ai_deletions": 68,
-      "human_additions": 0,
-      "human_deletions": 0,
-      "ai_agent_line_changes": {
-        "Codex": 1772
-      },
-      "ai_input_tokens": 86617991,
-      "ai_output_tokens": 275375,
-      "ai_prompt_length_sum": 291599,
-      "ai_prompt_events_total": 31,
-      "ai_sessions": 12,
-      "ai_agent_costs": {},
-      "ai_agent_breakdown": [
-        {
-          "name": "Codex",
-          "lines": 1772,
-          "cost": 0
-        }
-      ],
-      "ai_agent_total_cost": 0,
-      "ai_prompt_length_avg": 9406,
-      "ai_prompt_events_avg_per_session": 3,
-      "ai_prompt_events_median_per_session": 2,
-      "ai_prompt_length_avg_per_session": 14687,
-      "ai_prompt_length_median_per_session": 11944
-    },
-    "range": {
-      "start": "2026-05-27T22:00:00Z",
-      "end": "2026-05-28T21:59:59Z",
-      "date": "2026-05-28",
-      "text": "Thu May 28th 2026",
-      "timezone": "Europe/Amsterdam"
-    },
-    "projects": [
-      {
-        "name": "kernel",
-        "total_seconds": 3603,
-        "ai_additions": 1704,
-        "ai_deletions": 68,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {
-          "Codex": 1772
-        },
-        "ai_input_tokens": 85084886,
-        "ai_output_tokens": 260649,
-        "ai_prompt_length_sum": 267540,
-        "ai_prompt_events_total": 26,
-        "color": null,
-        "ai_agent_costs": {},
-        "ai_agent_breakdown": [
-          {
-            "name": "Codex",
-            "lines": 1772,
-            "cost": 0
-          }
-        ],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 10290,
-        "ai_prompt_length_avg_per_session": 16549,
-        "ai_prompt_length_median_per_session": 23669,
-        "ai_prompt_events_avg_per_session": 2,
-        "ai_prompt_events_median_per_session": 1,
-        "ai_sessions": 11,
-        "digital": "1:00:03",
-        "decimal": "1.00",
-        "text": "1 hr",
-        "hours": 1,
-        "minutes": 0,
-        "seconds": 3,
-        "percent": 70.58
-      },
-      {
-        "name": "gitclaw",
-        "total_seconds": 1502,
-        "ai_additions": 0,
-        "ai_deletions": 0,
-        "human_additions": 0,
-        "human_deletions": 0,
-        "ai_agent_line_changes": {},
-        "ai_input_tokens": 1533105,
-        "ai_output_tokens": 14726,
-        "ai_prompt_length_sum": 24059,
-        "ai_prompt_events_total": 5,
-        "color": null,
-        "ai_agent_costs": {},
-        "ai_agent_breakdown": [],
-        "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 4812,
-        "ai_prompt_length_avg_per_session": 3045,
-        "ai_prompt_length_median_per_session": 3046,
-        "ai_prompt_events_avg_per_session": 2,
-        "ai_prompt_events_median_per_session": 2,
-        "ai_sessions": 2,
-        "digital": "0:25:02",
-        "decimal": "0.42",
-        "text": "25 mins",
-        "hours": 0,
-        "minutes": 25,
-        "seconds": 2,
-        "percent": 29.42
-      }
-    ],
     "languages": [
       {
         "name": "TypeScript",
@@ -166,6 +55,134 @@
         "minutes": 0,
         "seconds": 8,
         "percent": 0.16
+      }
+    ],
+    "grand_total": {
+      "hours": 1,
+      "minutes": 25,
+      "total_seconds": 5105,
+      "digital": "1:25",
+      "decimal": "1.42",
+      "text": "1 hr 25 mins",
+      "ai_additions": 1704,
+      "ai_deletions": 68,
+      "human_additions": 0,
+      "human_deletions": 0,
+      "ai_agent_line_changes": {
+        "Codex": 1772
+      },
+      "ai_input_tokens": 86617991,
+      "ai_output_tokens": 275375,
+      "ai_prompt_length_sum": 291599,
+      "ai_prompt_events_total": 31,
+      "ai_sessions": 12,
+      "ai_agent_costs": {},
+      "ai_agent_breakdown": [
+        {
+          "name": "Codex",
+          "lines": 1772,
+          "cost": 0
+        }
+      ],
+      "ai_agent_total_cost": 0,
+      "ai_prompt_length_avg": 9406,
+      "ai_prompt_events_avg_per_session": 3,
+      "ai_prompt_events_median_per_session": 2,
+      "ai_prompt_length_avg_per_session": 14687,
+      "ai_prompt_length_median_per_session": 11944
+    },
+    "editors": [
+      {
+        "name": "Cursor",
+        "total_seconds": 5082.988,
+        "ai_additions": 1704,
+        "ai_deletions": 68,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {
+          "Codex": 1772
+        },
+        "ai_input_tokens": 86617991,
+        "ai_output_tokens": 275375,
+        "ai_prompt_length_sum": 291599,
+        "ai_prompt_events_total": 31,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [
+          {
+            "name": "Codex",
+            "lines": 1772,
+            "cost": 0
+          }
+        ],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 9406,
+        "ai_prompt_length_avg_per_session": 14687,
+        "ai_prompt_length_median_per_session": 11944,
+        "ai_prompt_events_avg_per_session": 3,
+        "ai_prompt_events_median_per_session": 2,
+        "ai_sessions": 12,
+        "digital": "1:24:42",
+        "decimal": "1.40",
+        "text": "1 hr 24 mins",
+        "hours": 1,
+        "minutes": 24,
+        "seconds": 42,
+        "percent": 99.57
+      },
+      {
+        "name": "VS Code",
+        "total_seconds": 22.012,
+        "ai_additions": 0,
+        "ai_deletions": 0,
+        "human_additions": 0,
+        "human_deletions": 0,
+        "ai_agent_line_changes": {},
+        "ai_input_tokens": 0,
+        "ai_output_tokens": 0,
+        "ai_prompt_length_sum": 0,
+        "ai_prompt_events_total": 0,
+        "ai_agent_costs": {},
+        "ai_agent_breakdown": [],
+        "ai_agent_total_cost": 0,
+        "ai_prompt_length_avg": 0,
+        "ai_prompt_length_avg_per_session": 0,
+        "ai_prompt_length_median_per_session": 0,
+        "ai_prompt_events_avg_per_session": 0,
+        "ai_prompt_events_median_per_session": 0,
+        "ai_sessions": 0,
+        "digital": "0:00:22",
+        "decimal": "0.00",
+        "text": "22 secs",
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 22,
+        "percent": 0.43
+      }
+    ],
+    "operating_systems": [
+      {
+        "name": "Mac",
+        "total_seconds": 5105,
+        "digital": "1:25:05",
+        "decimal": "1.42",
+        "text": "1 hr 25 mins",
+        "hours": 1,
+        "minutes": 25,
+        "seconds": 5,
+        "percent": 100
+      }
+    ],
+    "categories": [
+      {
+        "name": "AI Coding",
+        "total_seconds": 5105,
+        "digital": "1:25:05",
+        "decimal": "1.42",
+        "text": "1 hr 25 mins",
+        "hours": 1,
+        "minutes": 25,
+        "seconds": 5,
+        "percent": 100
       }
     ],
     "dependencies": [
@@ -1515,10 +1532,10 @@
         "percent": 100
       }
     ],
-    "editors": [
+    "projects": [
       {
-        "name": "Cursor",
-        "total_seconds": 5082.988,
+        "name": "kernel",
+        "total_seconds": 3603,
         "ai_additions": 1704,
         "ai_deletions": 68,
         "human_additions": 0,
@@ -1526,10 +1543,11 @@
         "ai_agent_line_changes": {
           "Codex": 1772
         },
-        "ai_input_tokens": 86617991,
-        "ai_output_tokens": 275375,
-        "ai_prompt_length_sum": 291599,
-        "ai_prompt_events_total": 31,
+        "ai_input_tokens": 85084886,
+        "ai_output_tokens": 260649,
+        "ai_prompt_length_sum": 267540,
+        "ai_prompt_events_total": 26,
+        "color": null,
         "ai_agent_costs": {},
         "ai_agent_breakdown": [
           {
@@ -1539,75 +1557,57 @@
           }
         ],
         "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 9406,
-        "ai_prompt_length_avg_per_session": 14687,
-        "ai_prompt_length_median_per_session": 11944,
-        "ai_prompt_events_avg_per_session": 3,
-        "ai_prompt_events_median_per_session": 2,
-        "ai_sessions": 12,
-        "digital": "1:24:42",
-        "decimal": "1.40",
-        "text": "1 hr 24 mins",
+        "ai_prompt_length_avg": 10290,
+        "ai_prompt_length_avg_per_session": 16549,
+        "ai_prompt_length_median_per_session": 23669,
+        "ai_prompt_events_avg_per_session": 2,
+        "ai_prompt_events_median_per_session": 1,
+        "ai_sessions": 11,
+        "digital": "1:00:03",
+        "decimal": "1.00",
+        "text": "1 hr",
         "hours": 1,
-        "minutes": 24,
-        "seconds": 42,
-        "percent": 99.57
+        "minutes": 0,
+        "seconds": 3,
+        "percent": 70.58
       },
       {
-        "name": "VS Code",
-        "total_seconds": 22.012,
+        "name": "gitclaw",
+        "total_seconds": 1502,
         "ai_additions": 0,
         "ai_deletions": 0,
         "human_additions": 0,
         "human_deletions": 0,
         "ai_agent_line_changes": {},
-        "ai_input_tokens": 0,
-        "ai_output_tokens": 0,
-        "ai_prompt_length_sum": 0,
-        "ai_prompt_events_total": 0,
+        "ai_input_tokens": 1533105,
+        "ai_output_tokens": 14726,
+        "ai_prompt_length_sum": 24059,
+        "ai_prompt_events_total": 5,
+        "color": null,
         "ai_agent_costs": {},
         "ai_agent_breakdown": [],
         "ai_agent_total_cost": 0,
-        "ai_prompt_length_avg": 0,
-        "ai_prompt_length_avg_per_session": 0,
-        "ai_prompt_length_median_per_session": 0,
-        "ai_prompt_events_avg_per_session": 0,
-        "ai_prompt_events_median_per_session": 0,
-        "ai_sessions": 0,
-        "digital": "0:00:22",
-        "decimal": "0.00",
-        "text": "22 secs",
+        "ai_prompt_length_avg": 4812,
+        "ai_prompt_length_avg_per_session": 3045,
+        "ai_prompt_length_median_per_session": 3046,
+        "ai_prompt_events_avg_per_session": 2,
+        "ai_prompt_events_median_per_session": 2,
+        "ai_sessions": 2,
+        "digital": "0:25:02",
+        "decimal": "0.42",
+        "text": "25 mins",
         "hours": 0,
-        "minutes": 0,
-        "seconds": 22,
-        "percent": 0.43
+        "minutes": 25,
+        "seconds": 2,
+        "percent": 29.42
       }
     ],
-    "operating_systems": [
-      {
-        "name": "Mac",
-        "total_seconds": 5105,
-        "digital": "1:25:05",
-        "decimal": "1.42",
-        "text": "1 hr 25 mins",
-        "hours": 1,
-        "minutes": 25,
-        "seconds": 5,
-        "percent": 100
-      }
-    ],
-    "categories": [
-      {
-        "name": "AI Coding",
-        "total_seconds": 5105,
-        "digital": "1:25:05",
-        "decimal": "1.42",
-        "text": "1 hr 25 mins",
-        "hours": 1,
-        "minutes": 25,
-        "seconds": 5,
-        "percent": 100
-      }
-    ]
+    "range": {
+      "start": "2026-05-27T22:00:00Z",
+      "end": "2026-05-28T21:59:59Z",
+      "date": "2026-05-28",
+      "text": "Thu May 28th 2026",
+      "timezone": "Europe/Amsterdam"
+    }
   }
 ]
